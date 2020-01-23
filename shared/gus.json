@@ -1,6 +1,82 @@
 {
-  "lastupdated": "2020-01-19T13:44:27.403",
+  "lastupdated": "2020-01-23T12:28:15.347",
+  "totals": {
+    "public": 974,
+    "clearSailing": 910
+  },
   "guild": {
+    "54846572-9b87-421c-a2f5-11f72ee8ecfc": {
+      "id": "54846572-9b87-421c-a2f5-11f72ee8ecfc",
+      "url": "https://habitica.com/groups/guild/54846572-9b87-421c-a2f5-11f72ee8ecfc",
+      "title": "Mentally ill",
+      "summary": "For those of us suffering from mental illness(es) and trying to develop better habits to deal with them.  .  **This is an open mutual support group, and as such may contain triggers and/or language unsuitable for sensitive company.**",
+      "memberCount": 4060,
+      "offical": false,
+      "lang": [
+        "en - English"
+      ],
+      "langPirmary": [
+        "en - English"
+      ],
+      "langAll": false,
+      "category": "Recovery & Support Groups",
+      "sub": "Mental & Physical Health",
+      "created": "2019-02-18T00:00:00.000Z"
+    },
+    "3fd1b4f4-8513-4615-9d72-2d6a1f2b1f37": {
+      "id": "3fd1b4f4-8513-4615-9d72-2d6a1f2b1f37",
+      "url": "https://habitica.com/groups/guild/3fd1b4f4-8513-4615-9d72-2d6a1f2b1f37",
+      "title": "Madam Penzil's Steam Emporium",
+      "summary": "Madam Penzil's Steam Emporium",
+      "memberCount": "33",
+      "offical": false,
+      "lang": [
+        "en - English"
+      ],
+      "langPirmary": [
+        "en - English"
+      ],
+      "langAll": false,
+      "category": "Creative Pursuits",
+      "sub": "Crafting & Decorating",
+      "created": "2019-02-18T00:00:00.000Z"
+    },
+    "d370afdf-dfbc-4782-a046-c6774c7cedb7": {
+      "id": "d370afdf-dfbc-4782-a046-c6774c7cedb7",
+      "url": "https://habitica.com/groups/guild/d370afdf-dfbc-4782-a046-c6774c7cedb7",
+      "title": "Responsible Citizenship",
+      "summary": "Responsible Citizenship",
+      "memberCount": "80",
+      "offical": false,
+      "lang": [
+        "en - English"
+      ],
+      "langPirmary": [
+        "en - English"
+      ],
+      "langAll": false,
+      "category": "The World around You",
+      "sub": "Activism",
+      "created": "2019-02-18T00:00:00.000Z"
+    },
+    "68bf4011-9420-445a-8c03-a4a237b2aa8c": {
+      "id": "68bf4011-9420-445a-8c03-a4a237b2aa8c",
+      "url": "https://habitica.com/groups/guild/68bf4011-9420-445a-8c03-a4a237b2aa8c",
+      "title": "Retro Gamers",
+      "summary": "Retro Gamers",
+      "memberCount": "106",
+      "offical": false,
+      "lang": [
+        "en - English"
+      ],
+      "langPirmary": [
+        "en - English"
+      ],
+      "langAll": false,
+      "category": "Gaming",
+      "sub": "Electronic Play",
+      "created": "2019-02-18T00:00:00.000Z"
+    },
     "3cf2702c-2827-4773-9489-cd3f6949553d": {
       "id": "3cf2702c-2827-4773-9489-cd3f6949553d",
       "url": "https://habitica.com/groups/guild/3cf2702c-2827-4773-9489-cd3f6949553d",
@@ -332,7 +408,7 @@
       "url": "https://habitica.com/groups/guild/9f41b87e-7c08-4bd3-b146-fc6100bd7944",
       "title": "Die Schwarzwälder",
       "summary": "Die Gilde heißt zwar \"Die Schwarzwälder\" aber trotzdem ist jeder willkommen der beitreten möchte",
-      "memberCount": "17",
+      "memberCount": 19,
       "offical": false,
       "lang": [
         "de - German"
@@ -369,7 +445,7 @@
       "url": "https://habitica.com/groups/guild/59d2df2b-1c6b-416f-8fb7-deb1ef31d388",
       "title": "Hardware Hackers",
       "summary": "Hardware Hackers",
-      "memberCount": "255",
+      "memberCount": 95,
       "offical": false,
       "lang": [
         "en - English"
@@ -1734,7 +1810,7 @@
       "url": "https://habitica.com/groups/guild/ff264a76-5c9b-489a-8f75-9809a2b0bb56",
       "title": "The Self-Credit Heroes",
       "summary": "Reflect and give yourself credits for what you have done today. Insert Barney's self-five ([How I Met Your Mother reference]",
-      "memberCount": "9",
+      "memberCount": 10,
       "offical": false,
       "lang": [
         "en - English"
@@ -2242,7 +2318,7 @@
       "url": "https://habitica.com/groups/guild/112c390b-658b-4824-9e69-d0456f4d4354",
       "title": "Habitica's YouTube Space",
       "summary": "A guild for all YouTube lovers on Habitica, where we discuss, challenge and do all sorts of YouTube related fun!",
-      "memberCount": "1097",
+      "memberCount": 1098,
       "offical": false,
       "lang": [
         "en - English"
@@ -2579,24 +2655,6 @@
       "sub": "Look on the Bright Side",
       "created": "2019-02-18T00:00:00.000Z"
     },
-    "3815ac7b-1357-4591-80fd-ab8b87b683eb": {
-      "id": "3815ac7b-1357-4591-80fd-ab8b87b683eb",
-      "url": "https://habitica.com/groups/guild/3815ac7b-1357-4591-80fd-ab8b87b683eb",
-      "title": "Habiticans Battling Dry Or Itchy Skin.",
-      "summary": "Got Eczema? Psoriasis? Xerosis? Let's band together and focus on applying cream/medicating and not itching!",
-      "memberCount": "30",
-      "offical": false,
-      "lang": [
-        "en - English"
-      ],
-      "langPirmary": [
-        "en - English"
-      ],
-      "langAll": false,
-      "category": "Recovery & Support Groups",
-      "sub": "Mental & Physical Health",
-      "created": "2019-05-26T00:00:00.000Z"
-    },
     "0e7a1d57-b2a7-47c7-a5ea-90469e1516ec": {
       "id": "0e7a1d57-b2a7-47c7-a5ea-90469e1516ec",
       "url": "https://habitica.com/groups/guild/0e7a1d57-b2a7-47c7-a5ea-90469e1516ec",
@@ -2728,7 +2786,7 @@
       "url": "https://habitica.com/groups/guild/efe163ef-bf26-4162-9465-4483d19f87f8",
       "title": "House of Hermes, Gypsies, and Nomads",
       "summary": "All travelers, current, past and future, have a home here.  Moving, have moved, or going to move or travel? Need support and ideas? Offering support or ideas?  Come in, friend, and pull up a chair.  Hermes Blessing on all Travelers.",
-      "memberCount": "10",
+      "memberCount": 11,
       "offical": false,
       "lang": [
         "en - English"
@@ -2740,24 +2798,6 @@
       "category": "Self-Improvement",
       "sub": "Broaden Your Horizons",
       "created": "2019-05-20T00:00:00.000Z"
-    },
-    "b8b0be57-d9fb-4cd3-8c20-7035003261b8": {
-      "id": "b8b0be57-d9fb-4cd3-8c20-7035003261b8",
-      "url": "https://habitica.com/groups/guild/b8b0be57-d9fb-4cd3-8c20-7035003261b8",
-      "title": "The Cozy Inn of the Drowsy Dragon -- Hypersomnia and Narcolepsy",
-      "summary": "The Cozy Inn of the Drowsy Dragon -- Hypersomnia and Narcolepsy",
-      "memberCount": "79",
-      "offical": false,
-      "lang": [
-        "en - English"
-      ],
-      "langPirmary": [
-        "en - English"
-      ],
-      "langAll": false,
-      "category": "Health & Fitness",
-      "sub": "Sleep Hygiene",
-      "created": "2019-02-18T00:00:00.000Z"
     },
     "d44b7689-192c-4f7c-9848-3bde41c0b7c9": {
       "id": "d44b7689-192c-4f7c-9848-3bde41c0b7c9",
@@ -3448,7 +3488,7 @@
       "url": "https://habitica.com/groups/guild/02330380-adcc-4e6b-b208-127de8cc70b9",
       "title": "The Rogues' Playground",
       "summary": "Develop your physical fitness with short, real-time challenges with gem rewards. Set your own workouts, exercises, or other health tasks.   You don't need to be a rogue to join us, so long as you have a roguish flair!",
-      "memberCount": "65",
+      "memberCount": 74,
       "offical": false,
       "lang": [
         "en - English"
@@ -3901,7 +3941,7 @@
       "url": "https://habitica.com/groups/guild/bd36287f-939c-4166-8ad4-dfbe85b24717",
       "title": "Pregnancy Guild",
       "summary": "A group focusing on preparing your body and your life for a baby.",
-      "memberCount": "22",
+      "memberCount": 24,
       "offical": false,
       "lang": [
         "en - English"
@@ -3912,24 +3952,6 @@
       "langAll": false,
       "category": "Recovery & Support Groups",
       "sub": "Adulting",
-      "created": "2019-03-31T00:00:00.000Z"
-    },
-    "7cf665d3-a37b-4bb3-bfce-60de9a18a430": {
-      "id": "7cf665d3-a37b-4bb3-bfce-60de9a18a430",
-      "url": "https://habitica.com/groups/guild/7cf665d3-a37b-4bb3-bfce-60de9a18a430",
-      "title": "DnD - DM/GM Dungeon Masters and Game Masters",
-      "summary": "A guild to chat with other game masters and dungeon masters. A place to share ideas and ask questions about what should be allowed.",
-      "memberCount": "84",
-      "offical": false,
-      "lang": [
-        "en - English"
-      ],
-      "langPirmary": [
-        "en - English"
-      ],
-      "langAll": false,
-      "category": "Fandom & RolePlay",
-      "sub": "Other Role Play",
       "created": "2019-03-31T00:00:00.000Z"
     },
     "8e9c9125-d48d-4ab6-b7e6-b5710d2a154a": {
@@ -4740,24 +4762,6 @@
       "langAll": false,
       "category": "Creative Pursuits",
       "sub": "Food & Beverage",
-      "created": "2019-02-18T00:00:00.000Z"
-    },
-    "0e5c11cf-a3bf-4354-a1f7-0996640f41ee": {
-      "id": "0e5c11cf-a3bf-4354-a1f7-0996640f41ee",
-      "url": "https://habitica.com/groups/guild/0e5c11cf-a3bf-4354-a1f7-0996640f41ee",
-      "title": "Habitica Rhythm Gamer Brigade",
-      "summary": "Habitica Rhythm Gamer Brigade",
-      "memberCount": "9",
-      "offical": false,
-      "lang": [
-        "en - English"
-      ],
-      "langPirmary": [
-        "en - English"
-      ],
-      "langAll": false,
-      "category": "Gaming",
-      "sub": "Electronic Play",
       "created": "2019-02-18T00:00:00.000Z"
     },
     "e19e3ac3-43bf-4b12-b1f6-74993c719c63": {
@@ -6594,24 +6598,6 @@
       "sub": "Trade Craft",
       "created": "2019-02-18T00:00:00.000Z"
     },
-    "8f330ac7-7166-43f4-8b09-5e5473dd681d": {
-      "id": "8f330ac7-7166-43f4-8b09-5e5473dd681d",
-      "url": "https://habitica.com/groups/guild/8f330ac7-7166-43f4-8b09-5e5473dd681d",
-      "title": "ProductiveFreaks",
-      "summary": "ProductiveFreaks",
-      "memberCount": "28",
-      "offical": false,
-      "lang": [
-        "en - English"
-      ],
-      "langPirmary": [
-        "en - English"
-      ],
-      "langAll": false,
-      "category": "Fandom & RolePlay",
-      "sub": "Members of Other Sites & Web-Communities",
-      "created": "2019-02-18T00:00:00.000Z"
-    },
     "ad1219db-ae30-4728-bb22-e767fc9118ba": {
       "id": "ad1219db-ae30-4728-bb22-e767fc9118ba",
       "url": "https://habitica.com/groups/guild/ad1219db-ae30-4728-bb22-e767fc9118ba",
@@ -7526,7 +7512,7 @@
       "url": "https://habitica.com/groups/guild/658b25b0-daec-451b-b945-7e093cbed262",
       "title": "Ancestors, Heritage and Genealogy",
       "summary": "A genealogy/family tree/heritage guild.",
-      "memberCount": "55",
+      "memberCount": 61,
       "offical": false,
       "lang": [
         "en - English"
@@ -8650,7 +8636,7 @@
       "url": "https://habitica.com/groups/guild/41cb0183-6da3-4fca-841f-4425359313cf",
       "title": "Warrior Cats",
       "summary": "Warrior Cats",
-      "memberCount": 119,
+      "memberCount": 120,
       "offical": false,
       "lang": [
         "en - English"
@@ -11648,7 +11634,7 @@
       "url": "https://habitica.com/groups/guild/db4c31eb-a1d4-4a9a-b692-16856869fd55",
       "title": "Minecrafters",
       "summary": "Love minecraft? Come on in! Ask for server recommendations and just chat about the newest updates! :)",
-      "memberCount": 436,
+      "memberCount": 440,
       "offical": false,
       "lang": [
         "en - English"
@@ -12171,8 +12157,8 @@
       "id": "fddaeafc-125c-4b43-a339-14c1d37634e8",
       "url": "https://habitica.com/groups/guild/fddaeafc-125c-4b43-a339-14c1d37634e8",
       "title": "Habitica's Court Jesters",
-      "summary": "Habitica's Court Jesters",
-      "memberCount": 651,
+      "summary": "Habitica's Court Jesters :black_joker:",
+      "memberCount": 650,
       "offical": false,
       "lang": [
         "en - English"
@@ -12784,7 +12770,7 @@
       "url": "https://habitica.com/groups/guild/23489dff-9e05-4611-95f5-3aff7ad5b380",
       "title": "Live Life to the Fullest with Mindfulness",
       "summary": "This guild is for anyone interested in exploring how mindfulness can enhance their daily lives. We're all on this journey together - please join us!",
-      "memberCount": 996,
+      "memberCount": 1001,
       "offical": false,
       "lang": [
         "en - English"
