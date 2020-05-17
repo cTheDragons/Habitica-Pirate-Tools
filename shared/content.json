@@ -93,9 +93,9 @@
       "subWorldH_ClassSystem"
     ]
   },
-  "size": [
+  "size": {
 	"sizeGold": "1000",
 	"sizeSilver": "100",
 	"sizeBronze": "0"
-  ]
+  }
 }
