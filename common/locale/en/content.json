@@ -1,0 +1,101 @@
+{
+  "category": {
+    "catBelief": [
+      "subBelief_BeliefStructures"
+    ],
+    "catComput": [
+      "subComput_DevelopmentDesign",
+      "subComput_ProgrammingLanguages"
+    ],
+    "catCreati": [
+      "subCreati_Writing",
+      "subCreati_Art",
+      "subCreati_Music",
+      "subCreati_FoodBeverage",
+      "subCreati_StageScreen",
+      "subCreati_CraftingDecorating",
+      "subCreati_DIY",
+      "subCreati_GraphicDesign",
+      "subCreati_VideoPhotography"
+    ],
+    "catFandom": [
+      "subFandom_MembersofOtherSitesWebCommunities",
+      "subFandom_OtherRolePlay",
+      "subFandom_Fantasy",
+      "subFandom_GeneralFandomDiscussion",
+      "subFandom_ScienceFictionMysteryHorror",
+      "subFandom_AnimeManga",
+      "subFandom_Podcasts",
+      "subFandom_ComicsAnimation"
+    ],
+    "catGaming": [
+      "subGaming_ElectronicPlay",
+      "subGaming_BoardTableTopLiveAction",
+      "subGaming_GamingCommunities"
+    ],
+    "catGettin": [
+      "subGettin_GoalSettingAccountability",
+      "subGettin_MethodstoStoptheMadness",
+      "subGettin_CleaningHouse",
+      "subGettin_MoneyMatters",
+      "subGettin_SeasonalLifeEvents"
+    ],
+    "catHealth": [
+      "subHealth_Fitness",
+      "subHealth_Nutrition",
+      "subHealth_TheGreatOutdoors",
+      "subHealth_HealthyLifestyle",
+      "subHealth_SleepHygiene"
+    ],
+    "catLangua": [
+      "subLangua_CountriesLanguages",
+      "subLangua_LocalCommunitiesOrganizations",
+      "subLangua_LanguageLearning"
+    ],
+    "catOccupa": [
+      "subOccupa_SocialSciencesHumanities",
+      "subOccupa_STEM",
+      "subOccupa_MakingaLiving",
+      "subOccupa_Medicine",
+      "subOccupa_TradeCraft"
+    ],
+    "catRecove": [
+      "subRecove_MentalPhysicalHealth",
+      "subRecove_AddictionRecovery",
+      "subRecove_Adulting"
+    ],
+    "catSchola": [
+      "subSchola_Reading",
+      "subSchola_TheAcademicLife",
+      "subSchola_OnlineCourses"
+    ],
+    "catSelfIm": [
+      "subSelfIm_BeYourBestSelf",
+      "subSelfIm_ChallengeYourself",
+      "subSelfIm_TheWayYouAre",
+      "subSelfIm_BroadenYourHorizons",
+      "subSelfIm_LookontheBrightSide",
+      "subSelfIm_Mindfulness",
+      "subSelfIm_Relationships"
+    ],
+    "catWorldA": [
+      "subWorldA_FloraFauna",
+      "subWorldA_Activism",
+      "subWorldA_Altruism"
+    ],
+    "catWorldH": [
+      "subWorldH_PartyChatGuilds",
+      "subWorldH_ContributorGuilds",
+      "subWorldH_HelpSupport",
+      "subWorldH_BeyondtheTavern",
+      "subWorldH_BugSuggestionReports",
+      "subWorldH_HabitcansBeingAwesome",
+      "subWorldH_ClassSystem"
+    ]
+  },
+  "size": {
+	"sizeGold": "1000",
+	"sizeSilver": "100",
+	"sizeBronze": "0"
+  }
+}
