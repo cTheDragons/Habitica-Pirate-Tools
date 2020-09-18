@@ -1,0 +1,69 @@
+{
+    "production": {
+        "hailElf1": "Ahoy Elves of Habitica, I @GuildBot from Pirate Cove bring news of treasure maps ~~challenges~~ from a ship, ~~guild~~ ",
+
+        "hailElf2": ". This ship is soon to be sunk. Please could you review and handle with care these maps. Thank you!",
+
+        "hailElf_tooMany": "\n\nPlus many others.",
+
+        "msgSectionBreak": "\n\n---\n\n",
+        "msgIntroWarning": "# Pirates! Rocks Ahead\n\nThe following ships are in danger of crashing onto rocks. Please review immediately their course.",
+        "msgWarningAlmostInTheOcean": "# Hail To Fall Into Ocean\n\n*Pirates, please check the chatter on the ship for voluteers for Captain, as my latest hail is about to be lost in the ocean.*",
+        "msgWarningFastMoving": "# Hail on Fast Moving Ship\n\n*Pirates, please check the chatter on the ship for voluteers for Captain. This ship travels in fast waters.*",
+        "msgWarningReHail": "# ReHail Occured\n\n*Pirates please check the chatter on the ship as I recently Re-Hailed as I could not find my previous hail. Are other pirates about?*",
+        "msgWarningNoRoster": "# No Flags Flying\n\n*Pirates the following ships are missing their flags for GUS. Please let me know which flag to fly so GUS can add them to the Roster.*",
+        "msgWarningOverRoster": "# Too Many Flags Flying\n\n*Pirates the following ships have two or more flags flying for GUS. Remember GUS can only add them to one Roster. Please determine which is best.*",
+
+
+
+
+        "msgIntro": "# Ships' Report\n\nAhoy my fellow pirates! Please see this weeks report on my adventures on Habitican seas!\n\nPlease only one report per post and ensure to include the ~~guild's url~~ ship's location (either direct or in markdown) when posting.", 
+        "msgJustLaunched": "# Just Launched Ships\n\n*Pirates, please check the new ships below that are not duplicates, meet community standards and to classify ships in my log. (Note any languages other than English spoken and if the ship requires a Non English hail, is a Lobby Guild or Loving Care). All ships with a launched date of <%= dateNextETJustLaunched %> (UTC) or before will  move to Clear Sailing with my next report.*\n",
+        "msgTargetSpotted": "# Target Spotted\n\n*Pirates, please check if ok to proceed with hail. If not, please add Do Not Hail classification immediately. Ships with spotted date of  <%= dateNextETTargetSpotted %> (UTC) or before will be hailed before the next report.*\n",
+        "msgCaptianMIA": "# Captain MIA\n\n*Pirates, please check the following ships for possible new captains. There has been chatter since the hail. Ships hailled on or before <%= dateEval %> (UTC) can be reviewed for promotions. Please note if the ship is extermely fast moving, action can be taken sooner.*\n",
+        "msgCaptured": "# Captured\n\n*Pirates, please check the following ships for possible new captains. There has been chatter since the hail. Ships hailled on or before <%= dateEval %> (UTC) can be reviewed for promotions. Please note if the ship is extermely fast moving, action can be taken sooner.*\n",
+        "msgLastRitesActivity": "# Last Rites Activity\n\n*Pirates, please check the following ships as there has been chatter since the hail for Last Rites. Ships hailed on or before <%= dateNextNoReponse %> (UTC) can be sunk.*\n",
+        "msgLastRitesSunk": "# Last Rites - Ready to Be Sunk\n\n*Admirals, the following ships are ready to be sunk. No activity for <%= dayETNoResponse_LastRites %> days or more after hail or has less than 1 line (hail only) of chat.*\n",
+        "msgDoNotHail": "# Do Not Hail\n\n*Senior Pirates, please review the following ships marked not to be hailed by myself. Ships are either been captured or the captain is MIA. Please find new captain asap unless marked with No Action is noted.*\n",
+        "mgsEnableChallenges": "# Take Action - Enable Challenges\n\n*Admirals, please update the following ships to allow all players to create ~~challenges~~ treasure maps for the ship.*\n",
+
+
+        "msgJustLaunched_admiral": "# Admiral Review - Just Launched Ships\n\n*Admiral, these ships have been checked and commented. Please review. All ships with a launched date of <%= dateNextETJustLaunched %> (UTC) or before will  move to Clear Sailing with my next report.*\n",
+        "msgTargetSpotted_admiral": "# Admiral Review - Target Spotted\n\n*Admiral, these ships have been checked and commented. Please review. Ships with spotted date of  <%= dateNextETTargetSpotted %> (UTC) or before will be hailed before the next report.*\n",
+
+        "msgCaptianMIA_admiral": "# Admiral Review - Captain MIA\n\n*Admiral, these ships have been checked and commented. Please review.*\n",
+                            
+        "msgCaptured_admiral": "# Admiral Review - Captured\n\n*Admiral, these ships have been checked and commented. Please review.*\n",
+
+        "msgLastRites_admiral": "# Admiral Review - Last Rites\n\n*Admiral, these ships have been checked and commented. Please review.*\n",
+
+        "msgDoNotHail_admiral": "# Admiral Review - Do Not Hail\n\n*Admiral, these ships have been checked and commented. Please review.*\n",                           
+        "msgClearSailing_admiral": "# Admiral Review - Clear Sailing\n\n*Admiral, these ships have recently been mention in the Cove. Please review.*\n",
+        "msgPrivateNavy_admiral": "# Admiral Review - Pirate Navy\n\n*Admiral, these ships have recently been mention in the Cove. Please review.*\n",                    
+
+        "msgNothingToSay": "Ahoy my fellow pirates! Ye all quiet on the Habitican seas. No ships to report.",
+
+
+        "msgLogCaptured": "Ship has been captured and will be hailed",
+        "msgLogCaptainMIA": "Captian is Missing and will be hailed",
+        "msgLogDoNotHailCaptured": "Ship has been captured and been marked as Do Not Hail",
+        "msgLogDoNotHailCaptainMIA": "Captian is Missing and there ship been marked as Do Not Hail",
+        "msgLogLastRitesNoResponse": "No reponse to hail has occured for <%= dayETNoResponse_LastRites %> days. Moving to Last Rites and hailing.",
+        "msgLogLastRitesNoChat": "Captain is missing and there is no chat in ship. Move directly to Last Rites for sinking. (No response time required before sinking).",
+        "msgLogLastRitesLowActivity": "Captain is missing and there is low activity in the ship. (Less than <%= lowActivityMembers %> members and <%= lowActivityChatLines %> chat lines.) Move directly for hailing of Last Rites.",
+        "msgLogSunk": "Ship was sunk on this day.",
+        "msgLogLastRitesCall": "Reviewed and called for Last Rites.",
+        "msgLogReHail": "The guild has been re-hailed as the original hail cannot be found in chat.",
+        "msgLogDropAnchor": "The guilds has been marked to not action for <%= dayDropAnchor %> days. ~~Dropped Anchor on ship.~~",
+        "msgLogRaiseAnchor": "Anchor is raised. Guild is sailling again.",
+        "msgLogClearSailing": "Captain has returned or new captain instated. Returning to clear waters.",
+
+
+        "msgLogCoveComment": "Cove Comment: ",
+
+        "msgUserNameNotSet": "Username Not Set - Display Name: ",
+
+        "msgPrivateGuildNotStated": "Private Ship",
+        "msgUnknownShip": "Unknown Ship - Lost in the paperwork"
+    }            
+}
