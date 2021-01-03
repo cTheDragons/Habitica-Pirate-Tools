@@ -1,310 +1,453 @@
 {
-  "lastupdated": "2020-07-01T01:21:14.842",
+  "lastupdated": "2021-01-02T19:53:55.313",
   "stats": {
-    "justLaunched": 12,
-    "targetSpotted": 8,
-    "captianMIA": 29,
-    "captured": 5,
-    "lastRites": 6,
-    "doNotHail": 13,
-    "droppedAnchor": 1,
-    "total": 73
+    "justLaunched": 17,
+    "targetSpotted": 49,
+    "captianMIA": 10,
+    "captured": 0,
+    "lastRites": 5,
+    "doNotHail": 15,
+    "droppedAnchor": 3,
+    "total": 96
   },
   "guilds": {
     "justLaunched": [
       {
-        "id": "384c495d-9bd2-4f17-a9e6-b5f9b5f310af",
-        "name": "Grupo Aventureiros da Tecnologia",
-        "url": "https://habitica.com/groups/guild/384c495d-9bd2-4f17-a9e6-b5f9b5f310af",
-        "actionStarted": "2020-07-01"
+        "id": "af219aa6-00ef-4852-a45f-5941b10e33c9",
+        "name": "Русскоговорящее сообщество",
+        "url": "https://habitica.com/groups/guild/af219aa6-00ef-4852-a45f-5941b10e33c9",
+        "actionStarted": "2020-12-06T00:00:00.000Z"
       },
       {
-        "id": "2256f52d-f204-4983-8c8a-aa50c2789961",
-        "name": "Fit Girls Get Fit Together",
-        "url": "https://habitica.com/groups/guild/2256f52d-f204-4983-8c8a-aa50c2789961",
-        "actionStarted": "2020-07-01"
+        "id": "42ef4c14-2f9a-4480-9300-b594c37bd988",
+        "name": "HabitClan 🐱",
+        "url": "https://habitica.com/groups/guild/42ef4c14-2f9a-4480-9300-b594c37bd988",
+        "actionStarted": "2020-12-21T00:00:00.000Z"
       },
       {
-        "id": "e4956785-9b42-470a-b1af-18d9c5e24769",
-        "name": "Habitican Randomizer (third party tool)",
-        "url": "https://habitica.com/groups/guild/e4956785-9b42-470a-b1af-18d9c5e24769",
-        "actionStarted": "2020-07-01"
+        "id": "78574f07-329a-44b9-ad78-f66db12c83cf",
+        "name": "Fortellingenes Dal ~ The Valley of Tales ✨",
+        "url": "https://habitica.com/groups/guild/78574f07-329a-44b9-ad78-f66db12c83cf",
+        "actionStarted": "2020-12-21T00:00:00.000Z"
       },
       {
-        "id": "91a7e47b-764e-4ec1-85f4-45a2ea5db984",
-        "name": "Hero’s Guild",
-        "url": "https://habitica.com/groups/guild/91a7e47b-764e-4ec1-85f4-45a2ea5db984",
-        "actionStarted": "2020-07-01"
+        "id": "030e9d51-1e35-4dce-b3e3-bf6e3e6d86da",
+        "name": "Adventurers Guild",
+        "url": "https://habitica.com/groups/guild/030e9d51-1e35-4dce-b3e3-bf6e3e6d86da",
+        "actionStarted": "2020-12-21T00:00:00.000Z"
       },
       {
-        "id": "61cbb63a-4fb9-4c08-97ad-6ca2259f0fed",
-        "name": "Improve your speaking in your target language! - The Guild",
-        "url": "https://habitica.com/groups/guild/61cbb63a-4fb9-4c08-97ad-6ca2259f0fed",
-        "actionStarted": "2020-07-01"
+        "id": "7f986572-f344-4b18-ab73-0e32746ff609",
+        "name": "The Healthy Guild  🏃‍♂️",
+        "url": "https://habitica.com/groups/guild/7f986572-f344-4b18-ab73-0e32746ff609",
+        "actionStarted": "2020-12-21T00:00:00.000Z"
       },
       {
-        "id": "c7780136-05b5-4507-9d99-5c90cc6f27c1",
-        "name": "Self-Help Book Club",
-        "url": "https://habitica.com/groups/guild/c7780136-05b5-4507-9d99-5c90cc6f27c1",
-        "actionStarted": "2020-06-17T00:00:00.000Z"
+        "id": "d550049b-88e2-4934-833a-bdf70a03e239",
+        "name": "⏳Unus-Fatalis-Annus💀",
+        "url": "https://habitica.com/groups/guild/d550049b-88e2-4934-833a-bdf70a03e239",
+        "actionStarted": "2020-12-21T00:00:00.000Z"
       },
       {
-        "id": "a2e47dae-1620-4103-827c-99ae8c39a526",
-        "name": "Pitacos Cinéfilos 🟠🟢🔵",
-        "url": "https://habitica.com/groups/guild/a2e47dae-1620-4103-827c-99ae8c39a526",
-        "actionStarted": "2020-06-17T00:00:00.000Z"
+        "id": "6178032e-d858-4e23-ba48-9049d2d90ce2",
+        "name": "🥭 Fruit RPG BETA 🍎",
+        "url": "https://habitica.com/groups/guild/6178032e-d858-4e23-ba48-9049d2d90ce2",
+        "actionStarted": "2020-12-21T00:00:00.000Z"
       },
       {
-        "id": "843a9d49-d468-4619-b13a-d8f14b1d9968",
-        "name": "💪🏻Physical Activity & Fitness Professionals",
-        "url": "https://habitica.com/groups/guild/843a9d49-d468-4619-b13a-d8f14b1d9968",
-        "actionStarted": "2020-06-17T00:00:00.000Z"
+        "id": "b9447205-5b3e-4a19-9f63-f1a256b8f5a3",
+        "name": "Cidadela das Planilhas (Excel | VBA)",
+        "url": "https://habitica.com/groups/guild/b9447205-5b3e-4a19-9f63-f1a256b8f5a3",
+        "actionStarted": "2020-12-21T00:00:00.000Z"
       },
       {
-        "id": "4e4f51cd-f15c-4c44-b828-dddb38d4ff3d",
-        "name": "#MeAndWhiteSupremacy",
-        "url": "https://habitica.com/groups/guild/4e4f51cd-f15c-4c44-b828-dddb38d4ff3d",
-        "actionStarted": "2020-06-17T00:00:00.000Z"
+        "id": "4bfee5e5-81d3-40cb-9ff1-59e3c73ae9db",
+        "name": "📝 The Land of Stories 📝",
+        "url": "https://habitica.com/groups/guild/4bfee5e5-81d3-40cb-9ff1-59e3c73ae9db",
+        "actionStarted": "2020-12-21T00:00:00.000Z"
       },
       {
-        "id": "8a8c1d66-e9a5-46f8-8b9c-e914b888fcb7",
-        "name": "WWJD - What Would Jesus Do? ",
-        "url": "https://habitica.com/groups/guild/8a8c1d66-e9a5-46f8-8b9c-e914b888fcb7",
-        "actionStarted": "2020-06-17T00:00:00.000Z"
+        "id": "eef90b89-62fe-4689-8d6a-73328ec5ae17",
+        "name": "⚔The Gateway Ruins⚔",
+        "url": "https://habitica.com/groups/guild/eef90b89-62fe-4689-8d6a-73328ec5ae17",
+        "actionStarted": "2020-12-21T00:00:00.000Z"
       },
       {
-        "id": "5189073f-56cd-4e2b-9cb6-817567371887",
-        "name": "Habitica Party Roster Meeting Room",
-        "url": "https://habitica.com/groups/guild/5189073f-56cd-4e2b-9cb6-817567371887",
-        "actionStarted": "2020-06-17T00:00:00.000Z"
+        "id": "0c51d834-677a-4915-98f4-8af5645e07f3",
+        "name": "Art and Entertainment Centre",
+        "url": "https://habitica.com/groups/guild/0c51d834-677a-4915-98f4-8af5645e07f3",
+        "actionStarted": "2020-12-21T00:00:00.000Z"
+      },
+      {
+        "id": "00322c99-aee7-4f7d-abc1-b1e0193f5f15",
+        "name": "Candentia",
+        "url": "https://habitica.com/groups/guild/00322c99-aee7-4f7d-abc1-b1e0193f5f15",
+        "actionStarted": "2020-12-14T00:00:00.000Z"
+      },
+      {
+        "id": "57dd73d2-85a5-45ee-9496-f515f73a8cb7",
+        "name": "Scarlett Strikers [Fairy Tail]",
+        "url": "https://habitica.com/groups/guild/57dd73d2-85a5-45ee-9496-f515f73a8cb7",
+        "actionStarted": "2020-12-14T00:00:00.000Z"
+      },
+      {
+        "id": "e9670b74-a3a9-443b-a994-cf21b724d2f4",
+        "name": "Among Us",
+        "url": "https://habitica.com/groups/guild/e9670b74-a3a9-443b-a994-cf21b724d2f4",
+        "actionStarted": "2020-12-14T00:00:00.000Z"
+      },
+      {
+        "id": "4081d770-bd22-4811-8b46-6b9a1a729afd",
+        "name": "The Cosmere - A Brandon Sanderson Fan Guild",
+        "url": "https://habitica.com/groups/guild/4081d770-bd22-4811-8b46-6b9a1a729afd",
+        "actionStarted": "2020-12-14T00:00:00.000Z"
+      },
+      {
+        "id": "d36be111-0f8a-47ea-9267-142062b96710",
+        "name": "Mage Tacticians",
+        "url": "https://habitica.com/groups/guild/d36be111-0f8a-47ea-9267-142062b96710",
+        "actionStarted": "2020-12-14T00:00:00.000Z"
       }
     ],
     "targetSpotted": [
       {
-        "id": "bcc3b460-d2d7-4f60-8d23-28f3620e3235",
-        "name": "Spark People",
-        "url": "https://habitica.com/groups/guild/bcc3b460-d2d7-4f60-8d23-28f3620e3235",
-        "actionStarted": "2020-07-01"
+        "id": "5b50cf83-3148-43c8-9dc0-f3b9d4ebf7c3",
+        "name": "Indie Game Developers",
+        "url": "https://habitica.com/groups/guild/5b50cf83-3148-43c8-9dc0-f3b9d4ebf7c3",
+        "actionStarted": "2021-01-02T00:00:00.000Z"
       },
       {
-        "id": "17d57080-1bb2-407a-8276-63282e44c3ce",
-        "name": "Hebrew Linguists",
-        "url": "https://habitica.com/groups/guild/17d57080-1bb2-407a-8276-63282e44c3ce",
-        "actionStarted": "2020-07-01"
+        "id": "e38c4196-27ab-4f96-b0e1-3e669f34c1dd",
+        "name": "Covid Survivors",
+        "url": "https://habitica.com/groups/guild/e38c4196-27ab-4f96-b0e1-3e669f34c1dd",
+        "actionStarted": "2021-01-02T00:00:00.000Z"
       },
       {
-        "id": "cbb90784-a80f-413b-90a4-dbb1b18487b6",
-        "name": "Polytheists & Pagans",
-        "url": "https://habitica.com/groups/guild/cbb90784-a80f-413b-90a4-dbb1b18487b6",
-        "actionStarted": "2020-06-17T00:00:00.000Z"
+        "id": "7eff27fb-d8bf-4e8b-bd4e-a47731eb1985",
+        "name": "Templo Da Coragem",
+        "url": "https://habitica.com/groups/guild/7eff27fb-d8bf-4e8b-bd4e-a47731eb1985",
+        "actionStarted": "2021-01-02T00:00:00.000Z"
+      },
+      {
+        "id": "0f345f02-cadd-429b-b711-c45f2c03c70e",
+        "name": "Hoonies",
+        "url": "https://habitica.com/groups/guild/0f345f02-cadd-429b-b711-c45f2c03c70e",
+        "actionStarted": "2021-01-02T00:00:00.000Z"
+      },
+      {
+        "id": "e005b67c-95a2-4ac2-8cfa-b87f649210f8",
+        "name": "Ищу команду, (русский/russian/rus/ru/рус)",
+        "url": "https://habitica.com/groups/guild/e005b67c-95a2-4ac2-8cfa-b87f649210f8",
+        "actionStarted": "2021-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "493e6b19-4753-43d5-9562-49d16f4aaf5e",
+        "name": "Mages Guild",
+        "url": "https://habitica.com/groups/guild/493e6b19-4753-43d5-9562-49d16f4aaf5e",
+        "actionStarted": "2020-12-30T00:00:00.000Z"
+      },
+      {
+        "id": "4719cd10-ab50-4afa-a9be-5f3368072057",
+        "name": "Avoidant Personality Disorder Support",
+        "url": "https://habitica.com/groups/guild/4719cd10-ab50-4afa-a9be-5f3368072057",
+        "actionStarted": "2020-12-30T00:00:00.000Z"
+      },
+      {
+        "id": "eba8090f-fd35-4a19-9208-ac72d4865c39",
+        "name": "Wait, What Was I Doing?: A Guild For Librarians",
+        "url": "https://habitica.com/groups/guild/eba8090f-fd35-4a19-9208-ac72d4865c39",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "ebb9bd3c-f413-49ad-bdeb-1ffcb249debb",
+        "name": "LARP (Live Action Role Play)",
+        "url": "https://habitica.com/groups/guild/ebb9bd3c-f413-49ad-bdeb-1ffcb249debb",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "88414e7a-a5cd-4146-9566-11f72bb4e616",
+        "name": "Heroes of Ireland",
+        "url": "https://habitica.com/groups/guild/88414e7a-a5cd-4146-9566-11f72bb4e616",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "8cc47500-3545-4d0b-943f-7fc86937dddc",
+        "name": "🏯 Aincrad (Beta)",
+        "url": "https://habitica.com/groups/guild/8cc47500-3545-4d0b-943f-7fc86937dddc",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "94b32b9e-cfb8-4bb6-a3f3-749af8e757f3",
+        "name": "Webcomic creators and appreciators",
+        "url": "https://habitica.com/groups/guild/94b32b9e-cfb8-4bb6-a3f3-749af8e757f3",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "367a4698-44ae-46fb-8fc9-e95c20e5375c",
+        "name": "The Happiness Guild",
+        "url": "https://habitica.com/groups/guild/367a4698-44ae-46fb-8fc9-e95c20e5375c",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "42a55671-2885-46ae-aec6-e9e0777c0e31",
+        "name": "Classical Music Guild",
+        "url": "https://habitica.com/groups/guild/42a55671-2885-46ae-aec6-e9e0777c0e31",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "e876a7e4-199b-41ef-98e0-728bcea078c4",
+        "name": "Kirtan Kriya",
+        "url": "https://habitica.com/groups/guild/e876a7e4-199b-41ef-98e0-728bcea078c4",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "f87c7258-9b71-43ed-9917-69021589631f",
+        "name": "Anki and SRS Enthusiasts",
+        "url": "https://habitica.com/groups/guild/f87c7258-9b71-43ed-9917-69021589631f",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "93edf650-62d0-44cc-b482-a88db675c592",
+        "name": "Golden Guardians",
+        "url": "https://habitica.com/groups/guild/93edf650-62d0-44cc-b482-a88db675c592",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "0c5896d5-f574-4148-afcd-d110007c8173",
+        "name": "Slytherin House",
+        "url": "https://habitica.com/groups/guild/0c5896d5-f574-4148-afcd-d110007c8173",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "a6938e2f-ad48-46fa-b27e-fa01b00f4b48",
+        "name": "Queer Pride",
+        "url": "https://habitica.com/groups/guild/a6938e2f-ad48-46fa-b27e-fa01b00f4b48",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "be945251-f4a1-4b7f-9ac0-dd5aa4c646d6",
+        "name": "MBMBAMinos!",
+        "url": "https://habitica.com/groups/guild/be945251-f4a1-4b7f-9ac0-dd5aa4c646d6",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "b422b8a5-8d66-4197-9f91-d4edb8610264",
+        "name": "The Health Nuts",
+        "url": "https://habitica.com/groups/guild/b422b8a5-8d66-4197-9f91-d4edb8610264",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "9afbe82c-9cf4-4122-9617-051b4512cfc1",
+        "name": "Wise Old Guild",
+        "url": "https://habitica.com/groups/guild/9afbe82c-9cf4-4122-9617-051b4512cfc1",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
         "id": "607ad1de-a774-476a-a15c-d2ab0c94d116",
         "name": "The Onion Patch",
         "url": "https://habitica.com/groups/guild/607ad1de-a774-476a-a15c-d2ab0c94d116",
-        "actionStarted": "2020-06-17T00:00:00.000Z"
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "ea3dcac9-8055-4328-84b0-e6b728f920c4",
-        "name": "Habitica Pet Guild",
-        "url": "https://habitica.com/groups/guild/ea3dcac9-8055-4328-84b0-e6b728f920c4",
-        "actionStarted": "2020-06-17T00:00:00.000Z"
+        "id": "02f56c54-13e9-475e-ac51-3bd1e49d8563",
+        "name": "TDA/H Francophone",
+        "url": "https://habitica.com/groups/guild/02f56c54-13e9-475e-ac51-3bd1e49d8563",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "5c15e8da-4164-4613-a8c2-4ffe71b6fc36",
-        "name": "Filipinos of Habitica",
-        "url": "https://habitica.com/groups/guild/5c15e8da-4164-4613-a8c2-4ffe71b6fc36",
-        "actionStarted": "2020-06-17T00:00:00.000Z"
+        "id": "b8b0be57-d9fb-4cd3-8c20-7035003261b8",
+        "name": "The Cozy Inn of the Drowsy Dragon -- Hypersomnia and Narcolepsy",
+        "url": "https://habitica.com/groups/guild/b8b0be57-d9fb-4cd3-8c20-7035003261b8",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "12ce60be-aab6-423a-930d-9dc001ada4b5",
-        "name": "Road Warriors",
-        "url": "https://habitica.com/groups/guild/12ce60be-aab6-423a-930d-9dc001ada4b5",
-        "actionStarted": "2020-06-17T00:00:00.000Z"
-      }
-    ],
-    "captianMIA": [
-      {
-        "id": "c4328791-5172-4126-a73d-b54b34f9c20e",
-        "name": "The Samurai of Philomathy",
-        "url": "https://habitica.com/groups/guild/c4328791-5172-4126-a73d-b54b34f9c20e",
-        "actionStarted": "2020-07-01T01:15:10.424Z",
-        "hailed": "2020-07-01T01:15:12.690Z"
+        "id": "fc8b250a-2fe9-4ef0-b8d9-bb6464060576",
+        "name": "Blind Bohemians of Habitica",
+        "url": "https://habitica.com/groups/guild/fc8b250a-2fe9-4ef0-b8d9-bb6464060576",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "4d696df3-46b6-48cc-98b9-c7022fa6d2ad",
-        "name": "Nerdfighters",
-        "url": "https://habitica.com/groups/guild/4d696df3-46b6-48cc-98b9-c7022fa6d2ad",
-        "actionStarted": "2020-07-01T01:15:04.198Z",
-        "hailed": "2020-07-01T01:15:06.992Z"
+        "id": "09a60b89-3151-450c-a6d3-30dde124606a",
+        "name": "Dancers",
+        "url": "https://habitica.com/groups/guild/09a60b89-3151-450c-a6d3-30dde124606a",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "9585fe1b-854b-4495-9cde-f09dbf2f53d1",
-        "name": "Accountability Buddies!",
-        "url": "https://habitica.com/groups/guild/9585fe1b-854b-4495-9cde-f09dbf2f53d1",
-        "actionStarted": "2020-07-01T01:14:58.653Z",
-        "hailed": "2020-07-01T01:15:00.775Z"
+        "id": "8caf1c9d-b941-4418-8c30-efe359ab2d4c",
+        "name": "Miniature Wargamers",
+        "url": "https://habitica.com/groups/guild/8caf1c9d-b941-4418-8c30-efe359ab2d4c",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "2643b73f-0c87-44a1-badc-e4ca337175e6",
-        "name": " The Silver Sword CLUBhouse",
-        "url": "https://habitica.com/groups/guild/2643b73f-0c87-44a1-badc-e4ca337175e6",
-        "actionStarted": "2020-07-01T01:14:47.939Z",
-        "hailed": "2020-07-01T01:14:50.062Z"
+        "id": "53584f75-e6d9-4306-931b-717ff11b4059",
+        "name": "Creative Writing",
+        "url": "https://habitica.com/groups/guild/53584f75-e6d9-4306-931b-717ff11b4059",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "bf7888dc-6f9c-4e8e-884d-30af466dc4f4",
-        "name": "Intermittent Fasting",
-        "url": "https://habitica.com/groups/guild/bf7888dc-6f9c-4e8e-884d-30af466dc4f4",
-        "actionStarted": "2020-07-01T01:14:40.882Z",
-        "hailed": "2020-07-01T01:14:42.834Z"
+        "id": "42b4f20f-5d46-4446-b5e7-e03bac291398",
+        "name": "Med In India",
+        "url": "https://habitica.com/groups/guild/42b4f20f-5d46-4446-b5e7-e03bac291398",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "955fdbb8-f1b3-40cb-b528-8d292b312a6a",
-        "name": "Egyptology Unearthed",
-        "url": "https://habitica.com/groups/guild/955fdbb8-f1b3-40cb-b528-8d292b312a6a",
-        "actionStarted": "2020-07-01T01:14:33.965Z",
-        "hailed": "2020-07-01T01:14:35.929Z"
+        "id": "15d9aeca-50d9-4564-b955-41333ce60d68",
+        "name": "Coffee Enthusiasts",
+        "url": "https://habitica.com/groups/guild/15d9aeca-50d9-4564-b955-41333ce60d68",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "92e125ca-029d-4b25-a5a1-6aa1a3a15f1a",
-        "name": "Buddhist Community for Newcomers, Practitioners and Scholars",
-        "url": "https://habitica.com/groups/guild/92e125ca-029d-4b25-a5a1-6aa1a3a15f1a",
-        "actionStarted": "2020-07-01T01:14:28.682Z",
-        "hailed": "2020-07-01T01:14:30.856Z"
+        "id": "4e3c8e30-cd83-42f1-bf65-206721f84019",
+        "name": "Hunger for Knowledge - Inspiration ",
+        "url": "https://habitica.com/groups/guild/4e3c8e30-cd83-42f1-bf65-206721f84019",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "ac98df68-90fe-4f47-b00b-42a0b136d1c8",
-        "name": "The Saiyans",
-        "url": "https://habitica.com/groups/guild/ac98df68-90fe-4f47-b00b-42a0b136d1c8",
-        "actionStarted": "2020-07-01T01:14:25.578Z",
-        "hailed": "2020-07-01T01:14:27.711Z"
+        "id": "3d5c008e-664a-4cc6-a1bd-34d1baccc31e",
+        "name": "Procrastinators",
+        "url": "https://habitica.com/groups/guild/3d5c008e-664a-4cc6-a1bd-34d1baccc31e",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "a81deb14-ad76-45b2-b235-7647a0843142",
-        "name": "The Magical Girls",
-        "url": "https://habitica.com/groups/guild/a81deb14-ad76-45b2-b235-7647a0843142",
-        "actionStarted": "2020-07-01T01:14:21.450Z",
-        "hailed": "2020-07-01T01:14:23.478Z"
+        "id": "f0bc6608-3fc4-4ab7-af6a-7b9c2c979173",
+        "name": "FreeCodeCamp",
+        "url": "https://habitica.com/groups/guild/f0bc6608-3fc4-4ab7-af6a-7b9c2c979173",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "694b15e1-19b0-4ea8-ac71-ce9f27031330",
-        "name": "Life Hackers",
-        "url": "https://habitica.com/groups/guild/694b15e1-19b0-4ea8-ac71-ce9f27031330",
-        "actionStarted": "2020-07-01T01:14:15.648Z",
-        "hailed": "2020-07-01T01:14:17.764Z"
+        "id": "2be4962c-4f20-4d5c-961c-5998bfc92f29",
+        "name": "Night Owls",
+        "url": "https://habitica.com/groups/guild/2be4962c-4f20-4d5c-961c-5998bfc92f29",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "160e53f6-ca03-4e78-a4c7-8152689eadd5",
+        "name": "Eating Disorders and their Owners",
+        "url": "https://habitica.com/groups/guild/160e53f6-ca03-4e78-a4c7-8152689eadd5",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
         "id": "27a82888-6f7d-4414-9a8c-3cfc9e10a86e",
         "name": "Parkour Practitioners!",
         "url": "https://habitica.com/groups/guild/27a82888-6f7d-4414-9a8c-3cfc9e10a86e",
-        "actionStarted": "2020-06-07T16:26:33.769Z",
-        "hailed": "2020-07-01T01:18:30.213Z"
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "fb4f62a1-3cec-4252-862c-39a5825889cc",
-        "name": "Hetalia Fans",
-        "url": "https://habitica.com/groups/guild/fb4f62a1-3cec-4252-862c-39a5825889cc",
-        "actionStarted": "2020-05-01T09:54:35.925Z",
-        "hailed": "2020-07-01T01:18:32.022Z"
+        "id": "92620f87-d91e-4703-a152-747d5213214e",
+        "name": "STEM - Science, Technology, Engineering, and Maths",
+        "url": "https://habitica.com/groups/guild/92620f87-d91e-4703-a152-747d5213214e",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
       },
       {
-        "id": "b747edd8-c0f9-40f3-aa61-b9de7e43fc34",
-        "name": "The Dundies -  (The Office Superfans!)",
-        "url": "https://habitica.com/groups/guild/b747edd8-c0f9-40f3-aa61-b9de7e43fc34",
-        "actionStarted": "2020-04-26T01:06:44.153Z",
-        "hailed": "2020-07-01T01:18:37.814Z"
+        "id": "ffe2e2e1-1194-4835-91a3-0654697b2b4f",
+        "name": "Highly Sensitive People (HSPs)",
+        "url": "https://habitica.com/groups/guild/ffe2e2e1-1194-4835-91a3-0654697b2b4f",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "ac98df68-90fe-4f47-b00b-42a0b136d1c8",
+        "name": "The Saiyans - find your limits and push past them!",
+        "url": "https://habitica.com/groups/guild/ac98df68-90fe-4f47-b00b-42a0b136d1c8",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "0aa9cee5-7a33-4599-87fd-91f74ba8d51d",
+        "name": "Poets",
+        "url": "https://habitica.com/groups/guild/0aa9cee5-7a33-4599-87fd-91f74ba8d51d",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "db4c31eb-a1d4-4a9a-b692-16856869fd55",
+        "name": "Minecrafters",
+        "url": "https://habitica.com/groups/guild/db4c31eb-a1d4-4a9a-b692-16856869fd55",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "fd49cf6e-9d28-447f-9842-cd6f1c092d51",
+        "name": "The Dark Night Guild",
+        "url": "https://habitica.com/groups/guild/fd49cf6e-9d28-447f-9842-cd6f1c092d51",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "102453dc-942e-46cf-8652-1b67f70c0be3",
+        "name": "💻 Digital Marketing Denizens ",
+        "url": "https://habitica.com/groups/guild/102453dc-942e-46cf-8652-1b67f70c0be3",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "68bf4011-9420-445a-8c03-a4a237b2aa8c",
+        "name": "Retro Gamers",
+        "url": "https://habitica.com/groups/guild/68bf4011-9420-445a-8c03-a4a237b2aa8c",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "dd00e413-51d4-4797-90e0-6cef1da7b4ac",
+        "name": "Loved ones of those with Depression/Anxiety",
+        "url": "https://habitica.com/groups/guild/dd00e413-51d4-4797-90e0-6cef1da7b4ac",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "9c5d923b-9698-483a-b885-a5eba2e4ec75",
+        "name": "Witches of Habitica",
+        "url": "https://habitica.com/groups/guild/9c5d923b-9698-483a-b885-a5eba2e4ec75",
+        "actionStarted": "2020-12-28T00:00:00.000Z"
+      },
+      {
+        "id": "048f5fd4-81d1-489f-afe6-34e44791397d",
+        "name": "The Funny Side",
+        "url": "https://habitica.com/groups/guild/048f5fd4-81d1-489f-afe6-34e44791397d",
+        "actionStarted": "2020-12-27T00:00:00.000Z"
+      }
+    ],
+    "captianMIA": [
+      {
+        "id": "2c6ffb73-80d0-4727-ae92-8713844f4a42",
+        "name": "Entrepreneurs",
+        "url": "https://habitica.com/groups/guild/2c6ffb73-80d0-4727-ae92-8713844f4a42",
+        "actionStarted": "2020-12-14T00:40:54.547Z",
+        "hailed": "2021-01-02T19:36:55.872Z"
+      },
+      {
+        "id": "bf7888dc-6f9c-4e8e-884d-30af466dc4f4",
+        "name": "Intermittent Fasting",
+        "url": "https://habitica.com/groups/guild/bf7888dc-6f9c-4e8e-884d-30af466dc4f4",
+        "actionStarted": "2020-07-01T01:14:40.644Z",
+        "hailed": "2021-01-02T19:36:55.959Z"
+      },
+      {
+        "id": "955fdbb8-f1b3-40cb-b528-8d292b312a6a",
+        "name": "Egyptology Unearthed",
+        "url": "https://habitica.com/groups/guild/955fdbb8-f1b3-40cb-b528-8d292b312a6a",
+        "actionStarted": "2020-07-01T01:14:33.744Z",
+        "hailed": "2021-01-02T19:36:55.540Z"
       },
       {
         "id": "1cc557aa-5718-4b86-8753-d13246a2e99d",
         "name": "Chronic Illness POT Luck (POTS, EDS, MCAS, etc)",
         "url": "https://habitica.com/groups/guild/1cc557aa-5718-4b86-8753-d13246a2e99d",
         "actionStarted": "2020-04-26T01:06:40.334Z",
-        "hailed": "2020-07-01T01:18:41.443Z"
-      },
-      {
-        "id": "e1c56114-408a-47f7-8880-737fe26bff3f",
-        "name": "The Driving to Success Guild",
-        "url": "https://habitica.com/groups/guild/e1c56114-408a-47f7-8880-737fe26bff3f",
-        "actionStarted": "2020-04-26T01:06:33.559Z",
-        "hailed": "2020-07-01T01:18:42.369Z"
-      },
-      {
-        "id": "e655bb46-96ec-4d8b-b40d-f195063904c8",
-        "name": "The Developers Guild",
-        "url": "https://habitica.com/groups/guild/e655bb46-96ec-4d8b-b40d-f195063904c8",
-        "actionStarted": "2020-04-26T01:06:27.669Z",
-        "hailed": "2020-07-01T01:18:47.441Z"
+        "hailed": "2021-01-02T19:36:55.343Z"
       },
       {
         "id": "1a7d0075-d590-4aaf-b671-52c5a514a8cf",
         "name": "Vegetarians and Vegans",
         "url": "https://habitica.com/groups/guild/1a7d0075-d590-4aaf-b671-52c5a514a8cf",
         "actionStarted": "2020-04-11T04:23:39.880Z",
-        "hailed": "2020-07-01T01:18:52.320Z"
-      },
-      {
-        "id": "fd49cf6e-9d28-447f-9842-cd6f1c092d51",
-        "name": "The Dark Night Guild",
-        "url": "https://habitica.com/groups/guild/fd49cf6e-9d28-447f-9842-cd6f1c092d51",
-        "actionStarted": "2020-04-06T11:06:24.159Z",
-        "hailed": "2020-07-01T01:18:52.385Z"
-      },
-      {
-        "id": "7b88f545-a9f1-4e56-a7dc-e59dddfc0662",
-        "name": "Weekly Heroes!",
-        "url": "https://habitica.com/groups/guild/7b88f545-a9f1-4e56-a7dc-e59dddfc0662",
-        "actionStarted": "2020-04-04T12:45:02.264Z",
-        "hailed": "2020-07-01T01:18:55.446Z"
+        "hailed": "2021-01-02T19:36:55.287Z"
       },
       {
         "id": "4b04908e-4b10-4f7f-9f04-1ba0f5d7c1b9",
         "name": "Unitarian Universalist Habiticans",
         "url": "https://habitica.com/groups/guild/4b04908e-4b10-4f7f-9f04-1ba0f5d7c1b9",
         "actionStarted": "2020-04-04T12:44:59.073Z",
-        "hailed": "2020-07-01T01:18:59.248Z"
-      },
-      {
-        "id": "9e5b0690-881e-443b-a3fb-bf40ddfa4a09",
-        "name": "Magic: The Gathering Planeswalkers",
-        "url": "https://habitica.com/groups/guild/9e5b0690-881e-443b-a3fb-bf40ddfa4a09",
-        "actionStarted": "2020-03-31T08:26:51.123Z",
-        "hailed": "2020-07-01T01:19:04.148Z"
+        "hailed": "2021-01-02T19:36:55.269Z"
       },
       {
         "id": "8b9532ba-bb17-4e53-9862-155235ec1a98",
         "name": "Vipassana Meditators",
         "url": "https://habitica.com/groups/guild/8b9532ba-bb17-4e53-9862-155235ec1a98",
         "actionStarted": "2020-03-31T08:26:47.283Z",
-        "hailed": "2020-07-01T01:19:06.736Z"
-      },
-      {
-        "id": "102453dc-942e-46cf-8652-1b67f70c0be3",
-        "name": "💻 Digital Marketing Denizens ",
-        "url": "https://habitica.com/groups/guild/102453dc-942e-46cf-8652-1b67f70c0be3",
-        "actionStarted": "2020-03-31T08:26:43.880Z",
-        "hailed": "2020-07-01T01:19:09.053Z"
-      },
-      {
-        "id": "0c5896d5-f574-4148-afcd-d110007c8173",
-        "name": "Slytherin House",
-        "url": "https://habitica.com/groups/guild/0c5896d5-f574-4148-afcd-d110007c8173",
-        "actionStarted": "2020-03-31T08:26:37.844Z",
-        "hailed": "2020-07-01T01:19:14.465Z"
-      },
-      {
-        "id": "4e797d7d-fe40-458e-b877-a45dc606ceed",
-        "name": "INKubator Writing Community",
-        "url": "https://habitica.com/groups/guild/4e797d7d-fe40-458e-b877-a45dc606ceed",
-        "actionStarted": "2020-03-19T18:24:09.900Z",
-        "hailed": "2020-07-01T01:19:16.403Z"
-      },
-      {
-        "id": "f3253558-d442-46a3-9327-7785e7699c85",
-        "name": "The EZ Challengers",
-        "url": "https://habitica.com/groups/guild/f3253558-d442-46a3-9327-7785e7699c85",
-        "actionStarted": "2019-12-17T05:03:53.186Z",
-        "hailed": "2020-07-01T01:19:20.591Z"
+        "hailed": "2021-01-02T19:36:55.508Z"
       },
       {
         "id": "7cf665d3-a37b-4bb3-bfce-60de9a18a430",
@@ -318,139 +461,107 @@
         "name": "Learn To Draw & Evolve Your Art",
         "url": "https://habitica.com/groups/guild/95b7ce2c-0d50-4ef7-9d15-87c7d2857024",
         "actionStarted": "2020-01-15T02:02:14.162Z",
-        "hailed": "2020-02-14T00:07:24.608Z"
-      },
-      {
-        "id": "f6ac2501-1c5b-4f54-98a5-8339dc953b9d",
-        "name": "Gaymers",
-        "url": "https://habitica.com/groups/guild/f6ac2501-1c5b-4f54-98a5-8339dc953b9d",
-        "actionStarted": "2019-12-11T02:57:59.701Z",
-        "hailed": "2020-07-01T01:19:28.680Z"
+        "hailed": "2021-01-02T19:36:55.298Z"
       }
     ],
-    "captured": [
+    "captured": [],
+    "lastRites": [
       {
-        "id": "9ddbb860-67ff-4e7b-81aa-23f81de910b3",
-        "name": "Early to Bed and Early to Rise",
-        "url": "https://habitica.com/groups/guild/9ddbb860-67ff-4e7b-81aa-23f81de910b3",
-        "actionStarted": "2020-06-07T16:26:37.638Z",
-        "hailed": "2020-07-01T01:19:36.025Z"
+        "id": "e99ef72e-593f-4d55-942d-b44558cf3a6b",
+        "name": "ANother Test Guild",
+        "url": "https://habitica.com/groups/guild/e99ef72e-593f-4d55-942d-b44558cf3a6b",
+        "actionStarted": "2021-01-02T19:53:47.571+00:00",
+        "hailed": "2021-01-02T19:53:48.590Z"
+      },
+      {
+        "id": "56052316-006d-4cc8-948a-d2b08669fbab",
+        "name": "The Pirate Ship's Log",
+        "url": "https://habitica.com/groups/guild/56052316-006d-4cc8-948a-d2b08669fbab",
+        "actionStarted": "2021-01-02T19:36:54.207Z",
+        "hailed": "2021-01-02T19:36:55.205Z"
+      },
+      {
+        "id": "ea3dcac9-8055-4328-84b0-e6b728f920c4",
+        "name": "Habitica Pet Guild",
+        "url": "https://habitica.com/groups/guild/ea3dcac9-8055-4328-84b0-e6b728f920c4",
+        "actionStarted": "2020-12-05T06:47:24.550Z",
+        "hailed": "2021-01-01T08:26:07.043Z"
+      },
+      {
+        "id": "cbb90784-a80f-413b-90a4-dbb1b18487b6",
+        "name": "Polytheists & Pagans",
+        "url": "https://habitica.com/groups/guild/cbb90784-a80f-413b-90a4-dbb1b18487b6",
+        "actionStarted": "2020-12-05T06:47:24.550Z",
+        "hailed": "2020-12-30T05:21:08.182Z"
       },
       {
         "id": "160234e0-7a3b-46e6-8b9f-3245ac6f1678",
         "name": "Graduate Student Guild",
         "url": "https://habitica.com/groups/guild/160234e0-7a3b-46e6-8b9f-3245ac6f1678",
         "actionStarted": "2020-04-03T10:08:10.018Z",
-        "hailed": "2020-07-01T01:19:39.233Z"
-      },
-      {
-        "id": "31ad9605-53a4-4915-b855-bb175dd04c8c",
-        "name": "Prayer Warriors Fighting on the Side of Good",
-        "url": "https://habitica.com/groups/guild/31ad9605-53a4-4915-b855-bb175dd04c8c",
-        "actionStarted": "2020-03-19T18:24:13.554Z",
-        "hailed": "2020-07-01T01:19:41.941Z"
-      },
-      {
-        "id": "f5d3c246-fa4e-44ab-a61f-39d62fe4f799",
-        "name": "The Self-Improvement Goonsquad",
-        "url": "https://habitica.com/groups/guild/f5d3c246-fa4e-44ab-a61f-39d62fe4f799",
-        "actionStarted": "2020-02-24T00:23:54.106Z",
-        "hailed": "2020-07-01T01:19:45.624Z"
-      },
-      {
-        "id": "928ab552-e093-461e-88d6-5db18e607500",
-        "name": "Schizophrenia Hangout",
-        "url": "https://habitica.com/groups/guild/928ab552-e093-461e-88d6-5db18e607500",
-        "actionStarted": "2019-12-11T02:58:05.559Z",
-        "hailed": "2020-07-01T01:19:48.441Z"
-      }
-    ],
-    "lastRites": [
-      {
-        "id": "dcb11690-1a0b-45b8-a957-5ef8a943b69f",
-        "name": "Social Science Syndicate",
-        "url": "https://habitica.com/groups/guild/dcb11690-1a0b-45b8-a957-5ef8a943b69f",
-        "actionStarted": "2019-11-19T11:08:56.016Z",
-        "hailed": "2020-02-14T00:07:45.345Z"
-      },
-      {
-        "id": "4e3c8e30-cd83-42f1-bf65-206721f84019",
-        "name": "Hunger for Knowledge - Inspiration ",
-        "url": "https://habitica.com/groups/guild/4e3c8e30-cd83-42f1-bf65-206721f84019",
-        "actionStarted": "2020-01-21T10:47:36.258Z",
-        "hailed": "2020-02-14T00:07:19.671Z"
-      },
-      {
-        "id": "15d9aeca-50d9-4564-b955-41333ce60d68",
-        "name": "Coffee Enthusiasts",
-        "url": "https://habitica.com/groups/guild/15d9aeca-50d9-4564-b955-41333ce60d68",
-        "actionStarted": "2020-02-08T01:44:12.759Z",
-        "hailed": "2020-02-08T01:44:13.031Z"
-      },
-      {
-        "id": "7594bd07-6bb9-461a-a9c3-3b1ea17579a1",
-        "name": "Creative Projects",
-        "url": "https://habitica.com/groups/guild/7594bd07-6bb9-461a-a9c3-3b1ea17579a1",
-        "actionStarted": "2020-02-08T01:44:06.106Z",
-        "hailed": "2020-02-08T01:44:06.532Z"
-      },
-      {
-        "id": "42b4f20f-5d46-4446-b5e7-e03bac291398",
-        "name": "Med In India",
-        "url": "https://habitica.com/groups/guild/42b4f20f-5d46-4446-b5e7-e03bac291398",
-        "actionStarted": "2019-09-13T13:03:02.219Z",
-        "hailed": "2020-02-07T01:18:31.877Z"
-      },
-      {
-        "id": "a8023e88-e39c-4760-9817-d97d70b5f015",
-        "name": "Halls of the the Ancients : The Archaeology Guild.",
-        "url": "https://habitica.com/groups/guild/a8023e88-e39c-4760-9817-d97d70b5f015",
-        "actionStarted": "2020-01-04T15:07:48.584Z",
-        "hailed": "2020-02-02T10:29:30.941Z"
+        "hailed": "2020-12-30T04:51:07.698Z"
       }
     ],
     "doNotHail": [
       {
-        "id": "7a5bdf7a-6b14-4f9e-9c1a-ae4029abf499",
-        "name": "Это Беларусь, детка ^^ Belarus team! ",
-        "url": "https://habitica.com/groups/guild/7a5bdf7a-6b14-4f9e-9c1a-ae4029abf499",
-        "actionStarted": "2020-06-17T02:33:13.249Z"
-      },
-      {
-        "id": "a112a9a2-a0d9-45a7-8ae2-1f61af84ef2e",
-        "name": "Capangas capangueiros- Dicas dentro do habitica",
-        "url": "https://habitica.com/groups/guild/a112a9a2-a0d9-45a7-8ae2-1f61af84ef2e",
-        "actionStarted": "2020-06-17T02:33:02.235Z"
-      },
-      {
-        "id": "08ecff3e-92b1-407f-8af9-3becd7d2fc88",
-        "name": "Private UNFREEZE the Freeze Response, CPTSD and Trauma (Minimum Triggers)",
-        "url": "https://habitica.com/groups/guild/08ecff3e-92b1-407f-8af9-3becd7d2fc88",
-        "actionStarted": "2020-06-07T17:36:41.180Z"
-      },
-      {
-        "id": "94a1d8fc-0760-4e1d-9386-c17f740be2fd",
-        "name": "Путь Художника",
-        "url": "https://habitica.com/groups/guild/94a1d8fc-0760-4e1d-9386-c17f740be2fd",
-        "actionStarted": "2020-06-07T16:54:01.328Z"
-      },
-      {
-        "id": "ee49af79-bd6b-4c9c-8727-b6da9a02938b",
-        "name": "Nordlichter",
-        "url": "https://habitica.com/groups/guild/ee49af79-bd6b-4c9c-8727-b6da9a02938b",
-        "actionStarted": "2020-06-07T16:44:26.622Z"
+        "id": "e51c3538-a58e-4b5e-af91-df67dd013404",
+        "name": "UBERMENSCH",
+        "url": "https://habitica.com/groups/guild/e51c3538-a58e-4b5e-af91-df67dd013404",
+        "actionStarted": "2021-01-01T08:25:55.034Z"
       },
       {
         "id": "691a2da3-0436-417e-9149-7c487dfa406a",
         "name": "UNFREEZE the Freeze Response, CPTSD and trauma (no/minimum triggers)",
         "url": "https://habitica.com/groups/guild/691a2da3-0436-417e-9149-7c487dfa406a",
-        "actionStarted": "2020-06-07T16:28:26.605Z"
+        "actionStarted": "2020-12-27T09:15:55.728Z"
       },
       {
-        "id": "1abd6b4d-a17b-4cfe-bc75-26bb2529e392",
-        "name": "Tecnologia da Informação",
-        "url": "https://habitica.com/groups/guild/1abd6b4d-a17b-4cfe-bc75-26bb2529e392",
-        "actionStarted": "2020-04-26T01:07:42.999Z"
+        "id": "839666f7-5b08-403f-931e-e9ff008db59b",
+        "name": "Japanese Deep Cave Adventurers",
+        "url": "https://habitica.com/groups/guild/839666f7-5b08-403f-931e-e9ff008db59b",
+        "actionStarted": "2020-12-24T22:31:34.228Z"
+      },
+      {
+        "id": "1954cdbd-a92c-441e-815f-0b52903d6560",
+        "name": "Bad habits terminator 坏习惯终结者",
+        "url": "https://habitica.com/groups/guild/1954cdbd-a92c-441e-815f-0b52903d6560",
+        "actionStarted": "2020-12-21T11:10:54.721Z"
+      },
+      {
+        "id": "4f13b98a-a7d3-4f78-ad8b-4e8708a022e0",
+        "name": "Prayerful Christians",
+        "url": "https://habitica.com/groups/guild/4f13b98a-a7d3-4f78-ad8b-4e8708a022e0",
+        "actionStarted": "2020-12-14T00:40:54.548Z"
+      },
+      {
+        "id": "12494706-a45e-45bf-9784-dfa034b0340e",
+        "name": "Unknown Ship - Lost in the paperwork",
+        "url": "https://habitica.com/groups/guild/12494706-a45e-45bf-9784-dfa034b0340e",
+        "actionStarted": ""
+      },
+      {
+        "id": "807a6e0d-5dce-4923-a9c6-e766e5e274d5",
+        "name": "小さい人たちの階段（ASD/ADHD/AS日本語用ギルド）",
+        "url": "https://habitica.com/groups/guild/807a6e0d-5dce-4923-a9c6-e766e5e274d5",
+        "actionStarted": "2020-12-03T22:21:34.889Z"
+      },
+      {
+        "id": "fe63c26b-6ece-4ea8-8537-80a015c1b660",
+        "name": "League of Indonesian Habiticans",
+        "url": "https://habitica.com/groups/guild/fe63c26b-6ece-4ea8-8537-80a015c1b660",
+        "actionStarted": "2020-12-03T22:21:34.888Z"
+      },
+      {
+        "id": "06d2597e-c4c8-4c90-b4fc-e4d13e1cd70a",
+        "name": "🌌 Гильдия Исследователей и Созидателей",
+        "url": "https://habitica.com/groups/guild/06d2597e-c4c8-4c90-b4fc-e4d13e1cd70a",
+        "actionStarted": "2020-12-03T22:05:44.380Z"
+      },
+      {
+        "id": "7a5bdf7a-6b14-4f9e-9c1a-ae4029abf499",
+        "name": "Это Беларусь, детка ^^ Belarus team",
+        "url": "https://habitica.com/groups/guild/7a5bdf7a-6b14-4f9e-9c1a-ae4029abf499",
+        "actionStarted": "2020-06-17T02:33:13.249Z"
       },
       {
         "id": "c8c68ea5-913b-4c8f-be97-71373fcf0779",
@@ -459,50 +570,52 @@
         "actionStarted": "2020-04-26T01:06:19.116Z"
       },
       {
-        "id": "53490df2-c7a0-4ed2-8753-2d33c192261d",
-        "name": "Cristãos no Habitica Brasil",
-        "url": "https://habitica.com/groups/guild/53490df2-c7a0-4ed2-8753-2d33c192261d",
-        "actionStarted": "2020-04-02T08:41:56.417Z"
-      },
-      {
         "id": "d38a41bd-344b-4f47-a370-3470f87f4f7d",
         "name": "Concurseiros Brasil 🇧🇷",
         "url": "https://habitica.com/groups/guild/d38a41bd-344b-4f47-a370-3470f87f4f7d",
         "actionStarted": "2020-03-13T01:34:59.721Z"
       },
       {
-        "id": "a3939810-da7d-4c43-9e4f-f8246e4d33f0",
-        "name": "UneMundo - Guilda Universitária BR",
-        "url": "https://habitica.com/groups/guild/a3939810-da7d-4c43-9e4f-f8246e4d33f0",
-        "actionStarted": "2020-03-09T11:04:11.804Z"
+        "id": "e25e7141-dfe8-4403-bbfb-ed49219f9ef4",
+        "name": "Flylady Nederland",
+        "url": "https://habitica.com/groups/guild/e25e7141-dfe8-4403-bbfb-ed49219f9ef4",
+        "actionStarted": "2020-12-14T00:40:54.548Z"
       },
       {
-        "id": "4f969d70-0765-4284-b192-b89a9b2ef333",
-        "name": "パーティー募集専用掲示板【日本語】",
-        "url": "https://habitica.com/groups/guild/4f969d70-0765-4284-b192-b89a9b2ef333",
-        "actionStarted": "2020-01-16T00:13:38.426Z"
-      },
-      {
-        "id": "7a0559cd-dc21-453f-be32-e60dccd8bc0a",
-        "name": "⚔️ Conservatives of the Round Table  ⚔️",
-        "url": "https://habitica.com/groups/guild/7a0559cd-dc21-453f-be32-e60dccd8bc0a",
-        "actionStarted": "2019-08-24T05:55:59.202Z"
+        "id": "1b688280-d0cc-479f-9c81-f2dea08a5bdd",
+        "name": "Weg zum Erfolg und finanzieller Freiheit",
+        "url": "https://habitica.com/groups/guild/1b688280-d0cc-479f-9c81-f2dea08a5bdd",
+        "actionStarted": "2020-12-14T00:40:54.548Z"
       }
     ],
     "droppedAnchor": [
       {
-        "id": "b7855392-184f-4c51-afb4-5b3de83f88f8",
-        "name": "Vietnamese Translators",
-        "url": "https://habitica.com/groups/guild/b7855392-184f-4c51-afb4-5b3de83f88f8",
+        "id": "3a89f3c6-1bd8-4d3f-845b-96f85d1d73fb",
+        "name": "A & A Safe Room",
+        "url": "https://habitica.com/groups/guild/3a89f3c6-1bd8-4d3f-845b-96f85d1d73fb",
         "actionStarted": "",
-        "raiseAnchor": "2020-07-11T05:32:54.003Z"
+        "raiseAnchor": "2021-04-29T08:51:23.212Z"
+      },
+      {
+        "id": "f96dcbe4-3ea1-4767-9957-a93a66065ae4",
+        "name": "Deliberate Practice",
+        "url": "https://habitica.com/groups/guild/f96dcbe4-3ea1-4767-9957-a93a66065ae4",
+        "actionStarted": "",
+        "raiseAnchor": "2021-04-29T08:51:23.213Z"
       },
       {
         "id": "00b0eff0-85bd-402a-bd38-33f507624dfa",
         "name": "💡 Creative Minds",
         "url": "https://habitica.com/groups/guild/00b0eff0-85bd-402a-bd38-33f507624dfa",
-        "actionStarted": "",
-        "raiseAnchor": "2020-07-11T05:33:52.150Z"
+        "actionStarted": "2020-12-27T04:56:34.626Z",
+        "raiseAnchor": "2021-04-29T08:51:23.214Z"
+      },
+      {
+        "id": "08ecff3e-92b1-407f-8af9-3becd7d2fc88",
+        "name": "Private UNFREEZE the Freeze Response, CPTSD and Trauma (Minimum Triggers)",
+        "url": "https://habitica.com/groups/guild/08ecff3e-92b1-407f-8af9-3becd7d2fc88",
+        "actionStarted": "2020-12-27T09:15:55.728Z",
+        "raiseAnchor": "2021-04-29T08:51:23.214Z"
       }
     ]
   }
