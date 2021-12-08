@@ -1,1 +1,222 @@
-{}
+{
+    "production": {
+
+        "botId": "HABITICA-USER-ID-TO-BE-SET",
+        "botToken": "HABITICA-TOKEN-TO-BE-SET",
+        "botAuthUser": "",
+        "botAuthPassword": "",
+        "logId": "TRELLO-USER-ID-TO-BE-SET",
+        "logToken": "TRELLO-TOKEN-TO-BE-SET",
+                
+        "folderoutput": "./guildbot/output",
+        "folderstat": "./common/stat",
+        "outputFilePrefix": "",
+        "outputLogSuffix": ".txt",
+        "outputLogMax":  16,
+        
+        "folderLang": "./common/locale/",
+        "fileLang": "guildbot.json",
+        "hailLangAvail": ["en", "de", "fr"],
+        "hailLangDefault": "en",
+
+		"botServerUrl": "https://habitica.com/api/v3",
+		"botServerPathContent": "/content?language=en",
+		"botServerPathUser": "/user",
+		"botServerPathGroup": "/groups",
+		"botServerPathChallengeUser": "/challenges/user?page=",
+		"botServerPathChallengeGroup": "/challenges/groups",
+		"botServerPathMemberProfilePart": "/members",
+		"botServerPathGroupJoin": "/join",
+		"botServerPathChat": "/chat",
+		"botServerPathCron": "/cron",
+		"botServerPathTask": "/tasks",
+		"botServerPathTaskScoreUp": "/score/up",
+		
+		"logServerUrl": "https://api.trello.com/1",
+        "logServerPathBoardPart": "/boards/",
+		"logServerPathCards": "/cards",
+		"logServerPathAttachments": "/attachments",
+		"logServerPathLabels": "/labels",
+		"logServerPathList": "/lists",
+		"logServerPathAllCustField": "/customFieldItems",
+		"logServerPathCustField": "/customField",
+		"logServerPathCustFields": "/customFields",
+		"logServerPathCustFieldItem": "/item",
+		"logServerPathComment": "/actions/comments",
+		"logServerPathAction": "/actions",
+
+
+        "botAllOutputToReport": false,
+        "botGuildCove": "416f7007-7226-4beb-9897-56fffed93a07",
+        "botGuildElf": "a7d0a7c8-f1cf-4813-b841-75308003f611",
+        "botGuildReport": "416f7007-7226-4beb-9897-56fffed93a07",
+        "botGuildError": "481be7a9-b3ef-499e-90bf-bb63b7ed47a9",
+
+        "botGuildTavern": "00000000-0000-4000-A000-000000000000",
+        "botGuildTavernAlt": "habitrpg",
+
+        "botTaskIdRunAll": "/d6fa1af8-025c-4363-8939-6ef66f11ae0b",
+        "botTaskIdRunSingle": "/74b0f04b-e354-4666-a01c-aaf5d831f126",
+        "botTaskIdSentReport": "/cbcd0326-2f8b-44ae-bbcb-a923e22a854e",
+
+        "botClientId": "Pirate Cove - @GuildBot",
+
+
+        "logServerPathBoardId": "TMDrkNTG",
+
+        "logListIdJustLaunchedName": "Just Launched",
+        "logListIdClearSailingName": "Clear Sailing",
+        "logListIdTargetSpottedName": "Target Spotted",
+        "logListIdCaptainMIAName": "Captain MIA",
+        "logListIdCapturedName": "Captured",
+        "logListIdLastRitesName": "Last Rites",
+        "logListIdDoNotHailName": "Do Not Hail",
+        "logListIdBermudaTriangleName": "Bermuda Triangle",
+        "logListIdPrivateNavyName": "Private Navy",
+        "logListIdSunkName": "Sunk",
+
+
+        "logCustomFields": {
+            "guildName": {"id":"", "name":"Ship Name", "type":"text", "defaultValue": "ERROR" },
+            "guildCreated": {"id":"", "name":"Ship Launched", "type":"date", "defaultValue": "1900-01-01" },
+            "memberCount": {"id":"", "name":"Crew Count", "type":"number", "defaultValue": -1 },
+            "leaderName": {"id":"", "name":"Captain Name", "type":"text", "defaultValue":"ERROR" },
+            "leaderId": {"id":"", "name":"Captain Id", "type":"text", "defaultValue":"" },
+            "leaderBorn": {"id":"", "name":"Captain Born", "type":"date", "defaultValue":"1900-01-01" },
+            "leaderLastLogin": {"id":"", "name":"Captain Last Login", "type":"date", "defaultValue":"1900-01-01" },
+            "chatLines": {"id":"", "name":"Chat Lines", "type":"number", "defaultValue":-1 },
+            "chatLast": {"id":"", "name":"Last Chat Message", "type":"date", "defaultValue":"" },
+            "chatLast5": {"id":"", "name":"5th Chat Message", "type":"date", "defaultValue":"" },
+            "chatLast20": {"id":"", "name":"20th Chat Message", "type":"date", "defaultValue":"" },
+            "hailed": {"id":"", "name":"Hailed/Spotted", "type":"date", "defaultValue":"" },
+            "hailedId": {"id":"", "name":"Hail Message Id", "type":"text", "defaultValue":"" },
+            "hailedChatLines": {"id":"", "name":"Chat Lines Since Hail", "type":"number", "defaultValue":"" },
+            "challengeCount": {"id":"", "name":"Number of Challenges", "type":"number", "defaultValue":-1 },
+            "challengesLeaderOnly": {"id":"", "name":"Captain Only Challenges", "type":"checked", "defaultValue":"" },
+            "privateGuild": {"id":"", "name":"Private Ship", "type":"checked", "defaultValue":"" },
+            "lastUpdated": {"id":"", "name":"Card Last Updated", "type":"date", "defaultValue":"1900-01-01" },
+            "actionStarted": {"id":"", "name":"Start of Last Pirate Action", "type":"date", "defaultValue":"" },
+            "actionFinished": {"id":"", "name":"Finish of Last Pirate Action", "type":"date", "defaultValue":"" },
+            "gemCount": {"id":"", "name":"Gems", "type":"number", "defaultValue":-99 }
+        },
+
+        "labelColour_DNH": "red",
+        "labelColour_Language": "blue",
+        "labelColour_LanguageSecondary": "pink",
+        "labelColour_Category": "sky",
+
+        "logLabelDNHOfficialName": "Habitica Official Guild",
+        "logLabelNonEnglishHailName": "Non English Hail",
+        "logLabelCallForLastRitesName": "Call for Last Rites",
+        "logLabelCallForReHailName": "Call for Hail/ReHail",
+        "logLabelCallForDropAnchorName": "Call to Drop Anchor",
+        "logLabelSailToBermudaTriangleName": "Sail to Bermuda Triangle",
+        "logLabelRemoveActiveCommentName": "Reviewed Admiral Report (Return to Pirates)",
+
+        "logLabelAllLanguagesName": "All Languages",
+        "logLabelDropAnchorName": "Dropped Anchor",
+        "logLabelAdmiralReportName": "Admiral Report",
+
+        "logLabelLanguage_English": "en - English",
+
+        "logCardConfigName": "CONFIG",
+
+        "habiticaGuildUrl": "https://habitica.com/groups/guild/",
+        "habiticaChallengeUrl": "https://habitica.com/challenges/",
+        "habiticaProfileUrl": "https://habitica.com/profile/",
+        "habiticaCategoryOffical": "habitica_official",
+
+        "habiticaGuildToolUrl": "https://oldgods.net/habitica/cTheDragons/group.html?groupId=",
+        "habiticaGuildToolPathAll": "&hide_avatar=true&max=1200000",
+        "habiticaGuildToolPathNone": "&hide_avatar=true&max=0",
+
+        "chatMessageLengthMax": 3000,
+        "chatMessageLengthReserved": 130,
+
+        "dayETJustLaunched": 21, 
+        "dayETClearSailing_Check": 90,
+        "dayETClearSailing_MaybeMIA": 150,
+        "dayETClearSailing_MIA": 180,
+        "dayETClearSailing_MIANoDrop": 366,
+        "dayETTargetSpotted": 360,
+        "dayETNoResponse": 28,
+        "dayETNoResponse_LastRites": 21,
+        "dayHailReview": 14,
+        "dayDropAnchor": 120,
+        "dayBermudaTriangle": 270,
+
+        "weekdayReport": 4, 
+        "dayBetweenReports": 7,
+
+        "lowActivityChatLines": 10,
+        "lowActivityMembers": 30,
+
+        "warningFastMovingFromHail": 16,
+        "warningFastMovingChatLines": 130,
+        "warningHailAlmostInTheOcean": 170,
+
+        "guildColourGold": 1000, 
+        "guildColourSilver": 100, 
+        "masterDateCheckTo": "2010-02-17", 
+        "masterDateRoundUp": "2019-02-18",
+        "masterDateNew": "1900-01-01",
+
+        "initialLoad": false,
+        "rptElvenExport": true,
+       
+
+        "testchunk": 175,
+        "retryAttemptMax":  15, 
+
+        "rl": {
+            "bot": {"remainingMax": 30, "remainingSafety": 6, "timeoutBasePeriod": 5000, "timeoutMinPeriod": 2250, "timeoutForcePause": 12000}, 
+            "log": {"remainingMax": 100, "remainingSafety": 10, "timeoutBasePeriod": 2000, "timeoutMinPeriod": 150, "timeoutForcePause": 12000, "resetPeriod": 10000 }
+        },
+
+
+        "apiErrorMessageChat_Swear": "Oops! Looks like this post contains a swearword",
+        "apiErrorMessageChat_Slur": "Your post contained inappropriate language, and your chat privileges have been revoked",
+        "apiErrorMessageChat_Removed": "You cannot do this because your chat privileges have been removed",
+
+        "debug": true,
+        "debugVerbose": false,
+        "debugConsole": false,
+        "debugAPI": false,
+        "fileOutput": true 
+    },
+    "prodHidden": {
+        "botAllOutputToReport": true,
+        "botGuildCove": "7d2e6210-1545-45d4-a760-ba8eb25c7610",
+        "botGuildReport": "481be7a9-b3ef-499e-90bf-bb63b7ed47a9"
+        
+        
+
+    },
+    "prodNoPublicReporting": {
+        "botAllOutputToReport": true,
+        "botGuildReport": "481be7a9-b3ef-499e-90bf-bb63b7ed47a9"
+    
+    },
+    "testing": {
+        "outputFilePrefix": "",
+        "outputLogMax":  1,
+
+        "botAllOutputToReport": true,
+        "botGuildReport": "6fd4f3d5-18ae-40d9-9b3c-2a882f18bf2c",
+
+        "botTaskIdRunAll": "/ee0fe4e4-aa76-4425-bbd6-4314e248c285",
+        "botTaskIdRunSingle": "/6f9164bc-531e-46b4-b9f7-26624138ec95",
+        "botTaskIdSentReport": "/b6f88efe-66fb-48ae-95fa-d93ff13489ef",
+
+        "logServerPathBoardId": "4cT4hIUh",
+
+        "weekdayReport": 4, 
+
+        "rptElvenExport": true,
+        
+        "debugConsole": true,
+        "debugVerbose": true,
+        "debugAPI": false
+    }
+
+}
