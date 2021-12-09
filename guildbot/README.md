@@ -2,7 +2,7 @@
 Core code to run @GuildBot. In order to "track" ~~ships~~ guilds it uses Trello. Guilds will be placed in column based on the status of guild, Last Rites, Capture etc. ~~Admirals~~ Admin uses labels to let @GuildBot know when to hail, drop anchor etc. Labels are also used to classify guilds.
 
 ## Run command
-The code is part of guildbot.js. The command to call the code is guildbot.completeRun.
+guildbot.js is the cored code. The primary command is guildbot.completeRun.
 Paramaters are:
 + **modeEnvironment**: config environment to run, 
 + **testOnlyThisGuild**: guild id if only single guild to be tested. Otherwise zero length string(. ,
@@ -179,4 +179,4 @@ Parameter file to run for GuildBot. Each top level key. is a particular mode for
 
 ## configText.json
 
-Text used by @GuildBot to report to pirates, elves, and Admirals, regarding status of ships and/or treasure maps.
+Text used by @GuildBot to report to pirates, elves, and Admirals, regarding status of ships and/or treasure maps. These are not hails as they are kept in locale, so they can be translated to multiple languages. All variables are kept with <%= ParaName %>.
