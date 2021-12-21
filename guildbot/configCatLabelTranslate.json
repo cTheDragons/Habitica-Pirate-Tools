@@ -1,0 +1,258 @@
+{
+  "Recovery & Support Groups / Mental & Physical Health": {
+    "cat": "catRecove",
+    "sub": "subRecove_MentalPhysicalHealth"
+  },
+  "Fandom & RolePlay / Members of Other Sites & Web-Communities": {
+    "cat": "catFandom",
+    "sub": "subFandom_MembersofOtherSitesWebCommunities"
+  },
+  "Language & Local Community Guilds / Countries & Languages": {
+    "cat": "catLangua",
+    "sub": "subLangua_CountriesLanguages"
+  },
+  "The World of Habitica / Party Chat Guilds": {
+    "cat": "catWorldH",
+    "sub": "subWorldH_PartyChatGuilds"
+  },
+  "Getting Organized / Goal Setting & Accountability": {
+    "cat": "catGettin",
+    "sub": "subGettin_GoalSettingAccountability"
+  },
+  "Belief Structures / Belief Structures": {
+    "cat": "catBelief",
+    "sub": "subBelief_BeliefStructures"
+  },
+  "Self-Improvement / Be Your Best Self": {
+    "cat": "catSelfIm",
+    "sub": "subSelfIm_BeYourBestSelf"
+  },
+  "Fandom & RolePlay / Other Role Play": {
+    "cat": "catFandom",
+    "sub": "subFandom_OtherRolePlay"
+  },
+  "Health & Fitness / Fitness": {
+    "cat": "catHealth",
+    "sub": "subHealth_Fitness"
+  },
+  "Self-Improvement / Challenge Yourself": {
+    "cat": "catSelfIm",
+    "sub": "subSelfIm_ChallengeYourself"
+  },
+  "The World of Habitica / Contributor Guilds": {
+    "cat": "catWorldH",
+    "sub": "subWorldH_ContributorGuilds"
+  },
+  "Creative Pursuits / Writing": {
+    "cat": "catCreati",
+    "sub": "subCreati_Writing"
+  },
+  "Self-Improvement / The Way You Are": {
+    "cat": "catSelfIm",
+    "sub": "subSelfIm_TheWayYouAre"
+  },
+  "Gaming / Electronic Play": {
+    "cat": "catGaming",
+    "sub": "subGaming_ElectronicPlay"
+  },
+  "Creative Pursuits / Art": {
+    "cat": "catCreati",
+    "sub": "subCreati_Art"
+  },
+  "Fandom & RolePlay / Fantasy": {
+    "cat": "catFandom",
+    "sub": "subFandom_Fantasy"
+  },
+  "Language & Local Community Guilds / Local Communities & Organizations": {
+    "cat": "catLangua",
+    "sub": "subLangua_LocalCommunitiesOrganizations"
+  },
+  "Self-Improvement / Broaden Your Horizons": {
+    "cat": "catSelfIm",
+    "sub": "subSelfIm_BroadenYourHorizons"
+  },
+  "Self-Improvement / Look on the Bright Side": {
+    "cat": "catSelfIm",
+    "sub": "subSelfIm_LookontheBrightSide"
+  },
+  "Occupations & Fields of Study / Social Sciences & Humanities": {
+    "cat": "catOccupa",
+    "sub": "subOccupa_SocialSciencesHumanities"
+  },
+  "The World of Habitica / Help & Support": {
+    "cat": "catWorldH",
+    "sub": "subWorldH_HelpSupport"
+  },
+  "Self-Improvement / Mindfulness": {
+    "cat": "catSelfIm",
+    "sub": "subSelfIm_Mindfulness"
+  },
+  "Creative Pursuits / Music": {
+    "cat": "catCreati",
+    "sub": "subCreati_Music"
+  },
+  "Getting Organized / Methods to Stop the Madness": {
+    "cat": "catGettin",
+    "sub": "subGettin_MethodstoStoptheMadness"
+  },
+  "Scholarly Pursuits / Reading": {
+    "cat": "catSchola",
+    "sub": "subSchola_Reading"
+  },
+  "Computers / Development & Design": {
+    "cat": "catComput",
+    "sub": "subComput_DevelopmentDesign"
+  },
+  "Scholarly Pursuits / The Academic Life": {
+    "cat": "catSchola",
+    "sub": "subSchola_TheAcademicLife"
+  },
+  "Fandom & RolePlay / General Fandom Discussion": {
+    "cat": "catFandom",
+    "sub": "subFandom_GeneralFandomDiscussion"
+  },
+  "Occupations & Fields of Study / STEM": {
+    "cat": "catOccupa",
+    "sub": "subOccupa_STEM"
+  },
+  "Fandom & RolePlay / Science Fiction, Mystery, & Horror": {
+    "cat": "catFandom",
+    "sub": "subFandom_ScienceFictionMysteryHorror"
+  },
+  "Health & Fitness / Nutrition": {
+    "cat": "catHealth",
+    "sub": "subHealth_Nutrition"
+  },
+  "Self-Improvement / Relationships": {
+    "cat": "catSelfIm",
+    "sub": "subSelfIm_Relationships"
+  },
+  "The World Around You / Flora & Fauna": {
+    "cat": "catWorldA",
+    "sub": "subWorldA_FloraFauna"
+  },
+  "Creative Pursuits / Food & Beverage": {
+    "cat": "catCreati",
+    "sub": "subCreati_FoodBeverage"
+  },
+  "Fandom & RolePlay / Anime & Manga": {
+    "cat": "catFandom",
+    "sub": "subFandom_AnimeManga"
+  },
+  "Gaming / Board, TableTop, & Live Action": {
+    "cat": "catGaming",
+    "sub": "subGaming_BoardTableTopLiveAction"
+  },
+  "Getting Organized / Cleaning House": {
+    "cat": "catGettin",
+    "sub": "subGettin_CleaningHouse"
+  },
+  "Occupations & Fields of Study / Making a Living": {
+    "cat": "catOccupa",
+    "sub": "subOccupa_MakingaLiving"
+  },
+  "The World Around You / Activism": {
+    "cat": "catWorldA",
+    "sub": "subWorldA_Activism"
+  },
+  "Creative Pursuits / Stage & Screen": {
+    "cat": "catCreati",
+    "sub": "subCreati_StageScreen"
+  },
+  "Fandom & RolePlay / Podcasts": {
+    "cat": "catFandom",
+    "sub": "subFandom_Podcasts"
+  },
+  "Creative Pursuits / Crafting & Decorating": {
+    "cat": "catCreati",
+    "sub": "subCreati_CraftingDecorating"
+  },
+  "Language & Local Community Guilds / Language Learning": {
+    "cat": "catLangua",
+    "sub": "subLangua_LanguageLearning"
+  },
+  "The World of Habitica / Beyond the Tavern": {
+    "cat": "catWorldH",
+    "sub": "subWorldH_BeyondtheTavern"
+  },
+  "The World of Habitica / Bug & Suggestion Reports": {
+    "cat": "catWorldH",
+    "sub": "subWorldH_BugSuggestionReports"
+  },
+  "Computers / Programming Languages": {
+    "cat": "catComput",
+    "sub": "subComput_ProgrammingLanguages"
+  },
+  "Fandom & RolePlay / Comics & Animation": {
+    "cat": "catFandom",
+    "sub": "subFandom_ComicsAnimation"
+  },
+  "Gaming / Gaming Communities": {
+    "cat": "catGaming",
+    "sub": "subGaming_GamingCommunities"
+  },
+  "Health & Fitness / The Great Outdoors": {
+    "cat": "catHealth",
+    "sub": "subHealth_TheGreatOutdoors"
+  },
+  "Occupations & Fields of Study / Medicine": {
+    "cat": "catOccupa",
+    "sub": "subOccupa_Medicine"
+  },
+  "Recovery & Support Groups / Addiction Recovery": {
+    "cat": "catRecove",
+    "sub": "subRecove_AddictionRecovery"
+  },
+  "The World Around You / Altruism": {
+    "cat": "catWorldA",
+    "sub": "subWorldA_Altruism"
+  },
+  "Getting Organized / Money Matters": {
+    "cat": "catGettin",
+    "sub": "subGettin_MoneyMatters"
+  },
+  "Health & Fitness / Healthy Lifestyle": {
+    "cat": "catHealth",
+    "sub": "subHealth_HealthyLifestyle"
+  },
+  "The World of Habitica / Habiticans Being Awesome": {
+    "cat": "catWorldH",
+    "sub": "subWorldH_HabitcansBeingAwesome"
+  },
+  "Creative Pursuits / DIY, Crafting & Decorating": {
+    "cat": "catCreati",
+    "sub": "subCreati_DIY"
+  },
+  "Health & Fitness / Sleep Hygiene": {
+    "cat": "catHealth",
+    "sub": "subHealth_SleepHygiene"
+  },
+  "The World of Habitica / Class System": {
+    "cat": "catWorldH",
+    "sub": "subWorldH_ClassSystem"
+  },
+  "Occupations & Fields of Study / Trade Craft": {
+    "cat": "catOccupa",
+    "sub": "subOccupa_TradeCraft"
+  },
+  "Recovery & Support Groups / Adulting": {
+    "cat": "catRecove",
+    "sub": "subRecove_Adulting"
+  },
+  "Scholarly Pursuits / Online Courses": {
+    "cat": "catSchola",
+    "sub": "subSchola_OnlineCourses"
+  },
+  "Creative Pursuits / Graphic Design": {
+    "cat": "catCreati",
+    "sub": "subCreati_GraphicDesign"
+  },
+  "Creative Pursuits / Video & Photography": {
+    "cat": "catCreati",
+    "sub": "subCreati_VideoPhotography"
+  },
+  "Getting Organized / Seasonal & Life Events": {
+    "cat": "catGettin",
+    "sub": "subGettin_SeasonalLifeEvents"
+  }
+}

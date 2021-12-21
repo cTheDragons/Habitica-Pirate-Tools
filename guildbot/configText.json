@@ -38,7 +38,8 @@
 
         "msgDoNotHail_admiral": "# Admiral Review - Do Not Hail\n\n*Admiral, these ships have been checked and commented. Please review.*\n",                           
         "msgClearSailing_admiral": "# Admiral Review - Clear Sailing\n\n*Admiral, these ships have recently been mention in the Cove. Please review.*\n",
-        "msgPrivateNavy_admiral": "# Admiral Review - Pirate Navy\n\n*Admiral, these ships have recently been mention in the Cove. Please review.*\n",                    
+        "msgPrivateNavy_admiral": "# Admiral Review - Pirate Navy\n\n*Admiral, these ships have recently been mention in the Cove. Please review.*\n", 
+        "msgBermudaTriangle_admiral": "# Admiral Review - Bermuda Triangle\n\n*Admiral, these ships have recently been mention in the Cove. Please review.*\n",                    
 
         "msgNothingToSay": "Ahoy my fellow pirates! Ye all quiet on the Habitican seas. No ships for the weekly report.",
 
