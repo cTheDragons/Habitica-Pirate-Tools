@@ -12,7 +12,7 @@ This design of the bot has been created so that you run for
     * All guilds
     * One guild only (for testing, or required refresh)
 
-The code deliberatgely uses setTimeout functions to slow the code down. Trello API 7 Habitica has hard limits on how many times it can be called. (https://help.trello.com/article/838-api-rate-limits). All calls are routed to makeAxiosCall to handle these timeouts. To make the most, calls are sent in bulk and the looped through. The success and failure counts look at ajaxRunningCount to determine if moves on to the next section.
+The code deliberately uses setTimeout functions to slow the code down. Trello API 7 Habitica has hard limits on how many times it can be called. (https://help.trello.com/article/838-api-rate-limits). All calls are routed to makeAxiosCall to handle these timeouts. To make the most, calls are sent in bulk and the looped through. The success and failure counts look at ajaxRunningCount to determine if moves on to the next section.
 
 The code is broken into three parts, with parts 1 and 2 looping till all data has been refreshed.
 
@@ -52,7 +52,7 @@ Dates:
 Card Position
     * When a card is new it will stay at the top of the list
     * If the card moves from one list to the other it will move to the top of the list
-    * All other cards will hold poistion
+    * All other cards will hold position
 
 */
 
@@ -202,6 +202,7 @@ var logListIdSunk               = ''
 var logCardConfig = ''
 
 var actionTakenInLoop // True or false if new items were added.
+var clearCountLoad = 0 //Forces the Clear Sailing not to bunch up
 
 var guildCove; //holds the pirate cove data
 var cardConfig; //holds config data
@@ -621,7 +622,7 @@ function fetchBaseData(){
             (logListIdPrivateNavy == '') ||
             (logListIdSunk == '')  
         ){
-            consoleLogToFile('UNABLE TO FIND ALL LISTS. CHECK LISTS HAVE NOT BEEN RENAMED.')
+            consoleLogToFile('UNABLE TO FIND ALL LISTS. CHECK LISTS HAVE NOT BEEN RENAMED (and they match the config file)')
             consoleLogToFile('JustLaunched: ' + logListIdJustLaunched)
             consoleLogToFile('ClearSailing: ' + logListIdClearSailing)
             consoleLogToFile('TargetSpotted: ' + logListIdTargetSpotted)
@@ -1118,7 +1119,7 @@ function postCommentCoveAll(){
     function postLatestData_coveHailedId_Success(data, item){
 		if (gConfig.debug) consoleLogToFile('debug postLatestData_coveHailedId SUCCESS for ' + item.hailCount)
 			
-		if (item.hailCount == 1) fetchAndUpdateAllData()	
+		if (item.hailCount == 1) fetchBaseData() //Refretch as labels have change.	
 
     }
 
@@ -2747,9 +2748,16 @@ if (gConfig.debug) consoleLogToFile((
 								obj.listId = cards[cardIndex].idList
 								obj.dueDate = moment(guildsLatestData[guildId].cFields[logCustomFields['leaderLastLogin'].id]).add(gConfig.dayETClearSailing_MaybeMIA,'days').format('YYYY-MM-DD') 
                             } else {
+                                clearCountLoad++
+                                if (clearCountLoad >  gConfig.clearCountLoadPercent/100 * guilds_justId.length) {
+                                    if (gConfig.debugVerbose) consoleLogToFile('debug testCard: Too many Clear Sailing Ships. Adding 1 more day to check. Load Count: ' + clearCountLoad + ' Number of Guilds: ' + guilds_justId.length)
+                                    gConfig.dayETClearSailing_Check++ // This is naughty but I didn't want another global variable
+                                    clearCountLoad = 0
+                                }
+
 								obj.cActionStatus = 4
 								obj.listId = cards[cardIndex].idList
-								obj.dueDate = moment(guildsLatestData[guildId].cFields[logCustomFields['leaderLastLogin'].id]).add(gConfig.dayETClearSailing_Check + retryAttempt,'days').format('YYYY-MM-DD') //To avoid future bumping.
+								obj.dueDate = moment(guildsLatestData[guildId].cFields[logCustomFields['leaderLastLogin'].id]).add(gConfig.dayETClearSailing_Check,'days').format('YYYY-MM-DD') //To avoid future bumping.
                             }
                         } else if (cards[cardIndex].idList == logListIdPrivateNavy){
                             //Do not base on leader login as leader likely be MIA. Just every gConfig.dayETClearSailing_Check
@@ -3892,12 +3900,15 @@ function reportResults(){
             return true;
         })
     });
-    
+
+   
     //sunk guilds this session
     guildsSunk.forEach(function(obj, index){
         var result  = 0
-        result = moment().utc().diff(obj.created, 'days')
-        if (moment(obj.created).isSameOrBefore(gConfig.masterDateRoundUp)) result = result * -1
+
+        if (moment(obj.created).isSameOrBefore(gConfig.masterDateRoundUp)) obj.created = gConfig.masterDateRoundUp 
+        result = moment().utc().diff(obj.created, 'days') 
+        
         if (obj.privacy != 'public'){
             stats.flow.sunk.private++
             stats.flow.sunk.lifeLengthPrivate.push(result)
@@ -4997,7 +5008,7 @@ function reportResults(){
             if ((paraShow.indexOf('spotted') >= 0) && !(paraShow.indexOf('hailed') >= 0)) strToAdd += '  **Spotted:** '  + moment(obj.cFields[logCustomFields['hailed'].id]).format('D MMM YYYY')
             if ((obj != undefined) && (!(paraShow.indexOf('spotted') >= 0) && (paraShow.indexOf('hailed') >= 0))) strToAdd += '  **Hailed:** ' + moment(obj.cFields[logCustomFields['hailed'].id]).format('D MMM YYYY')
             if ((obj != undefined) && (paraShow.indexOf('captain') >= 0)) {
-                strToAdd += '  **Captain:** @' +  obj.cFields[logCustomFields['leaderName'].id] + '  **Captain Last Active:** ' +   moment(obj.cFields[logCustomFields['leaderLastLogin'].id]).format('D MMM YYYY') + '  ***Last Drop:*** ' 
+                strToAdd += '  **Captain:** @' +  obj.cFields[logCustomFields['leaderName'].id] + '  **Captain Last Active:** ' +   moment(obj.cFields[logCustomFields['leaderLastLogin'].id]).format('D MMM YYYY') + '  ***Last Chest:*** ' 
                 if (obj.leader.items.lastDrop != undefined) {
                     strToAdd +=  moment(obj.leader.items.lastDrop.date).format('D MMM YYYY')
                 } else {

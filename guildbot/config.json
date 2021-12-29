@@ -137,7 +137,7 @@
         "dayETClearSailing_Check": 90,
         "dayETClearSailing_MaybeMIA": 150,
         "dayETClearSailing_MIA": 180,
-        "dayETClearSailing_MIANoDrop": 366,
+        "dayETClearSailing_MIANoDrop": 270,
         "dayETTargetSpotted": 360,
         "dayETNoResponse": 28,
         "dayETNoResponse_LastRites": 21,
@@ -165,8 +165,9 @@
         "rptElvenExport": true,
        
 
-        "testchunk": 95,
+        "testchunk": 150,
         "retryAttemptMax":  15, 
+        "clearCountLoadPercent": 5,
 
         "rl": {
             "bot": {"remainingMax": 30, "remainingSafety": 6, "timeoutBasePeriod": 5000, "timeoutMinPeriod": 2250, "timeoutForcePause": 12000}, 
@@ -179,7 +180,7 @@
         "apiErrorMessageChat_Removed": "You cannot do this because your chat privileges have been removed",
 
         "debug": true,
-        "debugVerbose": false,
+        "debugVerbose": true,
         "debugConsole": false,
         "debugAPI": false,
         "fileOutput": true 
@@ -198,8 +199,8 @@
     
     },
     "testing": {
-        "outputFilePrefix": "test-",
-        "outputLogMax":  3,
+        "outputFilePrefix": "test",
+        "outputLogMax":  4,
 
         "hailLangAvail": ["en","de","fr"],
 
@@ -218,7 +219,23 @@
         
         "debugConsole": true,
         "debugVerbose": true,
-        "debugAPI": false
+        "debugAPI": false,
+
+        "testchunk": 95
+    },
+    "repliRun": {
+        "outputFilePrefix": "",
+        "outputLogMax":  1,
+
+        "hailLangAvail": ["en"],
+
+        "rptElvenExport": true,
+        
+        "debugConsole": true,
+        "debugVerbose": true,
+        "debugAPI": false,
+
+        "testchunk": 95
     }
 
 }
