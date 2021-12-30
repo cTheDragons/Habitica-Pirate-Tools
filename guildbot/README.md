@@ -3,7 +3,7 @@ Core code to run @GuildBot. In order to "track" ~~ships~~ guilds it uses Trello.
 
 ## Run command
 guildbot.js is the cored code. The primary command is guildbot.completeRun.
-Paramaters are:
+Parameters are:
 + **modeEnvironment**: config environment to run, 
 + **testOnlyThisGuild**: guild id if only single guild to be tested. Otherwise zero length string(. ,
 + **botId**: Override botId instead of using one from the config file.  (Useful of repl.it)
@@ -180,3 +180,7 @@ Parameter file to run for GuildBot. Each top level key. is a particular mode for
 ## configText.json
 
 Text used by @GuildBot to report to pirates, elves, and Admirals, regarding status of ships and/or treasure maps. These are not hails as they are kept in locale, so they can be translated to multiple languages. All variables are kept with <%= ParaName %>.
+
+
+## External Language Input
+The code only file used in /common/locales is guildbot.js. 
