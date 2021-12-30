@@ -1,258 +1,258 @@
 {
   "Recovery & Support Groups / Mental & Physical Health": {
-    "cat": "catRecove",
+    "cx": "cxRecove",
     "sub": "subRecove_MentalPhysicalHealth"
   },
   "Fandom & RolePlay / Members of Other Sites & Web-Communities": {
-    "cat": "catFandom",
+    "cx": "cxFandom",
     "sub": "subFandom_MembersofOtherSitesWebCommunities"
   },
   "Language & Local Community Guilds / Countries & Languages": {
-    "cat": "catLangua",
+    "cx": "cxLangua",
     "sub": "subLangua_CountriesLanguages"
   },
   "The World of Habitica / Party Chat Guilds": {
-    "cat": "catWorldH",
+    "cx": "cxWorldH",
     "sub": "subWorldH_PartyChatGuilds"
   },
   "Getting Organized / Goal Setting & Accountability": {
-    "cat": "catGettin",
+    "cx": "cxGettin",
     "sub": "subGettin_GoalSettingAccountability"
   },
   "Belief Structures / Belief Structures": {
-    "cat": "catBelief",
+    "cx": "cxBelief",
     "sub": "subBelief_BeliefStructures"
   },
   "Self-Improvement / Be Your Best Self": {
-    "cat": "catSelfIm",
+    "cx": "cxSelfIm",
     "sub": "subSelfIm_BeYourBestSelf"
   },
   "Fandom & RolePlay / Other Role Play": {
-    "cat": "catFandom",
+    "cx": "cxFandom",
     "sub": "subFandom_OtherRolePlay"
   },
   "Health & Fitness / Fitness": {
-    "cat": "catHealth",
+    "cx": "cxHealth",
     "sub": "subHealth_Fitness"
   },
   "Self-Improvement / Challenge Yourself": {
-    "cat": "catSelfIm",
+    "cx": "cxSelfIm",
     "sub": "subSelfIm_ChallengeYourself"
   },
   "The World of Habitica / Contributor Guilds": {
-    "cat": "catWorldH",
+    "cx": "cxWorldH",
     "sub": "subWorldH_ContributorGuilds"
   },
   "Creative Pursuits / Writing": {
-    "cat": "catCreati",
+    "cx": "cxCreati",
     "sub": "subCreati_Writing"
   },
   "Self-Improvement / The Way You Are": {
-    "cat": "catSelfIm",
+    "cx": "cxSelfIm",
     "sub": "subSelfIm_TheWayYouAre"
   },
   "Gaming / Electronic Play": {
-    "cat": "catGaming",
+    "cx": "cxGaming",
     "sub": "subGaming_ElectronicPlay"
   },
   "Creative Pursuits / Art": {
-    "cat": "catCreati",
+    "cx": "cxCreati",
     "sub": "subCreati_Art"
   },
   "Fandom & RolePlay / Fantasy": {
-    "cat": "catFandom",
+    "cx": "cxFandom",
     "sub": "subFandom_Fantasy"
   },
   "Language & Local Community Guilds / Local Communities & Organizations": {
-    "cat": "catLangua",
+    "cx": "cxLangua",
     "sub": "subLangua_LocalCommunitiesOrganizations"
   },
   "Self-Improvement / Broaden Your Horizons": {
-    "cat": "catSelfIm",
+    "cx": "cxSelfIm",
     "sub": "subSelfIm_BroadenYourHorizons"
   },
   "Self-Improvement / Look on the Bright Side": {
-    "cat": "catSelfIm",
+    "cx": "cxSelfIm",
     "sub": "subSelfIm_LookontheBrightSide"
   },
   "Occupations & Fields of Study / Social Sciences & Humanities": {
-    "cat": "catOccupa",
+    "cx": "cxOccupa",
     "sub": "subOccupa_SocialSciencesHumanities"
   },
   "The World of Habitica / Help & Support": {
-    "cat": "catWorldH",
+    "cx": "cxWorldH",
     "sub": "subWorldH_HelpSupport"
   },
   "Self-Improvement / Mindfulness": {
-    "cat": "catSelfIm",
+    "cx": "cxSelfIm",
     "sub": "subSelfIm_Mindfulness"
   },
   "Creative Pursuits / Music": {
-    "cat": "catCreati",
+    "cx": "cxCreati",
     "sub": "subCreati_Music"
   },
   "Getting Organized / Methods to Stop the Madness": {
-    "cat": "catGettin",
+    "cx": "cxGettin",
     "sub": "subGettin_MethodstoStoptheMadness"
   },
   "Scholarly Pursuits / Reading": {
-    "cat": "catSchola",
+    "cx": "cxSchola",
     "sub": "subSchola_Reading"
   },
   "Computers / Development & Design": {
-    "cat": "catComput",
+    "cx": "cxComput",
     "sub": "subComput_DevelopmentDesign"
   },
   "Scholarly Pursuits / The Academic Life": {
-    "cat": "catSchola",
+    "cx": "cxSchola",
     "sub": "subSchola_TheAcademicLife"
   },
   "Fandom & RolePlay / General Fandom Discussion": {
-    "cat": "catFandom",
+    "cx": "cxFandom",
     "sub": "subFandom_GeneralFandomDiscussion"
   },
   "Occupations & Fields of Study / STEM": {
-    "cat": "catOccupa",
+    "cx": "cxOccupa",
     "sub": "subOccupa_STEM"
   },
   "Fandom & RolePlay / Science Fiction, Mystery, & Horror": {
-    "cat": "catFandom",
+    "cx": "cxFandom",
     "sub": "subFandom_ScienceFictionMysteryHorror"
   },
   "Health & Fitness / Nutrition": {
-    "cat": "catHealth",
+    "cx": "cxHealth",
     "sub": "subHealth_Nutrition"
   },
   "Self-Improvement / Relationships": {
-    "cat": "catSelfIm",
+    "cx": "cxSelfIm",
     "sub": "subSelfIm_Relationships"
   },
   "The World Around You / Flora & Fauna": {
-    "cat": "catWorldA",
+    "cx": "cxWorldA",
     "sub": "subWorldA_FloraFauna"
   },
   "Creative Pursuits / Food & Beverage": {
-    "cat": "catCreati",
+    "cx": "cxCreati",
     "sub": "subCreati_FoodBeverage"
   },
   "Fandom & RolePlay / Anime & Manga": {
-    "cat": "catFandom",
+    "cx": "cxFandom",
     "sub": "subFandom_AnimeManga"
   },
   "Gaming / Board, TableTop, & Live Action": {
-    "cat": "catGaming",
+    "cx": "cxGaming",
     "sub": "subGaming_BoardTableTopLiveAction"
   },
   "Getting Organized / Cleaning House": {
-    "cat": "catGettin",
+    "cx": "cxGettin",
     "sub": "subGettin_CleaningHouse"
   },
   "Occupations & Fields of Study / Making a Living": {
-    "cat": "catOccupa",
+    "cx": "cxOccupa",
     "sub": "subOccupa_MakingaLiving"
   },
   "The World Around You / Activism": {
-    "cat": "catWorldA",
+    "cx": "cxWorldA",
     "sub": "subWorldA_Activism"
   },
   "Creative Pursuits / Stage & Screen": {
-    "cat": "catCreati",
+    "cx": "cxCreati",
     "sub": "subCreati_StageScreen"
   },
   "Fandom & RolePlay / Podcasts": {
-    "cat": "catFandom",
+    "cx": "cxFandom",
     "sub": "subFandom_Podcasts"
   },
   "Creative Pursuits / Crafting & Decorating": {
-    "cat": "catCreati",
+    "cx": "cxCreati",
     "sub": "subCreati_CraftingDecorating"
   },
   "Language & Local Community Guilds / Language Learning": {
-    "cat": "catLangua",
+    "cx": "cxLangua",
     "sub": "subLangua_LanguageLearning"
   },
   "The World of Habitica / Beyond the Tavern": {
-    "cat": "catWorldH",
+    "cx": "cxWorldH",
     "sub": "subWorldH_BeyondtheTavern"
   },
   "The World of Habitica / Bug & Suggestion Reports": {
-    "cat": "catWorldH",
+    "cx": "cxWorldH",
     "sub": "subWorldH_BugSuggestionReports"
   },
   "Computers / Programming Languages": {
-    "cat": "catComput",
+    "cx": "cxComput",
     "sub": "subComput_ProgrammingLanguages"
   },
   "Fandom & RolePlay / Comics & Animation": {
-    "cat": "catFandom",
+    "cx": "cxFandom",
     "sub": "subFandom_ComicsAnimation"
   },
   "Gaming / Gaming Communities": {
-    "cat": "catGaming",
+    "cx": "cxGaming",
     "sub": "subGaming_GamingCommunities"
   },
   "Health & Fitness / The Great Outdoors": {
-    "cat": "catHealth",
+    "cx": "cxHealth",
     "sub": "subHealth_TheGreatOutdoors"
   },
   "Occupations & Fields of Study / Medicine": {
-    "cat": "catOccupa",
+    "cx": "cxOccupa",
     "sub": "subOccupa_Medicine"
   },
   "Recovery & Support Groups / Addiction Recovery": {
-    "cat": "catRecove",
+    "cx": "cxRecove",
     "sub": "subRecove_AddictionRecovery"
   },
   "The World Around You / Altruism": {
-    "cat": "catWorldA",
+    "cx": "cxWorldA",
     "sub": "subWorldA_Altruism"
   },
   "Getting Organized / Money Matters": {
-    "cat": "catGettin",
+    "cx": "cxGettin",
     "sub": "subGettin_MoneyMatters"
   },
   "Health & Fitness / Healthy Lifestyle": {
-    "cat": "catHealth",
+    "cx": "cxHealth",
     "sub": "subHealth_HealthyLifestyle"
   },
   "The World of Habitica / Habiticans Being Awesome": {
-    "cat": "catWorldH",
+    "cx": "cxWorldH",
     "sub": "subWorldH_HabitcansBeingAwesome"
   },
   "Creative Pursuits / DIY, Crafting & Decorating": {
-    "cat": "catCreati",
+    "cx": "cxCreati",
     "sub": "subCreati_DIY"
   },
   "Health & Fitness / Sleep Hygiene": {
-    "cat": "catHealth",
+    "cx": "cxHealth",
     "sub": "subHealth_SleepHygiene"
   },
   "The World of Habitica / Class System": {
-    "cat": "catWorldH",
+    "cx": "cxWorldH",
     "sub": "subWorldH_ClassSystem"
   },
   "Occupations & Fields of Study / Trade Craft": {
-    "cat": "catOccupa",
+    "cx": "cxOccupa",
     "sub": "subOccupa_TradeCraft"
   },
   "Recovery & Support Groups / Adulting": {
-    "cat": "catRecove",
+    "cx": "cxRecove",
     "sub": "subRecove_Adulting"
   },
   "Scholarly Pursuits / Online Courses": {
-    "cat": "catSchola",
+    "cx": "cxSchola",
     "sub": "subSchola_OnlineCourses"
   },
   "Creative Pursuits / Graphic Design": {
-    "cat": "catCreati",
+    "cx": "cxCreati",
     "sub": "subCreati_GraphicDesign"
   },
   "Creative Pursuits / Video & Photography": {
-    "cat": "catCreati",
+    "cx": "cxCreati",
     "sub": "subCreati_VideoPhotography"
   },
   "Getting Organized / Seasonal & Life Events": {
-    "cat": "catGettin",
+    "cx": "cxGettin",
     "sub": "subGettin_SeasonalLifeEvents"
   }
 }

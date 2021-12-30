@@ -1,13 +1,13 @@
 {
-  "lastupdated": "2021-12-29T04:44:42.292",
+  "lastupdated": "2021-12-30T04:29:45.369",
   "stats": {
     "public": {
-      "justLaunched": 15,
+      "justLaunched": 16,
       "targetSpotted": 29,
       "captianMIA": 22,
       "captured": 0,
       "lastRites": 4,
-      "doNotHail": 18,
+      "doNotHail": 20,
       "bermudaTriangle": 19
     },
     "private": {
@@ -24,12 +24,24 @@
       "private": 0
     },
     "total": {
-      "public": 107,
+      "public": 110,
       "private": 1
     }
   },
   "guilds": {
     "justLaunched": [
+      {
+        "id": "a27d4763-aed1-41e9-bc69-42694c6cd6fe",
+        "name": "Learn English",
+        "url": "https://habitica.com/groups/guild/a27d4763-aed1-41e9-bc69-42694c6cd6fe",
+        "actionStarted": "2021-12-30"
+      },
+      {
+        "id": "cd4f0187-2c59-43d1-8536-f59251ed2af7",
+        "name": "{AAC} Active & Competitive ",
+        "url": "https://habitica.com/groups/guild/cd4f0187-2c59-43d1-8536-f59251ed2af7",
+        "actionStarted": "2021-12-30"
+      },
       {
         "id": "66985f60-d313-4bd0-bd2b-9bd2ebd83b6a",
         "name": "Busy Bees",
@@ -113,12 +125,6 @@
         "name": "Professional Writers of Habitica",
         "url": "https://habitica.com/groups/guild/d4afb7a3-f105-4587-981a-655557800824",
         "actionStarted": "2021-12-13T00:00:00.000Z"
-      },
-      {
-        "id": "37447fce-444d-441b-b3bd-40b3fca20928",
-        "name": "cool friends who do stuff guild",
-        "url": "https://habitica.com/groups/guild/37447fce-444d-441b-b3bd-40b3fca20928",
-        "actionStarted": "2021-12-09T00:00:00.000Z"
       }
     ],
     "targetSpotted": [
@@ -126,7 +132,7 @@
         "id": "d37b55d5-a079-4b50-9210-d8bb2e8f3147",
         "name": "Time Lord Academy",
         "url": "https://habitica.com/groups/guild/d37b55d5-a079-4b50-9210-d8bb2e8f3147",
-        "actionStarted": "2021-12-29"
+        "actionStarted": "2021-12-29T00:00:00.000Z"
       },
       {
         "id": "501e5438-d0c6-4bc9-a2cb-03d35d07bfcf",
@@ -389,10 +395,22 @@
     ],
     "doNotHail": [
       {
+        "id": "d6fabec6-2180-462b-a030-d66d6419bacd",
+        "name": "走上人生巅峰公会-------------chinese｜china｜中文｜中国｜大陆｜国内｜汉语｜华语",
+        "url": "https://habitica.com/groups/guild/d6fabec6-2180-462b-a030-d66d6419bacd",
+        "actionStarted": "2021-12-30T04:26:16.276+00:00"
+      },
+      {
+        "id": "5c6990a0-3741-4021-ac24-5e1046d11351",
+        "name": "Ninjas Cerebrales (Grupo Oficial)",
+        "url": "https://habitica.com/groups/guild/5c6990a0-3741-4021-ac24-5e1046d11351",
+        "actionStarted": "2021-12-30T04:26:16.423+00:00"
+      },
+      {
         "id": "d38a41bd-344b-4f47-a370-3470f87f4f7d",
         "name": "Concurseiros Brasil 🇧🇷",
         "url": "https://habitica.com/groups/guild/d38a41bd-344b-4f47-a370-3470f87f4f7d",
-        "actionStarted": "2021-12-29T04:44:33.145+00:00"
+        "actionStarted": "2021-12-29T04:44:32.913Z"
       },
       {
         "id": "7a5bdf7a-6b14-4f9e-9c1a-ae4029abf499",
@@ -617,21 +635,21 @@
         "name": "Fortellingenes Dal ~ The Valley of Tales ✨",
         "url": "https://habitica.com/groups/guild/78574f07-329a-44b9-ad78-f66db12c83cf",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "7e3d53c0-f0de-4ae0-9a4c-07995bf6173d",
         "name": "Role Players in Exile :)",
         "url": "https://habitica.com/groups/guild/7e3d53c0-f0de-4ae0-9a4c-07995bf6173d",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "4b04908e-4b10-4f7f-9f04-1ba0f5d7c1b9",
         "name": "Unitarian Universalist Habiticans",
         "url": "https://habitica.com/groups/guild/4b04908e-4b10-4f7f-9f04-1ba0f5d7c1b9",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "99c55a8d-db17-4f1c-b5a1-defcaa6c0bf3",
@@ -645,91 +663,91 @@
         "name": "Space Invaders! (A guild for those who love space)",
         "url": "https://habitica.com/groups/guild/d64cb70e-66ef-43b7-8842-0ab2e9633942",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "09a60b89-3151-450c-a6d3-30dde124606a",
         "name": "Dancers",
         "url": "https://habitica.com/groups/guild/09a60b89-3151-450c-a6d3-30dde124606a",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "15d9aeca-50d9-4564-b955-41333ce60d68",
         "name": "Coffee Enthusiasts",
         "url": "https://habitica.com/groups/guild/15d9aeca-50d9-4564-b955-41333ce60d68",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "b8b0be57-d9fb-4cd3-8c20-7035003261b8",
         "name": "The Cozy Inn of the Drowsy Dragon -- Hypersomnia and Narcolepsy",
         "url": "https://habitica.com/groups/guild/b8b0be57-d9fb-4cd3-8c20-7035003261b8",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "53584f75-e6d9-4306-931b-717ff11b4059",
         "name": "Creative Writing",
         "url": "https://habitica.com/groups/guild/53584f75-e6d9-4306-931b-717ff11b4059",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "dd00e413-51d4-4797-90e0-6cef1da7b4ac",
         "name": "Loved ones of those with Depression/Anxiety",
         "url": "https://habitica.com/groups/guild/dd00e413-51d4-4797-90e0-6cef1da7b4ac",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "c74682ab-c799-4a95-a4d9-84d74039fee3",
         "name": "Applying to College",
         "url": "https://habitica.com/groups/guild/c74682ab-c799-4a95-a4d9-84d74039fee3",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "ebb9bd3c-f413-49ad-bdeb-1ffcb249debb",
         "name": "LARP (Live Action Role Play)",
         "url": "https://habitica.com/groups/guild/ebb9bd3c-f413-49ad-bdeb-1ffcb249debb",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "160e53f6-ca03-4e78-a4c7-8152689eadd5",
         "name": "Fighting the Anorexia Demon",
         "url": "https://habitica.com/groups/guild/160e53f6-ca03-4e78-a4c7-8152689eadd5",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "4d1e74d7-5275-4abe-ad12-a78c88542bc6",
         "name": "PCOS Support Guild",
         "url": "https://habitica.com/groups/guild/4d1e74d7-5275-4abe-ad12-a78c88542bc6",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "eba8090f-fd35-4a19-9208-ac72d4865c39",
         "name": "Wait, What Was I Doing?: A Guild For Librarians",
         "url": "https://habitica.com/groups/guild/eba8090f-fd35-4a19-9208-ac72d4865c39",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "87cba1d9-3fc4-456d-9f9e-d30c653e4c1e",
         "name": "reparenting (innerkids) and DID support",
         "url": "https://habitica.com/groups/guild/87cba1d9-3fc4-456d-9f9e-d30c653e4c1e",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       },
       {
         "id": "f14bd2b7-86bd-49c4-b010-72a2cfbb9f4c",
         "name": "Bullet Journalers",
         "url": "https://habitica.com/groups/guild/f14bd2b7-86bd-49c4-b010-72a2cfbb9f4c",
         "actionStarted": "",
-        "return": "2021-12-30T00:00:00.000Z"
+        "return": "2021-12-31T00:00:00.000Z"
       }
     ]
   }

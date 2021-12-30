@@ -97,7 +97,7 @@ if ((botId != '') || (botId != undefined)){
 }
 
 //Transalation of label names to json tags.
-const gConfigCatLabelTranslate = require('./configCatLabelTranslate.json');
+const constCxLabelTranslate = require('./configCxLabelTranslate.json');
 
 //////////////////////////////////////////////////////////////////////
 ////   Global External Reports      //////////////////////////////
@@ -156,8 +156,8 @@ var guildsHasAdmiralReportLabel = [] //hold list of guilds that have Admrial Lab
 var reportWarningFastMoving; //holds the guilds that guilds from High activity from Hail
 var reportWarningAlmostInTheOcean; //holds for where the hail is almost in the Ocean 
 var reportWarningReHail; //holds guilds that guilds from require rehail.
-var reportWarningNoRoster; //holds the guilds id that has missing Sky Blue Category (Reported at the end)
-var reportWarningOverRoster; //holds the guilds id that has more than one Sky Blue Category (Reported at the end)
+var reportWarningNoRoster; //holds the guilds id that has missing Sky Blue Classification (Reported at the end)
+var reportWarningOverRoster; //holds the guilds id that has more than one Sky Blue Classification (Reported at the end)
 var reportWarningOverRoster_Label; //object array holds each label for report. 
 
 
@@ -1154,7 +1154,7 @@ function fetchAndUpdateAllData(){
     var missingLanguage = false
     var testMissingLanguage = false
     var labelLangCount = 0
-    var labelCategoryCount = 0
+    var labelClassificationCount = 0
 
     var ajaxRunningCount_guildsToTest = []
 
@@ -1188,8 +1188,8 @@ function fetchAndUpdateAllData(){
             missingLanguage = false
             testMissingLanguage = false
             labelLangCount = 0
-            labelCategoryCount = 0
-            labelCategory = []
+            labelClassificationCount = 0
+            labelClassification = []
            
 
             //check if mising language & other label actions
@@ -1199,19 +1199,19 @@ function fetchAndUpdateAllData(){
                 if (obj2.id == logLabelDropAnchor) dropAnchor = true
                 if (obj2.id == logLabelAdmiralReport) guildsHasAdmiralReportLabel.push(obj.name)
                 if (obj2.id == logLabelRemoveActiveComment) removeActiveComment = true
-                if (obj2.color == gConfig.labelColour_Category){
-                    labelCategoryCount++
-                    labelCategory.push(obj2.name)
+                if (obj2.color == gConfig.labelColour_Classification){
+                    labelClassificationCount++
+                    labelClassification.push(obj2.name)
                 }
             });
 
             if ((testMissingLanguage) && (labels_allLanguages.length != labelLangCount)) missingLanguage = true
             
-            //add to missingCategories or too many categories. These will be reported at the end.
-            if ((labelCategoryCount == 0) && (obj.idList == logListIdClearSailing) && (reportWarningNoRoster.indexOf(obj.name) < 0)) reportWarningNoRoster.push(obj.name) // Don't care if currently under pirate action (or private)
-            if ((labelCategoryCount > 1) && (reportWarningOverRoster.indexOf(obj.name) <0)){
+            //add to missing Classification or too many Classification. These will be reported at the end.
+            if ((labelClassificationCount == 0) && (obj.idList == logListIdClearSailing) && (reportWarningNoRoster.indexOf(obj.name) < 0)) reportWarningNoRoster.push(obj.name) // Don't care if currently under pirate action (or private)
+            if ((labelClassificationCount > 1) && (reportWarningOverRoster.indexOf(obj.name) <0)){
                 reportWarningOverRoster.push(obj.name)
-                reportWarningOverRoster_Label[obj.name] = labelCategory
+                reportWarningOverRoster_Label[obj.name] = labelClassification
             }
 
             //Notes on Tests
@@ -1400,7 +1400,7 @@ function fetchAndUpdateAllData(){
                 //check if official guild (dont trust the label)
                 if (tempBox.categories != undefined){
                     tempBox.categories.forEach( function (obj, index){
-                        if (obj.slug == gConfig.habiticaCategoryOfficial) guildsLatestData[guildId].habiticaOfficial = true
+                        if (obj.slug == gConfig.habiticaClassificationOfficial) guildsLatestData[guildId].habiticaOfficial = true
                     })
                 } else {
                     if (gConfig.debug) consoleLogToFile('******** ERROR: Cant see categories for ' + guildId)
@@ -4021,7 +4021,7 @@ function reportResults(){
                     case gConfig.labelColour_LanguageSecondary:
                         if (lang.indexOf(obj2.name.substring(0,2)) < 0 ) lang.push(obj2.name.substring(0,2))
                         break;
-                    case gConfig.labelColour_Category:
+                    case gConfig.labelColour_Classification:
                         group = obj2.name
                         break;
                     case gConfig.labelColour_DNH:
@@ -4034,10 +4034,10 @@ function reportResults(){
                 })
 
 
-                //Only add if there is a category
+                //Only add if there is a Classification
                 if (group != ''){
-                    groupname[0] = gConfigCatLabelTranslate[group].cat
-                    groupname[1] = gConfigCatLabelTranslate[group].sub
+                    groupname[0] = constCxLabelTranslate[group].cx
+                    groupname[1] = constCxLabelTranslate[group].sub
 
                     //finalise langauges
                     if (noEnglish == false){
@@ -4056,7 +4056,7 @@ function reportResults(){
                         }
                     }
 
-                    if (groupname[1] != undefined){
+                    if ((groupname[0] != undefined) && (groupname[1] != undefined)){
                         element = {
                             'id': obj.name, 
                             'url': gConfig.habiticaGuildUrl + obj.name,
@@ -4068,8 +4068,8 @@ function reportResults(){
                             'lang': lang,
                             'langPrimary': langPrimary,
                             'langAll' : langAll,
-                            'category': groupname[0],
-                            'subcategory': groupname[1],
+                            'classification': groupname[0],
+                            'subclassification': groupname[1],
                             'created': masterList[obj.name].created
                         }
 
@@ -4077,8 +4077,8 @@ function reportResults(){
                         reportGus.guild[obj.name] = _.clone(element, true)
                     } else {
                         if (group != ''){
-                            consoleLogToFile(' ******** ERROR - Missing entry in configCatLabelTranslate ********')
-                            if (debugConsole) console.log(' ******** ERROR - Missing entry in configCatLabelTranslate ********')
+                            consoleLogToFile(' ******** ERROR - Missing entry in configCxLabelTranslate ********')
+                            if (debugConsole) console.log(' ******** ERROR - Missing entry in configCxLabelTranslate ********')
                         }
                     }
                 }

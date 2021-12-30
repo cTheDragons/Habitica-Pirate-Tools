@@ -1,4 +1,139 @@
 {
+  "2021-12-30": {
+    "overall": {
+      "public": {
+        "total": 1101,
+        "clearSailing": 991,
+        "pirateAction": 110,
+        "droppedAnchor": 15
+      },
+      "private": {
+        "total": 15,
+        "privateNavy": 14,
+        "pirateAction": 1,
+        "droppedAnchor": 0
+      }
+    },
+    "publicColor": {
+      "gold": 176,
+      "silver": 406,
+      "bronze": 519
+    },
+    "pirateAction": {
+      "public": {
+        "justLaunched": 16,
+        "targetSpotted": 29,
+        "captianMIA": 22,
+        "captured": 0,
+        "lastRites": 4,
+        "doNotHail": 20,
+        "bermudaTriangle": 19
+      },
+      "private": {
+        "justLaunched": 0,
+        "targetSpotted": 0,
+        "captianMIA": 0,
+        "captured": 0,
+        "lastRites": 0,
+        "doNotHail": 1,
+        "bermudaTriangle": 0
+      }
+    },
+    "publicLang": {
+      "lang": {
+        "en": 950,
+        "pt": 37,
+        "zh": 28,
+        "ru": 18,
+        "fr": 29,
+        "de": 19,
+        "es": 26,
+        "ja": 27,
+        "ko": 12,
+        "ar": 10,
+        "pl": 8,
+        "sv": 7,
+        "it": 7,
+        "nl": 7,
+        "fi": 6,
+        "cs": 7,
+        "hu": 6,
+        "tr": 6,
+        "uk": 6,
+        "da": 6,
+        "no": 6,
+        "et": 4,
+        "he": 6,
+        "id": 6,
+        "ms": 5,
+        "sk": 6,
+        "tl": 6,
+        "eu": 4,
+        "bg": 5,
+        "eo": 5,
+        "lt": 5,
+        "th": 5,
+        "tk": 5,
+        "cy": 5,
+        "el": 5,
+        "hr": 5,
+        "bs": 5
+      },
+      "langPrimary": {
+        "en": 949,
+        "pt": 36,
+        "zh": 26,
+        "ru": 18,
+        "fr": 26,
+        "de": 18,
+        "es": 23,
+        "ja": 20,
+        "ko": 10,
+        "ar": 9,
+        "pl": 8,
+        "sv": 7,
+        "it": 6,
+        "nl": 7,
+        "fi": 6,
+        "cs": 7,
+        "hu": 6,
+        "tr": 6,
+        "uk": 6,
+        "da": 6,
+        "no": 6,
+        "et": 4,
+        "he": 6,
+        "id": 6,
+        "ms": 5,
+        "sk": 6,
+        "tl": 6,
+        "eu": 4,
+        "bg": 5,
+        "eo": 5,
+        "lt": 5,
+        "th": 5,
+        "tk": 5,
+        "cy": 5,
+        "el": 4,
+        "hr": 5,
+        "bs": 5
+      },
+      "langAll": 4,
+      "langPrimaryNoEng": 136
+    },
+    "flow": {
+      "launched": {
+        "public": 2,
+        "private": 0
+      },
+      "sunk": {
+        "public": 0,
+        "lifeLengthPublic": [],
+        "private": 0,
+        "lifeLengthPrivate": []
+      }
+    }
+  },
   "2021-12-29": {
     "overall": {
       "public": {

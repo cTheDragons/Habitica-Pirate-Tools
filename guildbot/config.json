@@ -103,7 +103,7 @@
         "labelColour_DNH": "red",
         "labelColour_Language": "blue",
         "labelColour_LanguageSecondary": "pink",
-        "labelColour_Category": "sky",
+        "labelColour_Classification": "sky",
 
         "logLabelDNHOfficialName": "Habitica Official Guild",
         "logLabelNonEnglishHailName": "Non English Hail",
@@ -199,8 +199,12 @@
     
     },
     "testing": {
+		"logId": "TRELLO-USER-ID-TO-BE-SET",
+        "logToken": "TRELLO-TOKEN-TO-BE-SET",
+
+		
         "outputFilePrefix": "test_",
-        "outputLogMax":  4,
+        "outputLogMax":  3,
 
         "hailLangAvail": ["en","de","fr"],
 
@@ -215,7 +219,7 @@
 
         "weekdayReport": 4, 
 
-        "rptElvenExport": true,
+        "rptElvenExport": false,
         
         "debugConsole": true,
         "debugVerbose": true,

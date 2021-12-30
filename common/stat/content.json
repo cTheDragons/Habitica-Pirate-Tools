@@ -1,13 +1,13 @@
 {
-  "category": {
-    "catBelief": [
+  "classification": {
+    "cxBelief": [
       "subBelief_BeliefStructures"
     ],
-    "catComput": [
+    "cxComput": [
       "subComput_DevelopmentDesign",
       "subComput_ProgrammingLanguages"
     ],
-    "catCreati": [
+    "cxCreati": [
       "subCreati_Writing",
       "subCreati_Art",
       "subCreati_Music",
@@ -18,7 +18,7 @@
       "subCreati_GraphicDesign",
       "subCreati_VideoPhotography"
     ],
-    "catFandom": [
+    "cxFandom": [
       "subFandom_MembersofOtherSitesWebCommunities",
       "subFandom_OtherRolePlay",
       "subFandom_Fantasy",
@@ -28,48 +28,48 @@
       "subFandom_Podcasts",
       "subFandom_ComicsAnimation"
     ],
-    "catGaming": [
+    "cxGaming": [
       "subGaming_ElectronicPlay",
       "subGaming_BoardTableTopLiveAction",
       "subGaming_GamingCommunities"
     ],
-    "catGettin": [
+    "cxGettin": [
       "subGettin_GoalSettingAccountability",
       "subGettin_MethodstoStoptheMadness",
       "subGettin_CleaningHouse",
       "subGettin_MoneyMatters",
       "subGettin_SeasonalLifeEvents"
     ],
-    "catHealth": [
+    "cxHealth": [
       "subHealth_Fitness",
       "subHealth_Nutrition",
       "subHealth_TheGreatOutdoors",
       "subHealth_HealthyLifestyle",
       "subHealth_SleepHygiene"
     ],
-    "catLangua": [
+    "cxLangua": [
       "subLangua_CountriesLanguages",
       "subLangua_LocalCommunitiesOrganizations",
       "subLangua_LanguageLearning"
     ],
-    "catOccupa": [
+    "cxOccupa": [
       "subOccupa_SocialSciencesHumanities",
       "subOccupa_STEM",
       "subOccupa_MakingaLiving",
       "subOccupa_Medicine",
       "subOccupa_TradeCraft"
     ],
-    "catRecove": [
+    "cxRecove": [
       "subRecove_MentalPhysicalHealth",
       "subRecove_AddictionRecovery",
       "subRecove_Adulting"
     ],
-    "catSchola": [
+    "cxSchola": [
       "subSchola_Reading",
       "subSchola_TheAcademicLife",
       "subSchola_OnlineCourses"
     ],
-    "catSelfIm": [
+    "cxSelfIm": [
       "subSelfIm_BeYourBestSelf",
       "subSelfIm_ChallengeYourself",
       "subSelfIm_TheWayYouAre",
@@ -78,12 +78,12 @@
       "subSelfIm_Mindfulness",
       "subSelfIm_Relationships"
     ],
-    "catWorldA": [
+    "cxWorldA": [
       "subWorldA_FloraFauna",
       "subWorldA_Activism",
       "subWorldA_Altruism"
     ],
-    "catWorldH": [
+    "cxWorldH": [
       "subWorldH_PartyChatGuilds",
       "subWorldH_ContributorGuilds",
       "subWorldH_HelpSupport",
