@@ -1,0 +1,20 @@
+{
+  "lastupdated": "2020-03-29T05:39:33.089",
+  "guild": {
+    "5481ccf3-5d2d-48a9-a871-70a7380cee5a": {
+      "leader": "00000000-0000-0000-0000-0000000000000",
+      "name": "Habitica Help: Ask a Question",
+      "memberCount": 115478,
+      "summary": "This Guild aims to give users a dedicated space to ask questions about Habitica, so please feel free to ask whatever you like! And if you're an experienced user, you can join the Guild and help answer any questions that come up. Everyone is welcome!",
+      "privacy": "public",
+      "created": "2019-02-18T00:00:00.000Z"
+    },
+    "f2db2a7f-13c5-454d-b3ee-ea1f5089e601": {
+      "leader": "00000000-0000-0000-0000-0000000000000",
+      "name": "Party Wanted (Looking for Group)",
+      "memberCount": 84382,
+      "summary": "Want to join a Party so you can quest together and stay accountable? Hoping to advertise your Party for new members? Look no further! This is the best place for you to find a group. Please do not look for Parties in the Tavern!",
+      "privacy": "public",
+      "created": "2019-02-18T00:00:00.000Z"
+    }
+}
