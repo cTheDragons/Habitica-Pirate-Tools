@@ -16,7 +16,7 @@
         
         "folderLang": "./common/locale/",
         "fileLang": "guildbot.json",
-        "hailLangAvail": ["en"],
+        "hailLangAvail": ["en","fr"],
         "hailLangDefault": "en",
 
 		"botServerUrl": "https://habitica.com/api/v3",
@@ -199,10 +199,6 @@
     
     },
     "testing": {
-		"logId": "TRELLO-USER-ID-TO-BE-SET",
-        "logToken": "TRELLO-TOKEN-TO-BE-SET",
-
-		
         "outputFilePrefix": "test_",
         "outputLogMax":  3,
 
@@ -231,7 +227,7 @@
         "outputFilePrefix": "",
         "outputLogMax":  1,
 
-        "hailLangAvail": ["en"],
+        "hailLangAvail": ["en","fr"],
 
         "rptElvenExport": true,
         
