@@ -35,7 +35,7 @@ Parameter file to run for GuildBot. Each top level key. is a particular mode for
 
 + **folderLang**: Folder where language file translations to keep.
 + **fileLang**: Files used for GuildBot.
-+ **hailLangAvail**: Languages available for translations. Two language code kept in array. Eg. [*en*. *de*. *fr*].
++ **hailLangAvail**: Languages available for translations. Two language code kept in array. Eg. [*en*. *de*. *fr*]. To add a new one please see the Trello card "Adding a New Hail Language". 
 + **hailLangDefault**: Default 2 language code. Should be en for English.
 
 + **botServerUrl**: Overall Habitica API path.

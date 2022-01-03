@@ -1,28 +1,28 @@
 {
-  "lastupdated": "2021-12-30T08:08:31.385",
+  "lastupdated": "2022-01-03T13:03:30.891",
   "totals": {
-    "public": 1101,
-    "clearSailing": 989,
+    "public": 1107,
+    "clearSailing": 988,
     "sizeBreakdown": {
       "gold": 176,
-      "silver": 406,
-      "bronze": 519
+      "silver": 407,
+      "bronze": 524
     },
     "publicLang": {
       "lang": {
-        "en": 949,
+        "en": 951,
         "pt": 37,
         "zh": 28,
         "ru": 18,
-        "fr": 27,
+        "fr": 29,
         "de": 19,
-        "es": 23,
-        "ja": 26,
-        "ko": 11,
+        "es": 26,
+        "ja": 27,
+        "ko": 12,
         "ar": 10,
         "pl": 8,
         "sv": 7,
-        "it": 6,
+        "it": 7,
         "nl": 7,
         "fi": 6,
         "cs": 7,
@@ -49,13 +49,13 @@
         "bs": 5
       },
       "langPrimary": {
-        "en": 948,
+        "en": 950,
         "pt": 36,
         "zh": 26,
         "ru": 18,
         "fr": 26,
         "de": 18,
-        "es": 22,
+        "es": 23,
         "ja": 20,
         "ko": 10,
         "ar": 9,
@@ -83,7 +83,7 @@
         "th": 5,
         "tk": 5,
         "cy": 5,
-        "el": 5,
+        "el": 4,
         "hr": 5,
         "bs": 5
       },
@@ -92,6 +92,120 @@
     }
   },
   "guild": {
+    "d4afb7a3-f105-4587-981a-655557800824": {
+      "id": "d4afb7a3-f105-4587-981a-655557800824",
+      "url": "https://habitica.com/groups/guild/d4afb7a3-f105-4587-981a-655557800824",
+      "title": "Professional Writers of Habitica",
+      "summary": "A guild for those who write professionally or who wish to do so.  Writing may be your main source of income, a side gig, or perhaps you work for a non-profit as a volunteer and don't get paid at all.  Come share your wisdom, ideas and struggles.",
+      "memberCount": 15,
+      "memberColor": "bronze",
+      "official": false,
+      "lang": [
+        "en"
+      ],
+      "langPrimary": [
+        "en"
+      ],
+      "langAll": false,
+      "classification": "cxCreati",
+      "subclassification": "subCreati_Writing",
+      "created": "2021-12-13T00:00:00.000Z"
+    },
+    "37447fce-444d-441b-b3bd-40b3fca20928": {
+      "id": "37447fce-444d-441b-b3bd-40b3fca20928",
+      "url": "https://habitica.com/groups/guild/37447fce-444d-441b-b3bd-40b3fca20928",
+      "title": "cool friends who do stuff guild",
+      "summary": "this guild is for cool friends who do stuff. doing stuff together is more fun than doing it alone!",
+      "memberCount": 5,
+      "memberColor": "bronze",
+      "official": false,
+      "lang": [
+        "en"
+      ],
+      "langPrimary": [
+        "en"
+      ],
+      "langAll": false,
+      "classification": "cxWorldH",
+      "subclassification": "subWorldH_PartyChatGuilds",
+      "created": "2021-12-09T00:00:00.000Z"
+    },
+    "79a06d28-e218-4b5c-b37a-23ede7e6302a": {
+      "id": "79a06d28-e218-4b5c-b37a-23ede7e6302a",
+      "url": "https://habitica.com/groups/guild/79a06d28-e218-4b5c-b37a-23ede7e6302a",
+      "title": "Spirit Warriors",
+      "summary": "Mission : To challenge ourselves in body, mind, and spirit. To grow beyond our setbacks and limitations. To learn who we are by becoming all we are capable of being.  This is a guild for the ambitious, self-motivated, and those who love a challenge.",
+      "memberCount": 4,
+      "memberColor": "bronze",
+      "official": false,
+      "lang": [
+        "en"
+      ],
+      "langPrimary": [
+        "en"
+      ],
+      "langAll": false,
+      "classification": "cxSelfIm",
+      "subclassification": "subSelfIm_ChallengeYourself",
+      "created": "2021-12-06T00:00:00.000Z"
+    },
+    "688e8cb5-abd9-4d60-80ef-1dad60891e67": {
+      "id": "688e8cb5-abd9-4d60-80ef-1dad60891e67",
+      "url": "https://habitica.com/groups/guild/688e8cb5-abd9-4d60-80ef-1dad60891e67",
+      "title": "yggdrasil",
+      "summary": "You don't get superheros on day one, you get ordinary people who do extraordinary things",
+      "memberCount": 3,
+      "memberColor": "bronze",
+      "official": false,
+      "lang": [
+        "en"
+      ],
+      "langPrimary": [
+        "en"
+      ],
+      "langAll": false,
+      "classification": "cxWorldH",
+      "subclassification": "subWorldH_PartyChatGuilds",
+      "created": "2021-12-05T00:00:00.000Z"
+    },
+    "54e77184-0af5-4dec-8451-0da18606136c": {
+      "id": "54e77184-0af5-4dec-8451-0da18606136c",
+      "url": "https://habitica.com/groups/guild/54e77184-0af5-4dec-8451-0da18606136c",
+      "title": "The Knights of Blackstone",
+      "summary": "The Knights of Blackstone is a guild that is meant to be a safe haven for those who are having a tough time. We will help each other whenever we can. Phoenix will be posting daily motivation within the guild as well. Have a great day!",
+      "memberCount": 47,
+      "memberColor": "bronze",
+      "official": false,
+      "lang": [
+        "en"
+      ],
+      "langPrimary": [
+        "en"
+      ],
+      "langAll": false,
+      "classification": "cxSelfIm",
+      "subclassification": "subSelfIm_BeYourBestSelf",
+      "created": "2021-12-03T00:00:00.000Z"
+    },
+    "a349629d-9c7c-4550-8cc8-cf7dab93aef5": {
+      "id": "a349629d-9c7c-4550-8cc8-cf7dab93aef5",
+      "url": "https://habitica.com/groups/guild/a349629d-9c7c-4550-8cc8-cf7dab93aef5",
+      "title": "Animal Crossing",
+      "summary": "For fans of any of the animal crossing games, share your FC and find new friends, and join challenges involving keeping up with daily things in game and more to come.",
+      "memberCount": 176,
+      "memberColor": "silver",
+      "official": false,
+      "lang": [
+        "en"
+      ],
+      "langPrimary": [
+        "en"
+      ],
+      "langAll": false,
+      "classification": "cxGaming",
+      "subclassification": "subGaming_ElectronicPlay",
+      "created": "2019-08-06T00:00:00.000Z"
+    },
     "56052316-006d-4cc8-948a-d2b08669fbab": {
       "id": "56052316-006d-4cc8-948a-d2b08669fbab",
       "url": "https://habitica.com/groups/guild/56052316-006d-4cc8-948a-d2b08669fbab",
@@ -111,69 +225,12 @@
       "subclassification": "subWorldH_HelpSupport",
       "created": "2019-02-18T00:00:00.000Z"
     },
-    "79a06d28-e218-4b5c-b37a-23ede7e6302a": {
-      "id": "79a06d28-e218-4b5c-b37a-23ede7e6302a",
-      "url": "https://habitica.com/groups/guild/79a06d28-e218-4b5c-b37a-23ede7e6302a",
-      "title": "Spirit Warriors",
-      "summary": "Mission : To challenge ourselves in body, mind, and spirit. To grow beyond our setbacks and limitations. To learn who we are by becoming all we are capable of being.  This is a guild for the ambitious, self-motivated, and those who love a challenge.",
-      "memberCount": 3,
-      "memberColor": "bronze",
-      "official": false,
-      "lang": [
-        "en"
-      ],
-      "langPrimary": [
-        "en"
-      ],
-      "langAll": false,
-      "classification": "cxSelfIm",
-      "subclassification": "subSelfIm_ChallengeYourself",
-      "created": "2021-12-06T00:00:00.000Z"
-    },
-    "a349629d-9c7c-4550-8cc8-cf7dab93aef5": {
-      "id": "a349629d-9c7c-4550-8cc8-cf7dab93aef5",
-      "url": "https://habitica.com/groups/guild/a349629d-9c7c-4550-8cc8-cf7dab93aef5",
-      "title": "Animal Crossing",
-      "summary": "For fans of any of the animal crossing games, share your FC and find new friends, and join challenges involving keeping up with daily things in game and more to come.",
-      "memberCount": 175,
-      "memberColor": "silver",
-      "official": false,
-      "lang": [
-        "en"
-      ],
-      "langPrimary": [
-        "en"
-      ],
-      "langAll": false,
-      "classification": "cxGaming",
-      "subclassification": "subGaming_ElectronicPlay",
-      "created": "2019-08-06T00:00:00.000Z"
-    },
-    "54e77184-0af5-4dec-8451-0da18606136c": {
-      "id": "54e77184-0af5-4dec-8451-0da18606136c",
-      "url": "https://habitica.com/groups/guild/54e77184-0af5-4dec-8451-0da18606136c",
-      "title": "The Knights of Blackstone",
-      "summary": "The Knights of Blackstone is a guild that is meant to be a safe haven for those who are having a tough time. We will help each other whenever we can. Phoenix will be posting daily motivation within the guild as well. Have a great day!",
-      "memberCount": 44,
-      "memberColor": "bronze",
-      "official": false,
-      "lang": [
-        "en"
-      ],
-      "langPrimary": [
-        "en"
-      ],
-      "langAll": false,
-      "classification": "cxSelfIm",
-      "subclassification": "subSelfIm_BeYourBestSelf",
-      "created": "2021-12-03T00:00:00.000Z"
-    },
     "a061e31a-17a4-491d-b0e1-62c089476a4a": {
       "id": "a061e31a-17a4-491d-b0e1-62c089476a4a",
       "url": "https://habitica.com/groups/guild/a061e31a-17a4-491d-b0e1-62c089476a4a",
       "title": "3D Modeling Blender Guild",
       "summary": ":mortar_board: **Learning 3D modeling in Blender*** or any other software? Here you are at the right place to meet other people who want to improve their 3D modeling skills. Ask questions, help each other to stay motivated and complete challenges.",
-      "memberCount": 28,
+      "memberCount": 30,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -192,7 +249,7 @@
       "url": "https://habitica.com/groups/guild/2c861224-f89c-4bce-96c2-6d0cf65f6fbb",
       "title": "Maximum Effort!",
       "summary": ":radio: Open to all sorts of goals and ideas! Lets stick together and support our awesome journey to well... whatever we want!!! Friendly to: yoga, gamers, self care, chore motivation, pet care, parents, students and more to come I hope!",
-      "memberCount": 125,
+      "memberCount": 126,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -211,7 +268,7 @@
       "url": "https://habitica.com/groups/guild/65cc611d-3523-4e96-995e-6305e162768a",
       "title": "Biblioteca brasileira de Tarefas e Desafios ??",
       "summary": "Na guilda são disponibilizados exemplos de listas de Hábitos, Diárias, Afazeres e Recompensas para aqueles usuários procurando inspiração. * Afiliada à [Guilda Brasil]",
-      "memberCount": 200,
+      "memberCount": 201,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -230,7 +287,7 @@
       "url": "https://habitica.com/groups/guild/80938953-60ca-46fa-8a4f-94aaf65966bc",
       "title": "Habitica Mercenaries Guild",
       "summary": "A guild dedicated to Habitica gold and gems, trade them for services (volunteer help) and advice. Be a mercenary and sell your time to whoever you please or a client and request help from them.",
-      "memberCount": 43,
+      "memberCount": 42,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -249,7 +306,7 @@
       "url": "https://habitica.com/groups/guild/3369e167-1748-4d71-a356-d0062b817032",
       "title": "Pessoas de Tecnologia BR",
       "summary": "Você é uma pessoa de tecnologia e é Brasileira? Essa Guilda é para ti!  Aqui podemos discutir sobre dúvidas técnicas e até criar formas saudáveis de ter uma carreira e ainda ter uma vida social!",
-      "memberCount": 4,
+      "memberCount": 5,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -268,7 +325,7 @@
       "url": "https://habitica.com/groups/guild/2d027e49-c883-47b0-a657-b4c04bc32485",
       "title": "Learn Mandarin",
       "summary": "This guild is for those learning or interested in learning Mandarin, a language spoken in China ????, Taiwan ????, and other Asian countries.",
-      "memberCount": 1453,
+      "memberCount": 1454,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -384,7 +441,7 @@
       "url": "https://habitica.com/groups/guild/aca13ccd-b6e2-4c85-adf3-e59cfffae2df",
       "title": "The New Year Countdown Challenge Guild",
       "summary": "Each December, @shanaqui runs the New Year Countdown challenges, a series of challenges with big gem prizes counting down to the new year in the Gregorian calendar. This guild is for updates and sharing relating to those challenges!",
-      "memberCount": 314,
+      "memberCount": 284,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -441,7 +498,7 @@
       "url": "https://habitica.com/groups/guild/f0dbb299-0811-423b-a750-6cf9e0b3f962",
       "title": "YNAB - You Need A Budget",
       "summary": "A guild for fans of You Need A Budget and for anyone else who wants to talk about personal budgeting.",
-      "memberCount": 298,
+      "memberCount": 331,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -498,7 +555,7 @@
       "url": "https://habitica.com/groups/guild/7bb557fb-6639-425e-97d0-42b5024d8a06",
       "title": "LGBTQ+ Books",
       "summary": "A place to share your favorite books with queer representation, and let more people know about them.",
-      "memberCount": 45,
+      "memberCount": 46,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -536,7 +593,7 @@
       "url": "https://habitica.com/groups/guild/b4603b06-0d04-4eed-9603-b6cecd35bdeb",
       "title": "Permaculture Design Guild",
       "summary": "This guild is for permaculture designers who wish to share their journey toward a permaculture design certificate, diploma or just want to share their designs and design tools with others.",
-      "memberCount": 3,
+      "memberCount": 2,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -555,7 +612,7 @@
       "url": "https://habitica.com/groups/guild/560d580e-6244-4877-8295-8b744afc8c57",
       "title": "?? Fantasy Adventurers",
       "summary": "Venture into the land of fantasy to achieve your goals with a dose of fun and productivity!",
-      "memberCount": 1164,
+      "memberCount": 1166,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -631,7 +688,7 @@
       "url": "https://habitica.com/groups/guild/8bddfa9f-7c52-484e-8f8a-8b342aa32d5a",
       "title": "The High School Scholars",
       "summary": "This guild is for people working toward their high school education! Share study tips, experiences, stress out about graduation requirements, and have fun!",
-      "memberCount": 2077,
+      "memberCount": 2079,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -650,7 +707,7 @@
       "url": "https://habitica.com/groups/guild/95b7ce2c-0d50-4ef7-9d15-87c7d2857024",
       "title": "Learn To Draw and Evolve Your Art",
       "summary": "Come learn about drawing, improve your level or find inspiration! Join our challenges to improve your artwork, digital or traditional, and ask every question or bring discussion topics related to drawing!",
-      "memberCount": 4960,
+      "memberCount": 4966,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -688,7 +745,7 @@
       "url": "https://habitica.com/groups/guild/e6b0ffbb-9ca6-427b-9017-26f3ef9f6097",
       "title": "Everfree Pony Brigade",
       "summary": "A guild for fans of My Little Pony (MLP)",
-      "memberCount": 329,
+      "memberCount": 328,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -726,7 +783,7 @@
       "url": "https://habitica.com/groups/guild/e02f5aae-f406-41f8-a24f-b2a85316cc0e",
       "title": "Slobs Anonymous",
       "summary": "We are slobs!  And proud!  Proud to be working on not being slobs.  Share your successes.  Tackle your messes.  Come be the unslobbiest slob you can be!",
-      "memberCount": 4165,
+      "memberCount": 4226,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -745,10 +802,11 @@
       "url": "https://habitica.com/groups/guild/1687304a-971c-4b9d-956c-91cec0cc151a",
       "title": "Italian task by task",
       "summary": "Welcome to your Italian gym, where you can practice Italian.",
-      "memberCount": 11,
+      "memberCount": 10,
       "memberColor": "bronze",
       "official": false,
       "lang": [
+        "it",
         "en"
       ],
       "langPrimary": [
@@ -783,7 +841,7 @@
       "url": "https://habitica.com/groups/guild/a65e9c7a-447b-4e6d-9a79-e22d2195e4aa",
       "title": "The Chronic Illness Guild",
       "summary": "A Guild for those that live with Chronic Illnesses  Guild Co-Leaders: Foxie, Mike the Monk, Bumbleshoot",
-      "memberCount": 2701,
+      "memberCount": 2709,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -840,7 +898,7 @@
       "url": "https://habitica.com/groups/guild/e876a7e4-199b-41ef-98e0-728bcea078c4",
       "title": "Mantras, Meditation, and More ?",
       "summary": "This is a group to support one another as we battle through starting new spiritual practices, whether this is meditation , japa, or something else!",
-      "memberCount": 41,
+      "memberCount": 42,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -878,7 +936,7 @@
       "url": "https://habitica.com/groups/guild/db4c31eb-a1d4-4a9a-b692-16856869fd55",
       "title": "Minecrafters",
       "summary": "Love minecraft? Come on in! Ask for server recommendations and just chat about the newest updates! :)",
-      "memberCount": 674,
+      "memberCount": 675,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -958,6 +1016,7 @@
       "memberColor": "bronze",
       "official": false,
       "lang": [
+        "ja",
         "en"
       ],
       "langPrimary": [
@@ -992,7 +1051,7 @@
       "url": "https://habitica.com/groups/guild/7264bf75-e413-482a-8fcd-279c421610d6",
       "title": "Effective Altruists",
       "summary": "Effective Altruists - making the world as good a place as it can be using evidence and reason",
-      "memberCount": 1085,
+      "memberCount": 1083,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -1011,7 +1070,7 @@
       "url": "https://habitica.com/groups/guild/e48e90ae-4ce4-4945-b321-febc7237adad",
       "title": "This Guild Rocks!",
       "summary": "A guild to discuss all things geoscience including geology, geophysics, paleontology, etc. A hangout for rockhounds, spelunkers, gem and crystal collectors, earth and nature buffs, dinosaur lovers, or anyone who just likes rocks and minerals!",
-      "memberCount": 113,
+      "memberCount": 112,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -1068,7 +1127,7 @@
       "url": "https://habitica.com/groups/guild/4e3bf2c6-38fb-4dc5-b66d-9f90c7cbe83f",
       "title": "Build-A-Routine",
       "summary": "Greetings Habiticans! Do you find yourself slogging through your days with no purpose? Do you want to add more structure, or maybe more excitement in your day? Or maybe you've tried a routine before but you need a place to help keep you accountable?",
-      "memberCount": 8,
+      "memberCount": 9,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -1182,7 +1241,7 @@
       "url": "https://habitica.com/groups/guild/acff6d71-e668-4c02-86e7-8db0842bbb24",
       "title": "Crypto Barrons of Habitica",
       "summary": "A place for cryptocurrency traders, long term investors, yield farmers, nft artists & connoisseurs, developers, and enthusiasts to discover and share information concerning the burgeoning field of cryptocurrency, blockchain, NFT, and DLT technology.",
-      "memberCount": 9,
+      "memberCount": 8,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -1220,7 +1279,7 @@
       "url": "https://habitica.com/groups/guild/8f0e5b25-5968-4764-b1c8-71edbb98aabd",
       "title": "Party Games!",
       "summary": "For Habitica's party animals enjoy themselves and have fun!",
-      "memberCount": 314,
+      "memberCount": 313,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -1277,7 +1336,7 @@
       "url": "https://habitica.com/groups/guild/2cbb151d-f21f-4fa2-af97-e84c0d94caf3",
       "title": "Music Festival",
       "summary": "For music-lovers of all genres, who want to share music, discover music, or just talk music.",
-      "memberCount": 191,
+      "memberCount": 201,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -1296,7 +1355,7 @@
       "url": "https://habitica.com/groups/guild/a49ae469-47dc-48e9-a085-0f89f6950070",
       "title": "Self-Improvement Movement",
       "summary": "Join a friendly community of Habiticans who are also on a journey to self-improvement by cultivating healthy habits.",
-      "memberCount": 358,
+      "memberCount": 354,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -1315,7 +1374,7 @@
       "url": "https://habitica.com/groups/guild/de130da0-10aa-405c-97ee-b560f21b1a49",
       "title": "Minecraft Role Players",
       "summary": "Hey, you! Yeah, YOU. Like Minecraft? Interested in role-play? Well, whether you're new to (or haven't heard of) one these, or a seasoned professional, we don't care. Just join us and have some FUN.",
-      "memberCount": 21,
+      "memberCount": 22,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -1410,7 +1469,7 @@
       "url": "https://habitica.com/groups/guild/eadcfd39-1816-47e9-ad9f-4f5f25db7437",
       "title": "Sign Language Association",
       "summary": "A guild for learners of all signed languages, whether ASL (American Sign Language), BSL (British Sign Language), LSF (Langue des Signes Française), or any other! All are welcome",
-      "memberCount": 37,
+      "memberCount": 51,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -1429,7 +1488,7 @@
       "url": "https://habitica.com/groups/guild/f673b5ac-2d4d-44d2-8ac6-6fe606cbce95",
       "title": "?????????? ??????? ?????? ?????? ??",
       "summary": "??????? ? ??????????? ???????! ????",
-      "memberCount": 40,
+      "memberCount": 41,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -1448,7 +1507,7 @@
       "url": "https://habitica.com/groups/guild/9a5e28ca-89d4-46b9-833a-25d4eaf7688a",
       "title": "Ethical Hackers",
       "summary": "A guild where we learn about Ethical Hacking together.",
-      "memberCount": 9,
+      "memberCount": 10,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -1486,7 +1545,7 @@
       "url": "https://habitica.com/groups/guild/cbb90784-a80f-413b-90a4-dbb1b18487b6",
       "title": "Polytheists & Pagans",
       "summary": "Polytheists & Pagans",
-      "memberCount": 468,
+      "memberCount": 467,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -1505,7 +1564,7 @@
       "url": "https://habitica.com/groups/guild/b767f59d-3743-462f-bd2d-9fe5390ddf53",
       "title": "Gamers Union",
       "summary": "Gamers Union",
-      "memberCount": 34534,
+      "memberCount": 34568,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -1524,7 +1583,7 @@
       "url": "https://habitica.com/groups/guild/59685ce8-d1b0-45e9-bafc-b85e88f78e88",
       "title": "The Bards of Habit",
       "summary": "The Bards of Habit",
-      "memberCount": 5765,
+      "memberCount": 5767,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -1576,25 +1635,6 @@
       "subclassification": "subLangua_CountriesLanguages",
       "created": "2019-07-13T00:00:00.000Z"
     },
-    "8e9c9125-d48d-4ab6-b7e6-b5710d2a154a": {
-      "id": "8e9c9125-d48d-4ab6-b7e6-b5710d2a154a",
-      "url": "https://habitica.com/groups/guild/8e9c9125-d48d-4ab6-b7e6-b5710d2a154a",
-      "title": "Maladaptive Daydreaming",
-      "summary": "Have Maladaptive Daydreaming Disorder? Us too! Join as we use the power of teamwork & friendship to traverse Habitica in ways that work best for each person to make improvements IRL! Curious as to what MADD is? Step inside for info and helpful links!",
-      "memberCount": 106,
-      "memberColor": "silver",
-      "official": false,
-      "lang": [
-        "en"
-      ],
-      "langPrimary": [
-        "en"
-      ],
-      "langAll": false,
-      "classification": "cxRecove",
-      "subclassification": "subRecove_MentalPhysicalHealth",
-      "created": "2019-03-27T00:00:00.000Z"
-    },
     "2f423bcc-cbc8-4eaf-b4c0-0fe40fc0b40e": {
       "id": "2f423bcc-cbc8-4eaf-b4c0-0fe40fc0b40e",
       "url": "https://habitica.com/groups/guild/2f423bcc-cbc8-4eaf-b4c0-0fe40fc0b40e",
@@ -1619,7 +1659,7 @@
       "url": "https://habitica.com/groups/guild/1d9dcf4d-95f7-405c-b4e8-3d998251c7b2",
       "title": "Habitica's Movie + TV Enthusiasts",
       "summary": "Habitica's Movie + TV Enthusiasts",
-      "memberCount": 5946,
+      "memberCount": 5847,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -1638,7 +1678,7 @@
       "url": "https://habitica.com/groups/guild/515644dc-3fb1-4241-89b6-f782c2583bd0",
       "title": "The LearnSpanish Guild",
       "summary": "This guild for people who want to learn Spanish!",
-      "memberCount": 340,
+      "memberCount": 342,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -1678,7 +1718,7 @@
       "url": "https://habitica.com/groups/guild/ca83b043-7203-4a63-9357-4d5badab5cf0",
       "title": "Skeptical, Atheist, Agnostic, & Science-Seeking Witchery",
       "summary": "An inclusive space to find inspiration & accountability while you build your beautiful science-informed witchy life. We're here to create action based on the conversations we have in r/SASSWitches. All genders, non-genders, & belief systems welcome.",
-      "memberCount": 102,
+      "memberCount": 101,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -1792,7 +1832,7 @@
       "url": "https://habitica.com/groups/guild/7e0444d2-3207-4066-a594-f5e10c990770",
       "title": "Geeky Pop Culture Challenges!",
       "summary": "Fun challenges designed to help you to become a healthier you, each with a geeky pop culture theme such as Star Wars, Star Trek, Indiana Jones, The Hobbit and others!",
-      "memberCount": 52,
+      "memberCount": 51,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -1830,7 +1870,7 @@
       "url": "https://habitica.com/groups/guild/c96a24a4-ad86-48b7-8e93-c628b3ddb015",
       "title": "Compassionate Communication (NVC)",
       "summary": "Learning about and practicing Nonviolent Communication (NVC), as developed by Marshall Rosenberg. NVC empowers us to relate to ourselves and one another with compassion and ultimately create more peace in our lives and in our world.",
-      "memberCount": 129,
+      "memberCount": 130,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -1925,7 +1965,7 @@
       "url": "https://habitica.com/groups/guild/474d355b-3b46-4d91-bf23-ea0596a5749d",
       "title": "?????(Freedom as Autonomy)",
       "summary": "?????Habitica???????",
-      "memberCount": 37,
+      "memberCount": 42,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -1963,7 +2003,7 @@
       "url": "https://habitica.com/groups/guild/9828d246-d57c-4007-ba01-380d6daf2c08",
       "title": "A Warrior's Challenge",
       "summary": "Challenges are hosted on here periodically! So if you like battling monsters, come on in!",
-      "memberCount": 13,
+      "memberCount": 14,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -2020,7 +2060,7 @@
       "url": "https://habitica.com/groups/guild/0f2c28ff-35db-47eb-a459-5466dcd7d958",
       "title": "The Chef's Special",
       "summary": "A place for those that love cooking, whether professionally or at home. If you've got a killer recipe, are looking for some inspiration, or need help with a new technique this is the place for you.",
-      "memberCount": 1270,
+      "memberCount": 1269,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -2134,7 +2174,7 @@
       "url": "https://habitica.com/groups/guild/109d5b3f-661f-49cf-ad1d-53de129ecaf5",
       "title": "Mastering Emotions (DBT Skills)",
       "summary": "Mastering Emotions (DBT Skills)",
-      "memberCount": 8018,
+      "memberCount": 8034,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -2250,7 +2290,7 @@
       "url": "https://habitica.com/groups/guild/f1a16607-87cd-483b-9fb1-5527f0db75d1",
       "title": "Neurodivergent Cleaning Crew",
       "summary": "For members of the \"Neurodivergent Cleaning Crew\" group on FB!",
-      "memberCount": 169,
+      "memberCount": 170,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -2288,7 +2328,7 @@
       "url": "https://habitica.com/groups/guild/87c8a954-9673-4b14-b258-556790dc23b7",
       "title": "The Stretch And Yoga Journal",
       "summary": "With Stretching your body and doing yoga, there Is no backside. This Is a 100% good thing to do for you body. Im creating this guild because I know there are more people like me out there struggeling with backpains, stiffness and sore muscles",
-      "memberCount": 98,
+      "memberCount": 99,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -2307,7 +2347,7 @@
       "url": "https://habitica.com/groups/guild/06d2597e-c4c8-4c90-b4fc-e4d13e1cd70a",
       "title": "?? ??????? ?????????????? ? ???????????",
       "summary": "????????????? ??????? ??? ????, ??? ????? ????????? ???????? ? ?????????? ???????????. ???? ????:  #????? #???? #????? #?????? #????????? #????????? #??????? #russia #ru",
-      "memberCount": 850,
+      "memberCount": 852,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -2364,7 +2404,7 @@
       "url": "https://habitica.com/groups/guild/7f69c7ce-e3d2-4f1e-abd9-486880e05a4e",
       "title": "The Ninja Dojo",
       "summary": "You wake up in what seems to be medieval Japan and taken to train in battle. Discovering you can do the cool things from *Naruto* by using productivity techniques and habits, you prepare to battle the threats of an evil party in the West.",
-      "memberCount": 141,
+      "memberCount": 140,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -2440,7 +2480,7 @@
       "url": "https://habitica.com/groups/guild/7614f5ad-e933-48e2-aff4-9d9c22246d9c",
       "title": "Academia dos Heróis",
       "summary": "Guilda Br de StoryTelling! Não diga “oi”, LEIA A DESCRIÇÃO!  Há uma cidade chamada Hero´s Place. Nesta cidade, há um grande castelo conhecido pela alcunha de Academia dos Heróis. Lá residem, e o defendem, aqueles que buscam o Título de Heróis.",
-      "memberCount": 14,
+      "memberCount": 16,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -2535,7 +2575,7 @@
       "url": "https://habitica.com/groups/guild/eb29e743-a6b1-4964-a9dc-fc109c6b0f4e",
       "title": "BookCrossing",
       "summary": "This guild is for members of Bookcrossing and others who are interested in Bookcrossing. We talk about the books we've released and found and about other Bookcrossing related things.",
-      "memberCount": 123,
+      "memberCount": 122,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -2668,7 +2708,7 @@
       "url": "https://habitica.com/groups/guild/3b710c44-a2e7-44a5-a4ca-76abfdc777cd",
       "title": "Neurodiverse Universe",
       "summary": "Connect with other neurodiverse people, gain and offer support, or just have interesting conversation!",
-      "memberCount": 104,
+      "memberCount": 105,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -2687,7 +2727,7 @@
       "url": "https://habitica.com/groups/guild/f66afce7-23cc-4321-bde6-b706a6d30412",
       "title": "Queerstake",
       "summary": "A Habitica guild for members of the Queerstake to help each other with accountability!",
-      "memberCount": 18,
+      "memberCount": 19,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -2915,7 +2955,7 @@
       "url": "https://habitica.com/groups/guild/52875e11-774a-4f5f-8f5a-17e4a9a962db",
       "title": "Solarpunk",
       "summary": "A place to discuss the genre/movement of solarpunk, eco-futurism, and so on.",
-      "memberCount": 101,
+      "memberCount": 103,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -3029,7 +3069,7 @@
       "url": "https://habitica.com/groups/guild/2cbb0a7c-8040-43c9-9f7a-c45fb540dae2",
       "title": "Video Producer's Organization (film, TV, YouTube)",
       "summary": "Video Producer's Organization -- all aspects of video & film making for film, TV or YouTube",
-      "memberCount": 279,
+      "memberCount": 280,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -3086,7 +3126,7 @@
       "url": "https://habitica.com/groups/guild/655a6444-22f7-4870-a142-11cbf9e3afc5",
       "title": "Wellhacks",
       "summary": "Wellhacks is the 'program' used for a wellness journey by one crazy autistic \"trainer\" to lose 260+ lbs. It is a wellness journey using lifehacks to trick your mind into letting you lose weight without realizing it!",
-      "memberCount": 11,
+      "memberCount": 12,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -3105,7 +3145,7 @@
       "url": "https://habitica.com/groups/guild/e46d13a4-b712-40f2-a5a3-529440bee7d3",
       "title": "Gender Friends",
       "summary": "Gender Friends",
-      "memberCount": 1420,
+      "memberCount": 1421,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -3143,7 +3183,7 @@
       "url": "https://habitica.com/groups/guild/160234e0-7a3b-46e6-8b9f-3245ac6f1678",
       "title": "Graduate Student Guild",
       "summary": "A guild for graduate students or prospective graduate students. Use Habitica to complete that thesis, dissertation, or other big foreboding project, or just get support and advice on graduate student hardships.",
-      "memberCount": 4327,
+      "memberCount": 4325,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -3181,7 +3221,7 @@
       "url": "https://habitica.com/groups/guild/51d6ffd2-7f44-4742-9626-07be10192134",
       "title": "? Conquerors of Betterment {COB}",
       "summary": "COB originated as a discord server on which likeminded people came together from Habitica to work on their goals together, build friendships and improve themselves and the world around them!",
-      "memberCount": 433,
+      "memberCount": 462,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -3219,7 +3259,7 @@
       "url": "https://habitica.com/groups/guild/12f4a55c-439d-4361-82d9-583383b90881",
       "title": "?? Centro de Estudiantes de Habitica",
       "summary": "Un lugar para aprender a aprender y compartir todo aquello que haga de tus estudios una actividad gratificante porque estudiar es una aventura para toda la vida.",
-      "memberCount": 285,
+      "memberCount": 284,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -3257,7 +3297,7 @@
       "url": "https://habitica.com/groups/guild/a8b0e515-ce20-46a5-beaa-d902083cca65",
       "title": "At the mountains of madness",
       "summary": "For all the fans of Lovecraft's work and for those who think there aren't enough monsters in their everyday tasks!",
-      "memberCount": 345,
+      "memberCount": 351,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -3314,7 +3354,7 @@
       "url": "https://habitica.com/groups/guild/cf25cf91-dd38-4703-9f25-7c6ab99c93ab",
       "title": "Women and Gender Diverse people in STEM",
       "summary": "This guild is for Women and Gender Diverse people in STEM.",
-      "memberCount": 73,
+      "memberCount": 74,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -3449,7 +3489,7 @@
       "url": "https://habitica.com/groups/guild/7b4041a7-8a0d-43dc-80e1-d500084dfb48",
       "title": "[GUERREIROS BRASIL]",
       "summary": "**A maior Guilda em português de Guerreiros do Habitica**, focada em ajudar a todos os Guerreiros a tirarem o melhor proveito possível da Classe.",
-      "memberCount": 17,
+      "memberCount": 19,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -3468,7 +3508,7 @@
       "url": "https://habitica.com/groups/guild/00505737-0e43-4225-a2ce-92a94a8392a4",
       "title": "Pokemon Go",
       "summary": "Pokemon Go",
-      "memberCount": 888,
+      "memberCount": 889,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -3487,7 +3527,7 @@
       "url": "https://habitica.com/groups/guild/2b53209e-a123-4c7c-80e7-5dddd5127ad5",
       "title": "Daily Check-In Guild",
       "summary": "This guild hosts the Daily Check-In challenges, all of which can be found in the description.  The goal is to hopefully increase accountability, to help with mindfulness and reflection, and to encourage the daily use of Habitica.",
-      "memberCount": 1735,
+      "memberCount": 1778,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -3525,7 +3565,7 @@
       "url": "https://habitica.com/groups/guild/c20c3e10-926f-4cf8-b32e-2cddb6073066",
       "title": "The Depresso Gang",
       "summary": "A guild for those who may (or may not, we don't discriminate) be struggling with mental or physical help, are super chill, and just trying to be functional someitmes.",
-      "memberCount": 111,
+      "memberCount": 112,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -3601,7 +3641,7 @@
       "url": "https://habitica.com/groups/guild/ad502658-af78-4d3e-95ee-44d4095afdfd",
       "title": "ForgeCode (French guilde)",
       "summary": "ForgeCode (French guilde)  Dernière mise à jour : 09/02/2018",
-      "memberCount": 124,
+      "memberCount": 125,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -3677,7 +3717,7 @@
       "url": "https://habitica.com/groups/guild/20eacb35-cfc6-4e19-8a6e-a8eb2c9b8de4",
       "title": "Adults Only",
       "summary": "Noone magically becomes an adult when they turn 18. Life is a battle to find balance and harmony. \"Adults Only\" is a place where you'll be challenged to take care of yourself, your relationships, and to create goals for the future.",
-      "memberCount": 14,
+      "memberCount": 16,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -3791,7 +3831,7 @@
       "url": "https://habitica.com/groups/guild/7cf665d3-a37b-4bb3-bfce-60de9a18a430",
       "title": "The Game Masters' Grotto",
       "summary": "A guild for game and dungeon masters of TTRPGs. Come say hi, share your experiences, and ask for advice or input. Game on!",
-      "memberCount": 200,
+      "memberCount": 206,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -3829,7 +3869,7 @@
       "url": "https://habitica.com/groups/guild/42a55671-2885-46ae-aec6-e9e0777c0e31",
       "title": "Classical Music Guild",
       "summary": "A guild for those interested in discussing all forms of classical music. Whether you are a professional musician, student, hobbyist, or enthusiast feel free to join! Don't forget to introduce yourself :)",
-      "memberCount": 269,
+      "memberCount": 270,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -3848,7 +3888,7 @@
       "url": "https://habitica.com/groups/guild/170f8a17-8ce0-425c-8c31-eeb7e5ae7493",
       "title": "The Legendary Book Club of Habitica",
       "summary": "The Legendary Book Club of Habitica",
-      "memberCount": 4629,
+      "memberCount": 4631,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -3924,7 +3964,7 @@
       "url": "https://habitica.com/groups/guild/c765f514-8ea7-4563-bc51-3fa141a10d34",
       "title": "?? Virtual Worlds",
       "summary": "The guild for everything VR",
-      "memberCount": 12,
+      "memberCount": 11,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -3943,7 +3983,7 @@
       "url": "https://habitica.com/groups/guild/17719642-d3f5-44d5-bfcd-96a7e3c8ec8d",
       "title": "Data Professionals",
       "summary": "Whether you are a Data Scientist, Data Analyst, Data Engineer, Data Steward, Data Librarian, Data Journalist, Data Archivist, Data Strategist, Data Storyteller, or just someone interested in the subject, you are welcome!",
-      "memberCount": 92,
+      "memberCount": 95,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -3981,7 +4021,7 @@
       "url": "https://habitica.com/groups/guild/10837df5-32e5-409f-9c3d-b7f4d3792b94",
       "title": "Disney Fans",
       "summary": "Everybody loves Disney - who doesn't? This is a guild for everybody who loves Disney movies, characters, and everything Disney!",
-      "memberCount": 122,
+      "memberCount": 123,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -4000,7 +4040,7 @@
       "url": "https://habitica.com/groups/guild/ee6dbed2-7ec0-4d63-bf3b-a3465b40f23a",
       "title": "Python (russian community)",
       "summary": "???????? Python? ????? ?????????? ? ?????? ????????????? ??????? ?? Python, ??? ????? ?????? ??????, ????? ??????? ? ??????, ????????? ?????? ? ???????? ?????! ?? ??????????? :)",
-      "memberCount": 40,
+      "memberCount": 41,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -4057,7 +4097,7 @@
       "url": "https://habitica.com/groups/guild/a26f4d9a-0197-4a8f-a496-f0f9769169c3",
       "title": "Artificial Minds",
       "summary": "A guild for anyone interested in Artificial Intelligence (AI), Machine Learning (ML) or Deep Learning (DL) to meet, discuss, and challenge themselves.",
-      "memberCount": 65,
+      "memberCount": 66,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -4076,7 +4116,7 @@
       "url": "https://habitica.com/groups/guild/349a36c3-66f3-4bf8-91b6-475056d9b6bb",
       "title": "JavaScript",
       "summary": "A guild about everything related to programming in **JavaScript**.",
-      "memberCount": 843,
+      "memberCount": 842,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -4095,7 +4135,7 @@
       "url": "https://habitica.com/groups/guild/f5ed9b63-d297-49b5-bd0a-f8afe088eadf",
       "title": "Recovery Warriors",
       "summary": "This space is for anyone who is in eating disorder recovery and wants support! We welcome those of any gender, ethnicity, sexuality, and history with food. Together, we can practice mindfulness, intuitive eating, self-love, and body acceptance. :)",
-      "memberCount": 29,
+      "memberCount": 31,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -4133,7 +4173,7 @@
       "url": "https://habitica.com/groups/guild/362faead-27ed-442c-bb95-8878d5750fce",
       "title": "Disciples of Jesus - Challenge Discussion Group",
       "summary": "This guild is intended to streamline discussion on various books in the Bible. Join up with us here, and then join the main guild by searching up Disciples of Jesus!",
-      "memberCount": 131,
+      "memberCount": 130,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -4152,7 +4192,7 @@
       "url": "https://habitica.com/groups/guild/20eebbde-ecf0-47db-a3bd-443e2d321ac0",
       "title": "The Crafty Nerds",
       "summary": "The Crafty Nerds is for all people who craft including sewing, crochet, stitching, knitting, woodworking, furniture making, metal working, scrapbooking, and general crafting. We have monthly challenges and are making more! Please consider joining!!!",
-      "memberCount": 2326,
+      "memberCount": 2330,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -4247,7 +4287,7 @@
       "url": "https://habitica.com/groups/guild/2817a351-0fd8-4b28-9924-2a15313e69fb",
       "title": "New Language Learners",
       "summary": "Find support and inspiration for learning a new language! Share tips, join challenges, play games, and chat with others in your target language.",
-      "memberCount": 597,
+      "memberCount": 598,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -4266,7 +4306,7 @@
       "url": "https://habitica.com/groups/guild/4766f7cd-dc60-4a10-8eb7-074f3f71869e",
       "title": "Business Intelligence",
       "summary": "A space for business intelligence professionals and beginners, as well as data analytics enthusiasths.",
-      "memberCount": 8,
+      "memberCount": 9,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -4361,7 +4401,7 @@
       "url": "https://habitica.com/groups/guild/00b0eff0-85bd-402a-bd38-33f507624dfa",
       "title": "?? Creative Minds",
       "summary": "Creative Minds is a Guild for everyone who wants to experience and make more time for creativity in their daily lives.",
-      "memberCount": 1579,
+      "memberCount": 1580,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -4380,7 +4420,7 @@
       "url": "https://habitica.com/groups/guild/92e125ca-029d-4b25-a5a1-6aa1a3a15f1a",
       "title": "Buddhist Sangha & Mindfulness Community",
       "summary": "A guild for those interested in Buddhism, Buddhist and mindfulness practices, mental health, and spiritual community.",
-      "memberCount": 611,
+      "memberCount": 629,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -4475,7 +4515,7 @@
       "url": "https://habitica.com/groups/guild/92620f87-d91e-4703-a152-747d5213214e",
       "title": "STEM - Science, Technology, Engineering, and Maths",
       "summary": "STEM - Science, Technology, Engineering, and Maths",
-      "memberCount": 4703,
+      "memberCount": 4707,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -4494,7 +4534,7 @@
       "url": "https://habitica.com/groups/guild/807a6e0d-5dce-4923-a9c6-e766e5e274d5",
       "title": "?????????(ASD/ADHD/AS???????)",
       "summary": "?????????(ASD/ADHD/AS???????)",
-      "memberCount": 132,
+      "memberCount": 133,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -4513,7 +4553,7 @@
       "url": "https://habitica.com/groups/guild/869fda7a-0b84-4807-8306-52ab8ed787f2",
       "title": "The Land Downunder",
       "summary": "The Land Downunder - A place for Australians (Aussies) and New Zealanders (Kiwis) to hang out.",
-      "memberCount": 333,
+      "memberCount": 335,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -4627,7 +4667,7 @@
       "url": "https://habitica.com/groups/guild/f22c295d-319e-4ba9-b941-0a8deb8dbfe2",
       "title": "The Socially Awkward Survivalists",
       "summary": "We are a supportive group of Socially Awkward Survivalists, here to help each other through the rough times of social difficulty, and provide a place to share funny stories about the not as rough times.",
-      "memberCount": 522,
+      "memberCount": 523,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -4665,7 +4705,7 @@
       "url": "https://habitica.com/groups/guild/48bc3bfe-215c-47f0-b21a-1a613537706c",
       "title": "OCD Support ",
       "summary": "The OCD Support Guild welcomes anyone with Obsessive Compulsive Disorder or similar diagnoses!  Search terms (to make it easier to find this guild): mental health, therapy, psychiatry, compulsions, anxiety, intrusive thoughts, support group",
-      "memberCount": 268,
+      "memberCount": 269,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -4684,7 +4724,7 @@
       "url": "https://habitica.com/groups/guild/e655bb46-96ec-4d8b-b40d-f195063904c8",
       "title": "The Developers Guild",
       "summary": "A guild for computer programmers / developers / coders to meet, talk, and challenge themselves.",
-      "memberCount": 3197,
+      "memberCount": 3203,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -4722,7 +4762,7 @@
       "url": "https://habitica.com/groups/guild/84c92cc0-91e7-4e15-a6f5-202a07cf1e34",
       "title": "Art & Animation Peeps",
       "summary": "Howdy! This guild is a chill place for artist studying/teaching in any art schools, looking into learning animation/art, or just in general want to meet other artist...We also got memes! :D",
-      "memberCount": 25,
+      "memberCount": 26,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -4798,7 +4838,7 @@
       "url": "https://habitica.com/groups/guild/46b1f7c3-4dd7-4827-9ede-6c831ae6a2c6",
       "title": "Healthcare Habiticans",
       "summary": "Are you a Healthcare Worker?  Are you looking for a place to support healthy habits during this unprecedented time?",
-      "memberCount": 13,
+      "memberCount": 15,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -4874,7 +4914,7 @@
       "url": "https://habitica.com/groups/guild/0c5896d5-f574-4148-afcd-d110007c8173",
       "title": "Slytherin House",
       "summary": "Slytherin House",
-      "memberCount": 1905,
+      "memberCount": 1910,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -4950,7 +4990,7 @@
       "url": "https://habitica.com/groups/guild/a1172fb2-5e43-4fb6-8cac-058e91118721",
       "title": "Desafios Brasil",
       "summary": "Guilda brasileira focada em desafios para melhorar a sua disciplina, responsabilidade, cuidado pessoal e concretização de todos os seus projetos de vida.   **A Guilda está temporariamente fechada. Voltamos em agosto!**",
-      "memberCount": 199,
+      "memberCount": 200,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -4969,7 +5009,7 @@
       "url": "https://habitica.com/groups/guild/1cc557aa-5718-4b86-8753-d13246a2e99d",
       "title": "Chronic Illness POT Luck (POTS, EDS, MCAS, etc)",
       "summary": "Dyautonomia, POTS, EDS, Hypermobility Spectrum Disorder, Gastroparesis, Mast Cell Activation Syndrome, Fibromyalgia, Lyme Disease, Hashimoto's and other autoimmune diseases. The list goes on and on and sometimes it feels like we've got all of 'em!",
-      "memberCount": 142,
+      "memberCount": 143,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -4988,7 +5028,7 @@
       "url": "https://habitica.com/groups/guild/2c6ffb73-80d0-4727-ae92-8713844f4a42",
       "title": "Entrepreneurs",
       "summary": "Entrepreneurs",
-      "memberCount": 5428,
+      "memberCount": 5431,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -5007,7 +5047,7 @@
       "url": "https://habitica.com/groups/guild/fc8b250a-2fe9-4ef0-b8d9-bb6464060576",
       "title": "Blind Bohemians of Habitica",
       "summary": "A place for blind & visually impaired users of Habitica and anyone curious about living life with sight loss or a visual impairment. Feel free to join, chat about your experiences or ask questions :)",
-      "memberCount": 71,
+      "memberCount": 70,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -5057,7 +5097,7 @@
       "langAll": false,
       "classification": "cxGaming",
       "subclassification": "subGaming_ElectronicPlay",
-      "created": "2021-01-22T00:00:00.000Z"
+      "created": "2021-01-21T00:00:00.000Z"
     },
     "035ed65c-5b03-4edb-b6e6-62b157fb9cee": {
       "id": "035ed65c-5b03-4edb-b6e6-62b157fb9cee",
@@ -5197,7 +5237,7 @@
       "url": "https://habitica.com/groups/guild/10022ae5-1b0f-41dc-a562-aef94ddbf18a",
       "title": "Book lovers guild :-)",
       "summary": "This guild is for book lovers. Feel free to share what your reading or what you would like to read every now and then. :-)",
-      "memberCount": 13,
+      "memberCount": 14,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -5277,6 +5317,7 @@
       "memberColor": "bronze",
       "official": false,
       "lang": [
+        "ko",
         "en"
       ],
       "langPrimary": [
@@ -5311,7 +5352,7 @@
       "url": "https://habitica.com/groups/guild/9afbe82c-9cf4-4122-9617-051b4512cfc1",
       "title": "Wise Old Guild",
       "summary": "Legendary and very powerful guild of Habiticans that seek knowledge from the wise to fuel their success in the form of quotes on a ~~daily~~ irregular basis.",
-      "memberCount": 181,
+      "memberCount": 180,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -5330,7 +5371,7 @@
       "url": "https://habitica.com/groups/guild/367a4698-44ae-46fb-8fc9-e95c20e5375c",
       "title": "The Happiness Guild",
       "summary": "A guild to find and share tips for happiness in your daily life.",
-      "memberCount": 1179,
+      "memberCount": 1186,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -5349,7 +5390,7 @@
       "url": "https://habitica.com/groups/guild/1a7d0075-d590-4aaf-b671-52c5a514a8cf",
       "title": "Vegetarians, Vegans and Raw Vegans",
       "summary": "Vegetarians, Vegans, Raw Vegans and the Veg-curious",
-      "memberCount": 4165,
+      "memberCount": 4173,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -5406,7 +5447,7 @@
       "url": "https://habitica.com/groups/guild/9c5d923b-9698-483a-b885-a5eba2e4ec75",
       "title": "Witches of Habitica",
       "summary": "Welcome to the Witches of Habitica! Come learn new witchy things here!   Herbs, Plants, Astrology/Zodiacs, Tarot/Oracle Cards, Crystals, Intuition, Meditation, Dream Analysis, Candle Magic, Book of Shadows (BoS), Feminism, Yoga, Essential Oils",
-      "memberCount": 828,
+      "memberCount": 830,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -5444,7 +5485,7 @@
       "url": "https://habitica.com/groups/guild/42ef4c14-2f9a-4480-9300-b594c37bd988",
       "title": "HabitClan ??",
       "summary": "?? A fanclub for Warriors fans to roleplay! :D ??",
-      "memberCount": 35,
+      "memberCount": 34,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -5463,7 +5504,7 @@
       "url": "https://habitica.com/groups/guild/8caf1c9d-b941-4418-8c30-efe359ab2d4c",
       "title": "Miniature Wargamers",
       "summary": "A guild for miniature wargamers of all stripes! Whatever your game(s) of choice may be, whether you're a painter, a gamer, or an all-round hobbyist, you're more than welcome here.",
-      "memberCount": 67,
+      "memberCount": 68,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -5501,7 +5542,7 @@
       "url": "https://habitica.com/groups/guild/4f13b98a-a7d3-4f78-ad8b-4e8708a022e0",
       "title": "Prayerful Christians",
       "summary": "A place for Christians to gather and pray. We pray for each other and for the world, for our concerns and for our blessings. We can come together in our struggles and our victories. We can challenge each other in our walk and devotion to Christ.",
-      "memberCount": 206,
+      "memberCount": 204,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -5712,7 +5753,7 @@
       "url": "https://habitica.com/groups/guild/38daeae4-6c64-4e3c-9204-5247eb69d00f",
       "title": "ADHD Off-Topic Squirrel Hunt ??",
       "summary": "This is a sub-guild of the [ADHDers Guild] It's meant for conversations that occur in the main guild, but are not about ADHD itself, and it's for links to permanent challenges.",
-      "memberCount": 579,
+      "memberCount": 581,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -5750,7 +5791,7 @@
       "url": "https://habitica.com/groups/guild/9aa9cede-fa10-467f-8947-042710d446c6",
       "title": "The Philosophers' Archive",
       "summary": "A guild with the scope of archiving challenges and resources from the [The Philosophers] guild.",
-      "memberCount": 25,
+      "memberCount": 26,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -5769,7 +5810,7 @@
       "url": "https://habitica.com/groups/guild/6e3bfe93-8266-4d75-ba26-f0fc27672a40",
       "title": "?? MultiTalented Writers ??",
       "summary": "**MultiTalented Writers**   This guild is associated with the website www.multitalentedwriters.com  This is a space for multi-niche or multi-genre writers to discuss ideas, participate in challenges, and get encouragement.",
-      "memberCount": 104,
+      "memberCount": 105,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -5904,7 +5945,7 @@
       "url": "https://habitica.com/groups/guild/2b30b6f1-d177-42c8-aeb3-a07380f62199",
       "title": "Ukrainian Translators Guild ????",
       "summary": "???????? ?????, ??? ?????????? **Habitica** ??????????? :smiley:  ---  + ??? [?????] ? **Telegram**  + [??????????] ? ?????????",
-      "memberCount": 28,
+      "memberCount": 27,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -5944,7 +5985,7 @@
       "url": "https://habitica.com/groups/guild/033c9ff6-6fe2-4a94-8bd9-0f4fbbec104e",
       "title": "Life Basics",
       "summary": "Life Basics",
-      "memberCount": 4969,
+      "memberCount": 4978,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -6039,7 +6080,7 @@
       "url": "https://habitica.com/groups/guild/a95aa95e-4cd1-41b6-8bc8-a9eb5e781ccb",
       "title": "Healthy Boundaries",
       "summary": "Welcome to Healthy Boundaries! This is a place where you can learn more about setting healthy boundaries. I'm still learning too and I hope we can learn more together.",
-      "memberCount": 113,
+      "memberCount": 114,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -6058,7 +6099,7 @@
       "url": "https://habitica.com/groups/guild/694b15e1-19b0-4ea8-ac71-ce9f27031330",
       "title": "Life Hackers",
       "summary": "Life hacks are tricks, shortcuts, or methods that help increase productivity, efficiency, health, & get you to a better state of life. This guild helps members discover, utilize, & implement these secrets.",
-      "memberCount": 85995,
+      "memberCount": 86144,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -6096,7 +6137,7 @@
       "url": "https://habitica.com/groups/guild/dadf3c3d-902f-4481-a3e1-c720f7d05a5a",
       "title": "Novasutras on Habitica",
       "summary": "We are interconnected with Nature through reverence, joy, generosity, gratitude, and loving-kindness. Yet environmental, social and personal challenges are vast. Join our community abiding in agaya and ubuntu, ready to change everything.",
-      "memberCount": 54,
+      "memberCount": 53,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -6172,7 +6213,7 @@
       "url": "https://habitica.com/groups/guild/658b25b0-daec-451b-b945-7e093cbed262",
       "title": "Ancestors, Heritage and Genealogy",
       "summary": "A genealogy/family tree/heritage guild.",
-      "memberCount": 101,
+      "memberCount": 102,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -6191,7 +6232,7 @@
       "url": "https://habitica.com/groups/guild/f4b5020d-50f4-486c-b145-5587d7ee11d1",
       "title": "The Coliseum",
       "summary": "Interested in roleplay but getting your quests lost in other guilds? Want a place where you can create your stories in peace? The Coliseum is a roleplay guild primarily focused on personal quests and fast-paced action. All are welcome!",
-      "memberCount": 25,
+      "memberCount": 26,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -6210,7 +6251,7 @@
       "url": "https://habitica.com/groups/guild/2e8f74af-2f16-4c24-82ea-f9f5f0b31797",
       "title": "Brazuca Fitness - Iron Health Brazilian ??",
       "summary": "Cansado de tentar e falhar? Sem motivação pra avançar? Buscando ter uma vida saudável sem submeter a dietas extremas e ineficientes? Quer começar a se exercitar? Perde ou Ganhar alguns quilos? Essa Guilda é ideal para vc, junte-se a nós^^ :bicyclist:",
-      "memberCount": 151,
+      "memberCount": 153,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -6229,7 +6270,7 @@
       "url": "https://habitica.com/groups/guild/c94e99e3-096d-41de-906f-ebd9632e18bb",
       "title": "The Hero's Journey - There and Back Again",
       "summary": "A monomyth journal method to complete one major project using the **Hero's Journey theory of storytelling**. You decide the project and craft the tale, crossing from wistful desire to completed project and ultimately living a better life.",
-      "memberCount": 169,
+      "memberCount": 170,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -6248,7 +6289,7 @@
       "url": "https://habitica.com/groups/guild/f772e3fe-2914-42f5-bbc4-bf96257c047b",
       "title": "???Climate Defenders??? (Formerly Challenge of the Day)",
       "summary": "Welcome to Climate Defenders, the  guild formerly known as   ??? Challenge of the Day ???",
-      "memberCount": 116,
+      "memberCount": 115,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -6326,7 +6367,7 @@
       "url": "https://habitica.com/groups/guild/d8fe73a2-4649-4477-95e6-2121d80769ae",
       "title": "Buscador de equipos ??",
       "summary": "Busca o anuncia un equipo.",
-      "memberCount": 196,
+      "memberCount": 197,
       "memberColor": "silver",
       "official": false,
       "lang": [],
@@ -6381,7 +6422,7 @@
       "url": "https://habitica.com/groups/guild/6086c150-01fb-4eaf-8656-d23144dc9022",
       "title": "Martial Artists",
       "summary": "A guild for Martial Artists of all disciplines. Let's use Habitica to support our practice and enrich our understanding of the journey toward mastery!",
-      "memberCount": 773,
+      "memberCount": 771,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -6400,7 +6441,7 @@
       "url": "https://habitica.com/groups/guild/ab5fa931-2aa8-4126-8bef-d9d0caab121c",
       "title": "DID/OSDD",
       "summary": "A guild for those with Dissociative Identity Disorder or Other Specified Dissociative Disorder.",
-      "memberCount": 57,
+      "memberCount": 58,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -6438,7 +6479,7 @@
       "url": "https://habitica.com/groups/guild/085a6fd0-2f5a-4581-ab3a-d2e6fab34c9e",
       "title": "Weekly Goals in a Group",
       "summary": "If you need some extra gem motivation to get working on your weekly project, without a lot of extra conversation, this is the place for you.  Weekly goals affect the group's ability to win.  Set your goals and get achieving.",
-      "memberCount": 747,
+      "memberCount": 744,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -6457,7 +6498,7 @@
       "url": "https://habitica.com/groups/guild/9ddbb860-67ff-4e7b-81aa-23f81de910b3",
       "title": "Early to Bed and Early to Rise",
       "summary": "This is a guild for better sleep hygiene! Join us if you're interested in working to achieve the sleep you want and need!  &nbsp;  (This guild is related to the monthly Healthy Sleep 101/501 challenges that take place in the Tavern.)",
-      "memberCount": 7254,
+      "memberCount": 7269,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -6476,7 +6517,7 @@
       "url": "https://habitica.com/groups/guild/be737c83-1765-4846-b5ab-bf94aaed8849",
       "title": "Learn Uropi—we have P.I.E. ??!",
       "summary": "About half the world speaks an Indo-European language. Uropi was based on their common ancestor, uses the most commonly descended words, and has a straightforward pronunciation & regular verbs. It has a strange familiarity and beautiful/unique sound.",
-      "memberCount": 14,
+      "memberCount": 15,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -6533,7 +6574,7 @@
       "url": "https://habitica.com/groups/guild/7de59aae-2c78-4c9d-884e-1596999b16c5",
       "title": "habitica???? | Chinese Habitica Players Guild | ??????",
       "summary": "???? | ???? | ???? | ????      ???? | ???? | ???? | ????",
-      "memberCount": 76,
+      "memberCount": 77,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -6571,7 +6612,7 @@
       "url": "https://habitica.com/groups/guild/4c47d4ec-914d-4872-9842-8c1c45dafa04",
       "title": "?????? (Study High)",
       "summary": "????open?????,????????????????????(?? | ?? | ????)",
-      "memberCount": 423,
+      "memberCount": 425,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -6649,7 +6690,7 @@
       "url": "https://habitica.com/groups/guild/4f969d70-0765-4284-b192-b89a9b2ef333",
       "title": "??????? [???] Party Wanted Japanese",
       "summary": "????????????????????????????????????????????????????????????????????????????????????????????  ---  This is a guild for Japanese speakers who want to join a party or invite new members to their party.",
-      "memberCount": 433,
+      "memberCount": 435,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -6687,7 +6728,7 @@
       "url": "https://habitica.com/groups/guild/4945f8d5-5f48-4857-a65d-5d46366e2c3b",
       "title": "Hogwarts School of Witchcraft and Wizardry",
       "summary": "Welcome to Hogwarts! Before we begin I would like to say a few words: *Nitwit! Blubber! Oddment! Tweak!*  Join for all things magic!  ---  Our guilds are all-inclusive, and we do not share JKR's recent beliefs nor do we tolerate similar comments.",
-      "memberCount": 4805,
+      "memberCount": 4808,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -6714,7 +6755,6 @@
         "en"
       ],
       "langPrimary": [
-        "el",
         "en"
       ],
       "langAll": false,
@@ -6784,7 +6824,7 @@
       "url": "https://habitica.com/groups/guild/4d2a1832-39aa-4cc6-8131-c7e3aeeb536f",
       "title": "??   The Altamira Project",
       "summary": "Welcome to The Altamira Project! We're a community of students and lifelong learners seeking to make the world a better place by building things that improve people's lives. New challenges released every day!",
-      "memberCount": 2141,
+      "memberCount": 2136,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -6902,7 +6942,7 @@
       "url": "https://habitica.com/groups/guild/2ff9822b-27f2-4774-98da-db349b57a38e",
       "title": "Aspiring Comrades",
       "summary": "A guild for developers who have built 3rd party tools using the Habitica API. Got a tool? Share a link!",
-      "memberCount": 634,
+      "memberCount": 633,
       "memberColor": "silver",
       "official": true,
       "lang": [
@@ -6980,7 +7020,7 @@
       "url": "https://habitica.com/groups/guild/b87a64fc-1df3-4a30-b741-3867e2e25293",
       "title": "Random Habitica Costumes",
       "summary": "Show off your RANDOMLY-generated Habitica avatars!",
-      "memberCount": 42,
+      "memberCount": 41,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -7056,7 +7096,7 @@
       "url": "https://habitica.com/groups/guild/9585fe1b-854b-4495-9cde-f09dbf2f53d1",
       "title": "Accountability Buddies!",
       "summary": "Find a buddy to help support you in achieving your goals and meeting your commitments.",
-      "memberCount": 1159,
+      "memberCount": 1161,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -7203,7 +7243,7 @@
       "langAll": false,
       "classification": "cxWorldH",
       "subclassification": "subWorldH_BugSuggestionReports",
-      "created": "2020-07-01"
+      "created": "2020-06-28T00:00:00.000Z"
     },
     "a3939810-da7d-4c43-9e4f-f8246e4d33f0": {
       "id": "a3939810-da7d-4c43-9e4f-f8246e4d33f0",
@@ -7260,7 +7300,7 @@
       "langAll": false,
       "classification": "cxFandom",
       "subclassification": "subFandom_GeneralFandomDiscussion",
-      "created": "2020-06-17T00:00:00.000Z"
+      "created": "2020-06-16T00:00:00.000Z"
     },
     "a81deb14-ad76-45b2-b235-7647a0843142": {
       "id": "a81deb14-ad76-45b2-b235-7647a0843142",
@@ -7305,7 +7345,7 @@
       "url": "https://habitica.com/groups/guild/5189073f-56cd-4e2b-9cb6-817567371887",
       "title": "Habitica Party Roster Meeting Room",
       "summary": "Chat about any party topic in the Habitica Party Roster's meeting room. Discussions and tips on party optimisation, member participation, leader duties, motivation ideas, handling arguments, recruiting standards and more.",
-      "memberCount": 601,
+      "memberCount": 599,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -7362,7 +7402,7 @@
       "url": "https://habitica.com/groups/guild/e2b02c7e-94dd-4d3d-9da5-9bb7bbd01c88",
       "title": "Fort Ironwill",
       "summary": "We are here for those habiticans who chose the honorable path of the Warrior. Sharing knowledge, tips, tricks and strategies for becoming a good, effective and truly powerful fighter who leads their team to victory.",
-      "memberCount": 29,
+      "memberCount": 31,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -7381,7 +7421,7 @@
       "url": "https://habitica.com/groups/guild/db323720-6df8-4bc3-9864-938a471e590f",
       "title": "Gryffindor Common Room",
       "summary": "A home for Gryffindors, the students of the magical Hogwarts School of Witchcraft and Wizardry most commonly associated with bravery/courage, determination, chivalry, and Harry Potter. But there's far more to us than that!",
-      "memberCount": 1082,
+      "memberCount": 1081,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -7400,7 +7440,7 @@
       "url": "https://habitica.com/groups/guild/922d6b07-87e8-4137-b6db-352a583765b4",
       "title": "All About Habits",
       "summary": "This is a place to discuss your favorite habit strategies, your favorite books about habits, and anything else habit-related!   Let's work on building better habits for ourselves together!",
-      "memberCount": 524,
+      "memberCount": 520,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -7419,7 +7459,7 @@
       "url": "https://habitica.com/groups/guild/ebf192a7-8d9b-411f-a1e7-412e5af07695",
       "title": "South East Asian Habiticans - HEROES OF ASEAN - (HASEAN)",
       "summary": "Clans: Indonesian, Filipino, Thai & Vietnamese . . . Mercenaries: Malaysian, Singaporean, Hong Kongers, Brunei, Myanmar, Cambodian, Laos, Timor Leste",
-      "memberCount": 246,
+      "memberCount": 248,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -7476,7 +7516,7 @@
       "url": "https://habitica.com/groups/guild/9aae42d2-034f-4e61-ac8f-b3da5e1f74e2",
       "title": "Archers, Assemble!",
       "summary": "A place to discuss archery, and bond with fellow shooters! Archers of all styles (recurve, compound, barebow, traditional, field, 3D, etc.) and experience levels are encouraged to join.",
-      "memberCount": 24,
+      "memberCount": 25,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -7514,7 +7554,7 @@
       "url": "https://habitica.com/groups/guild/c3826b7b-f361-49ec-a40c-2bbb079611f9",
       "title": "Romanian Habitica Translators",
       "summary": "Romanian Habitica Translation",
-      "memberCount": 6,
+      "memberCount": 7,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -7537,9 +7577,11 @@
       "memberColor": "bronze",
       "official": false,
       "lang": [
+        "es",
         "en"
       ],
       "langPrimary": [
+        "es",
         "en"
       ],
       "langAll": false,
@@ -7573,7 +7615,7 @@
       "url": "https://habitica.com/groups/guild/1a39b947-9ae3-47a9-a56b-1779197de71d",
       "title": "Apprendre l'Anglais - Learning French",
       "summary": "Une guilde pour favoriser l'apprentissage de l'Anglais pour les Francophones et vis-versa.  --- A guild to foster learning French for English speaking folks, and vice versa.",
-      "memberCount": 64,
+      "memberCount": 63,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -7613,8 +7655,8 @@
       "url": "https://habitica.com/groups/guild/c06f0881-8d9a-48e8-a7f9-4b1f0b54a3fc",
       "title": "KPOP Stans ?",
       "summary": "**For fans of KPOP JPOP & CPOP**",
-      "memberCount": 99,
-      "memberColor": "bronze",
+      "memberCount": 100,
+      "memberColor": "silver",
       "official": false,
       "lang": [
         "en"
@@ -7632,7 +7674,7 @@
       "url": "https://habitica.com/groups/guild/3f4b3762-f1d5-41ca-a3ee-ca9dc95ebd20",
       "title": "Necromancer's Guild",
       "summary": "deadbender's Necromancer's Guild, a home for casual Habitica players.",
-      "memberCount": 254,
+      "memberCount": 253,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -7708,7 +7750,7 @@
       "url": "https://habitica.com/groups/guild/18e7c72e-4d24-49ba-bea1-4438133e2e93",
       "title": "The Lego Guild",
       "summary": "For any Lego fans that want to be in a Lego guild  brick set build stop motions stop-motion MOC SNOT AFOL Display Box city Star Wars Marvel DC Harry Potter Overwatch Hidden Chima Mixels Bionicles Indiana Space Power Miners Castle",
-      "memberCount": 58,
+      "memberCount": 60,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -7727,7 +7769,7 @@
       "url": "https://habitica.com/groups/guild/5abc4415-fe93-4ab6-b85d-b66871659bb5",
       "title": "Modern Magic  ?",
       "summary": "Welcome to Modern Magic.  Join us as we explore the Law of Attraction, Energy, Chakras, Dream Analysis, Horoscopes, Essential Oils, Healing Herbs and Plants and more.",
-      "memberCount": 225,
+      "memberCount": 227,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -7879,7 +7921,7 @@
       "url": "https://habitica.com/groups/guild/87e8bed4-ff7a-4bfd-93da-3aab2705d10d",
       "title": "12 Week Year Guild ??",
       "summary": "An accountability and support group for anyone planning their own *12 Week Year* (based on the book by Brian P. Moran).",
-      "memberCount": 39,
+      "memberCount": 38,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -7898,7 +7940,7 @@
       "url": "https://habitica.com/groups/guild/f219dba0-72cc-4bef-9d15-8b23a5f74116",
       "title": "Metalheads ??",
       "summary": "Do you love Metal, Hard Rock, and\\or other extreme music genres? Then this is your guild!",
-      "memberCount": 113,
+      "memberCount": 112,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -7936,7 +7978,7 @@
       "url": "https://habitica.com/groups/guild/569dee26-80d3-49d9-964c-31c49e6c95da",
       "title": "The Black Ribbon",
       "summary": "Our guild, made to help prevent suicide & self-harm, is a friendly support group. If you or someone you love is afflicted with mental illness, depression, friendlessness, or hard times, we won't judge. We can help or simply listen—whatever you need.",
-      "memberCount": 954,
+      "memberCount": 953,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -7974,7 +8016,7 @@
       "url": "https://habitica.com/groups/guild/edd5ebea-7bcb-449a-91dc-ec6594b12c95",
       "title": "Habitica's Music Aficionados",
       "summary": "Habitica's Music Aficionados - a place for all the music lovers out there.",
-      "memberCount": 1660,
+      "memberCount": 1659,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -7993,7 +8035,7 @@
       "url": "https://habitica.com/groups/guild/6631915b-0cb3-41df-ab87-7a51b93a6d34",
       "title": "Wings Of Fire Roleplay",
       "summary": "Wings Of Fire",
-      "memberCount": 58,
+      "memberCount": 57,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -8031,7 +8073,7 @@
       "url": "https://habitica.com/groups/guild/5864ef45-d1e9-4e90-b028-d0063a2c4d93",
       "title": "??",
       "summary": "???????????",
-      "memberCount": 121,
+      "memberCount": 125,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -8050,7 +8092,7 @@
       "url": "https://habitica.com/groups/guild/b2ae8fd7-6f02-43c7-b548-d27dea80dcb3",
       "title": "Coronavirus/COVID-19 updates",
       "summary": "A space to talk about virus news and about personal experiences -- whether that's talking about hand sanitizer shortages or cancellations, or sharing work-from-home tips, or getting emotional support.",
-      "memberCount": 218,
+      "memberCount": 219,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -8069,7 +8111,7 @@
       "url": "https://habitica.com/groups/guild/89cf5238-2c3c-4b5f-bbbf-8db9a9a81a5a",
       "title": "Walk the Walk",
       "summary": "This is a guild for those who walk every day!",
-      "memberCount": 842,
+      "memberCount": 850,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -8145,7 +8187,7 @@
       "url": "https://habitica.com/groups/guild/0c55e3a6-7273-443e-b505-84a9ddb7baf1",
       "title": "Vegan World",
       "summary": "Are you vegan or vegan-curious? This guild is for you!",
-      "memberCount": 369,
+      "memberCount": 370,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -8164,7 +8206,7 @@
       "url": "https://habitica.com/groups/guild/ba40473b-d289-4519-9a1d-8c867f1fa8de",
       "title": "????? ?  | HAPPY FOREST |",
       "summary": "HAPPY FOREST GUILD??     Are you trying to reduce the amount of time you spend on your phone in a fun way? Join a community of Forest App users!  Come learn more about the app or find more friends to plant with while studying.",
-      "memberCount": 102,
+      "memberCount": 103,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -8356,7 +8398,7 @@
       "url": "https://habitica.com/groups/guild/fc99098c-7a95-45b4-bdba-1304011f2c8c",
       "title": "Santé & bien-être",
       "summary": "Guilde autour de la santé, du bien-être et des loisirs",
-      "memberCount": 681,
+      "memberCount": 682,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -8375,7 +8417,7 @@
       "url": "https://habitica.com/groups/guild/d07eb2d3-112a-44ee-991b-334a6d0b7196",
       "title": "Stitchcrafters Guild",
       "summary": "Stitchcrafters Guild",
-      "memberCount": 492,
+      "memberCount": 490,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -8432,7 +8474,7 @@
       "url": "https://habitica.com/groups/guild/5b732e36-33b8-4ab2-9566-8e132c485737",
       "title": "Mon beau jardin",
       "summary": "Mon beau jardin est une guilde francophone dans le but de discuter de jardinage. Que vous ayez un petit jardin, un balcon ou un grand espace. Des défis au fil des saisons nous permettra de nous motiver à entretenir notre espace vert.",
-      "memberCount": 104,
+      "memberCount": 105,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -8470,7 +8512,7 @@
       "url": "https://habitica.com/groups/guild/3815ac7b-1357-4591-80fd-ab8b87b683eb",
       "title": "Skin Support",
       "summary": "A guild to help any Habitican battling a skin condition!  Anyone with eczema, psoriasis, xerosis, or anything else is welcome.  Let's band together and focus on applying cream/medicating and not itching!",
-      "memberCount": 392,
+      "memberCount": 401,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -8546,7 +8588,7 @@
       "url": "https://habitica.com/groups/guild/8464db55-05eb-47c2-920b-b2606c376fcf",
       "title": "HSWW RolePlay",
       "summary": "`Blue Sky enters an empty room, known as the Room of Requirement. There she sees all sorts of computers, all with one page open.` \"HSWW RolePlay\" `she reads aloud.`  ---  Are you a wizard interested in RolePlay? Well, this is the guild for you!",
-      "memberCount": 84,
+      "memberCount": 83,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -8679,7 +8721,7 @@
       "url": "https://habitica.com/groups/guild/597d78fe-1a96-4424-8f2d-6c56955567c2",
       "title": "The Chess Club",
       "summary": "The Chess Club",
-      "memberCount": 256,
+      "memberCount": 257,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -8755,7 +8797,7 @@
       "url": "https://habitica.com/groups/guild/366818bf-8855-46c6-9fee-e39282c3c51e",
       "title": "Habitica Triplers",
       "summary": "This is a guild for people who participate in the monthly Habitica Triple challenge",
-      "memberCount": 1287,
+      "memberCount": 1290,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -8850,7 +8892,7 @@
       "url": "https://habitica.com/groups/guild/0755e75a-42c2-48da-9656-5afe5049e4ba",
       "title": "Maidens with IBD",
       "summary": "A pagan trying to build a path to better gut health for herself, hoping to find some companions along the way. A weekly build to create healthier habits for a greater gut. You do not have to be a witch to join, but you must respect one another.",
-      "memberCount": 21,
+      "memberCount": 20,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -8888,7 +8930,7 @@
       "url": "https://habitica.com/groups/guild/b70e6880-d754-4803-a9a9-f97d0aa9b246",
       "title": "Online Lecture Hall",
       "summary": "An online community to study with diverse learning platforms worldwide. Numerous universities, courses, lecture series, and experts await your discovery!  Key search terms: university, education, MOOC, podcasts, class, professional skills",
-      "memberCount": 1450,
+      "memberCount": 1452,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -8926,7 +8968,7 @@
       "url": "https://habitica.com/groups/guild/f63bb44f-ca80-46a8-9264-1a80cc76346d",
       "title": "Ravenclaw Common Room",
       "summary": "Welcome to the Ravenclaw Common room! Here we will gather to challenge each other, and share our adventures.  ---   Our prefects are @Timtamttime and @nimynous.   ---  Please read the description to learn more!",
-      "memberCount": 2943,
+      "memberCount": 2942,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -8945,7 +8987,7 @@
       "url": "https://habitica.com/groups/guild/3b3193ad-1900-44b1-89dd-bc1551555829",
       "title": "Nerdy Fitness",
       "summary": "Nerdy Fitness",
-      "memberCount": 13578,
+      "memberCount": 13606,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -8964,7 +9006,7 @@
       "url": "https://habitica.com/groups/guild/d89db12b-5ec2-41f1-90d7-62bfbd8694b5",
       "title": "Inspiration ?? Station",
       "summary": "A home for inspirational insights, quotes, poems, stories, parables & fables. A place for uplifting jokes, puns & riddles. A repository for words of motivation & encouragement. An antidote to procrastination, stress, anxiety & depression.",
-      "memberCount": 3252,
+      "memberCount": 3251,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -9002,7 +9044,7 @@
       "url": "https://habitica.com/groups/guild/22881d6d-8aee-40f9-a6aa-40f45c18edd0",
       "title": "Survival: Challenge Guild",
       "summary": "This is the hub for participants in the Survival: challenges.",
-      "memberCount": 596,
+      "memberCount": 603,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -9021,7 +9063,7 @@
       "url": "https://habitica.com/groups/guild/3cf2702c-2827-4773-9489-cd3f6949553d",
       "title": "????????",
       "summary": "Habitica????????,????????????????????,???????????????????,??????,??????????   ????!",
-      "memberCount": 505,
+      "memberCount": 507,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -9078,7 +9120,7 @@
       "url": "https://habitica.com/groups/guild/8e59113d-a476-4c3d-b189-52959d0c6118",
       "title": "Parents' Guild",
       "summary": "From the moment you get that positive test parenthood is a journey full of challenges.",
-      "memberCount": 2159,
+      "memberCount": 2157,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -9135,7 +9177,7 @@
       "url": "https://habitica.com/groups/guild/50d7b85c-3f8d-4c6f-94c6-b3cdd515911d",
       "title": "Howgart’s School of Credits and Accountancy ",
       "summary": "A group for accounting students, business majors, industry or firm employees, and everything in-between. Whether you’re studying for the CPA , CFA, or CFP, this group will serve as a catch-all for young and upcoming professionals in the field.",
-      "memberCount": 31,
+      "memberCount": 32,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -9154,7 +9196,7 @@
       "url": "https://habitica.com/groups/guild/dfc4f9fe-a795-43f5-a3ca-54b54778b8ba",
       "title": "Fitness Guild of Habitica",
       "summary": "The Guild for all things Fitness (and self-improvement) in Habitica!",
-      "memberCount": 1234,
+      "memberCount": 1232,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -9211,7 +9253,7 @@
       "url": "https://habitica.com/groups/guild/684e8d69-2605-446b-9f30-f9f28026035a",
       "title": "Deutschsprachige Habiticaner",
       "summary": "Du bist auf der Suche nach einer Gilde für deutschsprachige Habiticaner? Such nicht weiter, Du hast sie gefunden! Wir sind eine Gruppe netter, hilfsbereiter und motivierter Habiticaner, genau richtig zum Questen, Quatschen und Vorankommen.",
-      "memberCount": 529,
+      "memberCount": 530,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -9230,7 +9272,7 @@
       "url": "https://habitica.com/groups/guild/a7193edb-4e1d-41e8-b678-9cc236007b86",
       "title": "The Daily Journal",
       "summary": "Do you keep a daily journal? This guild is for you!",
-      "memberCount": 1842,
+      "memberCount": 1852,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -9268,7 +9310,7 @@
       "url": "https://habitica.com/groups/guild/c4476c7b-2024-4881-8df8-9b038480ed34",
       "title": "The Philosophers",
       "summary": "The Philosophers are seeking to better themselves and their communities by studying or practicing philosophy in all its forms. All levels of familiarity welcome!",
-      "memberCount": 1132,
+      "memberCount": 1135,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -9287,7 +9329,7 @@
       "url": "https://habitica.com/groups/guild/ae6d97f3-4dd2-42af-a23b-23099402f50d",
       "title": "Imaginary journey challenges guild",
       "summary": "This guild contains challenges where real/fantasy routes have been turned into imaginary/virtual challenges. They can be performed anywhere and contain milestones as goals for one's own walking, swimming, bicycling, rowing, skiing etc.",
-      "memberCount": 262,
+      "memberCount": 267,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -9344,7 +9386,7 @@
       "url": "https://habitica.com/groups/guild/5273afc6-fd99-4a2d-a567-4db828fc314d",
       "title": "?????? ???????????",
       "summary": "?????? ???????????",
-      "memberCount": 428,
+      "memberCount": 432,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -9382,7 +9424,7 @@
       "url": "https://habitica.com/groups/guild/940bbad2-1294-4f09-93c6-0067e3ffd033",
       "title": "The LearnJapanese Guild",
       "summary": "A guild for members of the [subreddit LearnJapanese]  &nbsp;  Of course, anyone who is interested in learning Japanese is welcome to join!",
-      "memberCount": 2289,
+      "memberCount": 2292,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -9593,7 +9635,7 @@
       "url": "https://habitica.com/groups/guild/9ad7308b-b7a2-42bc-a03f-e848001da755",
       "title": "Pokemon Trainers",
       "summary": "A place for Pokemon trainers, collectors, breeders, traders, coordinators, and lovers. All experience levels and game systems welcome!  (Separate from but more or less affiliated with the Pokemon GO Guild!)",
-      "memberCount": 2508,
+      "memberCount": 2507,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -9612,7 +9654,7 @@
       "url": "https://habitica.com/groups/guild/42dfef3e-cf2c-4342-a1d5-bdbf384874f4",
       "title": "Radical Compassion Collective",
       "summary": "Public Guild  A co-working space and break room for anyone working who'd like the company of a kind and supportive group while they work on their personal projects.  Our aim is not just to get our work done, but hopefully to enjoy doing it.",
-      "memberCount": 401,
+      "memberCount": 399,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -9650,7 +9692,7 @@
       "url": "https://habitica.com/groups/guild/3e691ae2-2cdf-4dca-82ba-c8d4849b2ac9",
       "title": "[españoles y latinos]",
       "summary": "¿gremios(guild) en ingles? ¿tienes dudas de habitica? ¿te gustaria hablar de un tema con gente? este es el clan ideal!",
-      "memberCount": 564,
+      "memberCount": 563,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -9672,7 +9714,7 @@
       "url": "https://habitica.com/groups/guild/994baeb5-ab8b-48b8-b14e-86e5b6bf7d68",
       "title": "The Crystal Gems",
       "summary": "A guild to talk about the Cartoon Network show, Steven Universe, and its related media (i.e. Attack/Save/Unleash the Light, comics, etc. etc.).",
-      "memberCount": 677,
+      "memberCount": 678,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -9786,7 +9828,7 @@
       "url": "https://habitica.com/groups/guild/6a63eaf3-367d-450b-9022-7f284b8b9a1c",
       "title": "Polish Translators",
       "summary": "Polish Translators",
-      "memberCount": 21,
+      "memberCount": 22,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -9826,7 +9868,7 @@
       "url": "https://habitica.com/groups/guild/72df32e2-ac67-415c-9124-c8d21645ba71",
       "title": "?? Gamified Reading ??",
       "summary": "Having trouble with your reading? This guild not only deals with major problems such as time management, long TBR (To-Be-Read) lists, and buying too many books, but it also makes tackling these problems fun!",
-      "memberCount": 2852,
+      "memberCount": 2856,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -9845,7 +9887,7 @@
       "url": "https://habitica.com/groups/guild/124791f4-34a8-4049-82d9-bd87af5e7dc2",
       "title": "Time Management",
       "summary": "If you want to stop feeling short on time, this is the place for you.  Come figure out how to plan better with us, track results, find ideas to improve, and start enjoying your time more.  Beat procrastination with smart goals and accountability.",
-      "memberCount": 1598,
+      "memberCount": 1600,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -9942,7 +9984,7 @@
       "url": "https://habitica.com/groups/guild/02e225ce-eb67-4e9a-be0a-9c3858d4273e",
       "title": "The Seasonal Challenges Guild",
       "summary": "A discussion space for seasonal challenges.",
-      "memberCount": 105,
+      "memberCount": 104,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -10096,7 +10138,7 @@
       "url": "https://habitica.com/groups/guild/9556cad0-d7b6-4019-8f0f-f9c989015e8f",
       "title": "The Otaku and  Gamers Dojo",
       "summary": "A guild for all anime, manga, light novel and visual novel fans and people who like playing video games, as well as the wider otaku subculture outside Japan!",
-      "memberCount": 4552,
+      "memberCount": 4550,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -10134,7 +10176,7 @@
       "url": "https://habitica.com/groups/guild/aa429524-bb62-4b44-b0a2-f4df81643b1a",
       "title": "?? Zooniverse Conservation Quest Guild ??",
       "summary": "People powered research! Assist researchers by joining the Zooniverse as a volunteer and helping tag photos, audio clips, and more!  Great for animal lovers and science lovers!",
-      "memberCount": 248,
+      "memberCount": 251,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -10269,7 +10311,7 @@
       "url": "https://habitica.com/groups/guild/9f185eff-a1f1-44da-aa8a-86f57d75aca1",
       "title": "Furries and Friends",
       "summary": "Furries and Friends",
-      "memberCount": 408,
+      "memberCount": 410,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -10288,7 +10330,7 @@
       "url": "https://habitica.com/groups/guild/4c366cdd-9ece-4ee1-9bc5-fa0d0c8df63f",
       "title": "Essential Habits of a Christian",
       "summary": "Essential Habits of a Christian",
-      "memberCount": 159,
+      "memberCount": 158,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -10307,7 +10349,7 @@
       "url": "https://habitica.com/groups/guild/71f63b39-7a61-47cc-ab1c-3d59c541d737",
       "title": "Supernatural",
       "summary": "Supernatural",
-      "memberCount": 447,
+      "memberCount": 448,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -10364,7 +10406,7 @@
       "url": "https://habitica.com/groups/guild/fa3929ed-c60a-45fc-82ac-50bce2342035",
       "title": "??????? The Peaceful Cantaloupe Tavern",
       "summary": "?????/Tuta's Tavern ???????????,??????????",
-      "memberCount": 72,
+      "memberCount": 73,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -10383,7 +10425,7 @@
       "url": "https://habitica.com/groups/guild/09a66cc6-62d9-4eaf-a705-4ea8ea330544",
       "title": "Financial Discipline Guild",
       "summary": "In a world where we are constantly bombarded with advertisements to strip us of our hard earned money, this group seeks to turn the tide of consumerism and develop financial discipline. All knowledge levels and ages are welcome!",
-      "memberCount": 8926,
+      "memberCount": 8947,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -10459,7 +10501,7 @@
       "url": "https://habitica.com/groups/guild/bb778998-3af8-4252-898f-9e63d364a61d",
       "title": "The Creative Hedonist",
       "summary": "The Creative Hedonist is a guild for artists who just wanna have fun with their creativity! We are a no-pressure place for people who just want to create art for the joy of it. All arts are welcome, from painting to sewing to writing to pottery!",
-      "memberCount": 288,
+      "memberCount": 289,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -10535,7 +10577,7 @@
       "url": "https://habitica.com/groups/guild/006c7f68-e07a-4a56-9dcf-fd64c90e3ef4",
       "title": "Polska",
       "summary": "Gildia dla wszystkich osób polskojezycznych.",
-      "memberCount": 1387,
+      "memberCount": 1386,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -10554,7 +10596,7 @@
       "url": "https://habitica.com/groups/guild/9ca23236-caf4-452c-9827-6f5f6d0a9e85",
       "title": "Weekly Meditation",
       "summary": "It's easy to get swept up in life.Take some time to yourself today. Each week we present a new idea, thought, or quote to meditate on. Take what you learn and apply them to your day as you move through the week to help create a more thoughtful life.",
-      "memberCount": 73,
+      "memberCount": 74,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -10689,7 +10731,7 @@
       "url": "https://habitica.com/groups/guild/a1fcc3e9-2c4d-4ce7-8d18-55caeceac970",
       "title": "General Health - Food, Exercise and Mentality Guild",
       "summary": "This guild is for those of you that want more in life. Better and healthier Sport, better and healthier Food as well as a better and healthier Mentality regarding those aspects.",
-      "memberCount": 555,
+      "memberCount": 538,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -10765,7 +10807,7 @@
       "url": "https://habitica.com/groups/guild/cd8c705d-b285-4348-acfb-f2ff498d35d8",
       "title": "Disability / Chronic Illness Problem Solving Guild",
       "summary": "Guild for discussion of PHYSICAL (incl. developmental) disability, chronic illness, health insurance issues, accomodations and accessibility, personal care and/or in-home caregivers, psychology of disability, relationships with disability, and more!",
-      "memberCount": 138,
+      "memberCount": 140,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -10822,7 +10864,7 @@
       "url": "https://habitica.com/groups/guild/10e3751d-bb01-4798-8e44-c5469fbb2705",
       "title": "One Step At A Time",
       "summary": "Extremely small goals (and celebrations of progress!) for the busy and easily overwhelmed.",
-      "memberCount": 780,
+      "memberCount": 782,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -10862,7 +10904,7 @@
       "url": "https://habitica.com/groups/guild/b5670e19-d00e-4ff4-904d-dce8184d63aa",
       "title": "The Music Creators",
       "summary": "The guild for all Habiticans interested in music composition! Interested in composing, want to promote your pieces, or simply want to listen to all the awesome compositions? You're welcome to join!",
-      "memberCount": 1367,
+      "memberCount": 1368,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -10900,7 +10942,7 @@
       "url": "https://habitica.com/groups/guild/ea4a59ee-0301-4c40-b1b6-e64f3caea9ff",
       "title": "Sexual Positivity Guild Lobby",
       "summary": "This is the Lobby of the Sexual Positivity Guild. As the Guild is 18+ and discusses topic relating to sex and sexuality it is Private. If you would like an invite, are 18+, and will abide by the rules, please ask for an invite in chat!",
-      "memberCount": 91,
+      "memberCount": 94,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -10939,7 +10981,7 @@
       "url": "https://habitica.com/groups/guild/d384d634-b8cb-4be9-93a5-61538443009e",
       "title": "Porn-Free and NoFap Support Guild Lobby",
       "summary": "Porn-Free and NoFap Support Guild Lobby",
-      "memberCount": 1019,
+      "memberCount": 1021,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -10958,7 +11000,7 @@
       "url": "https://habitica.com/groups/guild/5b05e35e-4608-4f27-ba2f-1354640fbe3a",
       "title": "Young Adult- Unprepared",
       "summary": "Young Adult- Unprepared",
-      "memberCount": 3989,
+      "memberCount": 3996,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -10996,7 +11038,7 @@
       "url": "https://habitica.com/groups/guild/04fb5ae9-5ed4-43f7-b43a-0ee5cc3916bd",
       "title": "?? Everyday Holidays ??",
       "summary": "?? Welcome to the Everyday Holidays Guild, where every day is a cause for celebration. We have daily, weekly, and monthly challenges celebrating and observing a variety of holidays. Most of our challenges have an element of learning.",
-      "memberCount": 2644,
+      "memberCount": 2659,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -11072,7 +11114,7 @@
       "url": "https://habitica.com/groups/guild/39d1cd44-5bcf-4ab3-84a5-d4a2714807a0",
       "title": "Habitica Discord Server (unofficial)",
       "summary": "[Habitica Discord Server]",
-      "memberCount": 47,
+      "memberCount": 48,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -11091,7 +11133,7 @@
       "url": "https://habitica.com/groups/guild/32dcf8f2-c89d-45ab-9ff2-c00ede2ce2e0",
       "title": "Working from Home",
       "summary": "Working from Home",
-      "memberCount": 4419,
+      "memberCount": 4424,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -11129,7 +11171,7 @@
       "url": "https://habitica.com/groups/guild/0e7a1d57-b2a7-47c7-a5ea-90469e1516ec",
       "title": "Cloak and Dagger (Recent and Retired Rogues)",
       "summary": "Every Rogue needs his or her's place to hang and trade secrets of pickpocketing. And none other is better than Cloak and Dagger (Retired and Recent Rogues)!",
-      "memberCount": 519,
+      "memberCount": 521,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -11205,7 +11247,7 @@
       "url": "https://habitica.com/groups/guild/f9f23cb7-4788-46ae-b95b-f5bee46be849",
       "title": "The Enchanted Forest",
       "summary": "Monthly challenges for sustainability and long-term goals. Should be especially helpful for working on your PhD thesis but everyone is welcome! Bonus if you have read the Enchanted Forest Chronicles by Patricia C. Wrede ;-)",
-      "memberCount": 92,
+      "memberCount": 93,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -11281,7 +11323,7 @@
       "url": "https://habitica.com/groups/guild/2302b61c-a349-4b07-b185-03269760bc40",
       "title": "Weight Loss & Maintenance",
       "summary": "Weight Loss & Maintenance",
-      "memberCount": 12235,
+      "memberCount": 12279,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -11338,7 +11380,7 @@
       "url": "https://habitica.com/groups/guild/a205dd09-4578-438b-a87a-275aa2461f2e",
       "title": "Autistic Adventurers' Guild",
       "summary": "The guild for Habiteers on the autism spectrum, whether you be professionally or self-diagnosed.",
-      "memberCount": 3915,
+      "memberCount": 3926,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -11395,7 +11437,7 @@
       "url": "https://habitica.com/groups/guild/3bd04c6b-8abe-4237-bf56-67666099ec15",
       "title": "?????, ????!  (for Korean)",
       "summary": "????? ??? ??? ??? ???? ?? ??? ?? ?????. ??? ???? ???? ???.",
-      "memberCount": 217,
+      "memberCount": 216,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -11452,7 +11494,7 @@
       "url": "https://habitica.com/groups/guild/e5b61125-95ad-455e-b37e-f30957267700",
       "title": "Asexuals Who Probably Don't Glow In The Dark",
       "summary": "Let's **ace** productivity together!  This Guild is a sp**ace** to chat! Everyone on the asexual and/or aromantic spectrum is welcome and part of our community, whether ace, aro, demi, grey-a, lith/akoi, cupio, questioning or other orientations!",
-      "memberCount": 1810,
+      "memberCount": 1814,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -11471,7 +11513,7 @@
       "url": "https://habitica.com/groups/guild/0a6f26b6-62ac-469b-a1f2-aa1301d1d525",
       "title": "Animator's Survival Guild",
       "summary": "Our passion is the entertainment arts, including animation, game design, visual effects, virtual reality, and augmented reality.",
-      "memberCount": 622,
+      "memberCount": 624,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -11490,7 +11532,7 @@
       "url": "https://habitica.com/groups/guild/672e263b-a62c-42d7-95d2-7d963a6c9d52",
       "title": "Hufflepuff Common Room",
       "summary": "Hufflepuff Common Room",
-      "memberCount": 2368,
+      "memberCount": 2366,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -11509,7 +11551,7 @@
       "url": "https://habitica.com/groups/guild/9d54fd7d-41a2-4fba-a4fb-f200e3623aeb",
       "title": "Aliança do Grifo Negro",
       "summary": "**? Asas para sonhar e Garras para Conquistar**",
-      "memberCount": 788,
+      "memberCount": 789,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -11528,7 +11570,7 @@
       "url": "https://habitica.com/groups/guild/280c3cd6-bf8e-4334-a215-d12cb2400717",
       "title": "G-Force",
       "summary": "Get in shape while saving Habitica from giant monsters!  ---  Search terms: Godzilla, Mechagodzilla, kaiju, mechs, movies, exercising, working out, running, martial arts, accountability, health, fitness",
-      "memberCount": 2024,
+      "memberCount": 2017,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -11547,7 +11589,7 @@
       "url": "https://habitica.com/groups/guild/02330380-adcc-4e6b-b208-127de8cc70b9",
       "title": "The Rogues' Playground",
       "summary": "Develop your physical fitness with short, real-time challenges with gem rewards. Set your own workouts, exercises, or other physical health tasks. You don't need to be a rogue to join us!",
-      "memberCount": 213,
+      "memberCount": 216,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -11585,7 +11627,7 @@
       "url": "https://habitica.com/groups/guild/592f6521-2980-4b3b-b684-113acbc9353b",
       "title": "Yoga Practititoners",
       "summary": "formerly Yoga Enthusiasts",
-      "memberCount": 848,
+      "memberCount": 849,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -11606,7 +11648,7 @@
       "url": "https://habitica.com/groups/guild/b2be8bd2-9545-438c-8fd3-13e08c2ca723",
       "title": "Pixel Power",
       "summary": "A guild for new and experienced pixel artists alike!  We have challenges!",
-      "memberCount": 695,
+      "memberCount": 697,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -11625,7 +11667,7 @@
       "url": "https://habitica.com/groups/guild/a2af16f6-fcee-4f7f-a6ab-77b8f97c49b2",
       "title": "Society of Old Books",
       "summary": "Welcome to the Society of Old Books! We sound stuffy, but we're really not. We're just a group of people interested in reading some classic books. Join us as we dive into classic literature!",
-      "memberCount": 406,
+      "memberCount": 407,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -11663,7 +11705,7 @@
       "url": "https://habitica.com/groups/guild/381f73d0-087d-4426-86df-f4cfd3d7ab4c",
       "title": "?? The Bookworms",
       "summary": "Guild for people who love books and want to share with a community.",
-      "memberCount": 2025,
+      "memberCount": 2033,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -11682,7 +11724,7 @@
       "url": "https://habitica.com/groups/guild/23f0748e-cf5f-4e48-ba71-498a60e91e1b",
       "title": "The Tea Room",
       "summary": "The Tea Room",
-      "memberCount": 3938,
+      "memberCount": 3942,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -11701,7 +11743,7 @@
       "url": "https://habitica.com/groups/guild/13d7c453-2a90-4835-a2bb-5a6dcde3f1c8",
       "title": "/r/actuallesbians",
       "summary": "/r/actuallesbians",
-      "memberCount": 361,
+      "memberCount": 362,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -11739,7 +11781,7 @@
       "url": "https://habitica.com/groups/guild/ecfe1fa2-7ca4-497b-beaa-ed449264b30b",
       "title": "D&D",
       "summary": "Take the role of an adventurer and measure your progress in fitness, charisma, knowledge and other fields. Slay dragons and get that extra incentive to do your daily things. Use habitica Dungeons-and-Dragons-style.",
-      "memberCount": 1633,
+      "memberCount": 1639,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -11796,7 +11838,7 @@
       "url": "https://habitica.com/groups/guild/6b94b8dc-1882-49f1-9515-b4fe095ede19",
       "title": "Japanese: Intermediate & Advanced",
       "summary": "Have you finished Genki? Did you take an introductory course and you have no idea where to go from there? Or have you hit a \"learning plateau\" perhaps? Join us and keep growing!",
-      "memberCount": 158,
+      "memberCount": 159,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -11817,7 +11859,7 @@
       "url": "https://habitica.com/groups/guild/9385c44f-cca6-4d8e-ad6c-2974418a0f14",
       "title": "Journaling ??",
       "summary": "You are here because you want a nudge to produce an interesting readable journal.",
-      "memberCount": 322,
+      "memberCount": 325,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -11836,7 +11878,7 @@
       "url": "https://habitica.com/groups/guild/bd36287f-939c-4166-8ad4-dfbe85b24717",
       "title": "Pregnancy Guild",
       "summary": "A group focusing on preparing your body and your life for a baby.",
-      "memberCount": 55,
+      "memberCount": 54,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -11950,7 +11992,7 @@
       "url": "https://habitica.com/groups/guild/6fe49760-087f-4b08-9432-86fe77c2f1ef",
       "title": "Doctors, medical students and health professionals",
       "summary": "This guild is for all health professionals that contribute to the well-being of our population. (Nursing, dentistry, psychology, pharmacy, physiotherapy.)",
-      "memberCount": 2477,
+      "memberCount": 2480,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -12045,7 +12087,7 @@
       "url": "https://habitica.com/groups/guild/d6295936-7106-41d4-b90c-f22bdca3303b",
       "title": "The Bulletin Board ??",
       "summary": "It is quite easy for announcements of your awesome guild, challenge, or project to get lost in the Tavern, so here is the place to share your awesome creation.",
-      "memberCount": 2619,
+      "memberCount": 2626,
       "memberColor": "gold",
       "official": true,
       "lang": [
@@ -12292,7 +12334,7 @@
       "url": "https://habitica.com/groups/guild/dd8a3d42-dbca-4794-af7e-9dfac45b1748",
       "title": "Knights of Ni",
       "summary": "This guild is to support each other in being productive to create better lives for ourselves in the real world.  In Habitica we will defeat evil creatures and find lost objects for the betterment of the guild.",
-      "memberCount": 26,
+      "memberCount": 27,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -12541,7 +12583,7 @@
       "url": "https://habitica.com/groups/guild/2b976e38-0782-457e-9807-2146286cc58b",
       "title": "Excuse me, do you have a bell pepper?",
       "summary": "Excuse me, do you have a bell pepper?",
-      "memberCount": 21,
+      "memberCount": 22,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -12811,7 +12853,7 @@
       "url": "https://habitica.com/groups/guild/1a96928f-a289-417e-a692-48a4731a8306",
       "title": "origami and/or paper crafts",
       "summary": "a place for people to share their interest in origami and/or paper craft search terms: folding  paper  art  origami craft",
-      "memberCount": 81,
+      "memberCount": 82,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -12887,7 +12929,7 @@
       "url": "https://habitica.com/groups/guild/50aefb36-005f-4400-8a39-93c2eceb503c",
       "title": "Postcrossing",
       "summary": "This is a guild for all the Habiticians who are also fans of Postcrossing and postcards! :)",
-      "memberCount": 152,
+      "memberCount": 157,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -13112,7 +13154,7 @@
       "url": "https://habitica.com/groups/guild/1c506259-ee27-4c52-a068-cf3e749fb9c8",
       "title": "Bulgaritica  (Bulgaria / ????????)",
       "summary": "Bulgaritica  (Bulgaria / ????????)",
-      "memberCount": 38,
+      "memberCount": 39,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -13169,7 +13211,7 @@
       "url": "https://habitica.com/groups/guild/230b6817-e722-4cee-b8fc-f672966a4053",
       "title": "OpenStoic - Stoicism Community",
       "summary": "Welcome to OpenStoic, the first practical community based on the new project [OpenStoic.com] We will design a training plan for promoting Virtue and progressing through Prokopton in life",
-      "memberCount": 84,
+      "memberCount": 85,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -13188,7 +13230,7 @@
       "url": "https://habitica.com/groups/guild/eef221ad-d118-48b0-a6fe-98461e8a394a",
       "title": "Perfume People",
       "summary": "Perfume People",
-      "memberCount": 31,
+      "memberCount": 32,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -13477,7 +13519,7 @@
       "url": "https://habitica.com/groups/guild/d58a5613-58b7-4335-8555-2b788a096229",
       "title": "??Forest App Users",
       "summary": "If you use the Forest app, come join us!",
-      "memberCount": 232,
+      "memberCount": 233,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -13515,7 +13557,7 @@
       "url": "https://habitica.com/groups/guild/b3f23324-b477-49cb-88da-dfa36317d5d1",
       "title": "Ratón de Biblioteca",
       "summary": "**Hermandad hispana**, orientada a todos los devoradores de libros, literarios y ratones de biblioteca de Habitica.",
-      "memberCount": 224,
+      "memberCount": 223,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -13610,7 +13652,7 @@
       "url": "https://habitica.com/groups/guild/64f26430-a0da-4410-97b2-0ebf5cc4beb7",
       "title": "Let's learn German! ",
       "summary": "A place to practice your German skills, or help others improve theirs.",
-      "memberCount": 423,
+      "memberCount": 426,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -13690,7 +13732,7 @@
       "url": "https://habitica.com/groups/guild/fc10f909-c384-4e71-9eef-ec3e4433aeb8",
       "title": "HabitRPG Guild Wars 2 Guild Guild",
       "summary": "HabitRPG Guild Wars 2 Guild Guild",
-      "memberCount": 56,
+      "memberCount": 57,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -13747,7 +13789,7 @@
       "url": "https://habitica.com/groups/guild/a25afc2e-5ae6-484f-8e18-c075ee35b414",
       "title": "Blake's Guild",
       "summary": "**A guild which is frequently used for various temporary things!**  This guild is currently being re-purposed as a site for...",
-      "memberCount": 66,
+      "memberCount": 67,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -13785,7 +13827,7 @@
       "url": "https://habitica.com/groups/guild/7b7112db-34d6-4162-b804-0feca3a6ddbe",
       "title": "Catholic geeks",
       "summary": "A place for Catholic geeks of all kinds! Geek out, level up in holiness, help each other become the hero God is calling you to be.",
-      "memberCount": 139,
+      "memberCount": 140,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -13863,7 +13905,7 @@
       "url": "https://habitica.com/groups/guild/60b1833d-68df-4982-afa4-6e04d78ee6a7",
       "title": "Philological Guild",
       "summary": "Linguistics, phonology, morphology, syntax, reconstruction, analysis, old texts, obscure meanings, and ancient languages.",
-      "memberCount": 142,
+      "memberCount": 143,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14017,7 +14059,7 @@
       "url": "https://habitica.com/groups/guild/7ac1bc52-9ba8-495f-86a6-874c5a814834",
       "title": "Positive Habitica Experiences",
       "summary": "This guild is dedicated to sharing how Habitica has been helpful and increased productivity or positivity in users' lives.",
-      "memberCount": 86,
+      "memberCount": 85,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -14036,7 +14078,7 @@
       "url": "https://habitica.com/groups/guild/00a4051c-2109-480a-a4b9-4595c67e0760",
       "title": "Bakin' Bakin' All Day Long",
       "summary": "A guild for those who love to bake (or simply love sweets and pastries) to share their baking experiences, recipes, awful puns, fandoms, and more.",
-      "memberCount": 396,
+      "memberCount": 395,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14055,7 +14097,7 @@
       "url": "https://habitica.com/groups/guild/6a789a53-154b-4241-bde6-7f77484c09b9",
       "title": "Scrapbookers and Memory Keepers",
       "summary": "Scrapbookers and Memory Keepers",
-      "memberCount": 190,
+      "memberCount": 193,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14093,7 +14135,7 @@
       "url": "https://habitica.com/groups/guild/778d64fc-d038-4adb-9e03-a4d43ba00983",
       "title": "?????Korean Guild (??? ??)",
       "summary": "??? ????? ??? ?????! (??? ??)  Anyone who can speak Korean can join us! (Do not use machine translator unless urgent)  ?????! **??** ??? ? ? **?? ?????** ?? **???**????",
-      "memberCount": 1955,
+      "memberCount": 1963,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -14131,7 +14173,7 @@
       "url": "https://habitica.com/groups/guild/feec0365-0078-40f1-bb0a-adac04d634ff",
       "title": "?? Pom Throwing Arena!",
       "summary": ":tomato: Somewhere we can throw poms!",
-      "memberCount": 127,
+      "memberCount": 128,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14150,7 +14192,7 @@
       "url": "https://habitica.com/groups/guild/d9a0ec1e-352b-4697-a5d5-fb45c98fb4a3",
       "title": "Testing & Bug Squashing for Dragon Tools",
       "summary": "Guild for testing, bug reporting and feature requesting for tools developed by cTheDragons. Tools include are Party & Guild Data Tool, Challenge Data Tool, Inbox Display & Export Tool, Bulk Feed Pets Tool.",
-      "memberCount": 95,
+      "memberCount": 94,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -14209,7 +14251,7 @@
       "url": "https://habitica.com/groups/guild/f2fb70c0-83a8-4840-a7c9-eebde7ebcd87",
       "title": "RetroGuild",
       "summary": "RetroGuild is a community with emphasis on chat and chill challenges about 80's and 90's  pop culture.  If you're keen on nostalgia, or want to learn how to be sweet, come hang with us.",
-      "memberCount": 119,
+      "memberCount": 121,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14247,7 +14289,7 @@
       "url": "https://habitica.com/groups/guild/5832d73a-ab63-481a-bec5-112ad82f7c13",
       "title": "The Habitican ??? Syndicate",
       "summary": "NOTICE  `There is a new and active guild for Warriors.`  CLICK LINK BELOW  [Fort Ironwill]  ***This one is going to be repurposed into a different type of guild.***",
-      "memberCount": 81,
+      "memberCount": 80,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -14382,7 +14424,7 @@
       "url": "https://habitica.com/groups/guild/dca65ca5-2bae-442d-a564-d1a1fb6a00b4",
       "title": "Beeminder",
       "summary": "Beeminder",
-      "memberCount": 98,
+      "memberCount": 99,
       "memberColor": "bronze",
       "official": false,
       "lang": [
@@ -14420,7 +14462,7 @@
       "url": "https://habitica.com/groups/guild/00881f3f-b468-41b5-9478-f764f8b54103",
       "title": "Make Art Out Of Chaos",
       "summary": "Make Art Out Of Chaos",
-      "memberCount": 328,
+      "memberCount": 329,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14477,7 +14519,7 @@
       "url": "https://habitica.com/groups/guild/f3dc8fb5-d113-4657-bc5e-60393e601c06",
       "title": "Heart and Hearth: A Space for Positivity",
       "summary": "An active and positive community. Home of monthly Positivity, Love and skill-building Baby Steps challenges. Everyone welcome to join, even if you aren't participating in the challenges.",
-      "memberCount": 1326,
+      "memberCount": 1343,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -14515,7 +14557,7 @@
       "url": "https://habitica.com/groups/guild/894de958-7b11-4290-99ea-f78b8496a08d",
       "title": "Combating Loneliness",
       "summary": "Whether surrounded by people or alone we can all feel lonely at times, and this guild is to combat loneliness and isolation and help people feel more connected, less alone, make new friends and experience companionship and social interaction.",
-      "memberCount": 382,
+      "memberCount": 394,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14574,7 +14616,7 @@
       "url": "https://habitica.com/groups/guild/208b6e1c-3b51-49b1-9f4f-cb18df4d921e",
       "title": "Level Up Your Life",
       "summary": "Level Up Your Life",
-      "memberCount": 149,
+      "memberCount": 148,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14612,7 +14654,7 @@
       "url": "https://habitica.com/groups/guild/4ccefedb-45ec-47b0-987d-661805c13beb",
       "title": "Habitican Herbal apothecary",
       "summary": "Habitican Herbal apothecary",
-      "memberCount": 161,
+      "memberCount": 162,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14726,7 +14768,7 @@
       "url": "https://habitica.com/groups/guild/a8b0a970-4035-4210-84df-7e2674227e95",
       "title": "Let's chat!",
       "summary": "Let's chat!",
-      "memberCount": 127,
+      "memberCount": 126,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14745,7 +14787,7 @@
       "url": "https://habitica.com/groups/guild/d7ecf4a8-29f1-4b3a-9c54-b543bf4c1ca2",
       "title": "Suomi Finland",
       "summary": "Suomi Finland",
-      "memberCount": 145,
+      "memberCount": 146,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14783,7 +14825,7 @@
       "url": "https://habitica.com/groups/guild/808d43d6-58f0-407f-8d1a-5aef11544308",
       "title": "Habitica Party Roster",
       "summary": "Browse hundreds of active parties by topic with Habitica's first ever roll call. Easy A–Z party index, bio and stat info on any group, read news updates and earn quest badges.",
-      "memberCount": 1189,
+      "memberCount": 1190,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -14821,7 +14863,7 @@
       "url": "https://habitica.com/groups/guild/55bdcc5b-6942-4dee-ac43-22501e1d07c8",
       "title": "Scribes of the Silver Screen",
       "summary": "Scribes of the Silver Screen",
-      "memberCount": 127,
+      "memberCount": 126,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14840,7 +14882,7 @@
       "url": "https://habitica.com/groups/guild/e2f19db7-2d32-4b01-8fa3-41bb7c0a42a1",
       "title": "Chinese (Mandarin) Study Group",
       "summary": "A support group for Chinese (Mandarin) learners. We run a challenge once every 1 to 2 months ?? As the saying goes \"good good study, day day up\" (????,????), remember to study even on the days where we don't have a challenge!",
-      "memberCount": 307,
+      "memberCount": 306,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14975,7 +15017,7 @@
       "url": "https://habitica.com/groups/guild/5c753ce3-21fb-4f41-a298-c7a4fd27d806",
       "title": "Habiticans of the Hive",
       "summary": "Habiticans of the Hive, for Habitica users who use [Darebee] to reach their fitness goals.",
-      "memberCount": 169,
+      "memberCount": 168,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -14994,7 +15036,7 @@
       "url": "https://habitica.com/groups/guild/928d1fd7-fa38-42c1-bc38-098d2a3a1e6f",
       "title": "The Noun-Verb-Adjective Challenge Guild",
       "summary": "The Noun-Verb-Adjective Challenge Guild",
-      "memberCount": 318,
+      "memberCount": 320,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15104,7 +15146,7 @@
       "url": "https://habitica.com/groups/guild/4dc571a1-254e-4766-94fb-8585f4b053a0",
       "title": "Eclectic Spiritualists' Guild",
       "summary": "Hello, you beautiful expression of divinity!   Are you a spiritual person, do you have your own faith, or is there no religion fitting you because you have your own unique hybrid believe system? Then welcome to the guild! :)",
-      "memberCount": 250,
+      "memberCount": 251,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15180,7 +15222,7 @@
       "url": "https://habitica.com/groups/guild/ab439f79-6f34-4a0a-8372-1d5d2b303527",
       "title": "Mythical Creatures of All Sorts",
       "summary": "We're exploring a cave...scary! We just have fun in this guild.",
-      "memberCount": 203,
+      "memberCount": 202,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15218,7 +15260,7 @@
       "url": "https://habitica.com/groups/guild/dc798b5a-8727-4cb0-962f-9dddf7e7ae39",
       "title": "Short-Term Accountability Guild OVERFLOW Challenge Chat",
       "summary": "STAG (Short-Term Accountability Guild) overflow challenge chat. For check-in reports on certain challenges, and the new home of the DFF (Daily Focus Finder) Challenges.",
-      "memberCount": 296,
+      "memberCount": 299,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15237,7 +15279,7 @@
       "url": "https://habitica.com/groups/guild/639bbc77-25f1-4274-a81a-cb19cd769c0f",
       "title": "The Digital Painting Guild",
       "summary": "The Digital Painting Guild welcomes new and experienced digital artists who are looking to hone their craft. Share progress and techniques, participate in challenges, and find support for your digital art journey!",
-      "memberCount": 657,
+      "memberCount": 658,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15275,7 +15317,7 @@
       "url": "https://habitica.com/groups/guild/78461f92-6fc3-4432-94c9-c45b189e0ae8",
       "title": "Türkiye Turkiye Turkey",
       "summary": "Türkiye Turkiye Turkey",
-      "memberCount": 610,
+      "memberCount": 612,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15294,7 +15336,7 @@
       "url": "https://habitica.com/groups/guild/7b986f23-0e23-4a36-bdcf-c0aab772596b",
       "title": "The Archons",
       "summary": "This is a guild with a mixed batch of challenges designed to make our journey through Habitica more fun and helpful!",
-      "memberCount": 2336,
+      "memberCount": 2335,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -15503,7 +15545,7 @@
       "url": "https://habitica.com/groups/guild/f0714382-7ea8-4493-8f74-c68b6ea9e218",
       "title": "Geek Grrrrrls Unlimited",
       "summary": "Women in tech who want to transcend pink.",
-      "memberCount": 242,
+      "memberCount": 241,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15560,7 +15602,7 @@
       "url": "https://habitica.com/groups/guild/686ab735-3f18-4c61-98c6-f3932cb0b0e9",
       "title": "Way of the Force",
       "summary": "Way of the Force a place for those with a special talent or \"force skill\"  feel free to suggest more search terms in the chat search terms: Star Wars, the force, Jedi, force users, special skills, talents",
-      "memberCount": 257,
+      "memberCount": 258,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15636,7 +15678,7 @@
       "url": "https://habitica.com/groups/guild/9ffb19bb-1356-4ead-b585-c5031b5393b1",
       "title": "Cynophiles - For the Love of a Dog",
       "summary": "We love dogs. We talk about living with dogs, educating or training them, grooming, or anything else related with our furry friends. Questions and suggestions welcome. Force free training only. No prongs, shock collars, alpha rolls etc.",
-      "memberCount": 348,
+      "memberCount": 349,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15655,7 +15697,7 @@
       "url": "https://habitica.com/groups/guild/6cf450ef-a7c8-4621-9b6e-82aee0abe16e",
       "title": "The Crafters' Guild",
       "summary": "The Crafters' Guild",
-      "memberCount": 248,
+      "memberCount": 249,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15712,7 +15754,7 @@
       "url": "https://habitica.com/groups/guild/1e3903cd-1051-49a3-a1ae-542375dd891a",
       "title": "Low/No Sugar Guild",
       "summary": "Low/No Sugar Guild",
-      "memberCount": 280,
+      "memberCount": 281,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15731,7 +15773,7 @@
       "url": "https://habitica.com/groups/guild/f7bb2b18-0a1c-4804-8dc3-61373e213082",
       "title": "??? Direct Progressive Action ???",
       "summary": "Welcome, heroic Habitican! This guild's aim is to promote **[progressivism] in politics & society through individual & collective action. ?",
-      "memberCount": 263,
+      "memberCount": 264,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15769,7 +15811,7 @@
       "url": "https://habitica.com/groups/guild/17f232c0-bbc3-4622-b733-00f35fb802e1",
       "title": "Demonic Beasts",
       "summary": "This guild is for the Demonic Beasts challenge, which gives you extra motivation and fun in your Habitica journey by celebrating the beasts you collect along the way.",
-      "memberCount": 349,
+      "memberCount": 351,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15826,7 +15868,7 @@
       "url": "https://habitica.com/groups/guild/3bd59f32-6a60-4047-9c76-0e25b5631072",
       "title": "Playing with Power: Nintendo of Habitica",
       "summary": "The company. The consoles. The cartridges.  Habitican fans of Nintendo, come join us to discuss your favorite games, characters, and Nintendo moments, present, past, and future!",
-      "memberCount": 327,
+      "memberCount": 326,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15902,7 +15944,7 @@
       "url": "https://habitica.com/groups/guild/b09c703f-5f21-47e0-ad8e-788026389d50",
       "title": "Walking to Mordor",
       "summary": "Based on the distances charted at [EowynChallege.net] we're walking to Mordor!",
-      "memberCount": 243,
+      "memberCount": 247,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15921,7 +15963,7 @@
       "url": "https://habitica.com/groups/guild/0615c66b-3199-4282-8e92-16c2116d9da6",
       "title": "Eco Resilience  ??",
       "summary": "We are Habiticians interested in: Permaculture, Transition Towns, Green Wizardry, Rewilding, Appropriate Technology, Natural Building, Homesteading, Primitive Skills, Ecovillages, Slow Food, and more.",
-      "memberCount": 442,
+      "memberCount": 444,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15940,7 +15982,7 @@
       "url": "https://habitica.com/groups/guild/731b9421-8fb1-44d2-9b2f-6ec72f673ddc",
       "title": "Linguaphiles & Polyglots - Lovers of Language",
       "summary": "A place for all lovers of language to enjoy the wonders of the written or spoken word in their native and/or other language(s).",
-      "memberCount": 444,
+      "memberCount": 446,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -15978,7 +16020,7 @@
       "url": "https://habitica.com/groups/guild/3812349b-eed3-480b-9f37-e508a5745025",
       "title": "Minimalism",
       "summary": "Sometimes there is just TOO MUCH! Minimalism can be a way for many types of people to experiment with less (less stuff, less obligations, less mental clutter, etc.) Maybe it will lead to permanent changes, maybe just insight about what is important.",
-      "memberCount": 1758,
+      "memberCount": 1760,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -15997,7 +16039,7 @@
       "url": "https://habitica.com/groups/guild/3272dfab-2b42-4ccd-ab12-eeeb4aed63ad",
       "title": "Learning French - Apprendre le français",
       "summary": "A guild for support in learning french, or if you want to help teach french for those learning",
-      "memberCount": 1545,
+      "memberCount": 1548,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -16018,7 +16060,7 @@
       "url": "https://habitica.com/groups/guild/f18255a5-070e-49e7-a915-bde0731d953d",
       "title": "Short Story Readers",
       "summary": "Let's read some short stories together! Short stories are notoriously underappreciated but they are snack-sized entertainment and wonder.",
-      "memberCount": 559,
+      "memberCount": 565,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16170,7 +16212,7 @@
       "url": "https://habitica.com/groups/guild/7c8e4f72-e3f8-4f06-bdfe-475728aaaf05",
       "title": "The Bipolar Bears",
       "summary": "The Bipolar Bears",
-      "memberCount": 465,
+      "memberCount": 467,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16189,7 +16231,7 @@
       "url": "https://habitica.com/groups/guild/8d44f1ab-2615-47dc-a143-3236c93c67b6",
       "title": "Scandinavian Vikings",
       "summary": "Guild for people living in Scandinavian countries, or people interested in the area.",
-      "memberCount": 367,
+      "memberCount": 368,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16235,7 +16277,7 @@
       "url": "https://habitica.com/groups/guild/0cb00017-4074-435d-8b6d-717fabd7d492",
       "title": "The Challenge Sandbox",
       "summary": "A place to build challenges slowly, without danger of anyone joining them before they are ready. All the challenges in this guild are under construction or used for testing purposes. They are not meant for \"real\" participation.",
-      "memberCount": 403,
+      "memberCount": 401,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16254,7 +16296,7 @@
       "url": "https://habitica.com/groups/guild/94921006-0553-4f35-9a4c-6a64caddaa06",
       "title": "Instrumental Music Appreciators",
       "summary": "Instrumental Music Appreciators",
-      "memberCount": 330,
+      "memberCount": 331,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16328,9 +16370,9 @@
     "64c827f8-9d04-408f-8513-0fc88ed34e4c": {
       "id": "64c827f8-9d04-408f-8513-0fc88ed34e4c",
       "url": "https://habitica.com/groups/guild/64c827f8-9d04-408f-8513-0fc88ed34e4c",
-      "title": "400 Days / 365 Days Guild",
+      "title": "365 Days and Other Challenges",
       "summary": "Official Guild of the 400 Days Challenges and the 365 Tasks in 365 Days Challenges",
-      "memberCount": 592,
+      "memberCount": 602,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16349,7 +16391,7 @@
       "url": "https://habitica.com/groups/guild/0b2cf287-9735-4c01-92e5-1915f34db6a7",
       "title": "The Homeschool Guild",
       "summary": "[The Homeschool Guild]",
-      "memberCount": 430,
+      "memberCount": 432,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16368,7 +16410,7 @@
       "url": "https://habitica.com/groups/guild/182d78ab-1998-4dd6-abf4-481684d23027",
       "title": "Visual fact??ry ",
       "summary": "Are you either a design graduate, freelancer, or a graphic design professional looking for inspiration, motivation or accountability? Then, Visual fact??ry is for you; **The first community in Habitica for all kinds of design.**",
-      "memberCount": 460,
+      "memberCount": 461,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16425,7 +16467,7 @@
       "url": "https://habitica.com/groups/guild/f99a9762-aa1f-41ff-b7fe-6c6ee6ea3754",
       "title": "Borderline Personality Disorder",
       "summary": "Borderline Personality Disorder",
-      "memberCount": 432,
+      "memberCount": 431,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16444,7 +16486,7 @@
       "url": "https://habitica.com/groups/guild/8302e17b-e2b6-419b-bd7a-c1983f2c318b",
       "title": "Sedulous Sesquipedalians",
       "summary": "A guild for assiduous aficionados of esoteric English vocabulary.",
-      "memberCount": 341,
+      "memberCount": 342,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16463,7 +16505,7 @@
       "url": "https://habitica.com/groups/guild/223fc49c-4018-4d21-99be-f2a9b6b7bad2",
       "title": "Brasil - Motive-se!",
       "summary": "**Esta Guilda é uma das extensões da Guilda Brasil, criada para que os usuários possam trocar inspirações e motivações entre si. Então, que tal motivar a si e aos outros com as frases mais interessantes que você encontrar ou pensar por aí?!** :smile:",
-      "memberCount": 513,
+      "memberCount": 514,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16501,7 +16543,7 @@
       "url": "https://habitica.com/groups/guild/3848ce6d-5f7c-49e9-93f6-40116e96ba40",
       "title": "Keto-ers",
       "summary": "Keto-ers",
-      "memberCount": 405,
+      "memberCount": 406,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16520,7 +16562,7 @@
       "url": "https://habitica.com/groups/guild/47fc51a5-0f84-4805-9f2f-e398d628f78e",
       "title": "The Mystery Train",
       "summary": "All Habiticans are welcome on the Mystery Train.  Hop aboard and explore the guilds of Habitica.  Between stops we talk about guilds we visit, with minor role-play about being on a train.  Please note that this is not primarily a role-playing guild.",
-      "memberCount": 1368,
+      "memberCount": 1367,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -16558,7 +16600,7 @@
       "url": "https://habitica.com/groups/guild/0f44c51a-ad82-4cb4-8758-f7d88c78f28e",
       "title": "Minimalism for a Better Life",
       "summary": "We support each other in learning and practicing the principles of minimalism. Together we find ways to increase our quality of life by mindfully decreasing our baggage in the material, digital and other realms. Sometimes less really IS more!",
-      "memberCount": 647,
+      "memberCount": 648,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16654,7 +16696,7 @@
       "url": "https://habitica.com/groups/guild/0cbc274c-7d71-4914-a1ce-5e85baa1c536",
       "title": "Academics (Unseen Academicals)",
       "summary": "Academics (Unseen Academicals)",
-      "memberCount": 487,
+      "memberCount": 489,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16706,44 +16748,6 @@
       "subclassification": "subSelfIm_BeYourBestSelf",
       "created": "2019-02-18T00:00:00.000Z"
     },
-    "e64432b0-b9af-48d8-a703-2d8d27a4f7aa": {
-      "id": "e64432b0-b9af-48d8-a703-2d8d27a4f7aa",
-      "url": "https://habitica.com/groups/guild/e64432b0-b9af-48d8-a703-2d8d27a4f7aa",
-      "title": "Mathematica",
-      "summary": "Mathematica",
-      "memberCount": 500,
-      "memberColor": "silver",
-      "official": false,
-      "lang": [
-        "en"
-      ],
-      "langPrimary": [
-        "en"
-      ],
-      "langAll": false,
-      "classification": "cxOccupa",
-      "subclassification": "subOccupa_STEM",
-      "created": "2019-02-18T00:00:00.000Z"
-    },
-    "c6631b66-3387-43a6-aa8f-22f17dd0d466": {
-      "id": "c6631b66-3387-43a6-aa8f-22f17dd0d466",
-      "url": "https://habitica.com/groups/guild/c6631b66-3387-43a6-aa8f-22f17dd0d466",
-      "title": "Artlife",
-      "summary": "Artlife is a guild for all visual artists who are, or aspire to be, professional artists. We also welcome people who want to have more art in their lives, and have decided to take the steps to make it possible!",
-      "memberCount": 701,
-      "memberColor": "silver",
-      "official": false,
-      "lang": [
-        "en"
-      ],
-      "langPrimary": [
-        "en"
-      ],
-      "langAll": false,
-      "classification": "cxCreati",
-      "subclassification": "subCreati_Art",
-      "created": "2019-02-18T00:00:00.000Z"
-    },
     "d7c9c4c4-bbb5-40e3-b913-5312df448427": {
       "id": "d7c9c4c4-bbb5-40e3-b913-5312df448427",
       "url": "https://habitica.com/groups/guild/d7c9c4c4-bbb5-40e3-b913-5312df448427",
@@ -16768,7 +16772,7 @@
       "url": "https://habitica.com/groups/guild/18412f84-86ff-4c3d-a3ad-ff59b80e8db5",
       "title": "Secular Humanists, Atheists, Agnostics, and Skeptics",
       "summary": "The guild name says it all... But if you're religious or believe in the supernatural in other ways, please feel free to come in and have your beliefs challenged (and challenge ours) in a friendly debate!",
-      "memberCount": 576,
+      "memberCount": 575,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16806,7 +16810,7 @@
       "url": "https://habitica.com/groups/guild/3349b1e3-5b02-461a-9670-6fb06ec80baa",
       "title": "Just For Today, Avoid Your \"Stupid\" Thing",
       "summary": "Everyone makes mistakes; it's human nature.  But sometimes we knowingly and intentionally make a choice that we know will harm us.  (That's also human nature.)  The hard part is sometimes choosing *not* to indulge the self-destructive behavior...",
-      "memberCount": 386,
+      "memberCount": 385,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16844,7 +16848,7 @@
       "url": "https://habitica.com/groups/guild/0393624e-65f0-40c1-8e87-360955fcebca",
       "title": "Guild Leaders & Challenge Creators",
       "summary": "A place for existing and prospective Guildmasters to ask or share advice on running engaging and active guilds, and for aspiring challenge creators to gain inspiration from others.",
-      "memberCount": 659,
+      "memberCount": 655,
       "memberColor": "silver",
       "official": true,
       "lang": [
@@ -16877,25 +16881,6 @@
       "subclassification": "subCreati_StageScreen",
       "created": "2019-02-18T00:00:00.000Z"
     },
-    "fe42fe7f-c957-4473-b9d3-e0f8bcfd3cb1": {
-      "id": "fe42fe7f-c957-4473-b9d3-e0f8bcfd3cb1",
-      "url": "https://habitica.com/groups/guild/fe42fe7f-c957-4473-b9d3-e0f8bcfd3cb1",
-      "title": "Geocachers Guild",
-      "summary": "Geocachers Guild",
-      "memberCount": 476,
-      "memberColor": "silver",
-      "official": false,
-      "lang": [
-        "en"
-      ],
-      "langPrimary": [
-        "en"
-      ],
-      "langAll": false,
-      "classification": "cxGaming",
-      "subclassification": "subGaming_ElectronicPlay",
-      "created": "2019-02-18T00:00:00.000Z"
-    },
     "d07e1ad1-ce45-484e-8c47-a967140a0b37": {
       "id": "d07e1ad1-ce45-484e-8c47-a967140a0b37",
       "url": "https://habitica.com/groups/guild/d07e1ad1-ce45-484e-8c47-a967140a0b37",
@@ -16920,7 +16905,7 @@
       "url": "https://habitica.com/groups/guild/0ff469a9-677f-4dcd-a091-2d2d3cebcaa8",
       "title": "Writers of Ideas: Speculative Fiction Authors",
       "summary": "Writers of Ideas: Speculative Fiction Authors",
-      "memberCount": 546,
+      "memberCount": 548,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -16939,7 +16924,7 @@
       "url": "https://habitica.com/groups/guild/9a163b28-ebcf-4e52-87de-5c040ed0f8f8",
       "title": "Wizards of the Wiki",
       "summary": "The Habitica Wiki is a tremendous resource thanks to the many volunteers who edit and translate it. This guild is a place to coordinate edits, learn the ropes, and hang out with other wiki wizards. Current and future volunteers welcome!",
-      "memberCount": 681,
+      "memberCount": 683,
       "memberColor": "silver",
       "official": true,
       "lang": [
@@ -16977,7 +16962,7 @@
       "url": "https://habitica.com/groups/guild/17bb8393-2d74-42de-8dcb-315a5f596636",
       "title": "Expanded Party: Polyamorous Adventurers",
       "summary": "A place to explore open relationships! Come discuss your ethical non-monogamy with fellow poly folk of all levels of experience. Trade tips and non-mainstream relationship advice! Learn about love, time management, emotional skills and communication!",
-      "memberCount": 766,
+      "memberCount": 768,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -17093,7 +17078,7 @@
       "url": "https://habitica.com/groups/guild/8b1a2c94-8875-4f3d-9e11-9f620527d5ac",
       "title": "Bad Habits",
       "summary": "If you have bad habits you're trying to break, then this is the place to find support, advice, and if you want it, accountability.   If you have already managed to break some of yours, come share with us what has worked for you.",
-      "memberCount": 959,
+      "memberCount": 960,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -17112,7 +17097,7 @@
       "url": "https://habitica.com/groups/guild/126027f5-b98d-4e40-8739-d15150e78506",
       "title": "Knights of the Prayerful Rose (Catholic/Christian Habiticans and their friends)",
       "summary": "Knights of the Prayerful Rose (Catholic/Christian Habiticans and their friends)",
-      "memberCount": 738,
+      "memberCount": 739,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -17169,7 +17154,7 @@
       "url": "https://habitica.com/groups/guild/d202ee9e-47ea-4e97-905f-0e975493a487",
       "title": "Eat, Move, Love (Your Body)",
       "summary": "A safe space to talk about food and fitness goals, body positivity, Intuitive Eating and Health at Every Size. Build self confidence and love for the body you have right now! Focusing on fat acceptance, accessibility, and healing.",
-      "memberCount": 863,
+      "memberCount": 865,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -17188,7 +17173,7 @@
       "url": "https://habitica.com/groups/guild/6819d5da-f766-4fc6-ad20-59fc65fc99fa",
       "title": "A Quiet Room",
       "summary": "This guild links to A Quiet Room, an online space that people can check into when they need to study or work and just want some quiet company, with a voice channel open but minimal conversation.",
-      "memberCount": 1259,
+      "memberCount": 1262,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17245,7 +17230,7 @@
       "url": "https://habitica.com/groups/guild/0a5dbfc5-1f20-4b24-bafd-50faadba20ad",
       "title": "Heroes and Hydras",
       "summary": "**Heroes and Hydras** is a Questing, Role Playing, Gamers guild full of friends and challenges. Here you can improve your life in any mystical, mythical, or magical way you see fit with the help of your fellow *Heroes*. Come... Slay the *Hydra*",
-      "memberCount": 789,
+      "memberCount": 792,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -17264,7 +17249,7 @@
       "url": "https://habitica.com/groups/guild/649e9002-73e9-4023-a169-47e203fc953d",
       "title": "Programming Challenges",
       "summary": "Programming Challenges",
-      "memberCount": 1769,
+      "memberCount": 1768,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17283,7 +17268,7 @@
       "url": "https://habitica.com/groups/guild/bb4fe1e3-b7fa-4aa6-878b-1ecef0ca55f3",
       "title": "Hard Mode",
       "summary": "The guild is for Habiticans who try to increase the game difficulty bringing some extra flavor with self-imposed challenges.  Come join us to discuss how to make the game harder and find party-mates who are not afraid of some wounds and scars.",
-      "memberCount": 987,
+      "memberCount": 989,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -17321,7 +17306,7 @@
       "url": "https://habitica.com/groups/guild/be2826f4-9f4e-4a59-8542-0f5d86a029e7",
       "title": "The Sewing Collective",
       "summary": "The Sewing Collective",
-      "memberCount": 696,
+      "memberCount": 698,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -17340,7 +17325,7 @@
       "url": "https://habitica.com/groups/guild/eb01928c-8d89-4987-a972-32c12ef9d02a",
       "title": "Cat Lovers",
       "summary": "Love your pet cat? Or just cats in general? This is a no-dogs zone, and the perfect place for you and your cat! (Also cat product recommendations and books about cats.)",
-      "memberCount": 1452,
+      "memberCount": 1454,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17359,7 +17344,7 @@
       "url": "https://habitica.com/groups/guild/2f6085fe-5382-46d6-a0ac-c1b16f4f7780",
       "title": "? The Duelling Grounds ?",
       "summary": "-PvP Guild-  For those motivated by friendly competition, the Duelling Grounds are a place to publicly challenge friends and strangers to compete on the fields of honour.  Spectators are also welcome.",
-      "memberCount": 844,
+      "memberCount": 846,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -17397,7 +17382,7 @@
       "url": "https://habitica.com/groups/guild/d8c7259a-eabc-458a-86bb-672dad7516b8",
       "title": "The BFRB Guild",
       "summary": "Welcome! This is a safe, friendly place for people who pull their hair, pick their skin, bite their nails, or have other body-focused repetitive behaviors. Join this guild to make new friends and discuss your body focused repetitive behavior tips!",
-      "memberCount": 1881,
+      "memberCount": 1886,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17416,7 +17401,7 @@
       "url": "https://habitica.com/groups/guild/d7838bfa-4577-4a4f-b922-65834e4a824c",
       "title": "The Rhyme Commando",
       "summary": "The Rhyme Commando",
-      "memberCount": 1086,
+      "memberCount": 1085,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17435,7 +17420,7 @@
       "url": "https://habitica.com/groups/guild/38254464-1fbc-40f3-8565-46e9b8a91f7d",
       "title": "Decluttering Devils",
       "summary": "For people who are sick of working for their things, instead of having their things work for them. We are all walking together on a decluttering journey to simplify our lives.  Less is More!",
-      "memberCount": 1268,
+      "memberCount": 1271,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17492,7 +17477,7 @@
       "url": "https://habitica.com/groups/guild/d45d32c8-21eb-40a4-baec-ac644d11d6af",
       "title": "Horrible Housekeepers of Habitica",
       "summary": "Horrible Housekeepers of Habitica",
-      "memberCount": 1617,
+      "memberCount": 1621,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17511,7 +17496,7 @@
       "url": "https://habitica.com/groups/guild/2fc8b783-e092-49e3-a422-e7fadef418af",
       "title": "Habitica tieba ??habitica? Chinese ??",
       "summary": "Habitica tieba ??habitica? Chinese ??",
-      "memberCount": 996,
+      "memberCount": 997,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -17530,7 +17515,7 @@
       "url": "https://habitica.com/groups/guild/f1343080-c952-4327-a829-df6422374d1d",
       "title": "Naps of Power: Habiticans for Better Sleep",
       "summary": "Naps of Power: Habiticans for Better Sleep",
-      "memberCount": 951,
+      "memberCount": 950,
       "memberColor": "silver",
       "official": false,
       "lang": [
@@ -17568,7 +17553,7 @@
       "url": "https://habitica.com/groups/guild/23489dff-9e05-4611-95f5-3aff7ad5b380",
       "title": "Live Life to the Fullest with Mindfulness",
       "summary": "This guild is for anyone interested in exploring how mindfulness can enhance their daily lives. We're all on this journey together - please join us!",
-      "memberCount": 1178,
+      "memberCount": 1181,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17587,7 +17572,7 @@
       "url": "https://habitica.com/groups/guild/9a22de91-de55-4e8e-8a1e-be8655c4b580",
       "title": "Love Pursuers ??",
       "summary": "Love Pursuers ?? is a support group for those either seeking a new romantic relationship or the healthy maintenance of an existing one. Share any tips, and motivate your friends!  **NOTE: This guild is NOT a dating service.**",
-      "memberCount": 1324,
+      "memberCount": 1327,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17606,7 +17591,7 @@
       "url": "https://habitica.com/groups/guild/db4819dd-0efb-4290-989c-9f7625b59a3a",
       "title": "Party Wanted International",
       "summary": "A guild to find a party speaking a language other than English more easily. French, Spanish, German, Japanese, Italian, Swedish, Chinese, Russian, Finnish, Filipino, Turkish, Dutch, Portuguese, and many other languages.",
-      "memberCount": 2856,
+      "memberCount": 2867,
       "memberColor": "gold",
       "official": true,
       "lang": [
@@ -17697,7 +17682,7 @@
       "url": "https://habitica.com/groups/guild/1c39ae20-bcc8-4992-b5d5-e075b13efa0c",
       "title": "Introverts of Habitica",
       "summary": "This a quiet space where introverts can talk with like-minded people about being introverts.",
-      "memberCount": 1733,
+      "memberCount": 1736,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17716,7 +17701,7 @@
       "url": "https://habitica.com/groups/guild/e8e2f1ce-ae18-4cb1-8dd8-8e4adc59442f",
       "title": "Tavern Challenge Overflow Chat",
       "summary": "Tavern Challenge Overflow Chat",
-      "memberCount": 1282,
+      "memberCount": 1289,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17773,7 +17758,7 @@
       "url": "https://habitica.com/groups/guild/e1dc1efe-1cdc-4a7c-ac76-189fd434a236",
       "title": "Living Vividly",
       "summary": "A guild focused on joy, connection, and mindfulness for building resilience in the face of life's challenges, particularly those relating to chronic illness but applicable to everyone! Come create your own best life with us!",
-      "memberCount": 1464,
+      "memberCount": 1466,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17792,7 +17777,7 @@
       "url": "https://habitica.com/groups/guild/7732f64c-33ee-4cce-873c-fc28f147a6f7",
       "title": "Commonwealth of i18n (Aspiring Linguists)",
       "summary": "The official guild for discussing translations of Habitica and Habitica's wiki.",
-      "memberCount": 1564,
+      "memberCount": 1568,
       "memberColor": "gold",
       "official": true,
       "lang": [
@@ -17811,7 +17796,7 @@
       "url": "https://habitica.com/groups/guild/1d3a10bf-60aa-4806-a38b-82d1084a59e6",
       "title": "Use Case Spotlights",
       "summary": "Use Case Spotlights is a place to share your ideas for using Habitica for certain types of tasks and situations! Suggestions may be featured on the Habitica Blog! **Current topic: Using Habitica to recover from burnout!**",
-      "memberCount": 2602,
+      "memberCount": 2605,
       "memberColor": "gold",
       "official": true,
       "lang": [
@@ -17830,7 +17815,7 @@
       "url": "https://habitica.com/groups/guild/838fa3a1-adfa-4236-bc7b-0d9eb668f724",
       "title": "A Silly Place",
       "summary": "If you worry overmuch about what others think / are just stressed and need a laugh, this is somewhere to find support and fun. If you are already confident and carefree, this is a place to share your exploits, get new ideas and give a hand to others.",
-      "memberCount": 1628,
+      "memberCount": 1629,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17849,7 +17834,7 @@
       "url": "https://habitica.com/groups/guild/46bc163e-f34e-4216-b916-9062d30a141f",
       "title": "Procurando Grupo Brasil (Pedir Convite)",
       "summary": "Esta Guilda irá te ajudar a encontrar um Grupo ao qual deseje fazer parte. Anuncie seu Grupo ou mostre-se disponível para receber convite.  Aproveite e fale rapidamente sobre você, o que faz, de onde vem, seus objetivos, etc.",
-      "memberCount": 1865,
+      "memberCount": 1868,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17868,7 +17853,7 @@
       "url": "https://habitica.com/groups/guild/b3d27499-3425-41d7-9cec-a8683afbfcce",
       "title": "? Habitica Plus",
       "summary": "Welcome to Habitica Plus! In this guild, we try to create new, creative ways to play Habitica, by creating special challenges and rules for the game. Curious? Feel free to take a look and ask!",
-      "memberCount": 2003,
+      "memberCount": 2006,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17887,7 +17872,7 @@
       "url": "https://habitica.com/groups/guild/d39e4c9f-ffee-4888-a1c6-77ed6261a525",
       "title": "The Gardening Gnomes ??",
       "summary": "A guild for gardeners! Whether you've got one lonely houseplant, a thriving herb or vegetable plot, or are an enthusiast of flowers, this is the place to share your green wisdom and ask your most pressing horticultural questions!",
-      "memberCount": 2350,
+      "memberCount": 2352,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17906,7 +17891,7 @@
       "url": "https://habitica.com/groups/guild/588519bb-5c2e-4a12-a5a7-8c9f73192f9f",
       "title": "Achieve, Accomplish, Aspire",
       "summary": "Achieve, Accomplish, Aspire",
-      "memberCount": 1203,
+      "memberCount": 1202,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17925,7 +17910,7 @@
       "url": "https://habitica.com/groups/guild/1705f33f-9303-4b78-93ac-e21ed2d08df8",
       "title": "Fitbit Guild",
       "summary": "Fitbit Guild",
-      "memberCount": 1409,
+      "memberCount": 1408,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17944,7 +17929,7 @@
       "url": "https://habitica.com/groups/guild/9b8989b7-73e9-4904-af1a-77e34e7b8094",
       "title": "inHabitants of Earth: the eco-friendly guild",
       "summary": "Save our World keywords: organic, bio, energy, renewable, save water, reduce waste, animals, plants, air, oceans, earth, global warming, climate resilience, pollution, endangered species, sustainability, plastic, recycling, compost, ecological, green",
-      "memberCount": 2133,
+      "memberCount": 2135,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -17982,7 +17967,7 @@
       "url": "https://habitica.com/groups/guild/e3dc5f3a-e201-42ca-8978-0bcbe0083bb5",
       "title": "HabitRPG Metro",
       "summary": "HabitRPG Metro",
-      "memberCount": 1346,
+      "memberCount": 1345,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18003,7 +17988,7 @@
       "url": "https://habitica.com/groups/guild/52f49529-58c1-4020-a59b-8bb8579e941f",
       "title": "Aspiring Legends: Contributing to Habitica",
       "summary": "All of us are Aspiring Legends, whether we're blue-tagged veterans or gray-tagged newcomers. Introduce yourself, mention how you'd like to get involved, read the Guild's resources, and post if you have any questions about volunteering for Habitica!",
-      "memberCount": 2623,
+      "memberCount": 2625,
       "memberColor": "gold",
       "official": true,
       "lang": [
@@ -18022,7 +18007,7 @@
       "url": "https://habitica.com/groups/guild/92900a1d-2d0f-4e19-81c3-e2f2362a4660",
       "title": "?? ??????? ??????????: \"??? ?????? ? ??????????\"",
       "summary": "??????? ?????????? Habitica ????????? ? Habitica ?????????.   ???????, ?????????, ?????, ?????? ? ?????? ?????? ????????? ?? ??????? ?????.    ????????? ??????? ? ???  ???????, ???? ?? ???????? ??????.",
-      "memberCount": 4198,
+      "memberCount": 4203,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18079,7 +18064,7 @@
       "url": "https://habitica.com/groups/guild/d8c16fe3-55fc-425b-b86a-690b6b1a4fd7",
       "title": "Computer Companions",
       "summary": "A guild for people who work in and/or want to learn more about networking, programming/coding, hardware, technology, information security, development, design, privacy and all things computers!",
-      "memberCount": 1995,
+      "memberCount": 1994,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18098,7 +18083,7 @@
       "url": "https://habitica.com/groups/guild/5be5335e-2183-49dc-a197-1f989ddc6e88",
       "title": "Fanfiction Connoisseurs",
       "summary": "Fanfiction Connoisseurs, the place to discuss fics you've read, fics you've written, and fics that. Just. Won't. Happen.  Come get inspiration and a friendly chat.",
-      "memberCount": 1975,
+      "memberCount": 1982,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18136,7 +18121,7 @@
       "url": "https://habitica.com/groups/guild/7c6fcc88-9ff0-47d1-9fca-80e3091c225b",
       "title": "Long-Term Goal Accountability ??",
       "summary": "This guild helps you set long term goals which are three months or more in the future. It's a place to discuss ways of defining long-term goals, how to break them down into achievable short-term goals, and for celebrating progress.",
-      "memberCount": 1298,
+      "memberCount": 1295,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18155,7 +18140,7 @@
       "url": "https://habitica.com/groups/guild/8bd59d72-5fec-4a54-aaf5-1a5e83e35046",
       "title": "NaNoWriMo Participants",
       "summary": "Here, it's always NaNoWriMo. Come write and chat with your fellow Habiticans, and push yourself to new heights as a writer!  Join the challenge:",
-      "memberCount": 1973,
+      "memberCount": 1971,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18174,7 +18159,7 @@
       "url": "https://habitica.com/groups/guild/612e5766-a171-4e0a-b02b-c55a9fe786e4",
       "title": "?? Compulsive Overeaters and Co.",
       "summary": "For people with problems related to food including, but not limited to, compulsive overeaters, those with binge eating disorder, bulimics and anorexics. Anyone with a problematic relationship with food is welcomed.",
-      "memberCount": 2686,
+      "memberCount": 2687,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18193,7 +18178,7 @@
       "url": "https://habitica.com/groups/guild/1df40f0f-b758-45b3-8ed8-8916f85577eb",
       "title": "Linux",
       "summary": "FOSS Is life, Come here if you agree.",
-      "memberCount": 1962,
+      "memberCount": 1963,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18212,7 +18197,7 @@
       "url": "https://habitica.com/groups/guild/a24a3958-2fda-4c55-a9a6-a1e3d3856df2",
       "title": "Tabletop Gamers",
       "summary": "A place for all those tabletop gaming geeks out there who play board games, RPGs, card games, and party games.",
-      "memberCount": 3516,
+      "memberCount": 3519,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18250,7 +18235,7 @@
       "url": "https://habitica.com/groups/guild/59f699a3-9d22-4d6d-b34a-8fcdf2ad1dac",
       "title": "Short-Term Accountability Guild",
       "summary": "Need an extra push to accomplish something today, this week, or this month? Here you can announce goals, report results, and be cheered on (or motivated by the thought admitting failure). No goal is too small to mention if you need accountability.",
-      "memberCount": 2093,
+      "memberCount": 2094,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18269,7 +18254,7 @@
       "url": "https://habitica.com/groups/guild/de98b936-44a3-47a8-b83a-a5b8c3584e79",
       "title": "??Be Kind to Yourself Guild",
       "summary": "Here we support each other to take care of and treat ourselves as we would have others treat us — with kindness, patience, and understanding so that we can take care of, or at least treat the people in our lives with kindness and compassion.",
-      "memberCount": 4698,
+      "memberCount": 4714,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18288,7 +18273,7 @@
       "url": "https://habitica.com/groups/guild/2ed36580-011f-4abb-94fc-e52022f38f6f",
       "title": "Foodies",
       "summary": "Do you love food, and can't wait to discover and try  new food?",
-      "memberCount": 2589,
+      "memberCount": 2592,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18307,7 +18292,7 @@
       "url": "https://habitica.com/groups/guild/a4cd281d-4683-4604-86f3-d2cc955e1544",
       "title": "En español ??",
       "summary": "The First Spanish speaking guild: En español ??",
-      "memberCount": 3738,
+      "memberCount": 3743,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18326,7 +18311,7 @@
       "url": "https://habitica.com/groups/guild/e5914516-fe96-4c50-b73f-fa411a906aaa",
       "title": " ????????&???? The Chinese Users",
       "summary": ":mahjong:?**?????&???? The Chinese Users**",
-      "memberCount": 4362,
+      "memberCount": 4369,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18345,7 +18330,7 @@
       "url": "https://habitica.com/groups/guild/8e389264-ada0-4834-828c-ef65679e929c",
       "title": "Witches, Pagans, and Diviners",
       "summary": "Witches, Pagans, and Diviners",
-      "memberCount": 4473,
+      "memberCount": 4482,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18364,7 +18349,7 @@
       "url": "https://habitica.com/groups/guild/76cf392c-a530-417a-a105-fd8dc49a651f",
       "title": "Planner Addicts of the Papery Kind",
       "summary": "Are you planner obsessed? Do you love your Bullet Journal/BuJo? Your Filofax reign supreme? No matter what type of planner you use, join us and discuss all things planner! Home to the Plan Ahead!, Bullet Journal 101 & 201, and Monthly BuJo Challenges",
-      "memberCount": 3066,
+      "memberCount": 3072,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18383,7 +18368,7 @@
       "url": "https://habitica.com/groups/guild/1f99d3df-bb93-4505-bf3b-6f348e1896f3",
       "title": "?????????/Japanese speaker's resthouse",
       "summary": "?????????/Japanese speaker's resthouse",
-      "memberCount": 3121,
+      "memberCount": 3125,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18402,7 +18387,7 @@
       "url": "https://habitica.com/groups/guild/fbc26504-274a-4990-8e6c-84a692c4c726",
       "title": "Sketch Daily",
       "summary": "We're a group of artists dedicated to drawing more and ameliorating our skils. Here you will find a community of daily sketchers from all skill levels! There is no judgement, all practice makes you better! Draw every day!   Everyone is Welcome!",
-      "memberCount": 5667,
+      "memberCount": 5682,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18421,7 +18406,7 @@
       "url": "https://habitica.com/groups/guild/a141a5b9-0d69-46cd-93e6-2b76f18bcc54",
       "title": "Pixels in Progress (Aspiring Artisans)",
       "summary": "Want to help make art for Habitica? This is a place for pixel artists (both experienced and aspiring!) to work on rough drafts for official Habitica pixel art.",
-      "memberCount": 2832,
+      "memberCount": 2835,
       "memberColor": "gold",
       "official": true,
       "lang": [
@@ -18459,7 +18444,7 @@
       "url": "https://habitica.com/groups/guild/a35aa006-b42d-4b27-ab0c-8864b087c6f2",
       "title": "Runner's Edge",
       "summary": "The running community of Habitica.",
-      "memberCount": 2878,
+      "memberCount": 2880,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18478,7 +18463,7 @@
       "url": "https://habitica.com/groups/guild/00ea45dd-45bd-4dff-9652-caf5033041b1",
       "title": "Venture outside your lair ??",
       "summary": "This guild aims to encourage you to venture outdoors to enjoy the fresh air and become more aware of the environment outside.",
-      "memberCount": 2228,
+      "memberCount": 2227,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18497,7 +18482,7 @@
       "url": "https://habitica.com/groups/guild/5b92fb16-8a21-4678-ad85-655f00683c3a",
       "title": "Mindfulness and Relaxation",
       "summary": "Feeling frazzled from tackling your tasks? Join us in this quiet corner of Habitica where we discuss practices to help unwind from the daily grind.  (breathing exercises  mandala coloring massage meditation mental clarity self-care stress reduction)",
-      "memberCount": 5430,
+      "memberCount": 5439,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18516,7 +18501,7 @@
       "url": "https://habitica.com/groups/guild/3e116e70-ae93-4c62-a7a1-cff8c87a3df3",
       "title": "Boulevard francophone",
       "summary": "Cette guilde est le point d'entrée de la communauté francophone. Si vous souhaitez discuter en français, si vous avez besoin de précisions sur des points du jeu, si vous avez envie de partager vos trucs et astuces, cet endroit est fait pour vous !",
-      "memberCount": 3680,
+      "memberCount": 3679,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18535,7 +18520,7 @@
       "url": "https://habitica.com/groups/guild/b70667de-9c04-43f8-bbaa-924640489ddb",
       "title": "Fighters Guild",
       "summary": "A haven for fitness-seeking role-players and those with a thirst for adventure, the Fighters Guild is the oldest most notorious mercenary guild in Redholme.  If you have a steady sword-hand and a fighting spirit, you too may join the ranks!  Haroo!",
-      "memberCount": 2894,
+      "memberCount": 2891,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18554,7 +18539,7 @@
       "url": "https://habitica.com/groups/guild/d9f44491-dcb6-45e1-958c-1d0780429f41",
       "title": "Learn a Musical Instrument",
       "summary": "A guild for anyone who would like to learn a new musical instrument (whether it be their first, second or twelfth). If you like helping people learn an instrument, you are welcome as well.",
-      "memberCount": 4765,
+      "memberCount": 4771,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18573,7 +18558,7 @@
       "url": "https://habitica.com/groups/guild/2f4ccbe5-daed-45ad-85a8-3c8afe028143",
       "title": "Lose Weight/Get Healthy",
       "summary": "Lose Weight/Get Healthy",
-      "memberCount": 3808,
+      "memberCount": 3811,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18592,7 +18577,7 @@
       "url": "https://habitica.com/groups/guild/b78dfbb6-3009-4ae8-804d-832b533eac0a",
       "title": "52 Weeks",
       "summary": "Each of us has 52 weeks in a year and in 52 weeks, we can make a difference just doing a little at a time.",
-      "memberCount": 3023,
+      "memberCount": 3028,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18611,7 +18596,7 @@
       "url": "https://habitica.com/groups/guild/4b4c7c73-884d-42ea-b2f8-e6be35d28479",
       "title": "Ghost Ship",
       "summary": "Be a blood donor or organ donor (after death or live) and win a challenge!  Topics:  1. Donating organs, blood, stem cells, etc., body donation to medical research and education, etc.  2. Death preparations (advance healthcare directive, will, etc.).",
-      "memberCount": 3015,
+      "memberCount": 3019,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18630,7 +18615,7 @@
       "url": "https://habitica.com/groups/guild/5cc215ef-1d98-4a26-8e18-4957661bdac3",
       "title": "Read Your Books!!!",
       "summary": "Read Your Books - Books you own in physical, eBook or Audible form. Books that are on a Want-To-Read list on Goodreads (for example), books that are checked out from the library, or on hold, even text books that have a due date could serve!",
-      "memberCount": 6203,
+      "memberCount": 6234,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18668,7 +18653,7 @@
       "url": "https://habitica.com/groups/guild/e184b286-b369-46c9-ab55-054c3368af33",
       "title": "KOA",
       "summary": "**",
-      "memberCount": 11817,
+      "memberCount": 11776,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18687,7 +18672,7 @@
       "url": "https://habitica.com/groups/guild/59520054-a770-4c0a-8583-b56e4cab78f1",
       "title": "Therapy Homework",
       "summary": "Therapy Homework",
-      "memberCount": 3738,
+      "memberCount": 3739,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18706,7 +18691,7 @@
       "url": "https://habitica.com/groups/guild/283171a5-422c-4991-bc78-95b1b5b51629",
       "title": "The Language Hackers",
       "summary": "The Language Hackers is for all language learners. This guild has a regular monthly Language Hacking challenge and offers support and tips to all language learners, regardless of what methods you are using.",
-      "memberCount": 2871,
+      "memberCount": 2879,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18725,7 +18710,7 @@
       "url": "https://habitica.com/groups/guild/ac9ff1fd-50fc-46a6-9791-e1833173dab3",
       "title": "Brasil",
       "summary": "**A maior comunidade Brasileira do Habitica**, focada em ajudar brasileiros(as) a gamificarem suas vidas! :melior:",
-      "memberCount": 4882,
+      "memberCount": 4890,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18744,7 +18729,7 @@
       "url": "https://habitica.com/groups/guild/11f0f8d7-9210-4627-a231-b82ce52d9b23",
       "title": "??Long Term Project Guild",
       "summary": "\"It does not matter how slowly you go so long as you do not stop.\"   Confucius.  Are you working on a long-term project ??? We're here to support & ??encourage each other, offer strategies,  & celebrate ??our milestones.",
-      "memberCount": 4409,
+      "memberCount": 4406,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18763,7 +18748,7 @@
       "url": "https://habitica.com/groups/guild/fc327965-9eea-46d6-9af1-9c9e819508ce",
       "title": "Disciples of Jesus",
       "summary": "A guild for those who want to grow as disciples of Jesus through spiritual disciplines, as well as for those who are seeking to know more about Jesus Christ and his teaching.",
-      "memberCount": 3988,
+      "memberCount": 3995,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18782,7 +18767,7 @@
       "url": "https://habitica.com/groups/guild/fd345cc5-da2e-4651-8b64-78dc0d6d5d1e",
       "title": "Evidence Based Fitness",
       "summary": "Looking to lose weight? Build muscle? Wondering what to eat? Or how much to eat? Have fitness goals? Want to run a 5k? Or see your abs? Or just become healthier in general? We are a fast growing active guild that tries to offer help to everyone. :)",
-      "memberCount": 2079,
+      "memberCount": 2097,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18801,7 +18786,7 @@
       "url": "https://habitica.com/groups/guild/dd5925cd-6ba9-42a4-8599-ed57d31d85ef",
       "title": "Whovians",
       "summary": "For fans of Doctor Who!",
-      "memberCount": 4131,
+      "memberCount": 4132,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18819,10 +18804,10 @@
       "id": "6e6a8bd3-9f5f-4351-9188-9f11fcd80a99",
       "url": "https://habitica.com/groups/guild/6e6a8bd3-9f5f-4351-9188-9f11fcd80a99",
       "title": "Official New Year's Resolution Guild!",
-      "summary": "Need help achieving your goals for 2021? Join us to stay accountable as we complete monthly Challenges designed to help you every step of the way!",
-      "memberCount": 9075,
+      "summary": "Need help achieving your goals for 2022? Join us to stay accountable as we complete monthly Challenges designed to help you every step of the way!",
+      "memberCount": 9377,
       "memberColor": "gold",
-      "official": true,
+      "official": false,
       "lang": [
         "en"
       ],
@@ -18839,7 +18824,7 @@
       "url": "https://habitica.com/groups/guild/68d4a01e-db97-4786-8ee3-05d612c5af6f",
       "title": "Aspiring Blacksmiths (Coding For Habitica)",
       "summary": "This is a place for aspiring coders to discuss working on Habitica's official website and official mobile apps. Both newbies and experienced developers are very welcome!",
-      "memberCount": 3274,
+      "memberCount": 3276,
       "memberColor": "gold",
       "official": true,
       "lang": [
@@ -18858,7 +18843,7 @@
       "url": "https://habitica.com/groups/guild/6afa6259-19e4-4e22-b02c-9a11d65dc223",
       "title": "utopify.org - Utopia begins with 'U'",
       "summary": "utopify.org - Utopia begins with 'U'",
-      "memberCount": 4660,
+      "memberCount": 4677,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18877,7 +18862,7 @@
       "url": "https://habitica.com/groups/guild/c30e1c2f-8712-4d93-ae44-33071e8cf661",
       "title": "Atheists, Feminists, and other No Good Commies",
       "summary": "Atheists, Feminists, and other No Good Commies",
-      "memberCount": 4136,
+      "memberCount": 4138,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18896,7 +18881,7 @@
       "url": "https://habitica.com/groups/guild/adcd6903-e3c6-4c27-a0e9-21f2e7515cd6",
       "title": "?? Library of Tasks and Challenges",
       "summary": "Share and review lists of habits, dailies, todos, rewards.",
-      "memberCount": 5053,
+      "memberCount": 5095,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18915,7 +18900,7 @@
       "url": "https://habitica.com/groups/guild/2305645b-a01c-4d95-b38a-f80b1df9ea95",
       "title": "Anime Club",
       "summary": "This club is for people who watch anime, recently started watching anime, or want to start watching it! We're an active guild. Come and join in on the fun!",
-      "memberCount": 11396,
+      "memberCount": 11421,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18934,7 +18919,7 @@
       "url": "https://habitica.com/groups/guild/4d106168-f8bd-4235-92ee-e3490fcd2634",
       "title": "Knitting and Crocheting!",
       "summary": "For the Habiticans who can never get enough yarn. Challenges will involve Knit/Crochet-a-longs, stash busting projects, and more!",
-      "memberCount": 5383,
+      "memberCount": 5392,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18953,7 +18938,7 @@
       "url": "https://habitica.com/groups/guild/17848f38-0418-4764-9fe8-91fdc9950e32",
       "title": "ADHDers Guild ??",
       "summary": "This is a guild for those of us with diagnosed or undiagnosed AD(H)D using Habitica to help manage the issues of motivation, distraction, and other impairments that come with our condition.",
-      "memberCount": 5216,
+      "memberCount": 5304,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18971,8 +18956,8 @@
       "id": "08a6022c-f62e-4672-bdfc-0050b3ab3d83",
       "url": "https://habitica.com/groups/guild/08a6022c-f62e-4672-bdfc-0050b3ab3d83",
       "title": "The Renaissance Man",
-      "summary": "The Modern Polymath/ The Renaissance Man",
-      "memberCount": 4857,
+      "summary": "The Modern Polymath/ The Renaissance Man ___     Join us on Discord :arrow_down: + [Discord]  ___   `optional but recommended for the experience and lovely community`  *unnofficial server. not a habitica affiliate",
+      "memberCount": 4903,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -18991,7 +18976,7 @@
       "url": "https://habitica.com/groups/guild/1aaa3446-4d6e-4e42-b22a-711210445f07",
       "title": "The Queers",
       "summary": "The Queers",
-      "memberCount": 19812,
+      "memberCount": 19854,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -19010,7 +18995,7 @@
       "url": "https://habitica.com/groups/guild/ec82e9c6-fefb-419c-aff1-a4ec4c5f0ab9",
       "title": "Writers",
       "summary": "Writers",
-      "memberCount": 16277,
+      "memberCount": 16307,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -19029,7 +19014,7 @@
       "url": "https://habitica.com/groups/guild/cf0a9cb8-606e-4bf0-bcad-f9b1715b8819",
       "title": "The Overachievers",
       "summary": "The Overachievers",
-      "memberCount": 13760,
+      "memberCount": 13765,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -19048,7 +19033,7 @@
       "url": "https://habitica.com/groups/guild/16b96e1b-0b59-4b49-b9a7-05f20ff760e6",
       "title": "Book Lust",
       "summary": "Book Lust - the guild for those who adore books and reading! :)",
-      "memberCount": 15799,
+      "memberCount": 15834,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -19067,7 +19052,7 @@
       "url": "https://habitica.com/groups/guild/22360759-fd87-444d-86bd-42724be07bd7",
       "title": "Duolinguists of Habitica",
       "summary": "Duolingo is a gamified, free language learning website and app with dozens of languages available! Join the guild to connect with other Duolingo users.",
-      "memberCount": 4671,
+      "memberCount": 4675,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -19086,7 +19071,7 @@
       "url": "https://habitica.com/groups/guild/48c084a8-81a7-40cc-a8c1-b8e93357424d",
       "title": "The Wordsmiths",
       "summary": "The Wordsmiths is a guild dedicated to writing and the forging of solid words.",
-      "memberCount": 23893,
+      "memberCount": 23921,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -19105,7 +19090,7 @@
       "url": "https://habitica.com/groups/guild/1da5ae22-6659-4600-9951-905f923c9373",
       "title": "Anxiety Alliance",
       "summary": "Anxiety Alliance is a place for those managing and dealing with anxiety to gather and support each other. We also offer a variety of Challenges for managing anxiety generally as well as to help you accomplish your anxiety-inducing tasks. :)",
-      "memberCount": 39680,
+      "memberCount": 39780,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -19124,7 +19109,7 @@
       "url": "https://habitica.com/groups/guild/1c10731e-4bcb-4093-9d6a-7e29d97ed082",
       "title": "Awesome Introverts",
       "summary": "If you're an introvert proud about something you've achieved, post about it here.",
-      "memberCount": 6674,
+      "memberCount": 6678,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -19143,7 +19128,7 @@
       "url": "https://habitica.com/groups/guild/5951dcf9-a006-4ab1-a58f-d252c0bcdea5",
       "title": "College Info Geeks",
       "summary": "The official guild for fans of College Info Geek. Connect with fellow students trying to study more efficiently, learn new skills, and become more productive!",
-      "memberCount": 37287,
+      "memberCount": 37322,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -19162,7 +19147,7 @@
       "url": "https://habitica.com/groups/guild/f2db2a7f-13c5-454d-b3ee-ea1f5089e601",
       "title": "Party Wanted (Looking for Group)",
       "summary": "Want to join a Party so you can quest together and stay accountable? Hoping to advertise your Party for new members? Look no further! This is the best place for you to find a group. Please do not look for Parties in the Tavern!",
-      "memberCount": 126394,
+      "memberCount": 126689,
       "memberColor": "gold",
       "official": true,
       "lang": [
@@ -19181,7 +19166,7 @@
       "url": "https://habitica.com/groups/guild/82fe50b1-4fa5-4e94-8114-aa66516c0d9d",
       "title": "The Scholars",
       "summary": "The Scholars is a guild for students and all lovers of learning of all ages! Share tips and tricks for studying with your fellows here, ask for help, and support others in turn. **NB: PLEASE DO NOT LOOK FOR PARTIES/TEAMS IN THIS GUILD.**",
-      "memberCount": 16983,
+      "memberCount": 17031,
       "memberColor": "gold",
       "official": false,
       "lang": [
@@ -19200,7 +19185,7 @@
       "url": "https://habitica.com/groups/guild/5481ccf3-5d2d-48a9-a871-70a7380cee5a",
       "title": "Habitica Help: Ask a Question",
       "summary": "This Guild aims to give users a dedicated space to ask questions about Habitica, so please feel free to ask whatever you like! And if you're an experienced user, you can join the Guild and help answer any questions that come up. Everyone is welcome!!",
-      "memberCount": 133486,
+      "memberCount": 133620,
       "memberColor": "gold",
       "official": true,
       "lang": [
@@ -19283,7 +19268,7 @@
       ],
       "langAll": true,
       "classification": "cxWorldH",
-      "subclassificationification ": "subWorldH_HelpSupport",
+      "subclassification": "subWorldH_HelpSupport",
       "created": "2019-02-18T00:00:00.000Z"
     }
   }
