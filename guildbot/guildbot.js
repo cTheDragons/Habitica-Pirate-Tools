@@ -271,6 +271,11 @@ fetchBaseData()
 ////   Get base data                              ////////////
 //////////////////////////////////////////////////////////////	
 function fetchBaseData(){
+
+    var grumpyTimeOut = rl.log.timeoutBasePeriod//The Log (Trello) is grumpy and doesn't always say when it has enough
+	if (retryAttempt < 1) grumpyTimeOut = 1
+	
+ 
     if (gConfig.debugConsole) console.log('fetchBaseData Retry attempt: ' + retryAttempt);
     if (gConfig.debug) consoleLogToFile('fetchBaseData START');
     if (gConfig.debug) consoleLogToFile('********************************************');
@@ -288,69 +293,72 @@ function fetchBaseData(){
     var ajaxRunningCount = 9
     retryAttempt_hailed = 0 //reset if failed before
     actionTakenInLoop = false
-	if (gConfig.debug) consoleLogToFile('Action Taken set to false')
-	
+    if (gConfig.debug) consoleLogToFile('Action Taken set to false')
+    
     retryAttempt++
-	if (retryAttempt < gConfig.retryAttemptMax){
-		
-		//Habitica Data
-        var call = []
+    if (retryAttempt < gConfig.retryAttemptMax){
+			
+		setTimeout(function (){  	
+			
+			//Habitica Data
+			var call = []
 
-        //User Data     
-        if (gConfig.debug) consoleLogToFile('debug fetchBaseDataUser START');
-        var urlToAction = gConfig.botServerUrl + gConfig.botServerPathUser
-        var newData = {}
-        var item = {}
-        call.push({targetType: 'bot', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataUser_Success, fnFailure: fetchBaseData_Failure, item: item})
+			//User Data     
+			if (gConfig.debug) consoleLogToFile('debug fetchBaseDataUser START');
+			var urlToAction = gConfig.botServerUrl + gConfig.botServerPathUser
+			var newData = {}
+			var item = {}
+			call.push({targetType: 'bot', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataUser_Success, fnFailure: fetchBaseData_Failure, item: item})
 
-        //Guild Data
-        if (gConfig.debug) consoleLogToFile('debug fetchBaseDataGuild START');
-        var urlToAction = gConfig.botServerUrl + gConfig.botServerPathGroup
-        var newData = {type: "publicGuilds,privateGuilds"}
-        var item = {}
-        call.push({targetType: 'bot', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataGuild_Success, fnFailure: fetchBaseData_Failure, item: item})
+			//Guild Data
+			if (gConfig.debug) consoleLogToFile('debug fetchBaseDataGuild START');
+			var urlToAction = gConfig.botServerUrl + gConfig.botServerPathGroup
+			var newData = {type: "publicGuilds,privateGuilds"}
+			var item = {}
+			call.push({targetType: 'bot', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataGuild_Success, fnFailure: fetchBaseData_Failure, item: item})
 
-        //Cove Data
-        if (gConfig.debug) consoleLogToFile('debug fetchBaseDataCove START');
-        var urlToAction = gConfig.botServerUrl + gConfig.botServerPathGroup + '/' + gConfig.botGuildCove
-        var newData = {}
-        var item = {}
-        call.push({targetType: 'bot', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataCove_Success, fnFailure: fetchBaseData_Failure, item: item})
+			//Cove Data
+			if (gConfig.debug) consoleLogToFile('debug fetchBaseDataCove START');
+			var urlToAction = gConfig.botServerUrl + gConfig.botServerPathGroup + '/' + gConfig.botGuildCove
+			var newData = {}
+			var item = {}
+			call.push({targetType: 'bot', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataCove_Success, fnFailure: fetchBaseData_Failure, item: item})
 
-        makeAxiosCall(_.cloneDeep(call))
+			makeAxiosCall(_.cloneDeep(call))
 
-		//Trello Data
-        call = []
+			//Trello Data
+			call = []
 
-        //Labels Data
-        if (gConfig.debug) consoleLogToFile('debug fetchBaseDataLabels START');
-        var urlToAction = gConfig.logServerUrl + gConfig.logServerPathBoard + gConfig.logServerPathLabels 
-        var newData = {limit: '1000'} 
-        var item = {}
-        call.push({targetType: 'log', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataLabels_Success, fnFailure: fetchBaseData_Failure, item: item})
-        
+			//Labels Data
+			if (gConfig.debug) consoleLogToFile('debug fetchBaseDataLabels START');
+			var urlToAction = gConfig.logServerUrl + gConfig.logServerPathBoard + gConfig.logServerPathLabels 
+			var newData = {limit: '1000'} 
+			var item = {}
+			call.push({targetType: 'log', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataLabels_Success, fnFailure: fetchBaseData_Failure, item: item})
+			
 
-        if (gConfig.debug) consoleLogToFile('debug fetchBaseDataCustomFields START');
-        var urlToAction = gConfig.logServerUrl + gConfig.logServerPathBoard + gConfig.logServerPathCustFields
-        var newData = {}
-        var item = {}
-        call.push({targetType: 'log', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataCustomFields_Success, fnFailure: fetchBaseData_Failure, item: item})
+			if (gConfig.debug) consoleLogToFile('debug fetchBaseDataCustomFields START');
+			var urlToAction = gConfig.logServerUrl + gConfig.logServerPathBoard + gConfig.logServerPathCustFields
+			var newData = {}
+			var item = {}
+			call.push({targetType: 'log', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataCustomFields_Success, fnFailure: fetchBaseData_Failure, item: item})
 
-        if (gConfig.debug) consoleLogToFile('debug fetchBaseDataCardList START');
-        var urlToAction = gConfig.logServerUrl + gConfig.logServerPathBoard + gConfig.logServerPathCards 
-        var newData = {}
-        var item = {}
-        call.push({targetType: 'log', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataCardList_Success, fnFailure: fetchBaseData_Failure, item: item})
-        
-        if (gConfig.debug) consoleLogToFile('debug fetchBaseDataConfigCardList START');
-        var urlToAction = gConfig.logServerUrl + gConfig.logServerPathBoard + gConfig.logServerPathList
-        var newData = {}
-        var item = {}
-        call.push({targetType: 'log', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataConfigCardList_Success, fnFailure: fetchBaseData_Failure, item: item})
+			if (gConfig.debug) consoleLogToFile('debug fetchBaseDataCardList START');
+			var urlToAction = gConfig.logServerUrl + gConfig.logServerPathBoard + gConfig.logServerPathCards 
+			var newData = {}
+			var item = {}
+			call.push({targetType: 'log', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataCardList_Success, fnFailure: fetchBaseData_Failure, item: item})
+			
+			if (gConfig.debug) consoleLogToFile('debug fetchBaseDataConfigCardList START');
+			var urlToAction = gConfig.logServerUrl + gConfig.logServerPathBoard + gConfig.logServerPathList
+			var newData = {}
+			var item = {}
+			call.push({targetType: 'log', requestType: 'GET', urlTo: urlToAction, newData: newData, fnSuccess: fetchBaseDataConfigCardList_Success, fnFailure: fetchBaseData_Failure, item: item})
 
-        makeAxiosCall(_.cloneDeep(call))
+			makeAxiosCall(_.cloneDeep(call))
+        }, grumpyTimeOut); 
 
-	} else {
+    } else {
         consoleLogToFile('******************************************')
         consoleLogToFile('******************************************')
         consoleLogToFile('******************************************')
@@ -362,7 +370,7 @@ function fetchBaseData(){
         consoleLogToFile('******************************************')
 
     }
-
+ 
 
     function fetchBaseDataUser_Success(data, item){
         if (gConfig.debug) consoleLogToFile('debug fetchBaseDataUser_Success SUCCESS')
@@ -4251,8 +4259,10 @@ function reportResults(){
 
                 var ephemeralBox = data
                 datafetched = datafetched.concat(ephemeralBox)
-                if (gConfig.debug) consoleLogToFile('Challenges Fetched: ' + ephemeralBox.length)
-                if (gConfig.debug) consoleLogToFile('Total Challenges Fetched: ' + datafetched.length)
+
+                if (gConfig.debugVerbose) consoleLogToFile('Challenges Fetched: ' + ephemeralBox.length)
+                if (gConfig.debugVerbose) consoleLogToFile('Total Challenges Fetched: ' + datafetched.length)
+
                 if (ephemeralBox.length < 10){
                     formatAndExportChallengeDataAll()
                 } else {
@@ -5194,9 +5204,9 @@ function makeAxiosCall(call){
             var targetType = call[0].targetType
 
             if (gConfig.debug) consoleLogToFile('debug evalAxiosCall eval Target Type Remaining ' + rl[targetType].remaining + ' less than Safety : ' +  rl[targetType].remainingSafety +  '    AND  Less than Call Length ' +  call.length + '     AND  Now: ' +  moment.utc().format('YYYY-MM-DDTHH:mm:ssZ')  + ' isBefore last reset time ' + rl[targetType].resetDateTime)
-            if (gConfig.debugAPI) consoleLogToFile((rl[targetType].remaining < rl[targetType].remainingSafety))
-            if (gConfig.debugAPI) consoleLogToFile((rl[targetType].remaining <= call.length))
-            if (gConfig.debugAPI) consoleLogToFile((moment.utc().isBefore(rl[targetType].resetDateTime)))
+            if (gConfig.debugAPI) consoleLogToFile('debug evalAxiosCall remaining < remainingSafety: ' + (rl[targetType].remaining < rl[targetType].remainingSafety))
+            if (gConfig.debugAPI) consoleLogToFile('debug evalAxiosCall remaining < call.length (Queue):' + (rl[targetType].remaining <= call.length))
+            if (gConfig.debugAPI) consoleLogToFile('debug evalAxiosCall resetDateTime is before now :' + (moment.utc().isBefore(rl[targetType].resetDateTime)))
 
             if ((rl[targetType].remaining < rl[targetType].remainingSafety) && (rl[targetType].remaining <= call.length) && (moment.utc().isBefore(rl[targetType].resetDateTime))){
                 drinksAxiosCall(call)
