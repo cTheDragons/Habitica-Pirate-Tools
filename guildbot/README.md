@@ -183,4 +183,4 @@ Text used by @GuildBot to report to pirates, elves, and Admirals, regarding stat
 
 
 ## External Language Input
-The code only file used in /common/locales is guildbot.js. 
+The code only file used in /common/locale is guildbot.js. 

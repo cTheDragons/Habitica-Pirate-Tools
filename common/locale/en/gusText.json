@@ -1,0 +1,11 @@
+{
+	"gusHabiticaName": "Habitica",
+	"gusShortTitle": "GUS",
+	"gusLongTitle": "Guild Ultimate Search",
+	"gusBug-report": "Found a bug? Report it in the <a href=\"https://habitica.com/groups/guild/d9a0ec1e-352b-4697-a5d5-fb45c98fb4a3\">Testing & Bug Squashing for Dragon Tools",
+	"gusSocialiteGreetingStandard": "Hi! I searched [GUS with search terms: <%= searchList %>](<%= gusSearchURL %>). Here is the list:\n\n",
+	"gusSocialiteGreetingMulit": "Hello! There are a few Russian speaking players here. Here is a list from [GUS](<%= gusSearchURL %>). You are welcome to chat in the Tavern or try the following guilds:\n\n",
+	"gusAbout": "<P>Welcome to GUS.</P><P>A friend of the pirate GuildBot. GuildBot sails the seven seas and collects data of all the ships.. um guilds of Habitica.</P><P>Why does my guild not appear?<BR>If your guild has just been created, or is under current investigation of the pirates, the guild will not show until completed.</P><P>Why each guild has only one category assigned?<BR>To avoid over classification we only assign one category to one guild.</P><P>Why can't find my language variant like Pirate English?<BR>To avoid splintering of languages we group each language into a single group. The languages groups are based on the codes as specified ISO 2 (639-1) Letter Language. That being said, check out the summary for your group.</P>",
+	"gusURL": "https://oldgods.com/pirateTools/gus.html",
+	"gusSocialiteGreetingOverflow": "Plus many more guilds that cannot be listed here"
+}

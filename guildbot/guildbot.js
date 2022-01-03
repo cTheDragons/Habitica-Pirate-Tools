@@ -4251,6 +4251,8 @@ function reportResults(){
 
                 var ephemeralBox = data
                 datafetched = datafetched.concat(ephemeralBox)
+                if (gConfig.debug) consoleLogToFile('Challenges Fetched: ' + ephemeralBox.length)
+                if (gConfig.debug) consoleLogToFile('Total Challenges Fetched: ' + datafetched.length)
                 if (ephemeralBox.length < 10){
                     formatAndExportChallengeDataAll()
                 } else {
