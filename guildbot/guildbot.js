@@ -4109,125 +4109,119 @@ function reportResults(){
     function exportPirateAction(){
         if (gConfig.debug) consoleLogToFile('debug exportPirateAction START');
 
-        //if (Object.keys(guildsLatestData).length >= (stats.overall.public.pirateAction - stats.pirateAction.public.bermuda)){
-            var tempBox = {}
+		var tempBox = {}
 
-            tempBox['lastupdated'] = moment().utc().format('YYYY-MM-DDTHH:mm:ss.SSS')
-            tempBox['stats'] = stats.pirateAction
-            tempBox.stats.droppedAnchor = {}
-            tempBox.stats.droppedAnchor.public = stats.overall.public.droppedAnchor
-            tempBox.stats.droppedAnchor.private = stats.overall.private.droppedAnchor
-            tempBox.stats.total = {}
-            tempBox.stats.total.public = stats.overall.public.pirateAction
-            tempBox.stats.total.private = stats.overall.private.pirateAction
+		tempBox['lastupdated'] = moment().utc().format('YYYY-MM-DDTHH:mm:ss.SSS')
+		tempBox['stats'] = stats.pirateAction
+		tempBox.stats.droppedAnchor = {}
+		tempBox.stats.droppedAnchor.public = stats.overall.public.droppedAnchor
+		tempBox.stats.droppedAnchor.private = stats.overall.private.droppedAnchor
+		tempBox.stats.total = {}
+		tempBox.stats.total.public = stats.overall.public.pirateAction
+		tempBox.stats.total.private = stats.overall.private.pirateAction
 
-            tempBox.guilds = {justLaunched: [], targetSpotted: [], captianMIA: [], captured: [], lastRites: [], doNotHail: [], bermudaTriangle:[], droppedAnchor: []}
+		tempBox.guilds = {justLaunched: [], targetSpotted: [], captianMIA: [], captured: [], lastRites: [], doNotHail: [], bermudaTriangle:[], droppedAnchor: []}
 
 
-            //Compiling the values used in reports
-            cards.forEach(function(obj, index){
-                var droppedAnchor = false
-                var nameToShow = gConfigText.msgPrivateGuildNotStated
+		//Compiling the values used in reports
+		cards.forEach(function(obj, index){
+			var droppedAnchor = false
+			var nameToShow = gConfigText.msgPrivateGuildNotStated
 
-                //Do not include private stats or Sunk Ships
-                if (
-                    (obj.idList == logListIdJustLaunched) || 
-                    (obj.idList == logListIdTargetSpotted) || 
-                    (obj.idList == logListIdCaptainMIA) || 
-                    (obj.idList == logListIdCaptured) || 
-                    (obj.idList == logListIdLastRites) || 
-                    (obj.idList == logListIdDoNotHail) ||
-                    (obj.idList == logListIdBermudaTriangle)
-                ){
-                    if (masterList[obj.name] != undefined)  if (masterList[obj.name].name != undefined) {
-                        nameToShow = masterList[obj.name].name
-                    }
-  
-                    if ((masterList[obj.name] != undefined) && (masterList[obj.name].privacy == 'public')){
+			//Do not include private stats or Sunk Ships
+			if (
+				(obj.idList == logListIdJustLaunched) || 
+				(obj.idList == logListIdTargetSpotted) || 
+				(obj.idList == logListIdCaptainMIA) || 
+				(obj.idList == logListIdCaptured) || 
+				(obj.idList == logListIdLastRites) || 
+				(obj.idList == logListIdDoNotHail) ||
+				(obj.idList == logListIdBermudaTriangle)
+			){
+				if (masterList[obj.name] != undefined)  if (masterList[obj.name].name != undefined) {
+					nameToShow = masterList[obj.name].name
+				}
 
-                        if (guildsLatestData[obj.name] == undefined ){
-                            //Do Nothing as not needed
-                        } else if (guildsLatestData[obj.name].cFields == undefined){
-                                consoleLogToFile ('ERROR ! cFIELDS is missing for ' + obj.name)
-                                guildsLatestData[obj.name].cFields = {} 
-                        }
-                        
-                        obj.labels.forEach(function (obj2, index2){
-                            if (obj2.id == logLabelDropAnchor) droppedAnchor = true
-                        });
+				if ((masterList[obj.name] != undefined) && (masterList[obj.name].privacy == 'public')){
 
-                        if (droppedAnchor){
-                            if (guildsLatestData[obj.name] != undefined ){ 
-                            tempBox.guilds.droppedAnchor.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['actionStarted'].id], raiseAnchor: obj.due} )
-                            } else {
-                                tempBox.guilds.droppedAnchor.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '', raiseAnchor: obj.due })
-                            }
-                            
-                        } else {
+					if (guildsLatestData[obj.name] == undefined ){
+						//Do Nothing as not needed
+					} else if (guildsLatestData[obj.name].cFields == undefined){
+							consoleLogToFile ('ERROR ! cFIELDS is missing for ' + obj.name)
+							guildsLatestData[obj.name].cFields = {} 
+					}
+					
+					obj.labels.forEach(function (obj2, index2){
+						if (obj2.id == logLabelDropAnchor) droppedAnchor = true
+					});
 
-                            switch (obj.idList){
-                                case logListIdJustLaunched: 
-                                    if (guildsLatestData[obj.name] != undefined ){
-                                        tempBox.guilds.justLaunched.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['guildCreated'].id] })
-                                    } else {
-                                        tempBox.guilds.justLaunched.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '' })
-                                    }
-                                    break;
-                                case logListIdTargetSpotted: 
-                                    if (guildsLatestData[obj.name] != undefined ){
-                                        tempBox.guilds.targetSpotted.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['hailed'].id] } )
-                                    } else {
-                                        tempBox.guilds.targetSpotted.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '' })
-                                    } 
-                                    break;
-                                case logListIdCaptainMIA: 
-                                    if (guildsLatestData[obj.name] != undefined ){
-                                        tempBox.guilds.captianMIA.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['actionStarted'].id], hailed: guildsLatestData[obj.name].cFields[logCustomFields['hailed'].id] })
-                                    } else {
-                                        tempBox.guilds.captianMIA.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '', hailed: '' })
-                                    }
-                                    break;
-                                case logListIdCaptured: 
-                                    if (guildsLatestData[obj.name] != undefined ){
-                                        tempBox.guilds.captured.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['actionStarted'].id], hailed: guildsLatestData[obj.name].cFields[logCustomFields['hailed'].id] })
-                                    } else {
-                                        tempBox.guilds.captured.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '', hailed: '' })
-                                    }
-                                    break;
-                                case logListIdLastRites: 
-                                    if (guildsLatestData[obj.name] != undefined ){
-                                        tempBox.guilds.lastRites.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['actionStarted'].id], hailed: guildsLatestData[obj.name].cFields[logCustomFields['hailed'].id] })
-                                    } else {
-                                        tempBox.guilds.lastRites.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '', hailed: '' })
-                                    }
-                                    break;
-                                case logListIdDoNotHail: 
-                                    if (guildsLatestData[obj.name] != undefined ){
-                                        tempBox.guilds.doNotHail.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['actionStarted'].id] })
-                                    } else {
-                                        tempBox.guilds.doNotHail.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '' })
-                                    }
-                                    break;
-                                case logListIdBermudaTriangle: 
-                                        tempBox.guilds.droppedAnchor.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '', return: obj.due })
-                                    break;
-                                default:
-                                    //do nothing as Config, Clear Sailing, Private Army
-                            }
-                        }//test if private
-                    }
-                } 
-            });
+					if (droppedAnchor){
+						if (guildsLatestData[obj.name] != undefined ){ 
+						tempBox.guilds.droppedAnchor.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['actionStarted'].id], raiseAnchor: obj.due} )
+						} else {
+							tempBox.guilds.droppedAnchor.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '', raiseAnchor: obj.due })
+						}
+						
+					} else {
 
-            var output = JSON.stringify(tempBox, null, 2);  
-            fs.writeFileSync(gConfig.journalPirate, output);  
-  /*      } else {
-            consoleLogToFile('debug exportPirateAction unable to export as not enough data.')
-            consoleLogToFile('debug exportPirateAction pirateAction: ' +  stats.overall.public.pirateAction)
-            consoleLogToFile('debug exportPirateAction Data collected (guildsLatestData): ' + Object.keys(guildsLatestData).length) 
-        }
-*/
-        if (gConfig.debug) console.log('*********************  Complete Pirate Stat   *********************')
+						switch (obj.idList){
+							case logListIdJustLaunched: 
+								if (guildsLatestData[obj.name] != undefined ){
+									tempBox.guilds.justLaunched.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['guildCreated'].id] })
+								} else {
+									tempBox.guilds.justLaunched.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '' })
+								}
+								break;
+							case logListIdTargetSpotted: 
+								if (guildsLatestData[obj.name] != undefined ){
+									tempBox.guilds.targetSpotted.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['hailed'].id] } )
+								} else {
+									tempBox.guilds.targetSpotted.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '' })
+								} 
+								break;
+							case logListIdCaptainMIA: 
+								if (guildsLatestData[obj.name] != undefined ){
+									tempBox.guilds.captianMIA.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['actionStarted'].id], hailed: guildsLatestData[obj.name].cFields[logCustomFields['hailed'].id] })
+								} else {
+									tempBox.guilds.captianMIA.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '', hailed: '' })
+								}
+								break;
+							case logListIdCaptured: 
+								if (guildsLatestData[obj.name] != undefined ){
+									tempBox.guilds.captured.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['actionStarted'].id], hailed: guildsLatestData[obj.name].cFields[logCustomFields['hailed'].id] })
+								} else {
+									tempBox.guilds.captured.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '', hailed: '' })
+								}
+								break;
+							case logListIdLastRites: 
+								if (guildsLatestData[obj.name] != undefined ){
+									tempBox.guilds.lastRites.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['actionStarted'].id], hailed: guildsLatestData[obj.name].cFields[logCustomFields['hailed'].id] })
+								} else {
+									tempBox.guilds.lastRites.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '', hailed: '' })
+								}
+								break;
+							case logListIdDoNotHail: 
+								if (guildsLatestData[obj.name] != undefined ){
+									tempBox.guilds.doNotHail.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: guildsLatestData[obj.name].cFields[logCustomFields['actionStarted'].id] })
+								} else {
+									tempBox.guilds.doNotHail.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '' })
+								}
+								break;
+							case logListIdBermudaTriangle: 
+									tempBox.guilds.droppedAnchor.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '', return: obj.due })
+								break;
+							default:
+								//do nothing as Config, Clear Sailing, Private Army
+						}
+					}//test if private
+				}
+			} 
+		});
+
+		var output = JSON.stringify(tempBox, null, 2);  
+		fs.writeFileSync(gConfig.journalPirate, output);  
+		
+		if (gConfig.debug) console.log('*********************  Complete Pirate Stat   *********************')
         if (gConfig.debug) consoleLogToFile('debug exportPirateAction END');
     }
 
@@ -4351,11 +4345,11 @@ function reportResults(){
             var output = JSON.stringify(tempBox, null, 2);  
             fs.writeFileSync(gConfig.journalElf, output);  
 
+			if (gConfig.debug) console.log('*********************  Complete Elven Stat   *********************')
             if (gConfig.debug) consoleLogToFile('debug formatAndExportChallengeDataAll END');
             if (gConfig.debugConsole) console.log('*** Elf is done ***')
         } //formatAndExportChallengeDataAll
 
-        if (gConfig.debug) console.log('*********************  Complete Elven Stat   *********************')
         if (gConfig.debug) consoleLogToFile('debug exportElvenReport END');
     }
 
