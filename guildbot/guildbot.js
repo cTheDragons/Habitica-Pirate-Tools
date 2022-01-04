@@ -5203,12 +5203,12 @@ function makeAxiosCall(call){
         if (call.length > 0){
             var targetType = call[0].targetType
 
-            if (gConfig.debug) consoleLogToFile('debug evalAxiosCall eval Target Type Remaining ' + rl[targetType].remaining + ' less than Safety : ' +  rl[targetType].remainingSafety +  '    AND  Less than Call Length ' +  call.length + '     AND  Now: ' +  moment.utc().format('YYYY-MM-DDTHH:mm:ssZ')  + ' isBefore last reset time ' + rl[targetType].resetDateTime)
+            if (gConfig.debug) consoleLogToFile('debug evalAxiosCall eval Target Type Remaining ' + rl[targetType].remaining + ' less than Safety : ' +  rl[targetType].remainingSafety +  '    AND  Less than Call Length ' +  call.length + '     AND  Now: ' +  moment.utc().format('YYYY-MM-DDTHH:mm:ssZ')  + ' isBefore last reset time ' + moment(rl[targetType].resetDateTime).utc().format('YYYY-MM-DDTHH:mm:ssZ') )
             if (gConfig.debugAPI) consoleLogToFile('debug evalAxiosCall remaining < remainingSafety: ' + (rl[targetType].remaining < rl[targetType].remainingSafety))
             if (gConfig.debugAPI) consoleLogToFile('debug evalAxiosCall remaining < call.length (Queue):' + (rl[targetType].remaining <= call.length))
-            if (gConfig.debugAPI) consoleLogToFile('debug evalAxiosCall resetDateTime is before now :' + (moment.utc().isBefore(rl[targetType].resetDateTime)))
+            if (gConfig.debugAPI) consoleLogToFile('debug evalAxiosCall resetDateTime is before now :' + (moment.utc().isBefore(moment(rl[targetType].resetDateTime).utc())))
 
-            if ((rl[targetType].remaining < rl[targetType].remainingSafety) && (rl[targetType].remaining <= call.length) && (moment.utc().isBefore(rl[targetType].resetDateTime))){
+            if ((rl[targetType].remaining < rl[targetType].remainingSafety) && (rl[targetType].remaining <= call.length) &&  (moment.utc().isBefore(moment(rl[targetType].resetDateTime).utc()))){
                 drinksAxiosCall(call)
             } else {
                 if (call[0].forcePause == true){
@@ -5224,11 +5224,11 @@ function makeAxiosCall(call){
         if (gConfig.debugAPI) consoleLogToFile('debug drinksAxiosCall START for call length ' + call.length)
         
         var targetType = call[0].targetType
-        var timeoutPeriod = Math.floor((Math.random() * rl[targetType].timeoutBasePeriod)) + moment(rl[targetType].resetDateTime).diff(moment.utc(), 'SSSS')
+        var timeoutPeriod = Math.floor((Math.random() * rl[targetType].timeoutBasePeriod)) + moment(rl[targetType].resetDateTime).utc().diff(moment.utc(), 'SSSS')
 
         if (gConfig.debug) consoleLogToFile('Having drinks for ' + timeoutPeriod)
         setTimeout(function (){
-            if (gConfig.debug) consoleLogToFile('debug drinksAxiosCall Finish Waiting Remaining ' + rl[targetType].remaining + ' less than Safety : ' +  rl[targetType].remainingSafety +  '    AND  Less than Call Length ' +  call.length + '     AND  Now: ' +  moment.utc().format('YYYY-MM-DDTHH:mm:ssZ') + ' isBefore last reset time ' + rl[targetType].resetDateTime)
+            if (gConfig.debug) consoleLogToFile('debug drinksAxiosCall Finish Waiting Remaining ' + rl[targetType].remaining + ' less than Safety : ' +  rl[targetType].remainingSafety +  '    AND  Less than Call Length ' +  call.length + '     AND  Now: ' +  moment.utc().format('YYYY-MM-DDTHH:mm:ssZ') + ' isBefore last reset time ' + moment(rl[targetType].resetDateTime).format('YYYY-MM-DDTHH:mm:ssZ') )
 			if (call[0].forcePause == true){
                 forceAxiosCall(call) 
             } else {
