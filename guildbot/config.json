@@ -165,7 +165,7 @@
         "rptElvenExport": true,
        
 
-        "testchunk": 75,
+        "testchunk": 150,
         "retryAttemptMax":  20, 
         "clearCountLoadPercent": 5,
 
@@ -221,7 +221,7 @@
         "debugVerbose": true,
         "debugAPI": true,
 
-        "testchunk": 75
+        "testchunk": 150
     },
     "repliRun": {
         "outputFilePrefix": "",
