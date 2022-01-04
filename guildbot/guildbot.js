@@ -3971,6 +3971,7 @@ function reportResults(){
         var output = JSON.stringify(tempBox, null, 2);  
         fs.writeFileSync(gConfig.journalStats, output);  
 
+        if (gConfig.debug) console.log('*********************  Complete Stat Stat   *********************')
         if (gConfig.debug) consoleLogToFile('debug exportStats END');
     }  
 
@@ -3985,8 +3986,9 @@ function reportResults(){
         tempBox['lastupdated'] = moment().utc().format('YYYY-MM-DDTHH:mm:ss.SSS')
         tempBox['guild'] = masterList
         var output = JSON.stringify(tempBox, null, 2);  
-        fs.writeFileSync(gConfig.journalMaster, output);  
+        fs.writeFileSync(gConfig.journalMaster, output); 
 
+        if (gConfig.debug) console.log('*********************  Complete Master Stat   *********************')
         if (gConfig.debug) consoleLogToFile('debug exportMasterList END');
     }   
 
@@ -4096,6 +4098,7 @@ function reportResults(){
         var output = JSON.stringify(reportGus, null, 2);  
         fs.writeFileSync(gConfig.journalGus, output);  
 
+        if (gConfig.debug) console.log('*********************  Complete GUS Stat   *********************')
         if (gConfig.debug) consoleLogToFile('debug exportGUS END');
     }   
 
@@ -4224,6 +4227,7 @@ function reportResults(){
             consoleLogToFile('debug exportPirateAction Data collected (guildsLatestData): ' + Object.keys(guildsLatestData).length) 
         }
 */
+        if (gConfig.debug) console.log('*********************  Complete Pirate Stat   *********************')
         if (gConfig.debug) consoleLogToFile('debug exportPirateAction END');
     }
 
@@ -4351,6 +4355,7 @@ function reportResults(){
             if (gConfig.debugConsole) console.log('*** Elf is done ***')
         } //formatAndExportChallengeDataAll
 
+        if (gConfig.debug) console.log('*********************  Complete Elven Stat   *********************')
         if (gConfig.debug) consoleLogToFile('debug exportElvenReport END');
     }
 
@@ -5089,6 +5094,7 @@ function reportResults(){
                 }
             })
             makeAxiosCall(_.cloneDeep(call))
+
             if (gConfig.debug) consoleLogToFile('debug createCoveReport_organizeThePaperwork END');
         }
 
