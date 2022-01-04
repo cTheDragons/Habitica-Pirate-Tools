@@ -3971,7 +3971,7 @@ function reportResults(){
         var output = JSON.stringify(tempBox, null, 2);  
         fs.writeFileSync(gConfig.journalStats, output);  
 
-        if (gConfig.debug) console.log('*********************  Complete Stat Stat   *********************')
+        if (gConfig.debug) consoleLogToFile('*********************  Complete Stat Stat   *********************')
         if (gConfig.debug) consoleLogToFile('debug exportStats END');
     }  
 
@@ -3988,7 +3988,7 @@ function reportResults(){
         var output = JSON.stringify(tempBox, null, 2);  
         fs.writeFileSync(gConfig.journalMaster, output); 
 
-        if (gConfig.debug) console.log('*********************  Complete Master Stat   *********************')
+        if (gConfig.debug) consoleLogToFile('*********************  Complete Master Stat   *********************')
         if (gConfig.debug) consoleLogToFile('debug exportMasterList END');
     }   
 
@@ -4098,7 +4098,7 @@ function reportResults(){
         var output = JSON.stringify(reportGus, null, 2);  
         fs.writeFileSync(gConfig.journalGus, output);  
 
-        if (gConfig.debug) console.log('*********************  Complete GUS Stat   *********************')
+        if (gConfig.debug) consoleLogToFile('*********************  Complete GUS Stat   *********************')
         if (gConfig.debug) consoleLogToFile('debug exportGUS END');
     }   
 
@@ -4221,7 +4221,7 @@ function reportResults(){
 		var output = JSON.stringify(tempBox, null, 2);  
 		fs.writeFileSync(gConfig.journalPirate, output);  
 		
-		if (gConfig.debug) console.log('*********************  Complete Pirate Stat   *********************')
+		if (gConfig.debug) consoleLogToFile('*********************  Complete Pirate Stat   *********************')
         if (gConfig.debug) consoleLogToFile('debug exportPirateAction END');
     }
 
@@ -4345,7 +4345,7 @@ function reportResults(){
             var output = JSON.stringify(tempBox, null, 2);  
             fs.writeFileSync(gConfig.journalElf, output);  
 
-			if (gConfig.debug) console.log('*********************  Complete Elven Stat   *********************')
+			if (gConfig.debug) consoleLogToFile('*********************  Complete Elven Stat   *********************')
             if (gConfig.debug) consoleLogToFile('debug formatAndExportChallengeDataAll END');
             if (gConfig.debugConsole) console.log('*** Elf is done ***')
         } //formatAndExportChallengeDataAll
