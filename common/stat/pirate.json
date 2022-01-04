@@ -1,9 +1,9 @@
 {
-  "lastupdated": "2022-01-03T13:03:31.288",
+  "lastupdated": "2022-01-04T10:00:54.975",
   "stats": {
     "public": {
-      "justLaunched": 21,
-      "targetSpotted": 33,
+      "justLaunched": 23,
+      "targetSpotted": 35,
       "captianMIA": 20,
       "captured": 0,
       "lastRites": 7,
@@ -24,17 +24,29 @@
       "private": 0
     },
     "total": {
-      "public": 119,
+      "public": 123,
       "private": 1
     }
   },
   "guilds": {
     "justLaunched": [
       {
+        "id": "61301edb-e188-46b5-84c3-d6a0ec5a693e",
+        "name": "Shadowhunters' Institute",
+        "url": "https://habitica.com/groups/guild/61301edb-e188-46b5-84c3-d6a0ec5a693e",
+        "actionStarted": "2022-01-04"
+      },
+      {
+        "id": "3f9c3446-dc4f-4080-a8d4-0f10ceb62dc9",
+        "name": "DynOmitEArmy",
+        "url": "https://habitica.com/groups/guild/3f9c3446-dc4f-4080-a8d4-0f10ceb62dc9",
+        "actionStarted": "2022-01-04"
+      },
+      {
         "id": "cfab38da-edbc-4883-ad01-70ce08be441b",
         "name": "The Royal Champions Association",
         "url": "https://habitica.com/groups/guild/cfab38da-edbc-4883-ad01-70ce08be441b",
-        "actionStarted": "2022-01-03"
+        "actionStarted": "2022-01-03T00:00:00.000Z"
       },
       {
         "id": "fbce6be4-4d5c-44af-b95e-b9cc6fa3817c",
@@ -159,22 +171,34 @@
     ],
     "targetSpotted": [
       {
+        "id": "8e858862-255f-47b6-94b9-c2fac22befb7",
+        "name": "Petits Pas Anti-Procrastination",
+        "url": "https://habitica.com/groups/guild/8e858862-255f-47b6-94b9-c2fac22befb7",
+        "actionStarted": "2022-01-04"
+      },
+      {
+        "id": "6f3ae9e4-8dc2-47f6-9462-16b484029213",
+        "name": "Emergency Preparation",
+        "url": "https://habitica.com/groups/guild/6f3ae9e4-8dc2-47f6-9462-16b484029213",
+        "actionStarted": "2022-01-04"
+      },
+      {
         "id": "fe42fe7f-c957-4473-b9d3-e0f8bcfd3cb1",
         "name": "Geocachers Guild",
         "url": "https://habitica.com/groups/guild/fe42fe7f-c957-4473-b9d3-e0f8bcfd3cb1",
-        "actionStarted": "2022-01-03"
+        "actionStarted": "2022-01-03T00:00:00.000Z"
       },
       {
         "id": "8e9c9125-d48d-4ab6-b7e6-b5710d2a154a",
         "name": "Maladaptive Daydreaming",
         "url": "https://habitica.com/groups/guild/8e9c9125-d48d-4ab6-b7e6-b5710d2a154a",
-        "actionStarted": "2022-01-03"
+        "actionStarted": "2022-01-03T00:00:00.000Z"
       },
       {
         "id": "e64432b0-b9af-48d8-a703-2d8d27a4f7aa",
         "name": "Mathematica",
         "url": "https://habitica.com/groups/guild/e64432b0-b9af-48d8-a703-2d8d27a4f7aa",
-        "actionStarted": "2022-01-03"
+        "actionStarted": "2022-01-03T00:00:00.000Z"
       },
       {
         "id": "c6631b66-3387-43a6-aa8f-22f17dd0d466",
@@ -690,21 +714,21 @@
         "name": "Fortellingenes Dal ~ The Valley of Tales ✨",
         "url": "https://habitica.com/groups/guild/78574f07-329a-44b9-ad78-f66db12c83cf",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "7e3d53c0-f0de-4ae0-9a4c-07995bf6173d",
         "name": "Role Players in Exile :)",
         "url": "https://habitica.com/groups/guild/7e3d53c0-f0de-4ae0-9a4c-07995bf6173d",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "4b04908e-4b10-4f7f-9f04-1ba0f5d7c1b9",
         "name": "Unitarian Universalist Habiticans",
         "url": "https://habitica.com/groups/guild/4b04908e-4b10-4f7f-9f04-1ba0f5d7c1b9",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "99c55a8d-db17-4f1c-b5a1-defcaa6c0bf3",
@@ -718,91 +742,91 @@
         "name": "Space Invaders! (A guild for those who love space)",
         "url": "https://habitica.com/groups/guild/d64cb70e-66ef-43b7-8842-0ab2e9633942",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "09a60b89-3151-450c-a6d3-30dde124606a",
         "name": "Dancers",
         "url": "https://habitica.com/groups/guild/09a60b89-3151-450c-a6d3-30dde124606a",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "15d9aeca-50d9-4564-b955-41333ce60d68",
         "name": "Coffee Enthusiasts",
         "url": "https://habitica.com/groups/guild/15d9aeca-50d9-4564-b955-41333ce60d68",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "b8b0be57-d9fb-4cd3-8c20-7035003261b8",
         "name": "The Cozy Inn of the Drowsy Dragon -- Hypersomnia and Narcolepsy",
         "url": "https://habitica.com/groups/guild/b8b0be57-d9fb-4cd3-8c20-7035003261b8",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "53584f75-e6d9-4306-931b-717ff11b4059",
         "name": "Creative Writing",
         "url": "https://habitica.com/groups/guild/53584f75-e6d9-4306-931b-717ff11b4059",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "dd00e413-51d4-4797-90e0-6cef1da7b4ac",
         "name": "Loved ones of those with Depression/Anxiety",
         "url": "https://habitica.com/groups/guild/dd00e413-51d4-4797-90e0-6cef1da7b4ac",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "c74682ab-c799-4a95-a4d9-84d74039fee3",
         "name": "Applying to College",
         "url": "https://habitica.com/groups/guild/c74682ab-c799-4a95-a4d9-84d74039fee3",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "ebb9bd3c-f413-49ad-bdeb-1ffcb249debb",
         "name": "LARP (Live Action Role Play)",
         "url": "https://habitica.com/groups/guild/ebb9bd3c-f413-49ad-bdeb-1ffcb249debb",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "160e53f6-ca03-4e78-a4c7-8152689eadd5",
         "name": "Fighting the Anorexia Demon",
         "url": "https://habitica.com/groups/guild/160e53f6-ca03-4e78-a4c7-8152689eadd5",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "4d1e74d7-5275-4abe-ad12-a78c88542bc6",
         "name": "PCOS Support Guild",
         "url": "https://habitica.com/groups/guild/4d1e74d7-5275-4abe-ad12-a78c88542bc6",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "eba8090f-fd35-4a19-9208-ac72d4865c39",
         "name": "Wait, What Was I Doing?: A Guild For Librarians",
         "url": "https://habitica.com/groups/guild/eba8090f-fd35-4a19-9208-ac72d4865c39",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "87cba1d9-3fc4-456d-9f9e-d30c653e4c1e",
         "name": "reparenting (innerkids) and DID support",
         "url": "https://habitica.com/groups/guild/87cba1d9-3fc4-456d-9f9e-d30c653e4c1e",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       },
       {
         "id": "f14bd2b7-86bd-49c4-b010-72a2cfbb9f4c",
         "name": "Bullet Journalers",
         "url": "https://habitica.com/groups/guild/f14bd2b7-86bd-49c4-b010-72a2cfbb9f4c",
         "actionStarted": "",
-        "return": "2022-01-04T00:00:00.000Z"
+        "return": "2022-01-05T00:00:00.000Z"
       }
     ]
   }
