@@ -4346,8 +4346,10 @@ function reportResults(){
             fs.writeFileSync(gConfig.journalElf, output);  
 
 			if (gConfig.debug) consoleLogToFile('*********************  Complete Elven Stat   *********************')
+			if (gConfig.debug) console.log(moment().utc().format('YYYY-MM-DDTHH:mm:ss.SSS'))  //So we know how long.	
             if (gConfig.debug) consoleLogToFile('debug formatAndExportChallengeDataAll END');
             if (gConfig.debugConsole) console.log('*** Elf is done ***')
+			if (gConfig.debugConsole) console.log(moment().utc().format('YYYY-MM-DDTHH:mm:ss.SSS'))  //So we know how long.	
         } //formatAndExportChallengeDataAll
 
         if (gConfig.debug) consoleLogToFile('debug exportElvenReport END');
@@ -5226,7 +5228,7 @@ function makeAxiosCall(call){
         var targetType = call[0].targetType
         var timeoutPeriod = Math.floor((Math.random() * rl[targetType].timeoutBasePeriod)) + moment(rl[targetType].resetDateTime).utc().diff(moment.utc(), 'SSSS')
 
-        if (gConfig.debug) consoleLogToFile('Having drinks for ' + timeoutPeriod)
+        if (gConfig.debug) consoleLogToFile('Having *' + targetType + '* drinks for ' + timeoutPeriod)
         setTimeout(function (){
             if (gConfig.debug) consoleLogToFile('debug drinksAxiosCall Finish Waiting Remaining ' + rl[targetType].remaining + ' less than Safety : ' +  rl[targetType].remainingSafety +  '    AND  Less than Call Length ' +  call.length + '     AND  Now: ' +  moment.utc().format('YYYY-MM-DDTHH:mm:ssZ') + ' isBefore last reset time ' + moment(rl[targetType].resetDateTime).format('YYYY-MM-DDTHH:mm:ssZ') )
 			if (call[0].forcePause == true){
@@ -5443,9 +5445,11 @@ function makeAxiosCall(call){
             if (gConfig.debugAPI) consoleLogToFile('Remaining Log: ' + response.headers['x-rate-limit-api-token-remaining'] )
             
             var data = response
+			var tempDateReturned =  new Date(data.headers['date'])
+			
             //Got to be smart about the reset time here.
-            if (rl.log.remaining <= data.headers['x-rate-limit-api-token-remaining'])rl.log.resetDateTime = moment(data.headers['date'],  'ddd, DD MMM YYYY hh:mm:ss Z').add(rl.log.resetPeriod, 'ms').format('YYYY-MM-DDTHH:mm:ssZ')
-            rl.log.lastUsedDateTime = moment(data.headers['date'], 'ddd, MMM DD YYYY HH:mm:ss Z').format('YYYY-MM-DDTHH:mm:ssZ')
+            if (rl.log.remaining <= data.headers['x-rate-limit-api-token-remaining'])rl.log.resetDateTime = moment(tempDateReturned,  'ddd, DD MMM YYYY hh:mm:ss Z').add(rl.log.resetPeriod, 'ms').format('YYYY-MM-DDTHH:mm:ssZ')
+            rl.log.lastUsedDateTime = moment(tempDateReturned, 'ddd, MMM DD YYYY HH:mm:ss Z').format('YYYY-MM-DDTHH:mm:ssZ')
             rl.log.remaining = data.headers['x-rate-limit-api-token-remaining'] 
             if (forceCall != undefined){
                 forceCall.shift()
@@ -5465,8 +5469,11 @@ function makeAxiosCall(call){
             if (data.status == 429){
                 if (gConfig.debugAPI) consoleLogToFile('debug execAxiosCall_Log ERROR too many tries (429) for ' + urlTo)
                 rl.log.remaining = 0
-                var timeoutPeriod = moment(data.headers['retry-after'], 'ddd, DD MMM YYYY hh:mm:ss Z').diff(moment(data.headers['date'], 'ddd, DD MMM YYYY hh:mm:ss Z')) + Math.floor((Math.random() * rl.log.timeoutBasePeriod) + 1);
-                if (gConfig.debugAPI) consoleLogToFile('Getting header Retry-After: ' + data.headers['retry-after'] + '  ms: ' + timeoutPeriod);
+				var tempDateReturned =  new Date(data.headers['date'])
+				var tempDateRetryAfter = new Date(data.headers['retry-after'])
+			
+                var timeoutPeriod = moment(tempDateRetryAfter, 'ddd, DD MMM YYYY hh:mm:ss Z').diff(moment(tempDateReturned, 'ddd, DD MMM YYYY hh:mm:ss Z')) + Math.floor((Math.random() * rl.log.timeoutBasePeriod) + 1);
+                if (gConfig.debugAPI) consoleLogToFile('Getting header Retry-After: ' + moment(tempDateRetryAfter).utc().format('YYYY-MM-DDTHH:mm:ss.SSS') + '  ms: ' + timeoutPeriod);
                 
                 //call again
                 setTimeout(function (){
@@ -5474,9 +5481,11 @@ function makeAxiosCall(call){
                 }, timeoutPeriod); 
             } else {
                 if (gConfig.debugConsole) console.log(response);
+				
+				var tempDateReturned =  new Date(data.headers['date'])
                 
-                if (rl.log.remaining <= data.headers['x-rate-limit-api-token-remaining'])  rl.log.resetDateTime = moment(data.headers['date'],  'ddd, DD MMM YYYY hh:mm:ss Z').add(rl.log.resetPeriod, 'ms').format('YYYY-MM-DDTHH:mm:ssZ')
-                rl.log.lastUsedDateTime = moment(data.headers['date'], 'ddd, MMM DD YYYY HH:mm:ss Z').format('YYYY-MM-DDTHH:mm:ssZ')
+                if (rl.log.remaining <= data.headers['x-rate-limit-api-token-remaining'])  rl.log.resetDateTime = moment(tempDateReturned,  'ddd, DD MMM YYYY hh:mm:ss Z').add(rl.log.resetPeriod, 'ms').format('YYYY-MM-DDTHH:mm:ssZ')
+                rl.log.lastUsedDateTime = moment(tempDateReturned, 'ddd, MMM DD YYYY HH:mm:ss Z').format('YYYY-MM-DDTHH:mm:ssZ')
                 rl.log.remaining = data.headers['x-rate-limit-api-token-remaining'] 
                 if (forceCall != undefined){
                     forceCall.shift()
