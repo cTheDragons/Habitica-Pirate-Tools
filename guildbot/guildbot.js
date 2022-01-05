@@ -4346,7 +4346,7 @@ function reportResults(){
             fs.writeFileSync(gConfig.journalElf, output);  
 
 			if (gConfig.debug) consoleLogToFile('*********************  Complete Elven Stat   *********************')
-			if (gConfig.debug) console.log(moment().utc().format('YYYY-MM-DDTHH:mm:ss.SSS'))  //So we know how long.	
+			if (gConfig.debug) consoleLogToFile(moment().utc().format('YYYY-MM-DDTHH:mm:ss.SSS'))  //So we know how long.	
             if (gConfig.debug) consoleLogToFile('debug formatAndExportChallengeDataAll END');
             if (gConfig.debugConsole) console.log('*** Elf is done ***')
 			if (gConfig.debugConsole) console.log(moment().utc().format('YYYY-MM-DDTHH:mm:ss.SSS'))  //So we know how long.	
