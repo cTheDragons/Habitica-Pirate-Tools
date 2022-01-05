@@ -104,8 +104,8 @@ const constCxLabelTranslate = require('./configCxLabelTranslate.json');
 //////////////////////////////////////////////////////////////////////
 //These are stated here as they should never change.
 gConfig.journalGus =  gConfig.folderstat + '/' + gConfig.outputFilePrefix + 'gus.json' //GUS Files
-gConfig.journalStats = gConfig.folderstat + '/' + gConfig.outputFilePrefix + 'stats.json' //stats of pirate bot
-gConfig.journalPirate = gConfig.folderstat + '/' + gConfig.outputFilePrefix + 'pirate.json' //list of all challenges for the Elves
+gConfig.journalStats = gConfig.folderstat + '/' + gConfig.outputFilePrefix + 'stats.json' //stats of work completed by GuildBot
+gConfig.journalPirate = gConfig.folderstat + '/' + gConfig.outputFilePrefix + 'pirate.json' //list of all ships being looked after by the pirates.
 gConfig.journalElf = gConfig.folderstat + '/' + gConfig.outputFilePrefix + 'elf.json' //list of all challenges for the Elves
 
 //Output Logs
