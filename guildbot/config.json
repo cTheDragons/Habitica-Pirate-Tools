@@ -1,13 +1,6 @@
 {
     "production": {
 
-        "botId": "HABITICA-USER-ID-TO-BE-SET",
-        "botToken": "HABITICA-TOKEN-TO-BE-SET",
-        "botAuthUser": "",
-        "botAuthPassword": "",
-        "logId": "TRELLO-USER-ID-TO-BE-SET",
-        "logToken": "TRELLO-TOKEN-TO-BE-SET",
-                
         "folderoutput": "./guildbot/output",
         "folderstat": "./common/stat",
         "outputFilePrefix": "",
@@ -182,7 +175,7 @@
         "debug": true,
         "debugVerbose": true,
         "debugConsole": false,
-        "debugAPI": false,
+        "debugAPI": true,
         "fileOutput": true 
     },
     "prodHidden": {
@@ -222,18 +215,6 @@
         "debugAPI": true,
 
         "testchunk": 150
-    },
-    "repliRun": {
-        "outputFilePrefix": "",
-        "outputLogMax":  1,
-
-        "rptElvenExport": true,
-        
-        "debugConsole": true,
-        "debugVerbose": true,
-        "debugAPI": false,
-
-        "testchunk": 75
     }
 
 }
