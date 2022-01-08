@@ -3,10 +3,6 @@
     "cx": "cxRecove",
     "sub": "subRecove_MentalPhysicalHealth"
   },
-  "Fandom & RolePlay / Members of Other Sites & Web-Communities": {
-    "cx": "cxFandom",
-    "sub": "subFandom_MembersofOtherSitesWebCommunities"
-  },
   "Language & Local Community Guilds / Countries & Languages": {
     "cx": "cxLangua",
     "sub": "subLangua_CountriesLanguages"
@@ -159,13 +155,9 @@
     "cx": "cxCreati",
     "sub": "subCreati_StageScreen"
   },
-  "Fandom & RolePlay / Podcasts": {
+  "Fandom & RolePlay / Social Media, Podcasts & Blogs": {
     "cx": "cxFandom",
     "sub": "subFandom_Podcasts"
-  },
-  "Creative Pursuits / Crafting & Decorating": {
-    "cx": "cxCreati",
-    "sub": "subCreati_CraftingDecorating"
   },
   "Language & Local Community Guilds / Language Learning": {
     "cx": "cxLangua",
