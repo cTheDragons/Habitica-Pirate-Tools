@@ -23,7 +23,7 @@
       "subFandom_GeneralFandomDiscussion",
       "subFandom_ScienceFictionMysteryHorror",
       "subFandom_AnimeManga",
-      "subFandom_Podcasts",
+      "subFandom_SocialMediaPodcastBlog",
       "subFandom_ComicsAnimation"
     ],
     "cxGaming": [
@@ -41,7 +41,8 @@
     "cxHealth": [
       "subHealth_Fitness",
       "subHealth_Nutrition",
-      "subHealth_TheGreatOutdoors",
+      "subHealth_RunWalk",
+      "subHealth_Sport",
       "subHealth_HealthyLifestyle",
       "subHealth_SleepHygiene"
     ],

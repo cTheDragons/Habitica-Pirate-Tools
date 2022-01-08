@@ -157,7 +157,7 @@
   },
   "Fandom & RolePlay / Social Media, Podcasts, and Blogs": {
     "cx": "cxFandom",
-    "sub": "subFandom_Podcasts"
+    "sub": "subFandom_SocialMediaPodcastBlog"
   },
   "Language & Local Community Guilds / Language Learning": {
     "cx": "cxLangua",
@@ -171,7 +171,7 @@
     "cx": "cxWorldH",
     "sub": "subWorldH_BugSuggestionReports"
   },
-  "Computers / Programming Languages": {
+  "Computers / Programming and Programming Languages": {
     "cx": "cxComput",
     "sub": "subComput_ProgrammingLanguages"
   },
@@ -183,9 +183,13 @@
     "cx": "cxGaming",
     "sub": "subGaming_GamingCommunities"
   },
-  "Health & Fitness / The Great Outdoors": {
+  "Health & Fitness / Be A Good Sport": {
     "cx": "cxHealth",
-    "sub": "subHealth_TheGreatOutdoors"
+    "sub": "subHealth_Sport"
+  },
+   "Health & Fitness / Running and Walking": {
+    "cx": "cxHealth",
+    "sub": "subHealth_RunWalk"
   },
   "Occupations & Fields of Study / Medicine": {
     "cx": "cxOccupa",
