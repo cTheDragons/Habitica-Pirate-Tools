@@ -155,7 +155,7 @@
     "cx": "cxCreati",
     "sub": "subCreati_StageScreen"
   },
-  "Fandom & RolePlay / Social Media, Podcasts, and Blogs": {
+  "Fandom & RolePlay / Social Media, Podcasts, & Blogs": {
     "cx": "cxFandom",
     "sub": "subFandom_SocialMediaPodcastBlog"
   },
@@ -171,7 +171,7 @@
     "cx": "cxWorldH",
     "sub": "subWorldH_BugSuggestionReports"
   },
-  "Computers / Programming and Programming Languages": {
+  "Computers / Programming & Programming Languages": {
     "cx": "cxComput",
     "sub": "subComput_ProgrammingLanguages"
   },
@@ -187,7 +187,7 @@
     "cx": "cxHealth",
     "sub": "subHealth_Sport"
   },
-   "Health & Fitness / Running and Walking": {
+   "Health & Fitness / Running & Walking": {
     "cx": "cxHealth",
     "sub": "subHealth_RunWalk"
   },
