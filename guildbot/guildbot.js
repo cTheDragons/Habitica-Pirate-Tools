@@ -1213,7 +1213,7 @@ function fetchAndUpdateAllData(){
                 }
             });
 
-            if ((testMissingLanguage) && (labels_allLanguages.length != labelLangCount)) missingLanguage = true
+            if ((testMissingLanguage) && (labels_allLanguages.length != labelLangCount) && (obj.idList == logListIdSunk)) missingLanguage = true
             
             //add to missing Classification or too many Classification. These will be reported at the end.
             if ((labelClassificationCount == 0) && (obj.idList == logListIdClearSailing) && (reportWarningNoRoster.indexOf(obj.name) < 0)) reportWarningNoRoster.push(obj.name) // Don't care if currently under pirate action (or private)
