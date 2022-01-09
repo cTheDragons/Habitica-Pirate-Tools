@@ -1,2 +1,5 @@
 guildbot/output/
 common/stat/
+
+guildbot/output/*.*
+common/stat/*.*
