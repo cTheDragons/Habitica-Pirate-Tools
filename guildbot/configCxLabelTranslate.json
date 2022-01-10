@@ -239,11 +239,7 @@
     "cx": "cxSchola",
     "sub": "subSchola_OnlineCourses"
   },
-  "Creative Pursuits / Graphic Design": {
-    "cx": "cxCreati",
-    "sub": "subCreati_GraphicDesign"
-  },
-  "Creative Pursuits / Video & Photography": {
+  "Creative Pursuits / Graphic Design, Video & Photography": {
     "cx": "cxCreati",
     "sub": "subCreati_VideoPhotography"
   },

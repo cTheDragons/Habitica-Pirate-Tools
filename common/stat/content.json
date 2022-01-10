@@ -1,95 +1,94 @@
 {
   "classification": {
-    "cxBelief": [
-      "subBelief_BeliefStructures"
-    ],
-    "cxComput": [
-      "subComput_DevelopmentDesign",
-      "subComput_ProgrammingLanguages"
-    ],
-    "cxCreati": [
-      "subCreati_Writing",
-      "subCreati_Art",
-      "subCreati_Music",
-      "subCreati_FoodBeverage",
-      "subCreati_StageScreen",
-      "subCreati_DIY",
-      "subCreati_GraphicDesign",
-      "subCreati_VideoPhotography"
-    ],
-    "cxFandom": [
-      "subFandom_OtherRolePlay",
-      "subFandom_Fantasy",
-      "subFandom_GeneralFandomDiscussion",
-      "subFandom_ScienceFictionMysteryHorror",
-      "subFandom_AnimeManga",
-      "subFandom_SocialMediaPodcastBlog",
-      "subFandom_ComicsAnimation"
-    ],
-    "cxGaming": [
-      "subGaming_ElectronicPlay",
-      "subGaming_BoardTableTopLiveAction",
-      "subGaming_GamingCommunities"
-    ],
-    "cxGettin": [
-      "subGettin_GoalSettingAccountability",
-      "subGettin_MethodstoStoptheMadness",
-      "subGettin_CleaningHouse",
-      "subGettin_MoneyMatters",
-      "subGettin_SeasonalLifeEvents"
-    ],
-    "cxHealth": [
-      "subHealth_Fitness",
-      "subHealth_Nutrition",
-      "subHealth_RunWalk",
-      "subHealth_Sport",
-      "subHealth_HealthyLifestyle",
-      "subHealth_SleepHygiene"
-    ],
-    "cxLangua": [
-      "subLangua_CountriesLanguages",
-      "subLangua_LocalCommunitiesOrganizations",
-      "subLangua_LanguageLearning"
-    ],
-    "cxOccupa": [
-      "subOccupa_SocialSciencesHumanities",
-      "subOccupa_STEM",
-      "subOccupa_MakingaLiving",
-      "subOccupa_Medicine",
-      "subOccupa_TradeCraft"
+    "cxWorldH": [
+        "subWorldH_HelpSupport",
+        "subWorldH_BeyondtheTavern",
+        "subWorldH_ClassSystem",
+        "subWorldH_ContributorGuilds",
+        "subWorldH_BugSuggestionReports",
+        "subWorldH_HabitcansBeingAwesome",
+        "subWorldH_PartyChatGuilds"
     ],
     "cxRecove": [
-      "subRecove_MentalPhysicalHealth",
-      "subRecove_AddictionRecovery",
-      "subRecove_Adulting"
+        "subRecove_MentalPhysicalHealth",
+        "subRecove_AddictionRecovery",
+        "subRecove_Adulting"
     ],
-    "cxSchola": [
-      "subSchola_Reading",
-      "subSchola_TheAcademicLife",
-      "subSchola_OnlineCourses"
+    "cxGettin": [
+        "subGettin_GoalSettingAccountability",
+        "subGettin_MethodstoStoptheMadness",
+        "subGettin_CleaningHouse",
+        "subGettin_MoneyMatters",
+        "subGettin_SeasonalLifeEvents"
+    ],
+    "cxHealth": [
+        "subHealth_HealthyLifestyle",
+        "subHealth_Nutrition",
+        "subHealth_Fitness",
+        "subHealth_RunWalk",
+        "subHealth_Sport",
+        "subHealth_SleepHygiene"
     ],
     "cxSelfIm": [
-      "subSelfIm_BeYourBestSelf",
-      "subSelfIm_ChallengeYourself",
-      "subSelfIm_TheWayYouAre",
-      "subSelfIm_BroadenYourHorizons",
-      "subSelfIm_LookontheBrightSide",
-      "subSelfIm_Mindfulness",
-      "subSelfIm_Relationships"
+        "subSelfIm_BeYourBestSelf",
+        "subSelfIm_ChallengeYourself",
+        "subSelfIm_BroadenYourHorizons",
+        "subSelfIm_LookontheBrightSide",
+        "subSelfIm_Mindfulness",
+        "subSelfIm_TheWayYouAre",
+        "subSelfIm_Relationships"
+    ],
+    "cxBelief": [
+        "subBelief_BeliefStructures"
+    ],
+    "cxSchola": [
+        "subSchola_TheAcademicLife",
+        "subSchola_OnlineCourses",
+        "subSchola_Reading"
+    ],
+    "cxOccupa": [
+        "subOccupa_SocialSciencesHumanities",
+        "subOccupa_STEM",
+        "subOccupa_MakingaLiving",
+        "subOccupa_Medicine",
+        "subOccupa_TradeCraft"
+    ],
+    "cxComput": [
+        "subComput_ProgrammingLanguages",
+        "subComput_DevelopmentDesign" 
+    ],
+    "cxCreati": [
+        "subCreati_Art",
+        "subCreati_VideoPhotography",
+        "subCreati_StageScreen",
+        "subCreati_Writing",
+        "subCreati_Music",
+        "subCreati_DIY",
+        "subCreati_FoodBeverage"
+    ],
+    "cxGaming": [
+        "subGaming_BoardTableTopLiveAction",
+        "subGaming_ElectronicPlay",
+        "subGaming_GamingCommunities"
+    ],
+    "cxFandom": [
+        "subFandom_Fantasy",
+        "subFandom_ScienceFictionMysteryHorror",
+        "subFandom_AnimeManga",
+        "subFandom_ComicsAnimation",
+        "subFandom_SocialMediaPodcastBlog",
+        "subFandom_GeneralFandomDiscussion",
+        "subFandom_OtherRolePlay"
     ],
     "cxWorldA": [
-      "subWorldA_FloraFauna",
-      "subWorldA_Activism",
-      "subWorldA_Altruism"
+        "subWorldA_FloraFauna",
+        "subWorldA_Activism",
+        "subWorldA_Altruism"
     ],
-    "cxWorldH": [
-      "subWorldH_PartyChatGuilds",
-      "subWorldH_ContributorGuilds",
-      "subWorldH_HelpSupport",
-      "subWorldH_BeyondtheTavern",
-      "subWorldH_BugSuggestionReports",
-      "subWorldH_HabitcansBeingAwesome",
-      "subWorldH_ClassSystem"
+    "cxLangua": [
+        "subLangua_CountriesLanguages",
+        "subLangua_LocalCommunitiesOrganizations",
+        "subLangua_LanguageLearning"
     ]
   },
   "size": {
