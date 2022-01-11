@@ -1,5 +1,20 @@
 guildbot/output/
-common/stat/
 
-guildbot/output/*.*
-common/stat/*.*
+guildbot/output/master.json
+guildbot/output/output01.json
+guildbot/output/output02.json
+guildbot/output/output03.json
+guildbot/output/output04.json
+guildbot/output/output05.json
+guildbot/output/output06.json
+guildbot/output/output07.json
+guildbot/output/output08.json
+guildbot/output/output09.json
+guildbot/output/output10.json
+guildbot/output/output11.json
+guildbot/output/output12.json
+guildbot/output/output13.json
+guildbot/output/output14.json
+guildbot/output/output15.json
+guildbot/output/output16.json
+common/stat/content.json
