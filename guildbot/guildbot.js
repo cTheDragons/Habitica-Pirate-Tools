@@ -1202,7 +1202,7 @@ function fetchAndUpdateAllData(){
 
             //check if mising language & other label actions
             obj.labels.forEach(function (obj2, index2){
-                if (obj2.id == logLabelAllLanguages) testMissingLanguage = true
+                if ((obj2.id == logLabelAllLanguages) && (obj.idList != logListIdSunk)) testMissingLanguage = true
                 if (obj2.color == gConfig.labelColour_Language) labelLangCount++
                 if (obj2.id == logLabelDropAnchor) dropAnchor = true
                 if (obj2.id == logLabelAdmiralReport) guildsHasAdmiralReportLabel.push(obj.name)
