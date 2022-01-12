@@ -17,4 +17,7 @@ guildbot/output/output13.json
 guildbot/output/output14.json
 guildbot/output/output15.json
 guildbot/output/output16.json
-common/stat/content.json
+common/stat/stat.json
+common/stat/pirate.json
+common/stat/elf.json
+common/stat/gus.json
