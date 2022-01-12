@@ -4208,7 +4208,7 @@ function reportResults(){
 								}
 								break;
 							case logListIdBermudaTriangle: 
-									tempBox.guilds.droppedAnchor.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '', return: obj.due })
+									tempBox.guilds.bermudaTriangle.push( {id: obj.name, name: nameToShow, url: gConfig.habiticaGuildUrl + obj.name, actionStarted: '', return: obj.due })
 								break;
 							default:
 								//do nothing as Config, Clear Sailing, Private Army
