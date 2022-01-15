@@ -87,8 +87,8 @@
     ],
     "cxLangua": [
         "subLangua_CountriesLanguages",
-        "subLangua_LocalCommunitiesOrganizations",
-        "subLangua_LanguageLearning"
+        "subLangua_LanguageLearning",
+        "subLangua_LocalCommunitiesOrganizations"        
     ]
   },
   "size": {
