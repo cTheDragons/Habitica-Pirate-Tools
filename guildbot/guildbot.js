@@ -103,15 +103,15 @@ const constCxLabelTranslate = require('./configCxLabelTranslate.json');
 ////   Global External Reports      //////////////////////////////
 //////////////////////////////////////////////////////////////////////
 //These are stated here as they should never change.
-gConfig.journalGus =  gConfig.folderstat + gConfig.outputFilePrefix + 'gus.json' //GUS Files
-gConfig.journalStats = gConfig.folderstat + gConfig.outputFilePrefix + 'stats.json' //stats of work completed by GuildBot
-gConfig.journalPirate = gConfig.folderstat + gConfig.outputFilePrefix + 'pirate.json' //list of all ships being looked after by the pirates.
-gConfig.journalElf = gConfig.folderstat + gConfig.outputFilePrefix + 'elf.json' //list of all challenges for the Elves
+gConfig.journalGus =  gConfig.folderStat + gConfig.outputFilePrefix + 'gus.json' //GUS Files
+gConfig.journalStats = gConfig.folderStat + gConfig.outputFilePrefix + 'stats.json' //stats of work completed by GuildBot
+gConfig.journalPirate = gConfig.folderStat + gConfig.outputFilePrefix + 'pirate.json' //list of all ships being looked after by the pirates.
+gConfig.journalElf = gConfig.folderStat + gConfig.outputFilePrefix + 'elf.json' //list of all challenges for the Elves
 
 //Output Logs
-gConfig.journalMaster = gConfig.folderoutput + gConfig.outputFilePrefix + 'masterList.json' //all guilds to test
-gConfig.outputLogSingleFile = gConfig.folderoutput + gConfig.outputFilePrefix + 'outputSingleShip.txt'
-gConfig.outputLogPrefix = gConfig.folderoutput + gConfig.outputFilePrefix + 'output'
+gConfig.journalMaster = gConfig.folderOutput + gConfig.outputFilePrefix + 'masterList.json' //all guilds to test
+gConfig.outputLogSingleFile = gConfig.folderOutput + gConfig.outputFilePrefix + 'outputSingleShip.txt'
+gConfig.outputLogPrefix = gConfig.folderOutput + gConfig.outputFilePrefix + 'output'
 
 
 //////////////////////////////////////////////////////////////////////
@@ -224,6 +224,8 @@ totalGuilds.tested['fullAttempt'] = 1 // this is different as retryAttempts may 
 
 //To monitor API Timeouts
 var rl = gConfig.rl
+
+
 
 //////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////

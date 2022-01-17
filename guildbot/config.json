@@ -1,8 +1,8 @@
 {
     "production": {
 
-        "folderoutput": "./guildbot/output/",
-        "folderstat": "./common/stat/",
+        "folderOutput": "./guildbot/output/",
+        "folderStat": "./common/stat/",
 		 "folderLang": "./common/locale/",
 				
         "outputFilePrefix": "",
