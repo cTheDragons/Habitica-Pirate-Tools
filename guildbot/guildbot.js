@@ -103,15 +103,15 @@ const constCxLabelTranslate = require('./configCxLabelTranslate.json');
 ////   Global External Reports      //////////////////////////////
 //////////////////////////////////////////////////////////////////////
 //These are stated here as they should never change.
-gConfig.journalGus =  gConfig.folderstat + '/' + gConfig.outputFilePrefix + 'gus.json' //GUS Files
-gConfig.journalStats = gConfig.folderstat + '/' + gConfig.outputFilePrefix + 'stats.json' //stats of work completed by GuildBot
-gConfig.journalPirate = gConfig.folderstat + '/' + gConfig.outputFilePrefix + 'pirate.json' //list of all ships being looked after by the pirates.
-gConfig.journalElf = gConfig.folderstat + '/' + gConfig.outputFilePrefix + 'elf.json' //list of all challenges for the Elves
+gConfig.journalGus =  gConfig.folderstat + gConfig.outputFilePrefix + 'gus.json' //GUS Files
+gConfig.journalStats = gConfig.folderstat + gConfig.outputFilePrefix + 'stats.json' //stats of work completed by GuildBot
+gConfig.journalPirate = gConfig.folderstat + gConfig.outputFilePrefix + 'pirate.json' //list of all ships being looked after by the pirates.
+gConfig.journalElf = gConfig.folderstat + gConfig.outputFilePrefix + 'elf.json' //list of all challenges for the Elves
 
 //Output Logs
-gConfig.journalMaster = gConfig.folderoutput +  '/' + gConfig.outputFilePrefix + 'masterList.json' //all guilds to test
-gConfig.outputLogSingleFile = gConfig.folderoutput +  '/' + gConfig.outputFilePrefix + 'outputSingleShip.txt'
-gConfig.outputLogPrefix = gConfig.folderoutput +  '/' + gConfig.outputFilePrefix + 'output'
+gConfig.journalMaster = gConfig.folderoutput + gConfig.outputFilePrefix + 'masterList.json' //all guilds to test
+gConfig.outputLogSingleFile = gConfig.folderoutput + gConfig.outputFilePrefix + 'outputSingleShip.txt'
+gConfig.outputLogPrefix = gConfig.folderoutput + gConfig.outputFilePrefix + 'output'
 
 
 //////////////////////////////////////////////////////////////////////
@@ -1325,8 +1325,7 @@ function fetchAndUpdateAllData(){
             ){
                 
                 if (
-                        (guilds_justId.indexOf(obj.name) < 0) &&
-                        (obj.idList != logListIdSunk)
+                        (guilds_justId.indexOf(obj.name) < 0)
                 ){
                     //Guild Sunk Can't update any info                
                     guildsLatestData[obj.name] = {}
@@ -3708,6 +3707,8 @@ function reportResults(){
     var allLang = false
 
     var guildPrivate = []
+	
+	var reportGus = {} //GUS Report to be used by Elven report
 
     //set up stats and structure
     var stats = {}
@@ -3928,12 +3929,11 @@ function reportResults(){
 
     exportStats()
     exportMasterList()
-    exportGUS()
+    exportGUS() //Elven report done after GUS
     exportPirateAction()
 
+	
 
-    if ((testOnlyThisGuild == '') && (gConfig.rptElvenExport == true)) exportElvenReport() //takes too long so need to check
-    
     if (testOnlyThisGuild == '')  createCoveReport()
 
     //go update my cron stats
@@ -3999,7 +3999,7 @@ function reportResults(){
     function exportGUS(){
         if (gConfig.debug) consoleLogToFile('debug exportGUS START');
 
-        var reportGus = {}
+        reportGus = {} // This will be used by Elven Report later
         reportGus['lastupdated'] = moment().utc().format('YYYY-MM-DDTHH:mm:ss.SSS')
         reportGus['totals'] = {}
         reportGus.totals['public'] = stats.overall.public.total
@@ -4097,6 +4097,10 @@ function reportResults(){
 
         var output = JSON.stringify(reportGus, null, 2);  
         fs.writeFileSync(gConfig.journalGus, output);  
+
+		//Complete Elven Report
+		if ((testOnlyThisGuild == '') && (gConfig.rptElvenExport == true)) exportElvenReport() //takes too long so need to check
+		
 
         if (gConfig.debug) consoleLogToFile('*********************  Complete GUS Stat   *********************')
         if (gConfig.debug) consoleLogToFile('debug exportGUS END');
@@ -4237,6 +4241,8 @@ function reportResults(){
         var datafetched = []
         var tempBox = {}
         var pageFetchChallenge = 0
+		var tv = {}
+		
         tempBox['lastupdated'] = moment().utc().format('YYYY-MM-DDTHH:mm:ss.SSS')
         tempBox.challenges = []
 
@@ -4295,7 +4301,7 @@ function reportResults(){
             //format data
             datafetched.forEach(function(obj, index){
                 if (obj.group.privacy == 'public'){
-                    var tv = {}
+                    tv = {}
                     tv.id = obj.id
                     tv.name = obj.name
                     tv.summary = removeFormating(obj.summary)
@@ -4307,8 +4313,20 @@ function reportResults(){
                     tv.group.id = obj.group._id
                     if (obj.group.name == 'Tavern'){
                         tv.group.name = 'Public (Tavern)'
+						tv.group.lang = []
+						tv.group.langPrimary = []
+						tv.group.classification = 'cxNot-Cx'
+						tv.group.subclassification = 'subNot-Cx'
+						tv.group.memberColor = 'gold'
                     } else {
-                        tv.group.name = obj.group.name
+                        if (reportGus.guild[obj.group._id] != undefined){
+                            tv.group.name = obj.group.name
+                            tv.group.lang = reportGus.guild[obj.group._id].lang
+                            tv.group.langPrimary = reportGus.guild[obj.group._id].langPrimary
+                            tv.group.classification = reportGus.guild[obj.group._id].classifcation
+                            tv.group.subclassification = reportGus.guild[obj.group._id].subclassifcation
+                            tv.group.memberColor = reportGus.guild[obj.group._id].memberColor
+                        }
                     }
                     tv.created = obj.createdAt
                     tv.updated = obj.updatedAt

@@ -1,13 +1,15 @@
 {
     "production": {
 
-        "folderoutput": "./guildbot/output",
-        "folderstat": "./common/stat",
+        "folderoutput": "./guildbot/output/",
+        "folderstat": "./common/stat/",
+		 "folderLang": "./common/locale/",
+				
         "outputFilePrefix": "",
         "outputLogSuffix": ".txt",
         "outputLogMax":  16,
         
-        "folderLang": "./common/locale/",
+
         "fileLang": "guildbot.json",
         "hailLangAvail": ["en","fr","de"],
         "hailLangDefault": "en",
