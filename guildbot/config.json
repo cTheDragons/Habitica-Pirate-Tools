@@ -3,7 +3,7 @@
 
         "folderOutput": "./guildbot/output/",
         "folderStat": "./common/stat/",
-		 "folderLang": "./common/locale/",
+		"folderLang": "./common/locale/",
 				
         "outputFilePrefix": "",
         "outputLogSuffix": ".txt",
@@ -11,7 +11,7 @@
         
 
         "fileLang": "guildbot.json",
-        "hailLangAvail": ["en","fr","de"],
+        "hailLangAvail": ["en","fr","de","it","pt"],
         "hailLangDefault": "en",
 
 		"botServerUrl": "https://habitica.com/api/v3",
