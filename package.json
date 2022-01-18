@@ -6,7 +6,7 @@
   "dependencies": {
     "axios": "^0.24.0",
     "debug": "^3.1.0",
-    "follow-redirects": "^1.5.10",
+    "follow-redirects": "^1.14.7",
     "is-buffer": "^2.0.4",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
