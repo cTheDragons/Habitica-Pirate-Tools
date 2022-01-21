@@ -11,7 +11,7 @@
         
 
         "fileLang": "guildbot.json",
-        "hailLangAvail": ["en","fr","de","it","pt"],
+        "hailLangAvail": ["en","fr","de","it","pt", "ja"],
         "hailLangDefault": "en",
 
 		"botServerUrl": "https://habitica.com/api/v3",
