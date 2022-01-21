@@ -1,0 +1,55 @@
+{
+    "mainTopHeader": "<!--- Do Not Edit this is auto generated from stats by @GuildBot and produced written by Botswain. Report any issues to Pirate Cove or the Wizards of the Wiki of Wiki Guild --->{{Wiki Wednesday}}{{Tocleft}}{{Infobox item}}[[File:HabitRPG-Community-Guidelines-BeingHabitican.png|thumb|right|400px|alt=\"Habiticans walking towards the guilds\"]]",
+    "mainTopExplain": "<%= n %>This Guilds Guide is automatically generated from the stat reports produced by [[GuildBot]]. While it gives a good overview of most guilds grouped by topic, it is not complete since new guilds will be created, grow, shrink, and be abandoned and deleted every day. This page only lists guilds whose primary language is <%= langCurrent %>. For guilds with alternative primary languages see the links listed below.  <%= langCountrySection %><%= n %><%= listOfAltGuildPages %>",
+    "mainTopAllGuildsShown": "<%= n %><%= n %>Please note: Guilds are classified by the [[<%= jrnPgeGusCx %> | Pirate GUS Classification]]. '''Private Guilds''' and guilds under [[<%= jrnPgePirate %>|Pirate Action]] are not listed on this page.",
+    
+    "mainTopLimitGuildsShown": "<%= n %><%= n %>Please note: The top <%= limitDefault %> guilds of each [[<%= jrnPgeGusCx %> | GUS Classification]] are shown here except Belief Structures. There are more listed in this section as it is not broken down due to the sensitivity of the topic. This is to allow all Habiticans to pass through the halls without fear or appraisal. '''Private Guilds''' and guilds under [[<%= jrnPgePirate %>|Pirate Action]] are not listed here.",
+
+    "mainTopBreakdown": "<%= n %><%= n %>As of <%= dateLastUpdate %>, there are <%= countPublic %> public [[guilds]] in [[Places in Habitica|Habitica]]. They are broken down by size: <%= n %><%= n %>[[File:Gold-guild-badge-small.png|40px|alt=Gold guild badge]]'''<%= countGold %> Gold Tier Guilds''', approximately <%= countGoldPercent %>% of all public guilds. These are the large guilds of Habitica with over <%= sizeGold %> or more members.<%= n %><%= n %>[[File:Silver-guild-badge-small.png|40px|alt=Silver guild badge]]'''<%= countSilver %> Silver Tier Guilds''', approximately <%= countSilverPercent %>% of all public guilds. These are medium sized guilds with more than  <%= sizeSilver %> but less than <%= sizeGold %> members. <%= n %><%= n %>[[File:Bronze-guild-badge-small.png|40px|alt=Bronze guild badge]]'''<%= countBronze %> Bronze Tier Guilds''', approximately <%= countBronzePercent %>% of all public guilds. These are the small guilds of Habitica with fewer than <%= sizeSilver %> members.",
+
+    "mainTopFooter": "<%= n %><%= n %>Looking for more great guild guides? Check out the [https://habitica.wordpress.com/category/guild-spotlight/ Guild Spotlight] series on the [[Habitica Blog]], which features a variety of guilds sharing common themes.<%= n %><%= n %><!--- Do Not Edit this is auto generated from stats by @GuildBot and produced written by Botswain. Report any issues to Pirate Cove or the Wizards of the Wiki of Wiki Guild --->{{clr}}",
+
+    "mainFooter": "<!--- Do Not Edit this is auto generated from stats by @GuildBot and produced written by Botswain. Report any issues to Pirate Cove or the Wizards of the Wiki of Wiki Guild ---><%= n %><%= n %>__INDEX__<%= n %>[[Category:Newbies]]<%= n %>[[Category:Social]]<%= n %>[[Category:Quick References]]<%= listLinkLangGuildPages %>",
+
+    "langCountrySection": "For other communities and languages see <%= langCountrySectionName %> section at the bottom of this page.",
+
+
+
+
+    "altTopHeader": "<!--- Do Not Edit this is auto generated from stats by @GuildBot and produced written by Botswain. Report any issues to Pirate Cove or the Wizards of the Wiki of Wiki Guild --->{{Tocright}}{{Infobox item}}[[File:Scene_hat_guild.png|thumb|300px|left|alt=\"Habiticans talking about hats\"]]",
+    "altTopExplain": "<%= n %>This Guilds Guide is automatically generated from the stat reports produced by [[GuildBot]]. While it gives a good overview of most guilds grouped by topic, it is not complete since new guilds will be created, grow, shrink, and be abandoned and deleted every day. This page only lists guilds that do not have a primary language of <%= langCurrent %> only or have an alternative language page on their own specific language wiki. See below for language breakdown and links to pages.",
+    "altTopAllGuildsShown": "<%= n %><%= n %>Please note: Guilds are classified by the [[<%= jrnPgeGusCx %> | Pirate GUS Classification]]. '''Private Guilds''' and guilds under [[<%= jrnPgePirate %>|Pirate Action]] are not listed on this page.",
+
+    "altTopBreakdown": "<%= n %><%= n %>As of <%= dateLastUpdate %>, there are <%= countClearSailing %> public [[guilds]] in Habitica that are not under [[<%= jrnPgePirate %>|Pirate Action]]. Below is a table of the number of guilds per language, excluding guilds that are all languages like 'Habitica Help: Ask a Question'. The total table count may be larger than the current public count as some guilds have multiple primary languages.<%= listOfAltGuildPagesWithCount %><%= n %><%= n %>",
+
+    "altTopFooter": "<%= n %><!--- Do Not Edit this is auto generated from stats by @GuildBot and produced written by Botswain. Report any issues to Pirate Cove or the Wizards of the Wiki of Wiki Guild --->{{clr}}",
+
+    "altFooter": "<!--- Do Not Edit this is auto generated from stats by @GuildBot and produced written by Botswain. Report any issues to Pirate Cove or the Wizards of the Wiki of Wiki Guild ---><%= n %><%= n %>__INDEX__<%= n %>[[Category:Social]]<%= listLinkLangAltGuildPages %>",
+
+    "tableLanguage": "Language",
+    "tableCount": "Count",
+
+
+
+    "pirateHeader": "<!--- Do Not Edit this is auto generated from stats by @GuildBot and produced written by Botswain. Report any issues to Pirate Cove or the Wizards of the Wiki of Wiki Guild --->__NOTOC__As of <%= dateLastUpdatePirate %>, there are <%= countPirate %> ships under pirate action. Below is a table of the number of ships per pirate action:<%= listOfAllPirateShipsWithCount %>",
+    "pirateExplain": "<%= n %><%= n %>[[File:PirateChart AllGuilds.png]] [[File:PirateChart PirateAction.png]]<%= n %><%= n %>[[File:PirateChart NonEnglishLang.png]]",
+
+    "pirateTableAction": "Action",
+    "pirateTablePublic": "Open Waters",
+    "pirateTablePrivate": "Private Navy",
+    "pirateTableTotal": "Total",
+    "pirateTableDropAnchor": "Of which have Dropped Anchor",
+    "pirateNonEnglish": "with No English Spoken On Deck",
+    "pirateOther": "Other",
+    "pirateNonEnglishTitle": "Open Water Ships by Language Other Than English",
+    "pirateGuilds": "Ships",
+
+
+    "gusCxHeader": "<!--- Do Not Edit this is auto generated from stats by @GuildBot and produced written by Botswain. Report any issues to Pirate Cove or the Wizards of the Wiki of Wiki Guild --->{{Forumheader|The Armory}}{{Tocleft}}",
+    "gusCxExplain": "<%= n %><%= n %>== Introduction ==<%= n %><%= n %>This is a list of classifications to classify <s>ships</s> guilds.<%= n %><%= n %>Please note :<%= n %><%= n %>{{PirateCoveGUSClassificationRule}}{{clr}}",
+
+    "socialiteTopHeader":  "<!--- Do Not Edit this is auto generated from stats by @GuildBot and produced written by Botswain. Report any issues to Pirate Cove or the Wizards of the Wiki of Wiki Guild --->{{Tocleft}}",
+    "socialiteTopExplain": "<%= n %><%= n %>Below is a list of non-English guilds written in markdown. Only guilds that are public, not under pirate action, and [[<%= jrnPgeGusCx %> | not classified as Contributor Guilds]] are listed.<%= n %><%= n %>Above each list is a greeting in the language (if available) stating:<%= n %><%= n %>''Yes! You are welcome to chat here in the Tavern in <LANGUAGE NAME> or try the following guilds:''",
+     "socialiteTopInstruction": "<%= n %><%= n %>It is important to only use the replies below, only if, the players is asking if there are any players in their language. If they are just saying hi or asking another question, it is important to just say hi or answer their question. Tacking on a list of other guilds that they may want to explore can seem unwelcoming and condensing, even though the desire is to help.",
+    "socialiteTopFooter":"<%= n %><%= n %>Missing a translation in your language? Are you a native speaker? Come and have chat to pirates of [https://habitica.com/groups/guild/416f7007-7226-4beb-9897-56fffed93a07 Pirate Cove].{{clr}}"
+}

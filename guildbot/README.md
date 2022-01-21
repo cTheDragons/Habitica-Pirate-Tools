@@ -2,7 +2,7 @@
 Core code to run @GuildBot. In order to "track" ~~ships~~ guilds it uses Trello. Guilds will be placed in column based on the status of guild, Last Rites, Capture etc. ~~Admirals~~ Admin uses labels to let @GuildBot know when to hail, drop anchor etc. Labels are also used to classify guilds.
 
 ## Run command
-guildbot.js is the cored code. The primary command is guildbot.completeRun.
+guildbot.js is the core code. The primary command is guildbot.completeRun.
 Parameters are:
 + **modeEnvironment**: config environment to run, 
 + **testOnlyThisGuild**: guild id if only single guild to be tested. Otherwise zero length string(. ,
@@ -27,13 +27,14 @@ Parameter file to run for GuildBot. Each top level key. is a particular mode for
 + **logId**: Trello User Id for GuildBot
 + **logToken**: Trello Log Id for GuildBot
 
-+ **folderoutput**: folder for log files and master tracking file.
-+ **folderstat**: Stats folder location; Publicly available statistic files produced by GuildBot.
++ **folderOutput**: folder for log files and master tracking file.
++ **foldeStat**: Stats folder location; Publicly available statistic files produced by GuildBot.
++ **folderLang**: Folder where language file translations to keep.
+
 + **outputFilePrefix**: Output prefix to allow for testing.
 + **outputLogSuffix**: Output Log file suffix.
 + **outputLogMax**:  Number of log files to keep. (Typically 16 to keep just over 2 weeks worth).
 
-+ **folderLang**: Folder where language file translations to keep.
 + **fileLang**: Files used for GuildBot.
 + **hailLangAvail**: Languages available for translations. Two language code kept in array. Eg. [*en*. *de*. *fr*]. To add a new one please see the Trello card "Adding a New Hail Language". 
 + **hailLangDefault**: Default 2 language code. Should be en for English.

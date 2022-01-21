@@ -1,13 +1,12 @@
 {
   "classification": {
-    "cxWorldH": [
-        "subWorldH_HelpSupport",
-        "subWorldH_BeyondtheTavern",
-        "subWorldH_ClassSystem",
-        "subWorldH_ContributorGuilds",
-        "subWorldH_BugSuggestionReports",
-        "subWorldH_HabitcansBeingAwesome",
-        "subWorldH_PartyChatGuilds"
+    "cxHealth": [
+        "subHealth_HealthyLifestyle",
+        "subHealth_Nutrition",
+        "subHealth_Fitness",
+        "subHealth_RunWalk",
+        "subHealth_Sport",
+        "subHealth_SleepHygiene"
     ],
     "cxRecove": [
         "subRecove_MentalPhysicalHealth",
@@ -20,14 +19,6 @@
         "subGettin_CleaningHouse",
         "subGettin_MoneyMatters",
         "subGettin_SeasonalLifeEvents"
-    ],
-    "cxHealth": [
-        "subHealth_HealthyLifestyle",
-        "subHealth_Nutrition",
-        "subHealth_Fitness",
-        "subHealth_RunWalk",
-        "subHealth_Sport",
-        "subHealth_SleepHygiene"
     ],
     "cxSelfIm": [
         "subSelfIm_BeYourBestSelf",
@@ -89,6 +80,15 @@
         "subLangua_CountriesLanguages",
         "subLangua_LanguageLearning",
         "subLangua_LocalCommunitiesOrganizations"        
+    ],
+        "cxWorldH": [
+        "subWorldH_HelpSupport",
+        "subWorldH_BeyondtheTavern",
+        "subWorldH_ClassSystem",
+        "subWorldH_ContributorGuilds",
+        "subWorldH_BugSuggestionReports",
+        "subWorldH_HabitcansBeingAwesome",
+        "subWorldH_PartyChatGuilds"
     ]
   },
   "size": {

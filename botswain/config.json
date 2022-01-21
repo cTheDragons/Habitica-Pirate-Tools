@@ -1,0 +1,76 @@
+{
+    "production": {
+
+        "folderOutput": "./botswain/output/",
+        "folderStat": "./common/stat/",
+        "folderChart": "./common/chart/",
+        "folderLang": "./common/locale/",
+
+        "outputFilePrefix": "",
+        "outputLogSuffix": ".txt",
+        "outputLogMax":  16,
+        
+        "fileLang": "botswain.json",
+        "fileLangClassification": "classification.json",
+        "fileLangGus": "gusLang.json",
+        "fileSocialite": "botswain_socialite.json",
+
+		"langAvail": {
+            "en": {"jrnPgeGus": "Guilds_Guide", "jrnPgeGusAlt": "Guilds_Guide_Of_Non-English_Guilds", "jrnPgeGusCx": "The_Keep:Pirate_Cove/GUS_Classifications"}
+        },
+        "langSocialite": ["en", "de", "fr", "it", "ja", "pt", "zh"],
+        "langDefault": "en",
+
+        "jrnPgePirate": "The_Keep:Pirate_Cove/Current_Actions",
+        "jrnPgeSocialite": "Socialites_Markdown_List_for_Non-English_Guilds",
+
+        "jrnChrAllGuilds": "PirateChart_AllGuilds.png",
+        "jrnChrPirateAction": "PirateChart_PirateAction.png",
+        "jrnChrNonEnglish": "PirateChart_NonEnglishLang.png",
+        "jrnChrNonEnglishLimit": 2,
+
+        "jrnGusShipShowAll": 1200,
+        "jrnGusShipLimit": 15,
+        "jrnGusShipLimitEx": {"subBelief_BeliefStructures": 40},
+
+
+        "altCountrySectionCx": "cxLangua",
+        "altCountrySectionCxLimitShow": 10,
+ 		
+		
+		"jrnServerUrl": "https://habitica.fandom.com/api.php",
+        "jrnActionEditComment": "Latest data from GuildBot",
+        "jrnActionUploadComment": "Latest chart from GuildBot",
+		"jrnActionUploadTextNew": "==Description==\nPirate stat chart produced by data from [[GuildBot]]\n\nCreated by QuickChart\n\n==Licensing==\n{{CC-BY-NC-SA}}",
+	       
+        
+        "rl": {
+                "jrn": {"remainingMax": 2, "remainingSafety": 1, "timeoutBasePeriod": 5000, "timeoutMinPeriod": 4000, "timeoutForcePause": 3500},
+                "chr": {"remainingMax": 2, "remainingSafety": 1, "timeoutBasePeriod": 2000, "timeoutMinPeriod": 1000, "timeoutForcePause": 3500}
+        },
+
+        "debug": true,
+        "debugVerbose": true,
+        "debugAPI": true,
+        "debugConsole": false,
+        "fileOutput": true 
+    },
+    "testing": {
+        "outputFilePrefix": "",
+        "outputLogMax":  1,
+
+        "langAvail": {
+            "en": {"transLang": "en" , "jrnPgeGus": "User:Botswain/Sandbox/Guilds_Guide", "jrnPgeGusAlt": "User:Botswain/Sandbox/Guilds_Guide_Of_Non-English_Guilds", "jrnPgeGusCx": "The_Keep:Pirate_Cove/GUS_Classifications"},
+            "zh": {"transLang": "zh",  "jrnPgeGus": "User:Botswain/Sandbox/Guilds_Guide_zh", "jrnPgeGusAlt": "User:Botswain/Sandbox/Guilds_Guide_Of_Non-Chinese_Guilds", "jrnPgeGusCx": "User:Botswain/Sandbox/The_Keep:Pirate_Cove/GUS_Classifications_zh"}
+        },
+
+        "jrnPgeSocialite": "User:Botswain/Sandbox/Socialites_Markdown_List_for_Non-English_Guilds",
+
+        "debug": true,
+        "debugVerbose": true,
+        
+        "debugConsole": true,
+        "fileOutput": true 
+    
+    }
+}

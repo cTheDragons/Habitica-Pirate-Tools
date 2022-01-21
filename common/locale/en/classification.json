@@ -1,6 +1,4 @@
 {
-	"cxNot-Cx": "Unknown  - GUS Classification",
-	"subNot-Cx": "Unknown - No GUS Classification",
     "cxBelief": "Belief Structures",
     "cxComput": "Computers",
     "cxCreati": "Creative Pursuits",
@@ -144,12 +142,14 @@
     "sizeBronze": "Bronze",
     "justLaunched": "Just Launched",
     "targetSpotted": "Target Spotted",
+    "clearSailing": "Clear Sailing",
     "captianMIA": "Captain MIA",
     "captured": "Captured",
     "lastRites": "Last Rites",
     "doNotHail": "Do Not Hail",
     "bermudaTriangle": "Bermuda Triangle",
     "droppedAnchor": "Dropped Anchor",
+    "pirateAction": "Pirate Action",
     "public": "Public",
     "private": "Private"
 }
