@@ -1,6 +1,6 @@
 guildbot/output/
 
-guildbot/output/master.json
+guildbot/output/masterList.json
 guildbot/output/output01.json
 guildbot/output/output02.json
 guildbot/output/output03.json
@@ -17,7 +17,7 @@ guildbot/output/output13.json
 guildbot/output/output14.json
 guildbot/output/output15.json
 guildbot/output/output16.json
-common/stat/stat.json
+common/stat/stats.json
 common/stat/pirate.json
 common/stat/elf.json
 common/stat/gus.json
