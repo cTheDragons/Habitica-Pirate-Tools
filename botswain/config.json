@@ -16,7 +16,7 @@
         "fileSocialite": "botswain_socialite.json",
 
 		"langAvail": {
-            "en": {"jrnPgeGus": "Guilds_Guide", "jrnPgeGusAlt": "Guilds_Guide_Of_Non-English_Guilds", "jrnPgeGusCx": "The_Keep:Pirate_Cove/GUS_Classifications"}
+            "en": {"jrnPgeGus": "Guilds_Guide", "jrnPgeGusAlt": "Guilds_Guide_Of_Non-English_Guilds", "jrnPgeGusCx": "GUS_Classifications"}
         },
         "langSocialite": ["en", "de", "fr", "it", "ja", "pt", "zh"],
         "langDefault": "en",
