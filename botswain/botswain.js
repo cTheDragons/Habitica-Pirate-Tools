@@ -62,6 +62,7 @@ var langClassification = {}
 var langGus = {}
 var langGus_altSort = {}
 var langSocialite = {}
+var langBotswain_enOnly = {}
 
 var lastWikiAction = '2000-01-01'
 
@@ -135,8 +136,12 @@ gConfig.langSocialite.forEach(function (obj, index){
     var tempBox = JSON.parse(fileContents)
     langSocialite[obj] = tempBox
 
-});    
+});   
 
+var filepath = './botswain/' + gConfig.fileLang_enOnly
+var fileContents = fs.readFileSync(filepath, 'utf-8')
+var tempBox = JSON.parse(fileContents)
+langBotswain_enOnly = tempBox
 
 createCharts()
 createJrnGus()
@@ -184,7 +189,7 @@ function createCharts(){
         options:{
             plugins:{
                 doughnutlabel:{
-                    labels:[{text:listGus.totals.public,font:{size:20}},{text:langBotswain[obj].pirateTablePublic}]
+                    labels:[{text:listGus.totals.public,font:{size:20}},{text:langBotswain_enOnly.pirateTablePublic}]
                 },
                 datalabels: {
                     color: '#fff'
@@ -220,7 +225,7 @@ function createCharts(){
             options:{
                 plugins:{
                     doughnutlabel:{
-                        labels:[{text:listPirate.stats.total.public,font:{size:20}},{text: langBotswain[obj].pirateTablePublic + ' ' + langClassification[obj].pirateAction}]
+                        labels:[{text:listPirate.stats.total.public,font:{size:20}},{text: langBotswain_enOnly.pirateTablePublic + ' ' + langClassification[obj].pirateAction}]
                     },
                     datalabels: {
                         color: '#fff'
@@ -263,7 +268,7 @@ function createCharts(){
         });  
 
         if (count > 0) {
-            labelsArray.push(langBotswain[obj].pirateOther)
+            labelsArray.push(langBotswain_enOnly.pirateOther)
             dataArray.push(count)            
         }  
 
@@ -279,7 +284,7 @@ function createCharts(){
             options:{
                 plugins:{
                     doughnutlabel:{
-                        labels:[{text:listGus.totals.publicLang.langPrimaryNoEng + ' ' + langBotswain[obj].pirateGuilds + ' (' + Math.round(listGus.totals.publicLang.langPrimaryNoEng/listGus.totals.public*100) +'%)',font:{size:12}},{text:langBotswain[obj].pirateNonEnglish}]
+                        labels:[{text:listGus.totals.publicLang.langPrimaryNoEng + ' ' + langBotswain_enOnly.pirateGuilds + ' (' + Math.round(listGus.totals.publicLang.langPrimaryNoEng/listGus.totals.public*100) +'%)',font:{size:12}},{text:langBotswain_enOnly.pirateNonEnglish}]
                     },
                     datalabels: {
                         anchor: 'middle',
@@ -291,7 +296,7 @@ function createCharts(){
                 },
                 title: {
                     display: true,
-                    text: langBotswain[obj].pirateNonEnglishTitle
+                    text: langBotswain_enOnly.pirateNonEnglishTitle
                 }
             } 
         });    
@@ -554,10 +559,10 @@ function createJrnSocialite(){
     var tempTextArray = []
     var obj = 'en' //I'm copying code and want to do this quick.
 
-    mText += prepLangString(langBotswain[obj].socialiteTopHeader, obj)
-    mText += prepLangString(langBotswain[obj].socialiteTopExplain, obj)  
-    mText += prepLangString(langBotswain[obj].socialiteTopInstruction, obj)  
-    mText += prepLangString(langBotswain[obj].socialiteTopFooter, obj)    
+    mText += prepLangString(langBotswain_enOnly.socialiteTopHeader, obj)
+    mText += prepLangString(langBotswain_enOnly.socialiteTopExplain, obj)  
+    mText += prepLangString(langBotswain_enOnly.socialiteTopInstruction, obj)  
+    mText += prepLangString(langBotswain_enOnly.socialiteTopFooter, obj)    
 
     Object.keys(langGus_altSort[obj]).forEach(function(objAlt, indexAlt){            
         if ((listGus_count[objAlt] > listGus.totals.publicLang.langAll) && (obj != objAlt)){
@@ -623,8 +628,8 @@ function createJrnPirate(){
     var tempText = ''
 
 
-    pirateText+= prepLangString(langBotswain[gConfig.langDefault].pirateHeader, gConfig.langDefault)
-    pirateText+= prepLangString(langBotswain[gConfig.langDefault].pirateExplain, gConfig.langDefault)
+    pirateText+= prepLangString(langBotswain_enOnly.pirateHeader, gConfig.langDefault)
+    pirateText+= prepLangString(langBotswain_enOnly.pirateExplain, gConfig.langDefault)
 
     Object.keys(listPirate.guilds).forEach(function(obj, index){
         if (gConfig.debugVerbose) consoleLogToFile('debug createJrnPirate ' + obj)
@@ -1044,14 +1049,14 @@ function prepLangString(strToModify, lang){
 
         tempStr = ''
         tempStr+= '\n\n{|class="wikitable"'
-        tempStr+= '\n!' + langBotswain[lang].pirateTableAction  
-        tempStr+= '\n!' + langBotswain[lang].pirateTablePublic
-        tempStr+= '\n!' + langBotswain[lang].pirateTablePrivate
+        tempStr+= '\n!' + langBotswain_enOnly.pirateTableAction  
+        tempStr+= '\n!' + langBotswain_enOnly.pirateTablePublic
+        tempStr+= '\n!' + langBotswain_enOnly.pirateTablePrivate
          _.orderBy(tempTextArray,['key'], ['asc']).forEach(function (obj, index){
             tempStr+= obj.text
         })
-        tempStr+='\n|-style="font-weight: bold;" \n| ' + langBotswain[lang].pirateTableTotal + ' \n|style="text-align:right;"| <%= countPiratePublic %>\n|style="text-align:right;"| <%= countPiratePrivate %>'
-        tempStr+='\n|-" \n| ' + '[[#' + langClassification[lang]['droppedAnchor'] + '|' + langBotswain[lang].pirateTableDropAnchor + ']] \n|style="text-align:right;"| <%= countPiratePublicDropAnchor %>\n|style="text-align:right;"| <%= countPiratePrivateDropAnchor %>'
+        tempStr+='\n|-style="font-weight: bold;" \n| ' + langBotswain_enOnly.pirateTableTotal + ' \n|style="text-align:right;"| <%= countPiratePublic %>\n|style="text-align:right;"| <%= countPiratePrivate %>'
+        tempStr+='\n|-" \n| ' + '[[#' + langClassification[lang]['droppedAnchor'] + '|' + langBotswain_enOnly.pirateTableDropAnchor + ']] \n|style="text-align:right;"| <%= countPiratePublicDropAnchor %>\n|style="text-align:right;"| <%= countPiratePrivateDropAnchor %>'
         tempStr+='\n|}'
         result = result.replace(/<%= listOfAllPirateShipsWithCount %>/gm, tempStr)
     }
@@ -1098,4 +1103,4 @@ function prepString(strToModify){
 
 }
 
-}}; //End of the modcule Export
+}}; //End of the module Export

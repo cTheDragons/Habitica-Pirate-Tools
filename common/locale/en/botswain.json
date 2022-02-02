@@ -30,26 +30,7 @@
     "tableCount": "Count",
 
 
-
-    "pirateHeader": "<!--- Do Not Edit this is auto generated from stats by @GuildBot and produced written by Botswain. Report any issues to Pirate Cove or the Wizards of the Wiki of Wiki Guild --->__NOTOC__As of <%= dateLastUpdatePirate %>, there are <%= countPirate %> ships under pirate action. Below is a table of the number of ships per pirate action:<%= listOfAllPirateShipsWithCount %>",
-    "pirateExplain": "<%= n %><%= n %>[[File:PirateChart AllGuilds.png]] [[File:PirateChart PirateAction.png]]<%= n %><%= n %>[[File:PirateChart NonEnglishLang.png]]",
-
-    "pirateTableAction": "Action",
-    "pirateTablePublic": "Open Waters",
-    "pirateTablePrivate": "Private Navy",
-    "pirateTableTotal": "Total",
-    "pirateTableDropAnchor": "Of which have Dropped Anchor",
-    "pirateNonEnglish": "with No English Spoken On Deck",
-    "pirateOther": "Other",
-    "pirateNonEnglishTitle": "Open Water Ships by Language Other Than English",
-    "pirateGuilds": "Ships",
-
-
     "gusCxHeader": "<!--- Do Not Edit this is auto generated from stats by @GuildBot and produced written by Botswain. Report any issues to Pirate Cove or the Wizards of the Wiki of Wiki Guild --->{{Forumheader|The Armory}}{{Tocleft}}",
-    "gusCxExplain": "<%= n %><%= n %>== Introduction ==<%= n %><%= n %>This is a list of classifications to classify <s>ships</s> guilds.<%= n %><%= n %>Please note :<%= n %><%= n %>{{PirateCoveGUSClassificationRule}}{{clr}}",
+    "gusCxExplain": "<%= n %><%= n %>== Introduction ==<%= n %><%= n %>This is a list of classifications to classify <s>ships</s> guilds.<%= n %><%= n %>Please note :<%= n %><%= n %>{{PirateCoveGUSClassificationRule}}{{clr}}"
 
-    "socialiteTopHeader":  "<!--- Do Not Edit this is auto generated from stats by @GuildBot and produced written by Botswain. Report any issues to Pirate Cove or the Wizards of the Wiki of Wiki Guild --->{{Tocleft}}",
-    "socialiteTopExplain": "<%= n %><%= n %>Below is a list of non-English guilds written in markdown. Only guilds that are public, not under pirate action, and [[<%= jrnPgeGusCx %> | not classified as Contributor Guilds]] are listed.<%= n %><%= n %>Above each list is a greeting in the language (if available) stating:<%= n %><%= n %>''Yes! You are welcome to chat here in the Tavern in <LANGUAGE NAME> or try the following guilds:''",
-     "socialiteTopInstruction": "<%= n %><%= n %>It is important to only use the replies below, only if, the players is asking if there are any players in their language. If they are just saying hi or asking another question, it is important to just say hi or answer their question. Tacking on a list of other guilds that they may want to explore can seem unwelcoming and condescending, even though the desire is to help.",
-    "socialiteTopFooter":"<%= n %><%= n %>Missing a translation in your language? Are you a native speaker? Come and have chat to pirates of [https://habitica.com/groups/guild/416f7007-7226-4beb-9897-56fffed93a07 Pirate Cove].{{clr}}"
 }

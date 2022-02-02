@@ -11,6 +11,7 @@
         "outputLogMax":  16,
         
         "fileLang": "botswain.json",
+		"fileLang_enOnly": "botswain_enOnly.json",
         "fileLangClassification": "classification.json",
         "fileLangGus": "gusLang.json",
         "fileSocialite": "botswain_socialite.json",
@@ -60,7 +61,7 @@
         "outputLogMax":  1,
 
         "langAvail": {
-            "en": {"transLang": "en" , "jrnPgeGus": "User:Botswain/Sandbox/Guilds_Guide", "jrnPgeGusAlt": "User:Botswain/Sandbox/Guilds_Guide_Of_Non-English_Guilds", "jrnPgeGusCx": "The_Keep:Pirate_Cove/GUS_Classifications"},
+            "en": {"transLang": "en" , "jrnPgeGus": "User:Botswain/Sandbox/Guilds_Guide", "jrnPgeGusAlt": "User:Botswain/Sandbox/Guilds_Guide_of_Non-English_Guilds", "jrnPgeGusCx": "The_Keep:Pirate_Cove/GUS_Classifications"},
             "zh": {"transLang": "zh",  "jrnPgeGus": "User:Botswain/Sandbox/Guilds_Guide_zh", "jrnPgeGusAlt": "User:Botswain/Sandbox/Guilds_Guide_Of_Non-Chinese_Guilds", "jrnPgeGusCx": "User:Botswain/Sandbox/The_Keep:Pirate_Cove/GUS_Classifications_zh"}
         },
 
