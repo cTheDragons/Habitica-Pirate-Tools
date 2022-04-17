@@ -7,10 +7,10 @@
     "axios": "^0.24.0",
     "chartjs-to-image": "^1.0.5",
     "debug": "^3.1.0",
-    "follow-redirects": "^1.14.7",
+    "follow-redirects": "^1.14.9",
     "is-buffer": "^2.0.4",
     "lodash": "^4.17.21",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "ms": "^2.0.0",
     "request": "^2.88.2"
   },
