@@ -106,7 +106,7 @@ const constCxLabelTranslate = require('./configCxLabelTranslate.json');
 gConfig.journalGus =  gConfig.folderStat + gConfig.outputFilePrefix + 'gus.json' //GUS Files
 gConfig.journalStats = gConfig.folderStat + gConfig.outputFilePrefix + 'stats.json' //stats of work completed by GuildBot
 gConfig.journalPirate = gConfig.folderStat + gConfig.outputFilePrefix + 'pirate.json' //list of all ships being looked after by the pirates.
-gConfig.journalElf = gConfig.folderStat + gConfig.outputFilePrefix + 'elf.json' //list of all challenges for the Elves
+gConfig.journalElf = gConfig.folderStat + gConfig.outputFilePrefix + 'eric.json' //list of all challenges for the Elves
 
 //Output Logs
 gConfig.journalMaster = gConfig.folderOutput + gConfig.outputFilePrefix + 'masterList.json' //all guilds to test
@@ -4317,6 +4317,7 @@ function reportResults(){
                         tv.group.name = 'Public (Tavern)'
 						tv.group.lang = []
 						tv.group.langPrimary = []
+						tv.group.langAll = 'true'
 						tv.group.classification = 'cxNot-Cx'
 						tv.group.subclassification = 'subNot-Cx'
 						tv.group.memberColor = 'gold'
@@ -4325,6 +4326,7 @@ function reportResults(){
                             tv.group.name = obj.group.name
                             tv.group.lang = reportGus.guild[obj.group._id].lang
                             tv.group.langPrimary = reportGus.guild[obj.group._id].langPrimary
+							tv.group.langAll = reportGus.guild[obj.group._id].langAll
                             tv.group.classification = reportGus.guild[obj.group._id].classifcation
                             tv.group.subclassification = reportGus.guild[obj.group._id].subclassifcation
                             tv.group.memberColor = reportGus.guild[obj.group._id].memberColor
