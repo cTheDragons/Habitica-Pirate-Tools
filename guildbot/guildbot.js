@@ -4317,7 +4317,7 @@ function reportResults(){
                         tv.group.name = 'Public (Tavern)'
 						tv.group.lang = []
 						tv.group.langPrimary = []
-						tv.group.langAll = 'true'
+						tv.group.langAll = true
 						tv.group.classification = 'cxNot-Cx'
 						tv.group.subclassification = 'subNot-Cx'
 						tv.group.memberColor = 'gold'
