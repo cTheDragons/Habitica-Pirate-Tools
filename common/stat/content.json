@@ -89,6 +89,9 @@
         "subWorldH_BugSuggestionReports",
         "subWorldH_HabitcansBeingAwesome",
         "subWorldH_PartyChatGuilds"
+    ],
+        "cxNot-Cx": [
+        "subNot-Cx"
     ]
   },
   "size": {
