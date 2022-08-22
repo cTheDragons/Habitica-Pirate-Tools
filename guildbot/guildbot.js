@@ -4327,8 +4327,8 @@ function reportResults(){
                             tv.group.lang = reportGus.guild[obj.group._id].lang
                             tv.group.langPrimary = reportGus.guild[obj.group._id].langPrimary
 							tv.group.langAll = reportGus.guild[obj.group._id].langAll
-                            tv.group.classification = reportGus.guild[obj.group._id].classifcation
-                            tv.group.subclassification = reportGus.guild[obj.group._id].subclassifcation
+                            tv.group.classification = reportGus.guild[obj.group._id].classification
+                            tv.group.subclassification = reportGus.guild[obj.group._id].subclassification
                             tv.group.memberColor = reportGus.guild[obj.group._id].memberColor
                         }
                     }
@@ -4388,7 +4388,7 @@ function reportResults(){
         var reportJustLaunched = []
         var reportTargetSpotted = []
         var reportCaptainMIA = [] //only guilds where there is activity
-        var reportCaptured = [] // only guilds where there is activiy
+        var reportCaptured = [] // only guilds where there is activity
         var reportLastRitesActivity = [] //only guilds where there is activity
         var reportLastRitesSunk = [] //only guilds where there is activity
         var reportDoNotHailed = []
@@ -4396,7 +4396,7 @@ function reportResults(){
         var reportJustLaunched_admiral = []
         var reportTargetSpotted_admiral = []
         var reportCaptainMIA_admiral = [] //only guilds where there is activity
-        var reportCaptured_admiral = [] // only guilds where there is activiy
+        var reportCaptured_admiral = [] // only guilds where there is activity
         var reportLastRites_admiral = [] //only guilds where there is activity
         var reportDoNotHailed_admiral = []
 
