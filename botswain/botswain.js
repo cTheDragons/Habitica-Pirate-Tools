@@ -51,10 +51,10 @@ gConfig.outputLogPrefix = gConfig.folderOutput +  gConfig.outputFilePrefix + 'ou
 ////   Global Variables             //////////////////////////////////
 //////////////////////////////////////////////////////////////////////
 var listGus = {} //master list
-var listPirate = {} // Lanaguages for all Hails
+var listPirate = {} // Languages for all Hails
 var listContent = {}
 
-var listGus_perLanguage = {} //will create array for each langauge. 
+var listGus_perLanguage = {} //will create array for each language. 
 listGus_count = {}
 
 var langBotswain = {}
