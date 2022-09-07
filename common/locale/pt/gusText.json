@@ -1,0 +1,11 @@
+{
+	"gusHabiticaName": "Habitica",
+	"gusShortTitle": "GUS",
+	"gusLongTitle": "Guild Ultimate Search",
+	"gusBug-report": "Encontrou algum bug? Reporte-o em <a href=\"https://habitica.com/groups/guild/d9a0ec1e-352b-4697-a5d5-fb45c98fb4a3\">Testing & Bug Squashing for Dragon Tools",
+	"gusSocialiteGreetingStandard": "Olá! Eu procurei [com termos de pesquisa GUS: <%= searchList %>](<%= gusSearchURL %>). Aqui está lista:\n\n",
+	"gusSocialiteGreetingMulit": "Olá! Existem alguns jogadores que falam Russo aqui. Aqui está uma lista de [GUS](<%= gusSearchURL %>). Boas-vindas ao bate-papo da Taverna ou experimentar as seguintes guildas:\n\n",
+	"gusAbout": "<P>Boas-vindas ao GUS.</P><P>Um amigo do pirata GuildBot. GuildBot navega os sete mares e coleta dados de todos os navios... ops, guildas do Habitica.</P><P>Por que minha guilda não aparece?<BR>Se sua guilda acabou de ser criada, ou está sob investigação de piratas, a guilda não aparecerá até que seja concluída.</P><P>Por que cada guilda tem apenas uma categoria atribuída?<BR>Para evitar a classificação excessiva, apenas atribuímos uma categoria a uma guilda.</P><P>Por que não consigo encontrar minha variante de idioma como Inglês Pirata?<BR>Para evitar a fragmentação de idiomas, agrupamos cada idioma em um único grupo. Os grupos de idioma são baseados nos códigos especificados na Classificação de Idiomas ISO 2 (639-1). Dito isso, confira o resumo do seu grupo.</P>",
+	"gusURL": "https://oldgods.com/pirateTools/gus.html",
+	"gusSocialiteGreetingOverflow": "Além de muitas outras guildas que não podem ser listadas aqui"
+}
